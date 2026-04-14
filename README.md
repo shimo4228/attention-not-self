@@ -1,3 +1,5 @@
+Language: 日本語 | [English](README.en.md)
+
 # Attention, Not Self
 
 仏教アビダルマと計算論的現象学 (Computational Phenomenology) の接点を探る個人的な探究プロジェクト。
