@@ -14,8 +14,6 @@ Before mapping individual dharmas, the structural differences between the three 
 |Citta-viprayukta-saṃskāra<br>(dissociated formations)|14|24|★ No category|
 |Asaṃskṛta/Asaṅkhata<br>(unconditioned)|3|6|1 (nibbāna only)|
 
-
-
 The 25 additional dharmas in the Yogācāra system break down as: +7 citta (expanding 1 to 8 vijñānas), +5 caitasika (adding amoha, dṛṣṭi, muṣitasmṛtitā, vikṣepa, asaṃprajanya), +0 rūpa (content differs but count stays at 11), +10 viprayukta (net: dropped aprāpti, added 
 
 visabhāga + 10 new items), and +3 asaṃskṛta (āniñjya, saṃjñā-vedayita-nirodha, tathatā). 
@@ -40,8 +38,6 @@ The material-form category shows the most dramatic quantitative difference — 2
 |—|★Not<br>separately<br>listed|★Not separately<br>listed|paṭhavī-dhātu<br>(earth)|Subsumed under<br>spraṣṭavya in north|
 ||★Not|★Not separately|āpo-dhātu|Subsumed under|
 
-
-
 ||||||||
 |---|---|---|---|---|---|---|
 ||—|separately<br>listed|listed|(water)|spraṣṭavya in north||
@@ -58,8 +54,6 @@ The material-form category shows the most dramatic quantitative difference — 2
 ||—|Partial:<br>spraṣṭavya<br>subtypes|Partial:<br>spraṣṭavya<br>subtypes|rūpassa lahutā<br>(material<br>lightness)|No exact northern<br>equivalent||
 ||—|Partial:<br>spraṣṭavya<br>subtypes|Partial:<br>spraṣṭavya<br>subtypes|rūpassa mudutā<br>(material<br>softness)|No exact northern<br>equivalent||
 
-
-
 ||||||
 |---|---|---|---|---|
 |—|★No<br>counterpart|★No counterpart|rūpassa<br>kammaññatā<br>(material<br>adaptability)|Unique to Theravāda|
@@ -67,8 +61,6 @@ The material-form category shows the most dramatic quantitative difference — 2
 |—|Viprayukta:<br>sthiti住|Viprayukta: sthiti<br>住|santati<br>(continuity)|Category shift: viprayukta<br>→ rūpa|
 |—|Viprayukta:<br>jarā異|Viprayukta: jarā<br>老|jaratā (decay)|Category shift: viprayukta<br>→ rūpa|
 |—|Viprayukta:<br>anityatā滅|Viprayukta:<br>anityatā無常|aniccatā<br>(impermanence)|Category shift: viprayukta<br>→ rūpa|
-
-
 
 Key differences: The Yogācāra’s 11th rūpa (dharmāyatanikāni rūpāni 法處所攝色) replaces the Sarvāstivāda’s avijñapti-rūpa and comprises five subtypes: extreme minuteness (極略色), extreme extension (極逈色), precept-derived form (受所引色), conceptually constructed form (遍計所起色), and samādhi-produced form (定所生自在色). Theravāda rejects avijñapti entirely, handling karmic continuity through cetanā and conditional relations. The Theravāda’s hadaya-vatthu (material base of mind-consciousness) is entirely unique — neither northern system posits a material base for mano-vijñāna. 
 
@@ -97,8 +89,6 @@ A significant functional parallel exists between Theravāda’s bhavaṅga-citta
 ||★manas末那識|★No counterpart|
 ||★ālaya-vijñāna阿賴耶識|≈ bhavaṅga (functionally)|
 
-
-
 ## Mental factors: the comprehensive 46 / 51 / 52 correspondence table 
 
 The mental-factor comparison is the most analytically rich portion of the cross-system mapping. The three systems share a common core of roughly 30 factors but diverge significantly in classification, scope, and what they consider separately enumerable. The sub-category structures differ entirely: Sarvāstivāda uses a sixfold grouping based on scope of occurrence, Yogācāra reorganizes into a sixfold scheme by ethical function, and Theravāda uses a threefold ethical division. 
@@ -121,15 +111,11 @@ Five factors are universal across all three systems — the only factors that ev
 |prajñā /<br>paññā慧|Mahābhūmika<br>(universal)|Viniyata|Sobhana<br>(paññindriya)|S: universal; Y:<br>conditional; T:<br>only in beautiful<br>cittas|
 ||||||
 
-
-
 ||||||
 |---|---|---|---|---|
 |— /<br>jīvitindriya<br>命根|★Viprayukta<br>(not a caitta)|★Viprayukta|Sabbacittasādhāraṇa<br>(universal)|Major category<br>shift: T<br>classifies as<br>universal<br>cetasika|
 |— /<br>ekaggatā一<br>境性|= samādhi<br>(see above)|= samādhi|Sabbacittasādhāraṇa|Theravāda name<br>differs;<br>functionally =<br>samādhi|
 |— / pīti喜|★Not a<br>separate caitta<br>(→ vedanā)|★Not a<br>separate<br>caitta|Pakiṇṇaka|Unique to<br>Theravāda as<br>separate factor|
-
-
 
 The Sarvāstivāda’s 10 mahābhūmika (universal mental factors) include 5 that the Yogācāra demotes to “object-determining” (chanda, adhimokṣa, smṛti, samādhi, prajñā). Theravāda uniquely classifies jīvitindriya (psychic life faculty) as a universal cetasika — both northern systems place this in the viprayukta-saṃskāra category. Pīti (joy/rapture) exists as a discrete mental factor only in Theravāda; northern systems treat it as an aspect of vedanā. 
 
@@ -144,8 +130,6 @@ The Sarvāstivāda’s 10 mahābhūmika (universal mental factors) include 5 tha
 |adveṣa / adosa<br>無瞋|Kuśala-<br>mahābhūmika|Kuśala|Sobhanasādhāraṇa|✓ All three|
 |amoha無癡|★Not a<br>separate<br>caitta|Kuśala|= paññā<br>(paññindriya)|Added by<br>Yogācāra; T<br>equates with<br>paññā|
 ||||||
-
-
 
 ||||||||
 |---|---|---|---|---|---|---|
@@ -162,8 +146,6 @@ The Sarvāstivāda’s 10 mahābhūmika (universal mental factors) include 5 tha
 ||— / sammā-vācā<br>正語|★No caitta<br>counterpart|★No caitta<br>counterpart|Sobhana / Virati|Unique to<br>Theravāda as||
 ||||||||
 
-
-
 ||||||
 |---|---|---|---|---|
 |||||cetasika|
@@ -171,8 +153,6 @@ The Sarvāstivāda’s 10 mahābhūmika (universal mental factors) include 5 tha
 |— / sammā-ājīva<br>正命|★No caitta<br>counterpart|★No caitta<br>counterpart|Sobhana / Virati|Unique to<br>Theravāda as<br>cetasika|
 |— / karuṇā悲|★Not a<br>separate<br>caitta (≈<br>ahiṃsā)|★Not a<br>separate<br>caitta|Sobhana /<br>Appamaññā|Unique to<br>Theravāda as<br>cetasika|
 |— / muditā随喜|★Not a<br>separate<br>caitta|★Not a<br>separate<br>caitta|Sobhana /<br>Appamaññā|Unique to<br>Theravāda as<br>cetasika|
-
-
 
 A critical finding: Theravāda’s 12 paired kāya/citta sobhana factors (passaddhi, lahutā, mudutā, kammaññatā, pāguññatā, ujukatā — each split into mental-body and consciousness versions) compress to just 1 factor (praśrabdhi) in both northern systems. This represents a 12-to-1 compression ratio, with the Theravāda providing far more granular analysis of what constitutes a serviceable, healthy mind. The Yogācāra’s Abhidharma-samuccaya does subdivide praśrabdhi into kāya-praśrabdhi and citta-praśrabdhi, but only as aspects of one factor, not as separate dharmas. 
 
@@ -185,8 +165,6 @@ The treatment of vīrya/viriya reveals a deep philosophical divide. The Sarvāst
 |rāga / lobha<br>貪|Aniyata<br>(indeterminate)|Kleśa<br>(root<br>affliction)|Akusala /<br>Lobha group|Category differs in<br>all three|
 |pratigha /<br>dosa瞋|Aniyata|Kleśa|Akusala /<br>Dosa group|Category differs in<br>all three|
 ||||||
-
-
 
 ||||||||
 |---|---|---|---|---|---|---|
@@ -204,8 +182,6 @@ The treatment of vīrya/viriya reveals a deep philosophical divide. The Sarvāst
 ||krodha忿|Parītta-kleśa-<br>bhūmika|Upakleśa|★No<br>counterpart|Aspect of dosa in T||
 |||Parītta-kleśa-||★No|||
 ||||||||
-
-
 
 ||||||||||
 |---|---|---|---|---|---|---|---|---|
@@ -226,15 +202,11 @@ The treatment of vīrya/viriya reveals a deep philosophical divide. The Sarvāst
 |kaukṛtya /<br>kukkucca悪作||Aniyata|Aniyata||Akusala /<br>Dosa group||S+Y: can be good/bad; T:<br>always unwholesome||
 ||||||Akusala /||||
 
-
-
 ||||||
 |---|---|---|---|---|
 |middha睡眠|Aniyata|Aniyata|Thīna-<br>middha|S+Y: can be good/bad; T:<br>always unwholesome|
 |vitarka / vitakka<br>尋|Aniyata|Aniyata|Pakiṇṇaka|✓ All three: variable|
 |vicāra伺|Aniyata|Aniyata|Pakiṇṇaka|✓ All three: variable|
-
-
 
 The Theravāda’s treatment of kukkucca (remorse) and middha (torpor) as inherently unwholesome contrasts sharply with both northern systems, where these same factors are ethically indeterminate. Northern Abhidharma allows for “wholesome remorse” (regretting past evil deeds) and “neutral torpor” (necessary sleep), while Theravāda classifies both as invariably akusala. 
 
@@ -252,8 +224,6 @@ The ci tta-viprayukta-saṃskāra category — dharmas that are neither material
 |6|nirodha-samāpatti<br>滅尽定|nirodha-samāpatti<br>滅盡定|Recognized, not paramattha dhamma|
 |7|jīvitendriya命根|jīvitendriya命根|→ Cetasika (jīvitindriya) + Rūpa<br>(jīvita-rūpa)|
 |||||
-
-
 
 |||||
 |---|---|---|---|
@@ -277,8 +247,6 @@ The ci tta-viprayukta-saṃskāra category — dharmas that are neither material
 |—|—|★sāmagrī和合性|★No counterpart|
 |—|—|★anyathātva不和合<br>性|★No counterpart|
 
-
-
 The Yogācāra added 11 new items while dropping aprāpti, for a net increase of 10. The 10 Yogācāra additions (pravṛtti through anyathātva) represent an expanded inventory of conventionally designated (prajñapti) factors covering systematic operation, karmic differentiation, correspondence, speed, sequence, spatial direction, time, number, combination, and non-combination. These have no counterpart in any other system. Importantly, even Vasubandhu himself — writing as a Sautrāntika sympathizer in his Kośabhāṣya — criticized most viprayukta-saṃskāras as merely nominal designations rather than 
 
 real entities. 
@@ -296,8 +264,6 @@ The Theravāda handles the functions that prāpti was designed to serve through 
 |—|★saṃjñā-<br>vedayita-<br>nirodha想受滅無<br>爲|★No<br>counterpart|Cessation of perception and<br>feeling|
 |—|★tathatā眞如|★No<br>counterpart|Suchness: distinctively Mahāyāna|
 |—|—|nibbāna<br>(single<br>unconditioned)|The only asaṅkhata in Theravāda|
-
-
 
 Theravāda recognizes only nibbāna as unconditioned. The Sarvāstivāda’s ākāśa (unconditioned space defined as “non-obstruction”) is a fundamentally different concept from Theravāda’s ākāsa-dhātu (conditioned delimiting space between material clusters). The Yogācāra’s addition of tathatā (suchness/thusness, 眞如) as an unconditioned dharma reflects Mahāyāna ontology with no parallel in the other two systems — it represents the 
 

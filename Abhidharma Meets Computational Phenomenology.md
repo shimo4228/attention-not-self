@@ -29,7 +29,6 @@ the most elaborate causal analysis in any Abhidharma tradition.
 **----- Start of picture text -----**<br>
 Theravāda<br>Feature Sarvāstivāda (75) Yogācāra (100)<br>(82)<br>8 (incl. ālaya-<br>Consciousness types 1 89/121<br>vijñāna)<br>Mental factors 46 51 52<br>Form dharmas 11 11 28<br>Non-concurrent Not<br>14 24<br>formations recognized<br>Unconditioned dharmas 3 6 1 (nibbāna)<br>Total categories 5 5 4<br>Temporal ontology Eternalism Presentism Presentism<br>6 causes, 4 Seeds (bīja) +<br>Causal theory 24 paccayas<br>conditions inherited<br>**----- End of picture text -----**<br>
 
-
 ## Cetasika-to-computation: a mapping table with evidence quality 
 
 The following table represents the central deliverable of this analysis. Each mapping is assessed for scholarly support on a four-point scale: Strong (multiple papers with explicit functional parallels), Moderate (well-theorized structural parallels, some published work), Weak (plausible but with little or no direct published scholarship), and Speculative (structurally interesting but entirely unexplored in the literature). 
@@ -37,8 +36,6 @@ The following table represents the central deliverable of this analysis. Each ma
 |Abhidharma concept|Computational/neuroscientific<br>mapping|Evidence|Key sources|
 |---|---|---|---|
 |manaskāra<br>(attention)|Precision-weighting in<br>predictive processing|Strong|Feldman &<br>Friston 2010;<br>Laukkonen &<br>Slagter 2021;<br>Sandved-Smith<br>et al. 2021|
-
-
 
 |||||||
 |---|---|---|---|---|---|
@@ -53,8 +50,6 @@ The following table represents the central deliverable of this analysis. Each ma
 ||sati (mindfulness)|Meta-awareness;<br>metacognitive monitoring of<br>precision allocation|Strong|Lutz et al.<br>2015;<br>Sandved-Smith<br>et al. 2021;<br>Dahl et al. 2015||
 |||||||
 
-
-
 |||||||
 |---|---|---|---|---|---|
 ||ekaggatā (one-<br>pointedness)|Attentional placing / selective<br>attention|Moderate|Ganeri 2017||
@@ -67,15 +62,11 @@ The following table represents the central deliverable of this analysis. Each ma
 ||kṣaṇa (moment)<br>theory|Discrete perceptual frames<br>(VanRullen & Koch 2003)|Moderate|White 2018<br>explicitly notes<br>Buddhist<br>antecedent||
 |||||Macy 1991;||
 
-
-
 |||||
 |---|---|---|---|
 |Dependent<br>origination|Dynamical systems /<br>autopoiesis / Markov blankets|Moderate|Thompson<br>2007; Kirchhoff<br>et al. 2018|
 |24 paccayas<br>(Paṭṭhāna)|Richly-typed causal graphs<br>(beyond standard Bayesian<br>networks)|Very Weak|No published<br>formal<br>mapping;<br>Karunadasa<br>2010|
 |nibbāna/nirvāṇa|No computational analog|N/A|Hard limit of<br>mapping|
-
-
 
 ## Where the mappings run deep: attention, valence, and the generative model 
 
