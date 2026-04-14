@@ -6,13 +6,22 @@
 
 ## 収録資料
 
+### 論考（PDF）
+
 | ファイル | 概要 |
 |---------|------|
 | `Abhidharma Meets Computational Phenomenology.pdf` | アビダルマと計算論的現象学の接続に関する論考（英語） |
 | `アビダルマと計算論的現象学（日本語）.pdf` | 上記の日本語版 |
 | `Three Abhidharma Systems Dharma Comparison.pdf` | 三大アビダルマ体系における法 (dharma) 分類の比較（英語） |
 | `三大アビダルマ法対照表（日本語）.pdf` | 上記の日本語版 |
-| `三大アビダルマ法対照表.xlsx` | 三大アビダルマ体系の法を対照した元データ |
+
+### 対照表データ（複数形式）
+
+| ファイル | 用途 |
+|---------|------|
+| [`TABLES.md`](TABLES.md) | **ブラウザで読む**: GitHub上でそのまま表として閲覧可能（推奨） |
+| [`csv/`](csv/) | **データとして使う**: シート別 CSV。Excel/Numbers/pandas で再利用可能 |
+| `三大アビダルマ法対照表.xlsx` | **元データ**: 書式・色分け保持（Excel/Numbers で開く） |
 
 ## テーマ
 
