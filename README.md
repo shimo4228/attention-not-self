@@ -6,14 +6,14 @@
 
 ## 収録資料
 
-### 論考（PDF）
+### 論考（Markdown）
 
 | ファイル | 概要 |
 |---------|------|
-| `Abhidharma Meets Computational Phenomenology.pdf` | アビダルマと計算論的現象学の接続に関する論考（英語） |
-| `アビダルマと計算論的現象学（日本語）.pdf` | 上記の日本語版 |
-| `Three Abhidharma Systems Dharma Comparison.pdf` | 三大アビダルマ体系における法 (dharma) 分類の比較（英語） |
-| `三大アビダルマ法対照表（日本語）.pdf` | 上記の日本語版 |
+| [`Abhidharma Meets Computational Phenomenology.md`](Abhidharma%20Meets%20Computational%20Phenomenology.md) | アビダルマと計算論的現象学の接続に関する論考（英語） |
+| [`アビダルマと計算論的現象学（日本語）.md`](アビダルマと計算論的現象学（日本語）.md) | 上記の日本語版 |
+| [`Three Abhidharma Systems Dharma Comparison.md`](Three%20Abhidharma%20Systems%20Dharma%20Comparison.md) | 三大アビダルマ体系における法 (dharma) 分類の比較（英語） |
+| [`三大アビダルマ法対照表（日本語）.md`](三大アビダルマ法対照表（日本語）.md) | 上記の日本語版 |
 
 ### 対照表データ（複数形式）
 
