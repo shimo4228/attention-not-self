@@ -20,6 +20,8 @@ From the perspective of "attention, not self," this project juxtaposes ancient f
 | [`三大アビダルマ法対照表（日本語）.md`](三大アビダルマ法対照表（日本語）.md) | Japanese version of the above |
 | [`Three Abhidharma Models of Cognition.md`](Three%20Abhidharma%20Models%20of%20Cognition.md) | Comparative analysis of how the three Abhidharma traditions explain the cognitive process from stimulus to conscious experience (English) |
 | [`三大アビダルマ伝統における認識過程の比較研究（日本語）.md`](三大アビダルマ伝統における認識過程の比較研究（日本語）.md) | Japanese version of the above |
+| [`Abhidharma Cognitive Process Models Meets Computational Phenomenology.md`](Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md) | Systematic mapping of the three Abhidharma cognitive process architectures onto computational frameworks (GWT, predictive processing, FEP, PDP, IIT) (English) |
+| [`三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md`](三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md) | Japanese version of the above |
 
 ### Comparison Table (multiple formats)
 
