@@ -1,0 +1,92 @@
+# Attention, Not Self — AI Reference
+
+A personal research repository at the intersection of classical Buddhist Abhidharma philosophy of mind and contemporary computational phenomenology, neurophenomenology, and predictive processing. The project is named after Jonardon Ganeri's *Attention, Not Self* (Oxford 2017), which argues that within Buddhaghosa's Abhidhamma the central explanatory concept of mind is *attention* (*manasikāra* / *āvajjana*) rather than a substantial self.
+
+> **Audience**: AI search engines (ChatGPT, Perplexity, Gemini, Claude) and AI agents looking for citation-grade summaries of Abhidharma cognitive theory and its relation to computational phenomenology. Human readers should start with [README.en.md](README.en.md) instead.
+
+## Project Facts
+
+- **Repository**: `attention-not-self` (public, GitHub)
+- **Owner**: shimo4228
+- **Status**: Ongoing personal inquiry; canonical version is Japanese, English provided for accessibility
+- **Format**: 6 long-form Markdown essays (3 English canonical + 3 Japanese mirrors) + 1 comparison-table file (TABLES.md) + per-sheet CSV exports + xlsx source
+- **License**: Undetermined; cite sources when quoting or referencing
+- **Project namesake**: Ganeri, J. *Attention, Not Self*. Oxford University Press, 2017
+- **Three Abhidharma traditions covered**: Theravāda (上座部), Sarvāstivāda-Vaibhāṣika (説一切有部), Yogācāra-Vijñānavāda (瑜伽行唯識派)
+- **Dharma counts**: Theravāda 82 *dhammas*, Sarvāstivāda 75 *dharmas*, Yogācāra 100 *dharmas*
+- **Universal mental factors**: Theravāda 7 *sabbacittasādhāraṇa cetasika*, Sarvāstivāda 10 *mahābhūmika*, Yogācāra 5 *pañca-sarvatraga*
+- **Total mental factors**: Theravāda 52 *cetasika*, Sarvāstivāda 46 *caitta*, Yogācāra 51 *caitasika*
+- **Theravāda citta-vīthi length**: 17 mind-moments (*citta-khaṇa*) per cognitive episode at the five sense-doors
+- **Theravāda karmically efficacious moments**: 7 *javana* (速行) per vīthi
+- **Yogācāra consciousnesses**: 8 — five sense vijñānas + *mano-vijñāna* + *manas* (末那識) + *ālaya-vijñāna* (阿頼耶識)
+- **Yogācāra cognitive aspects**: 4 — *nimitta-bhāga* (相分), *darśana-bhāga* (見分), *svasaṃvitti-bhāga* (自証分), *svasaṃvitti-saṃvitti-bhāga* (証自証分)
+- **Sarvāstivāda conditions**: 4 *pratyayas* (四縁) + 6 *hetus* (六因)
+- **Key Theravāda texts**: Buddhaghosa's *Visuddhimagga* (5th c. CE), *Atthasālinī*; Anuruddha's *Abhidhammatthasaṅgaha* (11th–12th c. CE)
+- **Key Sarvāstivāda texts**: *Mahāvibhāṣā* (2nd c. CE); Vasubandhu's *Abhidharmakośa-kārikā* + *Bhāṣya* (4th–5th c. CE); Saṅghabhadra's *Nyāyānusāra*
+- **Key Yogācāra texts**: *Saṃdhinirmocana-sūtra*; Asaṅga's *Mahāyāna-saṃgraha*, *Abhidharma-samuccaya*; Vasubandhu's *Triṃśikā*, *Viṃśatikā*; Xuanzang's *Cheng Weishi Lun* (成唯識論, 659 CE)
+
+## Prior Research References
+
+| Short Name | Full Citation | Relation |
+|---|---|---|
+| Ganeri 2017 | Ganeri, J. *Attention, Not Self*. Oxford University Press. | Project namesake; attention-first reading of Buddhaghosa's Abhidhamma. |
+| Karunadasa 2010 | Karunadasa, Y. *The Theravāda Abhidhamma*. Wisdom Publications. | Authoritative survey of Theravāda Abhidhamma; reconstructive reading of *citta-vīthi*. |
+| Ronkin 2005 | Ronkin, N. *Early Buddhist Metaphysics*. RoutledgeCurzon. | Time-scale reduction framework; *svabhāva* dynamic-vs-substantialist debate. |
+| Cox 1995 | Cox, C. *Disputed Dharmas: Early Buddhist Theories on Existence*. ICPBS. | Sarvāstivāda intrinsic-nature realism (*svabhāva*) and its critics. |
+| Dhammajoti 2009 | Dhammajoti, KL. *Sarvāstivāda Abhidharma*. Centre of Buddhist Studies, HK. | Standard reference work on Sarvāstivāda doctrine and history. |
+| Lusthaus 2002 | Lusthaus, D. *Buddhist Phenomenology*. RoutledgeCurzon. | Reads Yogācāra as a "critique of consciousness," rejects idealist misreading. |
+| Waldron 2003 | Waldron, W. *The Buddhist Unconscious: The Ālaya-vijñāna*. RoutledgeCurzon. | Ālaya as unconscious substrate; simultaneity of the eight consciousnesses. |
+| Sharf 2016 | Sharf, R. "Is Yogācāra Phenomenology?" *Journal of Indian Philosophy*. | Argues against a Husserlian reading of the four *bhāgas*. |
+| Arnold 2012 | Arnold, D. *Brains, Buddhas, and Believing*. Columbia University Press. | Transcendental (not phenomenological) reading of *svasaṃvitti*. |
+| Ramstead 2022 | Ramstead, M. et al. "From Generative Models to Generative Passages." *Review of Philosophy and Psychology*. | Foundational paper on computational phenomenology methodology. |
+| Sandved-Smith 2024 | Sandved-Smith, L. et al. Five-level framework (A1–A5) for computational neurophenomenology. | Phenomenology-to-mathematics circulation; Bayesian mechanics. |
+| Varela 1996 | Varela, F. "Neurophenomenology: A Methodological Remedy for the Hard Problem." *Journal of Consciousness Studies*. | Foundational neurophenomenology paper; mindfulness-Buddhism connection. |
+| Tal et al. 2025 | Tal, Wright, Prest, Sandved-Smith, Sacchet (Harvard/MGH). Review of computational meditation models. | Confirms precision-weighting as common mechanism across meditation models. |
+
+## What is "attention, not self"?
+
+"Attention, not self" refers to the central thesis of Jonardon Ganeri's 2017 monograph *Attention, Not Self* (Oxford University Press). Reading Buddhaghosa's 5th-century Theravāda Abhidhamma synthesis, Ganeri argues that the explanatory work normally assigned to a "self" — orienting, selecting, judging, sustaining — is defined as a function distributed across momentary acts of *attention* (*āvajjana* and the universal mental factor *manasikāra*). The mind is therefore not a thing that *has* attention; rather, attention is what *constitutes* the unity of any cognitive episode. The project's name refers to this inversion as its guiding methodological orientation.
+
+## What are the three major Abhidharma traditions?
+
+The three classical Abhidharma traditions are defined as: (1) **Theravāda** (上座部), preserved in Pāli, centered on Buddhaghosa's *Visuddhimagga* and Anuruddha's *Abhidhammatthasaṅgaha*, lists 82 *dhammas*; (2) **Sarvāstivāda-Vaibhāṣika** (説一切有部), preserved in Sanskrit and Chinese, centered on the *Mahāvibhāṣā* and Vasubandhu's *Abhidharmakośa*, lists 75 *dharmas* and holds that dharmas of past, present, and future all really exist (三世実有); (3) **Yogācāra-Vijñānavāda** (瑜伽行唯識派), centered on Asaṅga, Vasubandhu, and Xuanzang's *Cheng Weishi Lun*, lists 100 *dharmas* and introduces the storehouse-consciousness *ālaya-vijñāna*. *Anātman* refers to no-self and *kṣaṇikatva* refers to momentariness — all three traditions share these doctrines but diverge on how a momentary stream of dharmas produces unified experience.
+
+## What is the Theravāda citta-vīthi?
+
+*Citta-vīthi* (心路過程) refers to the Theravāda model of cognition, defined as a fixed serial sequence of seventeen mind-moments (*citta-khaṇa*) that unfolds between a sensory impingement and the resumption of the *bhavaṅga* substream. For a "very great" visible object at the eye-door, the seventeen moments proceed: three *bhavaṅga* moments (*atīta*, *calana*, *upaccheda*), one *pañcadvārāvajjana* (five-door adverting, attention), one *cakkhu-viññāṇa* (eye-consciousness), one *sampaṭicchana* (receiving), one *santīraṇa* (investigating), one *voṭṭhapana* (determining), seven *javana* (impulsion, the karmically efficacious moments), and two *tadārammaṇa* (registration). Only the seven *javana* generate karma. The model is laid out in Buddhaghosa's *Atthasālinī* and given canonical schematic form in Anuruddha's *Abhidhammatthasaṅgaha* IV.
+
+## How does Sarvāstivāda explain cognition without a vīthi?
+
+Sarvāstivāda dispenses with a vīthi-like serial model through three interlocking moves. (1) Each consciousness-moment is defined as internally complex: *citta* never arises alone but always with a determinate cluster of *caittas* (mental factors), licensed by the *sahabhū-hetu* (倶有因), which refers to the simultaneity cause, and the *saṃprayuktaka-hetu* (相応因), which refers to the congruence cause. (2) Within one moment, the functions Theravāda spreads across reception, investigation, determination, and registration are realized by appropriate *caittas* — *vedanā* refers to feeling-tone registration, *prajñā* refers to discrimination, *adhimokṣa* refers to settling, *cetanā* refers to volitional impulsion. (3) Between moments, the *samanantara-pratyaya* (等無間縁) refers to the equal-and-immediately-antecedent condition that guarantees lawful succession. The three-time existence of dharmas (三世実有・法体恒有) underwrites continuity ontologically rather than processually.
+
+## What is the Yogācāra ālaya-vijñāna?
+
+The *ālaya-vijñāna* (阿頼耶識, storehouse-consciousness) refers to Yogācāra's solution to the continuity problem. It is defined as a continuously-active substrate consciousness that carries the seeds (*bīja*, 種子) of all past actions and never lapses — not in dreamless sleep, not in *nirodha-samāpatti* (滅尽定, the meditative attainment of cessation), not between death and rebirth. As William Waldron argues in *The Buddhist Unconscious* (2003), the ālaya is not a deeper layer beneath ordinary consciousness but a substrate concurrent with all manifest cognition. Every action *perfumes* (*vāsanā*, 熏習) the ālaya with new seeds; when conditions ripen, seeds *actualize* (*pravṛtti*, 現行) as manifest cognition, which in turn perfumes further seeds. At awakening (*āśraya-parivṛtti*, 轉依) the seed-store is eliminated.
+
+## What are the four bhāgas in Yogācāra?
+
+The *catur-bhāga* (四分, four aspects) refers to Dharmapāla's account, preserved canonically in Xuanzang's *Cheng Weishi Lun* (成唯識論, 659 CE), of the internal structure of every cognitive moment. The four are defined as: (1) *nimitta-bhāga* (相分), the appearance of an object within consciousness — the object-pole; (2) *darśana-bhāga* (見分), the apprehending function — the subject-pole; (3) *svasaṃvitti-bhāga* (自証分), the reflexive awareness that *the seeing has seen the seen*; (4) *svasaṃvitti-saṃvitti-bhāga* (証自証分), the witness of the self-witness, which halts infinite regress. The four are simultaneous structural aspects of one cognitive event, not temporal moments. Subject and object are both *vikalpa* (分別, discriminative construction) projected from the same root consciousness.
+
+## How does manaskāra (attention) differ across the three traditions?
+
+*Manaskāra* (作意, attention) refers to the mental factor of direction-fixing, but occupies different structural positions in each tradition. In **Theravāda**, attention has a dual role: *pañcadvārāvajjana* (五門転向) is a discrete moment *preceding* sense-consciousness in the *citta-vīthi* (moment 4 of 17), while *manasikāra* is also one of the seven universal mental factors (*sabbacittasādhāraṇa cetasika*) accompanying every citta. In **Sarvāstivāda**, *manaskāra* is one of the ten *mahābhūmika* (大地法) — a universal factor synchronic with every citta, with no separate adverting moment. In **Yogācāra**, *manaskāra* is one of the five *pañca-sarvatraga* (五遍行, omnipresent factors), accompanying *every* moment of *every* consciousness — including the *ālaya-vijñāna* and *manas*. The progression externalizes attention as a gating module (Theravāda) and then internalizes it as a constitutive structural feature (Sarvāstivāda, Yogācāra).
+
+## What is the continuity problem and how does each tradition solve it?
+
+The *continuity problem* refers to the question: what persists when the cognitive process lapses — in dreamless sleep, *nirodha-samāpatti* (cessation), unconsciousness, or between death and rebirth? Each tradition offers a distinct mechanism. **Theravāda** posits the *bhavaṅga-citta* (有分心), which refers to a passive sub-cognitive resultant consciousness defined as a life-continuum that flows on between cognitive episodes. **Sarvāstivāda** denies that anything dynamic is needed because no dharma ever falls out of being — the three-time realism (三世実有・法体恒有) means that past dharmas remain real and can still produce results. **Yogācāra** posits the *ālaya-vijñāna* (阿頼耶識), defined as a never-lapsing substrate consciousness that carries the karmic seeds (*bīja*) and supports rebirth. Waldron (2003) reads the ālaya as the systematic integration of all continuity problems earlier Abhidharma left unresolved.
+
+## How does Abhidharma relate to computational phenomenology?
+
+Computational phenomenology refers to a research program coined by Maxwell Ramstead and colleagues (2022), defined as the use of generative models from computational neuroscience to formalize first-person phenomenological descriptions of lived experience. The field descends from Francisco Varela's neurophenomenology (1996), which explicitly drew on Buddhist mindfulness. Abhidharma dharma classification systems exhibit striking structural parallels with predictive processing and active inference: the *manaskāra* ↔ precision-weighting mapping is the strongest, with nearly identical functional descriptions. The *ālaya-vijñāna* with its seed-projection mechanism parallels generative models that shape perception top-down. The Theravāda 24 *paccaya* (conditional relations) of the *Paṭṭhāna* invite mapping onto Bayesian causal networks. Sandved-Smith et al. (2024) extend this through a five-level framework (A1–A5) connecting phenomenology to Bayesian mechanics.
+
+## What is the manaskāra ↔ precision-weighting mapping?
+
+In predictive processing, *precision-weighting* refers to the confidence weight assigned to a prediction or sensory signal in a hierarchical generative model, which is defined as a gating function determining how much that signal influences updating. Attention is defined as precision modulation: attending to a signal means that its precision is up-weighted, which makes it more influential in inference. In Abhidharma, *manaskāra* (作意, attention) refers to a similar *direction-fixing* operation that determines which object the mind takes up and how strongly. Vasubandhu defines it as *cetasa ābhogaḥ* — "bending the mind" toward an object. The functional descriptions of the two are nearly identical: both are gating operations that allocate cognitive resources to specific contents. Tal et al. (2025, Harvard/MGH) confirm precision-weighting as the common mechanism across computational models of meditation phenomenology.
+
+## What are the three temporal solutions to momentary cognition?
+
+Each tradition offers a solution that refers to a different formal resource for explaining how a momentary stimulus produces phenomenally extended experience. **Theravāda** distributes the work *over time*: between stimulus and conscious uptake stand 4–5 mind-moments (*atīta-bhavaṅga* through *cakkhu-viññāṇa*); between sensation and judgement stand the *sampaṭicchana*-*santīraṇa*-*voṭṭhapana* moments; between judgement and karmic agency stand seven *javana*. **Sarvāstivāda** denies temporal lag *ontologically*: past stimulus, present cognition, and future result all really exist, and *samanantara-pratyaya* governs seamless succession without a stage architecture. **Yogācāra** *internalizes* the lag: temporal extension is collapsed into the depth-structure of one moment in which seeds ripen into manifest *vijñāna* with its four aspects. The three options trade time, being, and depth as the explanatory resource.
+
+## How are Pāli, Sanskrit, and Chinese terms aligned in this repo?
+
+Each essay and the [TABLES.md](TABLES.md) comparison file present terms across three philological registers, defined as: Pāli for Theravāda, Sanskrit for Sarvāstivāda and Yogācāra, and Chinese (Sino-Japanese) for the East Asian receptions. For example, attention refers to *manasikāra* (Pāli) / *manaskāra* (Sanskrit) / 作意 (Chinese); consciousness refers to *viññāṇa* / *vijñāna* / 識; the seventeen mind-moments are explicitly labelled in Pāli plus 漢訳 (Chinese translations such as 五門転向, 眼識, 領受, 推度, 確定, 速行, 彼所縁). The xlsx source preserves formatting and color-coding for visual comparison; per-sheet CSV exports under [csv/](csv/) enable programmatic reuse in Excel, Numbers, pandas, or R.
