@@ -18,6 +18,8 @@ From the perspective of "attention, not self," this project juxtaposes ancient f
 | [`アビダルマと計算論的現象学（日本語）.md`](アビダルマと計算論的現象学（日本語）.md) | Japanese version of the above |
 | [`Three Abhidharma Systems Dharma Comparison.md`](Three%20Abhidharma%20Systems%20Dharma%20Comparison.md) | Comparison of dharma classification across the three major Abhidharma systems (English) |
 | [`三大アビダルマ法対照表（日本語）.md`](三大アビダルマ法対照表（日本語）.md) | Japanese version of the above |
+| [`Three Abhidharma Models of Cognition.md`](Three%20Abhidharma%20Models%20of%20Cognition.md) | Comparative analysis of how the three Abhidharma traditions explain the cognitive process from stimulus to conscious experience (English) |
+| [`三大アビダルマ伝統における認識過程の比較研究（日本語）.md`](三大アビダルマ伝統における認識過程の比較研究（日本語）.md) | Japanese version of the above |
 
 ### Comparison Table (multiple formats)
 

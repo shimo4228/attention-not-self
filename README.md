@@ -16,6 +16,8 @@ Language: 日本語 | [English](README.en.md)
 | [`アビダルマと計算論的現象学（日本語）.md`](アビダルマと計算論的現象学（日本語）.md) | 上記の日本語版 |
 | [`Three Abhidharma Systems Dharma Comparison.md`](Three%20Abhidharma%20Systems%20Dharma%20Comparison.md) | 三大アビダルマ体系における法 (dharma) 分類の比較（英語） |
 | [`三大アビダルマ法対照表（日本語）.md`](三大アビダルマ法対照表（日本語）.md) | 上記の日本語版 |
+| [`Three Abhidharma Models of Cognition.md`](Three%20Abhidharma%20Models%20of%20Cognition.md) | 三大アビダルマ伝統が刺激から意識経験へ至る認識過程をどう説明するかの比較分析（英語） |
+| [`三大アビダルマ伝統における認識過程の比較研究（日本語）.md`](三大アビダルマ伝統における認識過程の比較研究（日本語）.md) | 上記の日本語版 |
 
 ### 対照表データ（複数形式）
 
