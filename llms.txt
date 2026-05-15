@@ -13,12 +13,14 @@
 - [Abhidharma Meets Computational Phenomenology](Abhidharma%20Meets%20Computational%20Phenomenology.md): Systematic mapping between Abhidharma dharma classification and computational phenomenology — predictive processing, active inference, neurophenomenology. The strongest correspondence is *manaskāra* (attention) ↔ precision-weighting in predictive processing.
 - [Three Abhidharma Systems Dharma Comparison](Three%20Abhidharma%20Systems%20Dharma%20Comparison.md): Side-by-side comparison of dharma taxonomies — Theravāda (82 dhammas), Sarvāstivāda (75 dharmas), Yogācāra (100 dharmas).
 - [Three Abhidharma Models of Cognition](Three%20Abhidharma%20Models%20of%20Cognition.md): Comparative study of how the three Abhidharma traditions explain the cognitive process from stimulus to conscious experience — Theravāda's 17-moment *citta-vīthi*, Sarvāstivāda's *saṃprayoga* + *samanantara-pratyaya* + three-time realism, Yogācāra's four-*bhāga* + *ālaya-vijñāna* architecture.
+- [Abhidharma Cognitive Process Models Meets Computational Phenomenology](Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md): Systematic mapping of the three Abhidharma cognitive process architectures onto computational frameworks — Theravāda *citta-vīthi* ↔ Global Workspace Theory, Sarvāstivāda *saṃprayoga* ↔ Parallel Distributed Processing, Yogācāra *ālaya-vijñāna* ↔ predictive processing / active inference. Includes best-fit table, evidence-quality summary, and the hard limits (karmic valence, *nirvāṇa*) that resist any computational analog.
 
 ## Essays (Japanese mirrors)
 
 - [アビダルマと計算論的現象学（日本語）](アビダルマと計算論的現象学（日本語）.md)
 - [三大アビダルマ法対照表（日本語）](三大アビダルマ法対照表（日本語）.md)
 - [三大アビダルマ伝統における認識過程の比較研究（日本語）](三大アビダルマ伝統における認識過程の比較研究（日本語）.md)
+- [三大アビダルマ認識過程モデルと計算論的現象学（日本語）](三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md)
 
 ## Comparison tables (data)
 

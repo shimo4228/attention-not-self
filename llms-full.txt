@@ -9,7 +9,8 @@ A personal research repository at the intersection of classical Buddhist Abhidha
 - **Repository**: `attention-not-self` (public, GitHub)
 - **Owner**: shimo4228
 - **Status**: Ongoing personal inquiry; canonical version is Japanese, English provided for accessibility
-- **Format**: 6 long-form Markdown essays (3 English canonical + 3 Japanese mirrors) + 1 comparison-table file (TABLES.md) + per-sheet CSV exports + xlsx source
+- **Format**: 8 long-form Markdown essays (4 English canonical + 4 Japanese mirrors) + 1 comparison-table file (TABLES.md) + per-sheet CSV exports + xlsx source
+- **Computational frameworks mapped**: Global Workspace Theory (GWT / GNW), predictive processing (PP), Free Energy Principle / active inference (FEP / AIF), Integrated Information Theory (IIT), Parallel Distributed Processing (PDP / connectionism), Interface Theory of Perception (Hoffman), Phenomenal Self-Model (Metzinger), Posner attention networks, neurophenomenology (Varela), computational phenomenology (Ramstead / Sandved-Smith)
 - **License**: Undetermined; cite sources when quoting or referencing
 - **Project namesake**: Ganeri, J. *Attention, Not Self*. Oxford University Press, 2017
 - **Three Abhidharma traditions covered**: Theravāda (上座部), Sarvāstivāda-Vaibhāṣika (説一切有部), Yogācāra-Vijñānavāda (瑜伽行唯識派)
@@ -42,6 +43,24 @@ A personal research repository at the intersection of classical Buddhist Abhidha
 | Sandved-Smith 2024 | Sandved-Smith, L. et al. Five-level framework (A1–A5) for computational neurophenomenology. | Phenomenology-to-mathematics circulation; Bayesian mechanics. |
 | Varela 1996 | Varela, F. "Neurophenomenology: A Methodological Remedy for the Hard Problem." *Journal of Consciousness Studies*. | Foundational neurophenomenology paper; mindfulness-Buddhism connection. |
 | Tal et al. 2025 | Tal, Wright, Prest, Sandved-Smith, Sacchet (Harvard/MGH). Review of computational meditation models. | Confirms precision-weighting as common mechanism across meditation models. |
+| Friston 2010 | Friston, K. "The free-energy principle: a unified brain theory?" *Nature Reviews Neuroscience*. | Foundational FEP paper; brain as prediction machine that "regurgitates the world." |
+| Friston 2018 | Friston, K. "Am I self-conscious? (Or what's it like to think you are?)" *Frontiers in Psychology*. | Self-evidencing as source of minimal self-modeling. |
+| Clark 2016 | Clark, A. *Surfing Uncertainty: Prediction, Action, and the Embodied Mind*. Oxford UP. | Canonical exposition of predictive processing as top-down generative architecture. |
+| Hohwy 2013 | Hohwy, J. *The Predictive Mind*. Oxford UP. | Companion canonical treatment of PP; "we never access the world directly." |
+| Metzinger 2003 | Metzinger, T. *Being No One: The Self-Model Theory of Subjectivity*. MIT Press. | Phenomenal Self-Model (PSM) as transparent self-model; structural parallel to Yogācāra *manas*. |
+| Hoffman 2015 | Hoffman, D. "The Interface Theory of Perception." *Current Directions in Psychological Science*. | Perception as fitness-tuned user interface, not veridical representation. |
+| Dehaene & Naccache 2001 | Dehaene, S. & Naccache, L. "Towards a cognitive neuroscience of consciousness." *Cognition*. | Global Neuronal Workspace (GNW); all-or-nothing ignition. |
+| Baars 1988 | Baars, B. *A Cognitive Theory of Consciousness*. Cambridge UP. | Original Global Workspace Theory; broadcast as consciousness. |
+| Posner & Petersen 1990 | Posner, M. & Petersen, S. "The attention system of the human brain." *Annual Review of Neuroscience*. | Three attention networks: alerting / orienting / executive. |
+| VanRullen & Koch 2003 | VanRullen, R. & Koch, C. "Is perception discrete or continuous?" *Trends in Cognitive Sciences*. | Discrete perceptual frames (~10 Hz); convergence with Buddhist *kṣaṇa-vāda*. |
+| Macy 1991 | Macy, J. *Mutual Causality in Buddhism and General Systems Theory*. SUNY Press. | *Pratītyasamutpāda* as systems-theoretic mutual causation; Theravāda 24 *paccaya* most elaborated. |
+| Deane 2021 | Deane, G. Active inference accounts of ego dissolution under psychedelics and deep meditation. | Self-model collapse parallels Yogācāra *āśraya-parāvṛtti* (転依). |
+| Sandved-Smith et al. 2021 | Sandved-Smith, Hesp, Mattout, Friston, Lutz, Ramstead. Hierarchical model of meta-awareness. | Deep parametric AIF; parallels 自証分 / 証自証分 distinction. |
+| Laukkonen & Slagter 2021 | Laukkonen, R. & Slagter, H. "From many to (n)one: meditation and the plasticity of the predictive mind." *Neuroscience & Biobehavioral Reviews*. | FA / OM / ND meditation as precision-modulation stages. |
+| Laukkonen et al. 2025 | Laukkonen, R. et al. Contemplative Constitutional AI with four axioms. | Mindfulness, emptiness, non-duality, boundless care as AI alignment principles. |
+| Cox 1995 | Cox, C. *Disputed Dharmas: Early Buddhist Theories on Existence*. ICPBS. | Sarvāstivāda *svabhāva* realism and Sautrāntika critique. |
+| Dhammajoti 2009 | Dhammajoti, KL. *Sarvāstivāda Abhidharma*. Centre of Buddhist Studies, HK. | Standard reference; "dharmas weak alone, active together." |
+| Thompson 2014 | Thompson, E. *Waking, Dreaming, Being*. Columbia UP. | Three-layer Yogācāra architecture mapped onto implicit memory + pre-reflective self + working memory. |
 
 ## What is "attention, not self"?
 
@@ -86,6 +105,14 @@ In predictive processing, *precision-weighting* refers to the confidence weight 
 ## What are the three temporal solutions to momentary cognition?
 
 Each tradition offers a solution that refers to a different formal resource for explaining how a momentary stimulus produces phenomenally extended experience. **Theravāda** distributes the work *over time*: between stimulus and conscious uptake stand 4–5 mind-moments (*atīta-bhavaṅga* through *cakkhu-viññāṇa*); between sensation and judgement stand the *sampaṭicchana*-*santīraṇa*-*voṭṭhapana* moments; between judgement and karmic agency stand seven *javana*. **Sarvāstivāda** denies temporal lag *ontologically*: past stimulus, present cognition, and future result all really exist, and *samanantara-pratyaya* governs seamless succession without a stage architecture. **Yogācāra** *internalizes* the lag: temporal extension is collapsed into the depth-structure of one moment in which seeds ripen into manifest *vijñāna* with its four aspects. The three options trade time, being, and depth as the explanatory resource.
+
+## How do the three Abhidharma traditions map onto computational frameworks?
+
+The three classical Abhidharma traditions correspond to three distinct computational paradigms in modern cognitive science. **Theravāda *citta-vīthi*** refers to the best fit for **Global Workspace Theory** (Baars 1988; Dehaene & Naccache 2001) — serial, discrete, threshold-crossing, with *javana* (the seven impulsion moments) corresponding to global ignition and broadcast. **Sarvāstivāda *Abhidharmakośa*** refers to the best fit for **Parallel Distributed Processing** — Vasubandhu's doctrine of *saṃprayoga* (simultaneous co-arising of *citta* + *caittas*) is defined as structurally identical to the connectionist claim that cognition is the coactive pattern of many units. **Yogācāra *Vijñānavāda*** refers to the best fit for **predictive processing / active inference** (Friston 2010, Clark 2016) — *ālaya-vijñāna* as the hierarchical generative model, *bīja* as priors, *vāsanā* as learning, and *vijñaptimātratā* anticipating Hoffman's Interface Theory of Perception and Metzinger's transparent self-model. See [Abhidharma Cognitive Process Models Meets Computational Phenomenology](Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md).
+
+## What are the hard limits of mapping Abhidharma onto computation?
+
+Two categorical limits resist any computational mapping. First, **karmic / ethical valence** refers to the fact that every citta-moment in Abhidharma is defined as *kuśala* (wholesome), *akuśala* (unwholesome), or *avyākṛta* (indeterminate), and this ethical charge is causally efficacious (Theravāda *javana*, Sarvāstivāda *vipāka-hetu*, Yogācāra *bīja*). Computational states refer to ontologically ethically-neutral configurations; priors are not "wholesome priors," and precision parameters are not "wholesome precision." Even Laukkonen et al.'s (2025) Contemplative Constitutional AI introduces ethics externally as imposed axioms. Second, **nirvāṇa / asaṃskṛta** refers to the unconditioned element (Theravāda *nibbāna*, Sarvāstivāda three unconditioned dharmas, Yogācāra six including *tathatā*), which is defined as not generated by conditions. Every computational state is, by contrast, exhaustively conditioned by priors, likelihood, and policy — so no computational analog exists.
 
 ## How are Pāli, Sanskrit, and Chinese terms aligned in this repo?
 
