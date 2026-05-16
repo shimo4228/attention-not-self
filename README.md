@@ -10,16 +10,43 @@ Language: 日本語 | [English](README.en.md)
 
 ### 論考（Markdown）
 
-| ファイル | 概要 |
-|---------|------|
-| [`Abhidharma Meets Computational Phenomenology.md`](Abhidharma%20Meets%20Computational%20Phenomenology.md) | アビダルマと計算論的現象学の接続に関する論考（英語） |
-| [`アビダルマと計算論的現象学（日本語）.md`](アビダルマと計算論的現象学（日本語）.md) | 上記の日本語版 |
-| [`Three Abhidharma Systems Dharma Comparison.md`](Three%20Abhidharma%20Systems%20Dharma%20Comparison.md) | 三大アビダルマ体系における法 (dharma) 分類の比較（英語） |
-| [`三大アビダルマ法対照表（日本語）.md`](三大アビダルマ法対照表（日本語）.md) | 上記の日本語版 |
-| [`Three Abhidharma Models of Cognition.md`](Three%20Abhidharma%20Models%20of%20Cognition.md) | 三大アビダルマ伝統が刺激から意識経験へ至る認識過程をどう説明するかの比較分析（英語） |
-| [`三大アビダルマ伝統における認識過程の比較研究（日本語）.md`](三大アビダルマ伝統における認識過程の比較研究（日本語）.md) | 上記の日本語版 |
-| [`Abhidharma Cognitive Process Models Meets Computational Phenomenology.md`](Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md) | 三大アビダルマの認識過程アーキテクチャ全体を計算論的現象学（GWT/PP/FEP/PDP/IIT 等）へ体系的にマッピング（英語） |
-| [`三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md`](三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md) | 上記の日本語版 |
+論考はテーマ別に 4 種類。各テーマで日本語版と英語版を用意している。
+
+#### 1. アビダルマと計算論的現象学（導入）
+
+アビダルマと計算論的現象学の接続に関する論考。
+
+| 言語 | ファイル |
+|------|---------|
+| 日本語 | [`アビダルマと計算論的現象学（日本語）.md`](アビダルマと計算論的現象学（日本語）.md) |
+| English | [`Abhidharma Meets Computational Phenomenology.md`](Abhidharma%20Meets%20Computational%20Phenomenology.md) |
+
+#### 2. 三大アビダルマ体系における法 (dharma) 分類の比較
+
+説一切有部・上座部・唯識（瑜伽行）の三大アビダルマ体系における法 (dharma) 分類を対照する。
+
+| 言語 | ファイル |
+|------|---------|
+| 日本語 | [`三大アビダルマ法対照表（日本語）.md`](三大アビダルマ法対照表（日本語）.md) |
+| English | [`Three Abhidharma Systems Dharma Comparison.md`](Three%20Abhidharma%20Systems%20Dharma%20Comparison.md) |
+
+#### 3. 三大アビダルマ伝統の認識過程モデル
+
+三大アビダルマ伝統が刺激から意識経験へ至る認識過程をどう説明するかを比較分析する。
+
+| 言語 | ファイル |
+|------|---------|
+| 日本語 | [`三大アビダルマ伝統における認識過程の比較研究（日本語）.md`](三大アビダルマ伝統における認識過程の比較研究（日本語）.md) |
+| English | [`Three Abhidharma Models of Cognition.md`](Three%20Abhidharma%20Models%20of%20Cognition.md) |
+
+#### 4. 認識過程モデルと計算論的現象学のマッピング
+
+三大アビダルマの認識過程アーキテクチャ全体を計算論的現象学（GWT / PP / FEP / PDP / IIT 等）へ体系的にマッピングする。
+
+| 言語 | ファイル |
+|------|---------|
+| 日本語 | [`三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md`](三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md) |
+| English | [`Abhidharma Cognitive Process Models Meets Computational Phenomenology.md`](Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md) |
 
 ### 対照表データ（複数形式）
 

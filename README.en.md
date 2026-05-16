@@ -12,16 +12,43 @@ From the perspective of "attention, not self," this project juxtaposes ancient f
 
 ### Essays (Markdown)
 
-| File | Description |
-|------|-------------|
-| [`Abhidharma Meets Computational Phenomenology.md`](Abhidharma%20Meets%20Computational%20Phenomenology.md) | Essay on the connection between Abhidharma and computational phenomenology (English) |
-| [`アビダルマと計算論的現象学（日本語）.md`](アビダルマと計算論的現象学（日本語）.md) | Japanese version of the above |
-| [`Three Abhidharma Systems Dharma Comparison.md`](Three%20Abhidharma%20Systems%20Dharma%20Comparison.md) | Comparison of dharma classification across the three major Abhidharma systems (English) |
-| [`三大アビダルマ法対照表（日本語）.md`](三大アビダルマ法対照表（日本語）.md) | Japanese version of the above |
-| [`Three Abhidharma Models of Cognition.md`](Three%20Abhidharma%20Models%20of%20Cognition.md) | Comparative analysis of how the three Abhidharma traditions explain the cognitive process from stimulus to conscious experience (English) |
-| [`三大アビダルマ伝統における認識過程の比較研究（日本語）.md`](三大アビダルマ伝統における認識過程の比較研究（日本語）.md) | Japanese version of the above |
-| [`Abhidharma Cognitive Process Models Meets Computational Phenomenology.md`](Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md) | Systematic mapping of the three Abhidharma cognitive process architectures onto computational frameworks (GWT, predictive processing, FEP, PDP, IIT) (English) |
-| [`三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md`](三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md) | Japanese version of the above |
+Essays are organized into four themes. Each theme is available in both Japanese and English.
+
+#### 1. Introduction: Abhidharma Meets Computational Phenomenology
+
+An introductory essay on the connection between Abhidharma and computational phenomenology.
+
+| Language | File |
+|----------|------|
+| English | [`Abhidharma Meets Computational Phenomenology.md`](Abhidharma%20Meets%20Computational%20Phenomenology.md) |
+| 日本語 | [`アビダルマと計算論的現象学（日本語）.md`](アビダルマと計算論的現象学（日本語）.md) |
+
+#### 2. Dharma Classification Across the Three Abhidharma Systems
+
+A comparison of the dharma classifications in the three major Abhidharma systems (Sarvāstivāda, Theravāda, and Yogācāra).
+
+| Language | File |
+|----------|------|
+| English | [`Three Abhidharma Systems Dharma Comparison.md`](Three%20Abhidharma%20Systems%20Dharma%20Comparison.md) |
+| 日本語 | [`三大アビダルマ法対照表（日本語）.md`](三大アビダルマ法対照表（日本語）.md) |
+
+#### 3. Cognitive Process Models in the Three Abhidharma Traditions
+
+A comparative analysis of how the three Abhidharma traditions explain the cognitive process from stimulus to conscious experience.
+
+| Language | File |
+|----------|------|
+| English | [`Three Abhidharma Models of Cognition.md`](Three%20Abhidharma%20Models%20of%20Cognition.md) |
+| 日本語 | [`三大アビダルマ伝統における認識過程の比較研究（日本語）.md`](三大アビダルマ伝統における認識過程の比較研究（日本語）.md) |
+
+#### 4. Mapping Cognitive Process Models onto Computational Phenomenology
+
+Systematic mapping of the three Abhidharma cognitive process architectures onto computational frameworks (GWT, predictive processing, FEP, PDP, IIT).
+
+| Language | File |
+|----------|------|
+| English | [`Abhidharma Cognitive Process Models Meets Computational Phenomenology.md`](Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md) |
+| 日本語 | [`三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md`](三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md) |
 
 ### Comparison Table (multiple formats)
 
