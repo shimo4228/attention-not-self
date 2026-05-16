@@ -10,7 +10,7 @@ Language: 日本語 | [English](README.en.md)
 
 ### 論考（Markdown）
 
-論考はテーマ別に 4 種類。各テーマで日本語版と英語版を用意している。
+論考はテーマ別に 5 種類。各テーマで日本語版と英語版を用意している。
 
 #### 1. アビダルマと計算論的現象学（導入）
 
@@ -47,6 +47,15 @@ Language: 日本語 | [English](README.en.md)
 |------|---------|
 | 日本語 | [`三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md`](三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md) |
 | English | [`Abhidharma Cognitive Process Models Meets Computational Phenomenology.md`](Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md) |
+
+#### 5. 「気づき」/ "Awareness" の語彙的系譜と類型論
+
+英語の "awareness" と日本語の「気づき」という単一の語に圧縮されている、サティ / サンパジャンニャ / マナシカーラ / リクパ等の仏教技術用語を解きほぐし、リース・デイヴィッズ（1881）からニャーナポニカ、エサレン、MBSR、サム・ハリスに至る西洋的系譜と、ティク・ナット・ハン受容と自己啓発産業を経た日本語側の系譜を辿り、十の混同を類型化する。
+
+| 言語 | ファイル |
+|------|---------|
+| 日本語 | [`気づきとAwareness - 系譜と類型論（日本語）.md`](気づきとAwareness%20-%20系譜と類型論（日本語）.md) |
+| English | [`Awareness - A Genealogy and Typology.md`](Awareness%20-%20A%20Genealogy%20and%20Typology.md) |
 
 ### 対照表データ（複数形式）
 

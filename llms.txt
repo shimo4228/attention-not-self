@@ -36,6 +36,13 @@ Systematic mapping of the three Abhidharma cognitive process architectures onto 
 - [Abhidharma Cognitive Process Models Meets Computational Phenomenology](Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md): English canonical version.
 - [三大アビダルマ認識過程モデルと計算論的現象学（日本語）](三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md): Japanese mirror.
 
+## Essays — Theme 5: Genealogy and typology of "awareness" / 気づき
+
+Unpacks the Buddhist technical vocabulary collapsed into the single word "awareness" / 気づき — *sati*, *sampajañña*, *manasikāra*, *āvajjana*, *viññāṇa*, *paññā*, *rigpa*, *appamāda*, *jāgariyā*, *āloka*. Traces the Western genealogy (Rhys Davids 1881 → Theosophy → D. T. Suzuki → Nyanaponika's "bare attention" 1962 → Ram Dass / Watts / Trungpa → Perls / Esalen / est / NLP → Kabat-Zinn's MBSR 1979 → Sam Harris's *rigpa*-inflected app) and the Japanese trajectory (Thich Nhat Hanh translations → MBSR import → 自己啓発 / coaching / NLP industries). Typologizes ten resulting confusions including the *sati*–*rigpa* conflation, the active–passive paradox, and the phenomenological–ontological slide.
+
+- [Awareness - A Genealogy and Typology](Awareness%20-%20A%20Genealogy%20and%20Typology.md): English canonical version.
+- [気づきとAwareness - 系譜と類型論（日本語）](気づきとAwareness%20-%20系譜と類型論（日本語）.md): Japanese mirror.
+
 ## Comparison tables (data)
 
 - [TABLES.md](TABLES.md): Browser-readable Markdown rendering of the dharma comparison spreadsheet — recommended for direct reading on GitHub

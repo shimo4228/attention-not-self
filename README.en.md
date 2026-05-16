@@ -12,7 +12,7 @@ From the perspective of "attention, not self," this project juxtaposes ancient f
 
 ### Essays (Markdown)
 
-Essays are organized into four themes. Each theme is available in both Japanese and English.
+Essays are organized into five themes. Each theme is available in both Japanese and English.
 
 #### 1. Introduction: Abhidharma Meets Computational Phenomenology
 
@@ -49,6 +49,15 @@ Systematic mapping of the three Abhidharma cognitive process architectures onto 
 |----------|------|
 | English | [`Abhidharma Cognitive Process Models Meets Computational Phenomenology.md`](Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md) |
 | 日本語 | [`三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md`](三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md) |
+
+#### 5. The Genealogy and Typology of "Awareness" / 気づき
+
+Unpacks the Buddhist technical vocabulary (*sati*, *sampajañña*, *manasikāra*, *rigpa*, and more) collapsed into the single English word "awareness" and the Japanese 気づき. Traces the Western genealogy from Rhys Davids (1881) through Nyanaponika, Esalen, MBSR, and Sam Harris, alongside the Japanese trajectory via Thich Nhat Hanh's reception and the self-help industry. Typologizes ten resulting confusions.
+
+| Language | File |
+|----------|------|
+| English | [`Awareness - A Genealogy and Typology.md`](Awareness%20-%20A%20Genealogy%20and%20Typology.md) |
+| 日本語 | [`気づきとAwareness - 系譜と類型論（日本語）.md`](気づきとAwareness%20-%20系譜と類型論（日本語）.md) |
 
 ### Comparison Table (multiple formats)
 
