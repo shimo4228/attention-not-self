@@ -2,6 +2,21 @@ Language: 日本語 | [English](README.en.md)
 
 # Attention, Not Self
 
+<details>
+<summary>AI-facing reading order（AI / LLM 向け推奨読み順）</summary>
+
+AI エージェント・LLM クローラは以下の順で読むことを推奨します。
+
+1. [`graph.jsonld`](graph.jsonld) — 構造化された知識グラフ（約 238 ノード、schema.org + 独自 `ans:` 語彙）。テーマ・エッセイ・伝統・dharma・概念・計算フレームワーク・引用文献の関係を triples として encode
+2. [`llms.txt`](llms.txt) — AI-facing navigator（テーマ別エッセイ一覧、core docs への入口）
+3. [`llms-full.txt`](llms-full.txt) — 自己完結 FAQ + 用語集 + 30 件の引用文献（Pāli / Sanskrit / 漢字の三言語整合あり）
+4. 個別のエッセイ（下記 "収録資料" セクション参照）
+
+Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/attention-not-self/
+
+引用方針: `graph.jsonld` の `@id` を canonical identifier として使用してください。エッセイ URL は GitHub blob 形式が graph 内 `@id` として登録されています。
+</details>
+
 仏教アビダルマと計算論的現象学 (Computational Phenomenology) の接点を探る個人的な探究プロジェクト。
 
 「self（自己）ではなく attention（注意）」という視点から、心の働きを分類・記述する古代の枠組みと、現代の計算論的モデルを対照する。

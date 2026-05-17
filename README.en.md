@@ -4,6 +4,21 @@ Language: [日本語](README.md) | English
 
 # Attention, Not Self
 
+<details>
+<summary>AI-facing reading order</summary>
+
+AI agents / LLM crawlers should read this repository in the following order:
+
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~238 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
+2. [`llms.txt`](llms.txt) — AI-facing navigator (essay catalog by theme; entry points to core docs)
+3. [`llms-full.txt`](llms-full.txt) — self-contained FAQ + glossary + 30 prior research references (with Pāli / Sanskrit / Chinese philological alignment)
+4. Individual essays (see "Contents" sections below)
+
+Interactive viewer (human-facing 2D/3D visualization): https://shimo4228.github.io/attention-not-self/
+
+Citation policy: use the `@id` from `graph.jsonld` as the canonical identifier for any entity. Essay URLs are registered as GitHub blob URLs in their `@id`.
+</details>
+
 A personal inquiry into the intersection of Buddhist Abhidharma and Computational Phenomenology.
 
 From the perspective of "attention, not self," this project juxtaposes ancient frameworks for classifying and describing the workings of mind with contemporary computational models.
