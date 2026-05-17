@@ -1,5 +1,8 @@
 Language: 日本語 | [English](README.en.md)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20262112.svg)](https://doi.org/10.5281/zenodo.20262112)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 # Attention, Not Self
 
 <details>
@@ -116,9 +119,10 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
   title        = {Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.TBD},
-  url          = {https://doi.org/10.5281/zenodo.TBD},
-  note         = {Working paper / essay collection}
+  version      = {0.1.0},
+  doi          = {10.5281/zenodo.20262113},
+  url          = {https://doi.org/10.5281/zenodo.20262113},
+  note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}
 }
 ```
 

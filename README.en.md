@@ -1,5 +1,8 @@
 Language: [日本語](README.md) | English
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20262112.svg)](https://doi.org/10.5281/zenodo.20262112)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 > Note: Japanese is the canonical version of this repository. This English README is provided for accessibility.
 
 # Attention, Not Self
@@ -118,9 +121,10 @@ When citing this project, please use the Zenodo concept DOI (always resolves to 
   title        = {Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.TBD},
-  url          = {https://doi.org/10.5281/zenodo.TBD},
-  note         = {Working paper / essay collection}
+  version      = {0.1.0},
+  doi          = {10.5281/zenodo.20262113},
+  url          = {https://doi.org/10.5281/zenodo.20262113},
+  note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}
 }
 ```
 

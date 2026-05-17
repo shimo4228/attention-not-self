@@ -31,14 +31,14 @@
   },
   "@graph": [
     {
-      "@id": "https://github.com/shimo4228/attention-not-self#knowledge-graph",
+      "@id": "https://doi.org/10.5281/zenodo.20262112",
       "@type": ["schema:Dataset", "schema:CreativeWork"],
       "name": "Attention, Not Self — Knowledge Graph",
       "alternateName": [
         {"@value": "Attention, Not Self — Knowledge Graph", "@language": "en"},
         {"@value": "Attention, Not Self — 知識グラフ", "@language": "ja"}
       ],
-      "description": "Structured knowledge graph mapping Buddhist Abhidharma dharma taxonomies (Theravāda, Sarvāstivāda, Yogācāra) and cognitive process models onto computational phenomenology frameworks. Encodes ~130 dharmas, ~30 concepts, 5 essay themes, 10 essays, 6 frameworks, and prior research references as schema.org triples with custom ans: vocabulary.",
+      "description": "Structured knowledge graph mapping Buddhist Abhidharma dharma taxonomies (Theravāda, Sarvāstivāda, Yogācāra) and cognitive process models onto computational phenomenology frameworks. Encodes ~130 dharmas, ~30 concepts, 5 essay themes, 10 essays, 6 frameworks, and prior research references as schema.org triples with custom ans: vocabulary. Concept DOI: 10.5281/zenodo.20262112 (resolves to latest version).",
       "isBasedOn": "https://github.com/shimo4228/attention-not-self",
       "url": "https://shimo4228.github.io/attention-not-self/",
       "publisher": "Tatsuya Shimomoto",
