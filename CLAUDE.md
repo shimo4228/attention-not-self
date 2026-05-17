@@ -4,17 +4,24 @@
 
 ## Tech Stack
 
-- 資料中心（PDF, xlsx）
-- 現時点でコードなし
+- 資料中心（Markdown, PDF, xlsx）
+- 知識グラフ: `graph.jsonld`（schema.org + 独自 `ans:` 語彙、約 238 ノード）
+- Viewer: React + Vite + react-force-graph (2D/3D)、Node.js 20+
+- GitHub Pages で `docs/` を配信、live URL: https://shimo4228.github.io/attention-not-self/
 
 ## Directory Structure
 
 ```
 attention-not-self/
-├── *.pdf                # 英語・日本語の論考と対照表
+├── *.md                       # 5 テーマ × 日英の論考 10 本 + README + TABLES
+├── csv/                       # 三大アビダルマ法対照表の per-sheet 出力
 ├── 三大アビダルマ法対照表.xlsx  # 元データ
-├── README.md            # 公開用の概要
-└── CLAUDE.md            # このファイル
+├── graph.jsonld               # JSON-LD 知識グラフ（LLM / クローラ向け）
+├── viewer/                    # React + Vite + react-force-graph (人間向け viewer ソース)
+├── docs/                      # vite build 出力（GitHub Pages 配信元）
+├── llms.txt / llms-full.txt   # AI-facing リファレンス
+├── README.md / README.en.md   # 人間向け概要
+└── CLAUDE.md                  # このファイル
 ```
 
 ## Conventions
@@ -27,3 +34,13 @@ attention-not-self/
 ## Status
 
 - 2026-04-14: 初期アップロード（論考・対照表 5ファイル）
+- 2026-05-18: 知識グラフ（graph.jsonld）+ React viewer 追加。GitHub Pages 配信
+
+## Graph 更新フロー
+
+1. csv / essays / llms-full.txt の references を更新
+2. `graph.jsonld` を編集（または Claude に「グラフを更新して」と依頼）
+3. `cd viewer && npm run build` で `docs/` を再生成
+4. commit & push（数分後に live URL に反映）
+
+graph.jsonld のスキーマ変更時のみ viewer の `loadGraph.ts` を見直す。普段のノード追加・編集は viewer コード変更不要。

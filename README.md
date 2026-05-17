@@ -65,6 +65,17 @@ Language: 日本語 | [English](README.en.md)
 | [`csv/`](csv/) | **データとして使う**: シート別 CSV。Excel/Numbers/pandas で再利用可能 |
 | `三大アビダルマ法対照表.xlsx` | **元データ**: 書式・色分け保持（Excel/Numbers で開く） |
 
+## 知識グラフ
+
+論考・dharma・概念・計算フレームワーク・参考文献を構造化したナレッジグラフ。
+
+- **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — ブラウザでインタラクティブに探索（2D/3D 切替、検索、ノードクリックで詳細）
+- [`graph.jsonld`](graph.jsonld) — schema.org + 独自 `ans:` 語彙の JSON-LD（約 238 ノード）。LLM / 検索クローラ向け
+- [`viewer/`](viewer/) — viewer のソース（React + Vite + react-force-graph）
+- [`docs/`](docs/) — GitHub Pages 配信用にビルドされた成果物
+
+含まれるエンティティ: 5 テーマ / 10 エッセイ / 3 伝統 / 約 130 dharma / 約 30 概念 / 6 計算フレームワーク / 約 30 引用文献。
+
 ## テーマ
 
 - **Attention over Self**: 実体としての「自己」ではなく、瞬間ごとに生起する注意・認知の流れとして心を捉える

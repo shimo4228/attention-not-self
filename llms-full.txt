@@ -118,3 +118,17 @@ Two categorical limits resist any computational mapping. First, **karmic / ethic
 ## How are Pāli, Sanskrit, and Chinese terms aligned in this repo?
 
 Each essay and the [TABLES.md](TABLES.md) comparison file present terms across three philological registers, defined as: Pāli for Theravāda, Sanskrit for Sarvāstivāda and Yogācāra, and Chinese (Sino-Japanese) for the East Asian receptions. For example, attention refers to *manasikāra* (Pāli) / *manaskāra* (Sanskrit) / 作意 (Chinese); consciousness refers to *viññāṇa* / *vijñāna* / 識; the seventeen mind-moments are explicitly labelled in Pāli plus 漢訳 (Chinese translations such as 五門転向, 眼識, 領受, 推度, 確定, 速行, 彼所縁). The xlsx source preserves formatting and color-coding for visual comparison; per-sheet CSV exports under [csv/](csv/) enable programmatic reuse in Excel, Numbers, pandas, or R.
+
+## How do entities in this project relate as a graph?
+
+A machine-readable knowledge graph (~238 nodes) is published at [`graph.jsonld`](graph.jsonld), encoded as schema.org + custom `ans:` vocabulary JSON-LD. It encodes:
+
+- **Node types**: 5 themes, 10 essays (5 themes × en+ja), 3 traditions (Theravāda / Sarvāstivāda / Yogācāra), 10 dharma categories (色法 / 心法 / 心所法 5 subtypes / 心不相応行 / 無為), ~130 dharmas, ~30 concepts (manaskāra, citta-vīthi, ālaya-vijñāna, sati, precision-weighting, etc.), 6 computational frameworks (GWT, GNW, PP, FEP, IIT, PDP, AST, neurophenomenology, computational phenomenology), ~30 prior research references.
+- **Edge types**: `classifiedIn` (Dharma → Category), `tradition` (Dharma → Tradition), `comparesWith` (cross-tradition / cross-category equivalents, including the 範疇移動 cases such as 命根 / jīvitindriya), `mapsTo` with `evidenceQuality` (Concept / Tradition → Framework), `exemplifies` (Dharma → Concept), `buildsOn` (Essay → Essay; Theme 4 → 3 → 2 → 1; Theme 5 orthogonal), `isPartOf` (Essay → Theme), `mentions` (Essay → Concept / Framework / Tradition / Category), `citation` (Essay → Reference).
+- **Bilingual labels**: every Theme / Concept / Framework / DharmaCategory carries `alternateName` with `@language: "en"` + `@language: "ja"` literals. Dharma nodes carry `sanskritName` / `paliName` / `chineseName` as separate fields aligned to the three philological registers above.
+- **Interactive viewer**: https://shimo4228.github.io/attention-not-self/ (React + react-force-graph; 2D / 3D toggle; click any node → side panel with description + outgoing/incoming edges + link to source essay).
+
+Three load-bearing design choices:
+1. **Cross-tradition dharma de-duplication**: Dharmas that exist with the same Sanskrit / Pāli identity across traditions (e.g., *manaskāra* / *manasikāra* / 作意) are encoded as a single node with multiple `tradition` edges, not as three separate nodes. Theravāda-unique or Yogācāra-unique factors (e.g., *pīti*, *manas*, *ālaya-vijñāna*) get their own nodes with a single `tradition` edge and a `uniqueTo` marker.
+2. **Silence-as-signal for unmapped traditions**: When a dharma exists in only some traditions, the *absence* of a `tradition` edge to the others is the encoding — there is no "not-in-X" edge type. This lets the graph stay sparse while preserving the cross-tradition asymmetry.
+3. **Volatile state excluded by schema**: The graph has no version numbers, no dharma counts, no essay-count fields. Anything that would churn at routine update time is structurally excluded from the schema, so the graph stays stable across content edits.

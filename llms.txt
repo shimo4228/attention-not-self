@@ -2,8 +2,17 @@
 
 > A personal inquiry into Buddhist Abhidharma and computational phenomenology — mapping ancient dharma classification systems (Theravāda, Sarvāstivāda, Yogācāra) onto modern computational models of attention, consciousness, and cognition. Project namesake: Jonardon Ganeri, *Attention, Not Self* (Oxford 2017).
 
+> AI agents should read `graph.jsonld` first for the project's concept-level relationships (themes, essays, traditions, dharmas, concepts, frameworks, references encoded as schema.org + custom `ans:` vocabulary triples). Then read `llms-full.txt` for prose Q&A and citations. The two are complementary: the graph gives structure, the prose gives explanation.
+
+## Recommended reading order
+
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~238 nodes, schema.org JSON-LD)
+2. [`llms-full.txt`](llms-full.txt) — full FAQ + glossary + 30 prior research references
+3. Individual essays under "Essays" sections below
+
 ## Core documentation
 
+- [`graph.jsonld`](graph.jsonld): JSON-LD knowledge graph (~238 nodes: 5 themes, 10 essays, 3 traditions, ~130 dharmas, ~30 concepts, 6 frameworks, ~30 references). Interactive viewer at https://shimo4228.github.io/attention-not-self/
 - [Full AI Reference](llms-full.txt): self-contained FAQ, glossary, and prior research references for AI agents
 - [README (English)](README.en.md): human-facing project overview
 - [README (Japanese, canonical)](README.md): 日本語版プロジェクト正本

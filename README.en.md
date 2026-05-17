@@ -67,6 +67,17 @@ Unpacks the Buddhist technical vocabulary (*sati*, *sampajañña*, *manasikāra*
 | [`csv/`](csv/) | **Use as data**: per-sheet CSV. Reusable in Excel / Numbers / pandas |
 | `三大アビダルマ法対照表.xlsx` | **Source data**: preserves formatting and color coding (open in Excel / Numbers) |
 
+## Knowledge Graph
+
+A structured knowledge graph of essays, dharmas, concepts, computational frameworks, and references.
+
+- **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — interactive exploration in browser (2D / 3D toggle, search, click-for-detail)
+- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (~238 nodes). For LLM / search-engine crawlers.
+- [`viewer/`](viewer/) — viewer source (React + Vite + react-force-graph)
+- [`docs/`](docs/) — built artifacts served by GitHub Pages
+
+Entities included: 5 themes / 10 essays / 3 traditions / ~130 dharmas / ~30 concepts / 6 computational frameworks / ~30 references.
+
 ## Themes
 
 - **Attention over Self**: treating mind not as a substantial "self" but as a flow of attention and cognition arising moment by moment
