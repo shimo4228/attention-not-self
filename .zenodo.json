@@ -1,0 +1,62 @@
+{
+  "title": "Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology",
+  "upload_type": "publication",
+  "publication_type": "workingpaper",
+  "description": "A personal essay collection and structured knowledge graph mapping the three major Buddhist Abhidharma traditions (Theravāda, Sarvāstivāda, Yogācāra) onto contemporary frameworks in computational phenomenology — predictive processing, active inference, Global Workspace Theory, Parallel Distributed Processing, and related approaches. Comprises ten essays (five themes × English + Japanese), a cross-tradition dharma comparison table (~130 dharmas across nine sheets), and a JSON-LD knowledge graph (~238 nodes, schema.org + custom vocabulary) with bilingual labels and Sanskrit / Pāli / Chinese philological alignment. An interactive 2D/3D viewer is provided at https://shimo4228.github.io/attention-not-self/.\n\nThe central correspondence developed across the essays is between manaskāra (attention as direction-fixing of mind toward an object — universal in all three Abhidharma traditions) and precision-weighting (the mechanism in active inference / predictive processing by which prediction-error signals are amplified or attenuated). Theme 4 extends this into a tradition-level mapping: citta-vīthi ↔ Global Workspace Theory, saṃprayoga ↔ Parallel Distributed Processing, ālaya-vijñāna ↔ predictive processing / active inference. Two categorical limits (karmic / ethical valence; the unconditioned / nirvāṇa) resist any computational analog and are documented as such.\n\nMethodology: Developed in collaboration with the Claude language model (Anthropic) for synthesis, cross-tradition dharma mapping, computational framework alignment, and graph encoding. The author retains responsibility for all claims. This is a working paper / essay collection, not a peer-reviewed journal article; primary source verification for individual dharma definitions is ongoing.\n\nPrimary audience: LLM-mediated channels (direct LLM ingestion and humans reaching the material via LLM search). The graph.jsonld is designed for structured citation by AI search engines and knowledge-graph crawlers.",
+  "creators": [
+    {
+      "name": "Shimomoto, Tatsuya",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "keywords": [
+    "Abhidharma",
+    "computational phenomenology",
+    "predictive processing",
+    "active inference",
+    "free energy principle",
+    "Theravāda",
+    "Sarvāstivāda",
+    "Yogācāra",
+    "dharma classification",
+    "citta-vīthi",
+    "ālaya-vijñāna",
+    "manaskāra",
+    "mindfulness",
+    "sati",
+    "knowledge graph",
+    "JSON-LD",
+    "schema.org",
+    "AI-assisted scholarship",
+    "Buddhist philosophy",
+    "philosophy of mind"
+  ],
+  "license": "CC-BY-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "communities": [],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/shimo4228/attention-not-self",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://shimo4228.github.io/attention-not-self/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    }
+  ],
+  "references": [
+    "Ganeri, J. (2017). Attention, Not Self. Oxford University Press.",
+    "Karunadasa, Y. (2010). The Theravāda Abhidhamma. Wisdom Publications.",
+    "Dhammajoti, KL. (2009). Sarvāstivāda Abhidharma. Centre of Buddhist Studies, HK.",
+    "Lusthaus, D. (2002). Buddhist Phenomenology. RoutledgeCurzon.",
+    "Waldron, W. (2003). The Buddhist Unconscious: The Ālaya-vijñāna. RoutledgeCurzon.",
+    "Ramstead, M. et al. (2022). From Generative Models to Generative Passages. Review of Philosophy and Psychology.",
+    "Sandved-Smith, L. et al. (2024). Five-level framework for computational neurophenomenology.",
+    "Friston, K. (2010). The free-energy principle: a unified brain theory? Nature Reviews Neuroscience.",
+    "Clark, A. (2016). Surfing Uncertainty. Oxford University Press.",
+    "Varela, F. (1996). Neurophenomenology: A Methodological Remedy for the Hard Problem. Journal of Consciousness Studies."
+  ]
+}

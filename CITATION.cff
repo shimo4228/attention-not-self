@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+title: "Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology"
+message: "If you use this work, please cite it as below."
+type: dataset
+authors:
+  - family-names: Shimomoto
+    given-names: Tatsuya
+    alias: shimo4228
+date-released: "2026-05-18"
+version: "0.1.0"
+doi: "10.5281/zenodo.TBD"
+url: "https://github.com/shimo4228/attention-not-self"
+repository-code: "https://github.com/shimo4228/attention-not-self"
+license: CC-BY-4.0
+abstract: >-
+  A personal essay collection and structured knowledge graph mapping the three
+  major Buddhist Abhidharma traditions (Theravāda, Sarvāstivāda, Yogācāra) onto
+  contemporary frameworks in computational phenomenology — predictive processing,
+  active inference, Global Workspace Theory, Parallel Distributed Processing, and
+  related approaches. Comprises ten essays (five themes × English + Japanese), a
+  cross-tradition dharma comparison table (~130 dharmas across nine sheets), and
+  a JSON-LD knowledge graph (~238 nodes, schema.org + custom vocabulary) with
+  bilingual labels and Sanskrit / Pāli / Chinese philological alignment. An
+  interactive 2D/3D viewer is provided. Developed in collaboration with the
+  Claude language model (Anthropic) for synthesis, cross-tradition mapping, and
+  graph encoding; the author retains responsibility for all claims.
+keywords:
+  - Abhidharma
+  - computational phenomenology
+  - predictive processing
+  - active inference
+  - free energy principle
+  - Theravāda
+  - Sarvāstivāda
+  - Yogācāra
+  - dharma classification
+  - citta-vīthi
+  - ālaya-vijñāna
+  - manaskāra
+  - mindfulness
+  - sati
+  - knowledge graph
+  - JSON-LD
+  - schema.org
+  - AI-assisted scholarship
+  - Buddhist philosophy
+  - philosophy of mind

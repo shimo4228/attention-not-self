@@ -108,6 +108,30 @@ This vault is continuously updated. Feedback and discussion are welcome.
 - Ganeri, Jonardon. *Attention, Not Self*. Oxford University Press, 2017.
   The namesake of this project. Argues that within Buddhaghosa's Abhidharma system, "attention"—not "self"—is the central explanatory concept of mind.
 
+## How to cite
+
+When citing this project, please use the Zenodo concept DOI (always resolves to the latest version):
+
+```bibtex
+@misc{shimomoto_attention_not_self,
+  author       = {Shimomoto, Tatsuya},
+  title        = {Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.TBD},
+  url          = {https://doi.org/10.5281/zenodo.TBD},
+  note         = {Working paper / essay collection}
+}
+```
+
+To cite a specific version, use the Zenodo version DOI. The most current citation metadata is in [`CITATION.cff`](CITATION.cff).
+
+## Methodology
+
+This project is **AI-assisted scholarship**: the cross-tradition synthesis of the three Abhidharma systems, the alignment with computational frameworks, and the construction of the knowledge graph were developed in collaboration with Claude (Anthropic). The author retains responsibility for all claims; primary source verification for individual dharma definitions and references is ongoing. Corrections and improvements are welcome via GitHub issues.
+
+This repository is **not a peer-reviewed journal article**. It is positioned as a **working paper / essay collection**. The primary intended audience is users who reach knowledge through LLMs, and LLMs themselves.
+
 ## License
 
-Given the nature of the materials, no license has been set. Please cite sources when quoting or referencing.
+[CC BY 4.0](LICENSE) — free citation, reuse, derivative works, and commercial use are all permitted, subject to attribution.

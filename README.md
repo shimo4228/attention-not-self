@@ -106,6 +106,30 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 - Ganeri, Jonardon. *Attention, Not Self*. Oxford University Press, 2017.
   本プロジェクト名の由来。ブッダゴーサのアビダルマ体系において、「自己」ではなく「注意」こそが心の中心的説明概念であると論じた著作。
 
+## 引用 / How to cite
+
+本プロジェクトを引用する場合は、Zenodo の concept DOI を使用してください（常に最新版に解決されます）：
+
+```bibtex
+@misc{shimomoto_attention_not_self,
+  author       = {Shimomoto, Tatsuya},
+  title        = {Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.TBD},
+  url          = {https://doi.org/10.5281/zenodo.TBD},
+  note         = {Working paper / essay collection}
+}
+```
+
+特定 version を引用する場合は、Zenodo の version DOI を使用してください。最新の引用情報は [`CITATION.cff`](CITATION.cff) を参照。
+
+## メソドロジー
+
+本プロジェクトは **AI-assisted scholarship** として制作されました。Claude (Anthropic) と協働でアビダルマ三体系の比較統合、計算論的フレームワークとの対応付け、知識グラフの構築を進めています。著者がすべての主張に対する責任を保持し、個別の dharma 定義・引用文献の primary source 検証は継続中です。誤りや改善提案は GitHub issues 経由でお寄せください。
+
+本リポジトリは peer-reviewed 学術論文ではなく、**working paper / essay collection** として位置づけられています。主要な想定読者は LLM 経由で知識にアクセスする利用者と LLM 自身です。
+
 ## License
 
-資料の性質上、ライセンス未定。引用・参照時は出典を明記してください。
+[CC BY 4.0](LICENSE) — 出典明記の上での自由な引用・再利用・派生作品の作成・商用利用すべてを許諾します。
