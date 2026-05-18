@@ -45,6 +45,48 @@
       "identifier": "https://shimo4228.github.io/attention-not-self/",
       "relation": "isDocumentedBy",
       "resource_type": "other"
+    },
+    {
+      "identifier": "10.5281/zenodo.19200726",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.19212118",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.19652013",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.20263316",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/shimo4228/shimo4228",
+      "relation": "isPartOf",
+      "resource_type": "other",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/Shimo4228/attention-not-self",
+      "relation": "isVariantFormOf",
+      "resource_type": "dataset",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://raw.githubusercontent.com/shimo4228/shimo4228/main/graph.jsonld",
+      "relation": "isDocumentedBy",
+      "resource_type": "dataset",
+      "scheme": "url"
     }
   ],
   "references": [
