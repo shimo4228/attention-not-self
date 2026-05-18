@@ -5,6 +5,8 @@ type: dataset
 authors:
   - family-names: Shimomoto
     given-names: Tatsuya
+    orcid: "https://orcid.org/0009-0002-6168-4162"
+    affiliation: "Independent researcher"
     alias: shimo4228
 date-released: "2026-05-18"
 version: "0.2.0"
