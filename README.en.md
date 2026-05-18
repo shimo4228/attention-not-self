@@ -131,8 +131,8 @@ When citing this project, please use the Zenodo concept DOI (always resolves to 
   year         = {2026},
   publisher    = {Zenodo},
   version      = {0.2.0},
-  doi          = {10.5281/zenodo.20262113},
-  url          = {https://doi.org/10.5281/zenodo.20262113},
+  doi          = {10.5281/zenodo.20263604},
+  url          = {https://doi.org/10.5281/zenodo.20263604},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}
 }
 ```
