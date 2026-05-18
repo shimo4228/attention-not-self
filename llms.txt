@@ -8,13 +8,13 @@
 
 ## Recommended reading order
 
-1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~238 nodes, schema.org JSON-LD)
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~267 nodes, schema.org JSON-LD)
 2. [`llms-full.txt`](llms-full.txt) — full FAQ + glossary + 30 prior research references
 3. Individual essays under "Essays" sections below
 
 ## Core documentation
 
-- [`graph.jsonld`](graph.jsonld): JSON-LD knowledge graph (~238 nodes: 5 themes, 10 essays, 3 traditions, ~130 dharmas, ~30 concepts, 6 frameworks, ~30 references). Interactive viewer at https://shimo4228.github.io/attention-not-self/
+- [`graph.jsonld`](graph.jsonld): JSON-LD knowledge graph (~267 nodes: 6 themes, 12 essays, 5 traditions, ~130 dharmas, ~40 concepts, 9 frameworks, ~45 references). Interactive viewer at https://shimo4228.github.io/attention-not-self/
 - [Full AI Reference](llms-full.txt): self-contained FAQ, glossary, and prior research references for AI agents
 - [README (English)](README.en.md): human-facing project overview
 - [README (Japanese, canonical)](README.md): 日本語版プロジェクト正本
@@ -53,6 +53,13 @@ Unpacks the Buddhist technical vocabulary collapsed into the single word "awaren
 
 - [Awareness - A Genealogy and Typology](Awareness%20-%20A%20Genealogy%20and%20Typology.md): English canonical version.
 - [気づきとAwareness - 系譜と類型論（日本語）](気づきとAwareness%20-%20系譜と類型論（日本語）.md): Japanese mirror.
+
+## Essays — Theme 6: The 念 Collision — one Chinese character, four Buddhisms
+
+Shows how the single character 念 (*nen* / *niàn*) carries four incompatible Buddhist senses — Theravāda *sati* / *smṛti* (non-floating retention, *apilāpana*), Chan/Zen *無念* (non-fixation in thought; Huineng's 於念而不念 "not to think even when involved in thought"), Pure Land *念仏* (recollection / vocal recitation of the Buddha — *buddhānusmṛti* in Shandao → Hōnen → Shinran), and modern Kabat-Zinn "bare attention" mindfulness. Reconstructs the collision through Huineng's *Platform Sutra* §17, Robert Sharf's "Mindfulness and Mindlessness in Early Chan" (*Philosophy East and West* 64:4, 2014), Dōgen's *非思量* (*Fukanzazengi*), and the 20th-century genealogy Nyanaponika 1962 → MBSR 1979 → Kabat-Zinn 1994. Argues Dōgen's *非思量* (*hishiryō*) — structural negation of the thinking / not-thinking binary — is the most defensible resolution, lining up with Gethin / Dreyfus / Anālayo on Pāli *sati* and against the bare-attention reformulation. Companion to Theme 5 on the English "awareness" side; this theme covers the Chinese-character side.
+
+- [The 念 Collision - How One Chinese Character Holds Four Buddhisms Apart](The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md): English canonical version.
+- [念の衝突 - 一つの漢字がいかにして四つの仏教を隔てるか（日本語）](%E5%BF%B5%E3%81%AE%E8%A1%9D%E7%AA%81%20-%20%E4%B8%80%E3%81%A4%E3%81%AE%E6%BC%A2%E5%AD%97%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%9B%9B%E3%81%A4%E3%81%AE%E4%BB%8F%E6%95%99%E3%82%92%E9%9A%94%E3%81%A6%E3%82%8B%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md): Japanese mirror.
 
 ## Comparison tables (data)
 

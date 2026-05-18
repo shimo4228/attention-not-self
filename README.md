@@ -10,7 +10,7 @@ Language: 日本語 | [English](README.en.md)
 
 AI エージェント・LLM クローラは以下の順で読むことを推奨します。
 
-1. [`graph.jsonld`](graph.jsonld) — 構造化された知識グラフ（約 238 ノード、schema.org + 独自 `ans:` 語彙）。テーマ・エッセイ・伝統・dharma・概念・計算フレームワーク・引用文献の関係を triples として encode
+1. [`graph.jsonld`](graph.jsonld) — 構造化された知識グラフ（約 267 ノード、schema.org + 独自 `ans:` 語彙）。テーマ・エッセイ・伝統・dharma・概念・計算フレームワーク・引用文献の関係を triples として encode
 2. [`llms.txt`](llms.txt) — AI-facing navigator（テーマ別エッセイ一覧、core docs への入口）
 3. [`llms-full.txt`](llms-full.txt) — 自己完結 FAQ + 用語集 + 30 件の引用文献（Pāli / Sanskrit / 漢字の三言語整合あり）
 4. 個別のエッセイ（下記 "収録資料" セクション参照）
@@ -28,7 +28,7 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 
 ### 論考（Markdown）
 
-論考はテーマ別に 5 種類。各テーマで日本語版と英語版を用意している。
+論考はテーマ別に 6 種類。各テーマで日本語版と英語版を用意している。
 
 #### 1. アビダルマと計算論的現象学（導入）
 
@@ -75,6 +75,15 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 | 日本語 | [`気づきとAwareness - 系譜と類型論（日本語）.md`](気づきとAwareness%20-%20系譜と類型論（日本語）.md) |
 | English | [`Awareness - A Genealogy and Typology.md`](Awareness%20-%20A%20Genealogy%20and%20Typology.md) |
 
+#### 6. 「念」の衝突──一つの漢字が四つの仏教を隔てる
+
+漢字「念」(*nen* / *niàn*) が、上座部の *sati* / *smṛti*（非浮動的保持）、禅の無念（思考の中での非執着 — 慧能の「念に於いて念ぜず」）、浄土の念仏（仏の憶念・称名 — 善導 → 法然 → 親鸞）、現代カバットジン系 mindfulness（「裸の注意」）という互換不能な四つの意味を担っていることを、慧能『壇経』§17、Sharf (2014) の早期禅論、道元の非思量（『普勧坐禅儀』）、Nyanaponika 1962 → MBSR 1979 → Kabat-Zinn 1994 の系譜で論じる。道元の非思量（思量／不思量の二項対立そのものを構造的に否定）を最も擁護可能な解決として提案する。Theme 5（英語 awareness 側の系譜）の漢字側の counterpart。
+
+| 言語 | ファイル |
+|------|---------|
+| 日本語 | [`念の衝突 - 一つの漢字がいかにして四つの仏教を隔てるか（日本語）.md`](%E5%BF%B5%E3%81%AE%E8%A1%9D%E7%AA%81%20-%20%E4%B8%80%E3%81%A4%E3%81%AE%E6%BC%A2%E5%AD%97%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%9B%9B%E3%81%A4%E3%81%AE%E4%BB%8F%E6%95%99%E3%82%92%E9%9A%94%E3%81%A6%E3%82%8B%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
+| English | [`The 念 Collision - How One Chinese Character Holds Four Buddhisms Apart.md`](The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md) |
+
 ### 対照表データ（複数形式）
 
 | ファイル | 用途 |
@@ -88,11 +97,11 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 論考・dharma・概念・計算フレームワーク・参考文献を構造化したナレッジグラフ。
 
 - **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — ブラウザでインタラクティブに探索（2D/3D 切替、検索、ノードクリックで詳細）
-- [`graph.jsonld`](graph.jsonld) — schema.org + 独自 `ans:` 語彙の JSON-LD（約 238 ノード）。LLM / 検索クローラ向け
+- [`graph.jsonld`](graph.jsonld) — schema.org + 独自 `ans:` 語彙の JSON-LD（約 267 ノード）。LLM / 検索クローラ向け
 - [`viewer/`](viewer/) — viewer のソース（React + Vite + react-force-graph）
 - [`docs/`](docs/) — GitHub Pages 配信用にビルドされた成果物
 
-含まれるエンティティ: 5 テーマ / 10 エッセイ / 3 伝統 / 約 130 dharma / 約 30 概念 / 6 計算フレームワーク / 約 30 引用文献。
+含まれるエンティティ: 6 テーマ / 12 エッセイ / 5 伝統 / 約 130 dharma / 約 40 概念 / 9 計算フレームワーク / 約 45 引用文献。
 
 ## テーマ
 
@@ -119,7 +128,7 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
   title        = {Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology},
   year         = {2026},
   publisher    = {Zenodo},
-  version      = {0.1.0},
+  version      = {0.2.0},
   doi          = {10.5281/zenodo.20262113},
   url          = {https://doi.org/10.5281/zenodo.20262113},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}

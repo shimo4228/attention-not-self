@@ -12,7 +12,7 @@ Language: [日本語](README.md) | English
 
 AI agents / LLM crawlers should read this repository in the following order:
 
-1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~238 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~267 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
 2. [`llms.txt`](llms.txt) — AI-facing navigator (essay catalog by theme; entry points to core docs)
 3. [`llms-full.txt`](llms-full.txt) — self-contained FAQ + glossary + 30 prior research references (with Pāli / Sanskrit / Chinese philological alignment)
 4. Individual essays (see "Contents" sections below)
@@ -30,7 +30,7 @@ From the perspective of "attention, not self," this project juxtaposes ancient f
 
 ### Essays (Markdown)
 
-Essays are organized into five themes. Each theme is available in both Japanese and English.
+Essays are organized into six themes. Each theme is available in both Japanese and English.
 
 #### 1. Introduction: Abhidharma Meets Computational Phenomenology
 
@@ -77,6 +77,15 @@ Unpacks the Buddhist technical vocabulary (*sati*, *sampajañña*, *manasikāra*
 | English | [`Awareness - A Genealogy and Typology.md`](Awareness%20-%20A%20Genealogy%20and%20Typology.md) |
 | 日本語 | [`気づきとAwareness - 系譜と類型論（日本語）.md`](気づきとAwareness%20-%20系譜と類型論（日本語）.md) |
 
+#### 6. The 念 Collision: How One Chinese Character Holds Four Buddhisms Apart
+
+Shows how the single character 念 (*nen* / *niàn*) carries four incompatible Buddhist senses — Theravāda *sati* / *smṛti* (non-floating retention, *apilāpana*), Chan/Zen *無念* (non-fixation in thought; Huineng's 於念而不念 "not to think even when involved in thought"), Pure Land *念仏* (recollection / vocal recitation of the Buddha — Shandao → Hōnen → Shinran), and modern Kabat-Zinn "bare attention" mindfulness. Reconstructs the collision through Huineng's *Platform Sutra* §17, Robert Sharf's "Mindfulness and Mindlessness in Early Chan" (2014), Dōgen's *非思量* (*Fukanzazengi*), and the 20th-century Nyanaponika → MBSR genealogy. Argues Dōgen's *非思量* (*hishiryō*) — structural negation of the thinking / not-thinking binary, distinct from its ordinary negation *不思量* — is the most defensible resolution. Companion to Theme 5 on the English "awareness" side; this theme covers the Chinese-character side.
+
+| Language | File |
+|----------|------|
+| English | [`The 念 Collision - How One Chinese Character Holds Four Buddhisms Apart.md`](The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md) |
+| 日本語 | [`念の衝突 - 一つの漢字がいかにして四つの仏教を隔てるか（日本語）.md`](%E5%BF%B5%E3%81%AE%E8%A1%9D%E7%AA%81%20-%20%E4%B8%80%E3%81%A4%E3%81%AE%E6%BC%A2%E5%AD%97%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%9B%9B%E3%81%A4%E3%81%AE%E4%BB%8F%E6%95%99%E3%82%92%E9%9A%94%E3%81%A6%E3%82%8B%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
+
 ### Comparison Table (multiple formats)
 
 | File | Purpose |
@@ -90,11 +99,11 @@ Unpacks the Buddhist technical vocabulary (*sati*, *sampajañña*, *manasikāra*
 A structured knowledge graph of essays, dharmas, concepts, computational frameworks, and references.
 
 - **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — interactive exploration in browser (2D / 3D toggle, search, click-for-detail)
-- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (~238 nodes). For LLM / search-engine crawlers.
+- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (~267 nodes). For LLM / search-engine crawlers.
 - [`viewer/`](viewer/) — viewer source (React + Vite + react-force-graph)
 - [`docs/`](docs/) — built artifacts served by GitHub Pages
 
-Entities included: 5 themes / 10 essays / 3 traditions / ~130 dharmas / ~30 concepts / 6 computational frameworks / ~30 references.
+Entities included: 6 themes / 12 essays / 5 traditions / ~130 dharmas / ~40 concepts / 9 computational frameworks / ~45 references.
 
 ## Themes
 
@@ -121,7 +130,7 @@ When citing this project, please use the Zenodo concept DOI (always resolves to 
   title        = {Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology},
   year         = {2026},
   publisher    = {Zenodo},
-  version      = {0.1.0},
+  version      = {0.2.0},
   doi          = {10.5281/zenodo.20262113},
   url          = {https://doi.org/10.5281/zenodo.20262113},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}

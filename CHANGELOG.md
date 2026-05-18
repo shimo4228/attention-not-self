@@ -7,6 +7,21 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/); versioni
 
 (none)
 
+## v0.2.0 — Theme 6 added: The 念 Collision (2026-05-18)
+
+Adds a sixth essay theme exploring how the single Chinese character 念 holds four incompatible Buddhist meanings, complementing Theme 5's genealogy of "awareness."
+
+### Added
+
+- **Theme 6: *The 念 Collision — How One Chinese Character Holds Four Buddhisms Apart*** (English canonical + Japanese mirror). Treats 念 as carrying four incompatible senses: Theravāda *sati* / *smṛti* (non-floating retention; *apilāpana*), Chan/Zen *無念* (Huineng's non-fixation in thought, *Platform Sutra* §17), Pure Land *念仏* (recollection / vocal recitation of Amitābha — Shandao → Hōnen → Shinran), and modern Kabat-Zinn "bare attention" mindfulness. Reconstructs the collision through Huineng's *Platform Sutra* §17, Robert Sharf's "Mindfulness and Mindlessness in Early Chan" (*Philosophy East and West* 64:4, 2014), Dōgen's *非思量* (*Fukanzazengi*), and the 20th-century Nyanaponika 1962 → MBSR 1979 → Kabat-Zinn 1994 genealogy. Argues Dōgen's *非思量* (*hishiryō*) — structural negation of the thinking / not-thinking binary, distinct from its ordinary negation *不思量* — is the most defensible resolution.
+- **`graph.jsonld` expansion** — Theme 6 node (`ans:theme/6-nen-collision`) + 2 essay nodes (en / ja) + 9 new concept nodes (`nen-character`, `wunian-munen`, `hishiryo`, `nenbutsu`, `apilapana`, `satipatthana`, `anussati`, `zen-deconstructive-critique`, `kizuki-rendering`) + 2 new tradition nodes (`zen`, `pure-land`) + 15 new reference nodes (Yampolsky 1967, Sharf 2014 / 2015, Gethin 2011, Dreyfus 2011, Anālayo 2003, Kim 2007, Waddell & Abe 1973, Kabat-Zinn 1994, Nyanaponika 1962, Braun 2013, Faure 1991, McRae 2003, Suzuki D.T. 1959, Levman 2017). Total node count 238 → 267.
+- **Cross-theme edge** — `theme/6-nen-collision` `comparesWith` `theme/5-awareness-genealogy` (English-awareness genealogy vs Chinese-character collision). Existing `concept/sati-mindfulness` now carries `comparesWith` to `concept/nen-character` and `concept/apilapana`.
+
+### Changed
+
+- `llms.txt`, `llms-full.txt`, `README.md`, `README.en.md` — counts updated (5 → 6 themes, 10 → 12 essays, 3 → 5 traditions, ~30 → ~40 concepts, ~30 → ~45 references, ~238 → ~267 nodes). Theme 6 navigator block + Q&A entry added.
+- `viewer/` rebuilt; `docs/` regenerated with new node count.
+
 ## v0.1.0 — Initial DOI release (2026-05-18)
 
 First Zenodo deposit. Establishes the canonical concept DOI for the essay collection and its companion knowledge graph.

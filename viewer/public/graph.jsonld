@@ -47,7 +47,8 @@
         "ans:theme/2-dharma-comparison",
         "ans:theme/3-cognitive-process",
         "ans:theme/4-mapping-to-cp",
-        "ans:theme/5-awareness-genealogy"
+        "ans:theme/5-awareness-genealogy",
+        "ans:theme/6-nen-collision"
       ]
     },
 
@@ -101,6 +102,17 @@
         {"@value": "「気づき / awareness」の系譜と類型論", "@language": "ja"}
       ],
       "description": "Unpacks the Buddhist technical vocabulary collapsed into 'awareness' / 気づき — sati, sampajañña, manasikāra, rigpa, appamāda. Traces the Western genealogy (Rhys Davids 1881 → Nyanaponika → Esalen → MBSR → Sam Harris) and typologizes ten resulting confusions."
+    },
+    {
+      "@id": "ans:theme/6-nen-collision",
+      "@type": ["ans:Theme", "schema:CreativeWorkSeries"],
+      "name": "The 念 Collision — one character, four Buddhisms",
+      "alternateName": [
+        {"@value": "The 念 Collision — one Chinese character, four Buddhisms", "@language": "en"},
+        {"@value": "念の衝突──一つの漢字が四つの仏教を隔てる", "@language": "ja"}
+      ],
+      "description": "The single character 念 (nen / niàn) carries four incompatible Buddhist senses — Theravāda sati/smṛti (non-floating retention), Chan/Zen 無念 (non-fixation in thought; Huineng's 於念而不念), Pure Land 念仏 (recollection/recitation of the Buddha), and modern Kabat-Zinn 'bare attention' mindfulness. Reconstructs the collision through Huineng's Platform Sutra §17, Sharf 2014 on early Chan, Dōgen's 非思量 (Fukanzazengi), and the 20th-century Nyanaponika → MBSR genealogy. Argues Dōgen's 非思量 is the most defensible structural resolution. Companion to Theme 5 on the English 'awareness' side; this theme covers the Chinese-character side.",
+      "comparesWith": ["ans:theme/5-awareness-genealogy"]
     },
 
     {
@@ -313,6 +325,60 @@
       "inLanguage": "ja",
       "isPartOf": "ans:theme/5-awareness-genealogy"
     },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "The 念 Collision - How One Chinese Character Holds Four Buddhisms Apart",
+      "alternateName": [
+        {"@value": "The 念 Collision — How One Chinese Character Holds Four Buddhisms Apart", "@language": "en"}
+      ],
+      "inLanguage": "en",
+      "isPartOf": "ans:theme/6-nen-collision",
+      "mentions": [
+        "ans:concept/nen-character",
+        "ans:concept/wunian-munen",
+        "ans:concept/hishiryo",
+        "ans:concept/nenbutsu",
+        "ans:concept/apilapana",
+        "ans:concept/satipatthana",
+        "ans:concept/anussati",
+        "ans:concept/zen-deconstructive-critique",
+        "ans:concept/kizuki-rendering",
+        "ans:concept/sati-mindfulness",
+        "ans:concept/bare-attention",
+        "ans:tradition/zen",
+        "ans:tradition/pure-land"
+      ],
+      "citation": [
+        "ans:ref/yampolsky-1967",
+        "ans:ref/sharf-2014",
+        "ans:ref/sharf-2015",
+        "ans:ref/gethin-2011",
+        "ans:ref/dreyfus-2011",
+        "ans:ref/analayo-2003",
+        "ans:ref/kim-2007",
+        "ans:ref/waddell-abe-1973",
+        "ans:ref/kabat-zinn-1994",
+        "ans:ref/nyanaponika-1962",
+        "ans:ref/braun-2013",
+        "ans:ref/faure-1991",
+        "ans:ref/mcrae-2003",
+        "ans:ref/suzuki-dt-1959",
+        "ans:ref/levman-2017",
+        "ans:ref/ganeri-2017"
+      ]
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/%E5%BF%B5%E3%81%AE%E8%A1%9D%E7%AA%81%20-%20%E4%B8%80%E3%81%A4%E3%81%AE%E6%BC%A2%E5%AD%97%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%9B%9B%E3%81%A4%E3%81%AE%E4%BB%8F%E6%95%99%E3%82%92%E9%9A%94%E3%81%A6%E3%82%8B%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "念の衝突 - 一つの漢字がいかにして四つの仏教を隔てるか（日本語）",
+      "alternateName": [
+        {"@value": "The 念 Collision — How One Chinese Character Holds Four Buddhisms Apart (Japanese)", "@language": "en"},
+        {"@value": "念の衝突──一つの漢字がいかにして四つの仏教を隔てるか（日本語）", "@language": "ja"}
+      ],
+      "inLanguage": "ja",
+      "isPartOf": "ans:theme/6-nen-collision"
+    },
 
     {
       "@id": "ans:tradition/theravada",
@@ -343,6 +409,26 @@
         {"@value": "瑜伽行唯識学派（100法）", "@language": "ja"}
       ],
       "description": "Mahāyāna Abhidharma tradition. 100 dharmas. Distinguishing features: eight consciousnesses (ālaya-vijñāna + manas + 6 sense-consciousnesses), four-bhāga structure, vijñaptimātratā (consciousness-only)."
+    },
+    {
+      "@id": "ans:tradition/zen",
+      "@type": ["ans:Tradition", "schema:DefinedTerm"],
+      "name": "Chan / Zen",
+      "alternateName": [
+        {"@value": "Chan (Chinese) / Sŏn (Korean) / Zen (Japanese) — Mahāyāna meditation school", "@language": "en"},
+        {"@value": "禅宗（中国禅・朝鮮禅・日本禅 — 臨済・曹洞）", "@language": "ja"}
+      ],
+      "description": "East Asian Mahāyāna lineage emphasizing direct insight, seated meditation, and the deconstruction of conceptual fixation. Key figures: Huineng (慧能, 638–713), Dahui Zonggao (大慧宗杲, 1089–1163), Dōgen (道元, 1200–1253). Doctrinal core: 無念 (non-fixation in thought), 無相, 無住. By the 8th century, early Chan develops a quasi-deconstructive critique of 'mindfulness' (念) itself."
+    },
+    {
+      "@id": "ans:tradition/pure-land",
+      "@type": ["ans:Tradition", "schema:DefinedTerm"],
+      "name": "Pure Land",
+      "alternateName": [
+        {"@value": "Pure Land (Jōdo / Jōdo Shinshū) — Mahāyāna devotional tradition centered on Amitābha", "@language": "en"},
+        {"@value": "浄土宗・浄土真宗（阿弥陀仏信仰）", "@language": "ja"}
+      ],
+      "description": "East Asian Mahāyāna devotional lineage centered on rebirth in Amitābha's Pure Land. Doctrinal core: 念仏 (nenbutsu / niànfó), originally buddhānusmṛti (recollection of the Buddha), later systematized as vocal recitation (shōmyō nenbutsu) by Shandao (善導, 613–681), Hōnen (法然, 1133–1212), and radicalized as tariki / Other-Power by Shinran (親鸞, 1173–1263). Preserves the memory pole of smṛti that Zen's 無念 polemic largely set aside."
     },
 
     {
@@ -2329,11 +2415,15 @@
       "@id": "ans:concept/sati-mindfulness",
       "@type": ["ans:Concept", "schema:DefinedTerm"],
       "name": "sati (mindfulness)",
+      "paliName": "sati",
+      "sanskritName": "smṛti",
+      "chineseName": "念",
       "alternateName": [
         {"@value": "sati — Pāli technical term collapsed into Western 'mindfulness' (Nyanaponika 1962 → MBSR 1979)", "@language": "en"},
         {"@value": "念（sati）—西欧で「マインドフルネス」として包括された技術的術語", "@language": "ja"}
       ],
-      "description": "Buddhist technical term for present-moment recollection. Genealogical study tracks Rhys Davids 1881 → Nyanaponika's 'bare attention' 1962 → Kabat-Zinn's MBSR 1979 → Sam Harris's Waking Up app."
+      "description": "Buddhist technical term for present-moment recollection. Genealogical study tracks Rhys Davids 1881 → Nyanaponika's 'bare attention' 1962 → Kabat-Zinn's MBSR 1979 → Sam Harris's Waking Up app.",
+      "comparesWith": ["ans:concept/nen-character", "ans:concept/apilapana"]
     },
     {
       "@id": "ans:concept/sampajanna",
@@ -2384,6 +2474,108 @@
         {"@value": "覚醒（jāgariya）—「awareness」に包括されてしまう技術的術語の一つ", "@language": "ja"}
       ],
       "description": "Part of the genealogy essay's ten-term typology that recovers distinctions the single word 'awareness' / 気づき has flattened."
+    },
+    {
+      "@id": "ans:concept/nen-character",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "念 (nen / niàn) — the four-sense character",
+      "chineseName": "念",
+      "alternateName": [
+        {"@value": "念 (nen / niàn) — single Chinese character carrying four incompatible Buddhist senses", "@language": "en"},
+        {"@value": "念（nen / niàn）—四つの互換不能な意味を担う単一の漢字", "@language": "ja"}
+      ],
+      "description": "Composed of 今 (now) + 心 (mind). Pre-Buddhist senses: 'to think of,' 'to recite,' 'to remember,' 'to dwell on.' Adopted by Kumārajīva (5th c.) and Xuanzang (7th c.) to render smṛti, but already overloaded. In later Buddhist usage carries at least four irreducibly distinct senses: (1) Theravāda sati / smṛti as non-floating retention, (2) Chan/Zen thought-moment to be transcended, (3) Pure Land buddhānusmṛti / recitation, (4) modern Kabat-Zinn 'bare attention.'"
+    },
+    {
+      "@id": "ans:concept/wunian-munen",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "無念 (wúniàn / munen) — non-fixation in thought",
+      "chineseName": "無念",
+      "alternateName": [
+        {"@value": "無念 (wúniàn / munen) — Huineng's 'not to think even when involved in thought'", "@language": "en"},
+        {"@value": "無念（wúniàn / munen）—慧能の「念に於いて念ぜず」", "@language": "ja"}
+      ],
+      "description": "Central Chan/Zen doctrine from the Platform Sutra §17, paired with 無相 (no-form) and 無住 (no-abiding). Defined positively as 於念而不念 ('not to think even when involved in thought') and 於一切境上不染 ('to be unstained in all environments'). NOT the cessation of mental activity — a mode of non-fixation within arising thought. Often misread by Theravāda-trained readers as 'no-mindfulness,' the apparent negation of sati."
+    },
+    {
+      "@id": "ans:concept/hishiryo",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "非思量 (hishiryō) — non-thinking",
+      "chineseName": "非思量",
+      "alternateName": [
+        {"@value": "非思量 (hishiryō) — Dōgen's structural negation of the thinking/not-thinking binary", "@language": "en"},
+        {"@value": "非思量（hishiryō）—思量/不思量の二項対立の構造的否定（道元）", "@language": "ja"}
+      ],
+      "description": "From the Yakusan dialogue cited in Dōgen's Fukanzazengi and Shōbōgenzō Zazenshin: 思量箇不思量底。不思量底、如何思量。非思量. Distinguishes 思量 (thinking), 不思量 (its ordinary negation), and 非思量 (structural negation: the predicate 'thinking/not-thinking' does not apply). Hee-Jin Kim glosses as 'thinking that is non-objectifying.' Structurally parallel to Huineng's 無念 (於念而不念). Argued in this theme as the most defensible resolution of the 念 collision."
+    },
+    {
+      "@id": "ans:concept/nenbutsu",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "念仏 (nenbutsu / niànfó) — recollection/recitation of the Buddha",
+      "sanskritName": "buddhānusmṛti",
+      "chineseName": "念佛",
+      "alternateName": [
+        {"@value": "念仏 (nenbutsu / niànfó) — Pure Land recollection / vocal recitation of Amitābha", "@language": "en"},
+        {"@value": "念仏（nenbutsu / niànfó）—阿弥陀仏の憶念・称名", "@language": "ja"}
+      ],
+      "description": "Originally one of the anussati practices: contemplative recollection of the Buddha's qualities. Systematized as vocal recitation (shōmyō nenbutsu) by Shandao, declared sole adequate practice by Hōnen (Senchakushū 1198), radicalized by Shinran as the working of Amida's vow uttering itself through us (tariki). Preserves the memory / calling-to-mind pole of smṛti that Kabat-Zinn-style 'mindfulness' loses."
+    },
+    {
+      "@id": "ans:concept/apilapana",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "apilāpana — non-floating",
+      "paliName": "apilāpana",
+      "alternateName": [
+        {"@value": "apilāpana — sati's defining characteristic in commentarial Theravāda: 'not floating away' / 'calling to mind'", "@language": "en"},
+        {"@value": "非浮動（apilāpana）—注釈的テーラワーダにおけるサティの定義的特相", "@language": "ja"}
+      ],
+      "description": "Defining characteristic (lakkhaṇa) of sati given in the Milindapañha, Visuddhimagga (XIV.141), and Aṭṭhasālinī. Gethin (2011), Dreyfus (2011), Anālayo (2003), and Bhikkhu Bodhi argue this retention pole is precisely what gets lost when sati is reformulated as 'bare attention' (Nyanaponika 1962) or 'non-judgmental present-moment awareness' (Kabat-Zinn 1994)."
+    },
+    {
+      "@id": "ans:concept/satipatthana",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "satipaṭṭhāna — the four establishings of mindfulness",
+      "paliName": "satipaṭṭhāna",
+      "sanskritName": "smṛtyupasthāna",
+      "chineseName": "念處",
+      "alternateName": [
+        {"@value": "satipaṭṭhāna — four-fold establishing of sati on body, feelings, mind, and dhammas", "@language": "en"},
+        {"@value": "念処（satipaṭṭhāna）—身・受・心・法の四念処", "@language": "ja"}
+      ],
+      "description": "The canonical framework within which sati is deployed (Satipaṭṭhāna Sutta, MN 10 / DN 22). Kumārajīva rendered as 念處 (niànchù). Ethically directional: sati conditioned by Right View, oriented to liberation — not affect-neutral 'bare attention.'"
+    },
+    {
+      "@id": "ans:concept/anussati",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "anussati — recollection",
+      "paliName": "anussati",
+      "sanskritName": "anusmṛti",
+      "alternateName": [
+        {"@value": "anussati / anusmṛti — recollection; subsumes buddhānusmṛti / 念仏 (nenbutsu)", "@language": "en"},
+        {"@value": "随念（anussati / anusmṛti）—仏随念（念仏）を含む回想の実践群", "@language": "ja"}
+      ],
+      "description": "Class of recollective practices including buddhānusmṛti (recollection of the Buddha), dhammānussati, saṅghānussati, etc. The memorial / temporal pole of smṛti, distinct from the present-attentive pole that modern 'mindfulness' has foregrounded. Preserved in 念仏 (nenbutsu) but lost in MBSR-style 'mindfulness.'"
+    },
+    {
+      "@id": "ans:concept/zen-deconstructive-critique",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "Early Chan deconstructive critique of 'mindfulness'",
+      "alternateName": [
+        {"@value": "8th-century Chan critique of 守心 (shouxin) / 觀心 (guanxin) / 念 (nian) — Sharf 2014", "@language": "en"},
+        {"@value": "8世紀禅の守心・観心・念に対する脱構築的批判（Sharf 2014）", "@language": "ja"}
+      ],
+      "description": "Documented in Sharf's 'Mindfulness and Mindlessness in Early Chan' (PEW 2014). Early Chan manuscripts (Wuxin lun, Jueguan lun, etc.) systematically oppose 守心 → 無心, 觀心 → 絕觀, 念 → 無念. Sharf reads as a quasi-deconstructive refusal to reify mindfulness into a substantialist object of cultivation — not anti-meditative quietism."
+    },
+    {
+      "@id": "ans:concept/kizuki-rendering",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "気づき (kizuki) — 20th-century rendering of 'mindfulness'",
+      "alternateName": [
+        {"@value": "気づき (kizuki) — Japanese translation of 'mindfulness' with no Buddhist textual pedigree", "@language": "en"},
+        {"@value": "気づき（kizuki）—仏教テキスト的血統を持たない「mindfulness」の日本語訳", "@language": "ja"}
+      ],
+      "description": "Adopted as the Japanese rendering of 'mindfulness' (e.g., Gunaratana's Mindfulness in Plain English → 『マインドフルネス：気づきの瞑想』). Severs the term from 念's Buddhist resonances and from Zen, recoding sati as a generic perceptual quality — exactly the move Kabat-Zinn made in English with 'awareness.' Everyday Japanese sense is 'noticing' or 'epiphany,' not a trained faculty.",
+      "comparesWith": ["ans:concept/nen-character", "ans:concept/bare-attention"]
     },
     {
       "@id": "ans:concept/precision-weighting",
@@ -2542,6 +2734,21 @@
     {"@id": "ans:ref/sandved-smith-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sandved-Smith et al. 2021", "alternateName": [{"@value": "Sandved-Smith, Hesp, Mattout, Friston, Lutz, Ramstead. Hierarchical model of meta-awareness, 2021.", "@language": "en"}], "description": "Deep parametric AIF; parallels 自証分 / 証自証分 distinction."},
     {"@id": "ans:ref/laukkonen-slagter-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen & Slagter 2021", "alternateName": [{"@value": "Laukkonen, R. & Slagter, H. 'From many to (n)one.' Neuroscience & Biobehavioral Reviews, 2021.", "@language": "en"}], "description": "FA / OM / ND meditation as precision-modulation stages."},
     {"@id": "ans:ref/laukkonen-2025", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen et al. 2025", "alternateName": [{"@value": "Laukkonen, R. et al. Contemplative Constitutional AI with four axioms, 2025.", "@language": "en"}], "description": "Mindfulness, emptiness, non-duality, boundless care as AI alignment principles."},
-    {"@id": "ans:ref/thompson-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Thompson 2014", "alternateName": [{"@value": "Thompson, E. Waking, Dreaming, Being. Columbia UP, 2014.", "@language": "en"}], "description": "Three-layer Yogācāra architecture mapped onto implicit memory + pre-reflective self + working memory."}
+    {"@id": "ans:ref/thompson-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Thompson 2014", "alternateName": [{"@value": "Thompson, E. Waking, Dreaming, Being. Columbia UP, 2014.", "@language": "en"}], "description": "Three-layer Yogācāra architecture mapped onto implicit memory + pre-reflective self + working memory."},
+    {"@id": "ans:ref/yampolsky-1967", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Yampolsky 1967", "alternateName": [{"@value": "Yampolsky, P. B., trans. The Platform Sutra of the Sixth Patriarch. Columbia University Press, 1967.", "@language": "en"}], "description": "Standard English translation of the Dunhuang recension of Liùzǔ Tánjīng 六祖壇經. Source for the 無念/無相/無住 triad and the 於念而不念 gloss central to the 念 collision argument."},
+    {"@id": "ans:ref/sharf-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sharf 2014", "alternateName": [{"@value": "Sharf, R. 'Mindfulness and Mindlessness in Early Chan.' Philosophy East and West 64:4 (October 2014): 933–964.", "@language": "en"}], "description": "Documents 8th-century Chan deconstructive critique of 守心/觀心/念, opposing them with 無心/絕觀/無念. Foundational source for reading 無念 as critique of reified mindfulness, not as anti-meditative quietism."},
+    {"@id": "ans:ref/sharf-2015", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sharf 2015", "alternateName": [{"@value": "Sharf, R. 'Is Mindfulness Buddhist? (and why it matters).' Transcultural Psychiatry 52:4 (August 2015): 470–484.", "@language": "en"}], "description": "Argues current 'mindfulness' is a 20th-century reform of sati, descending from Nyanaponika (1962) → Kabat-Zinn (MBSR 1979 / 1994), not the commentarial definition."},
+    {"@id": "ans:ref/gethin-2011", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Gethin 2011", "alternateName": [{"@value": "Gethin, R. 'On Some Definitions of Mindfulness.' Contemporary Buddhism 12:1 (2011).", "@language": "en"}], "description": "Locates sati's commentarial definition (Milindapañha, Visuddhimagga, Aṭṭhasālinī) in apilāpana — 'not floating away.' Distinguishes the retention pole from modern 'present-moment awareness.'"},
+    {"@id": "ans:ref/dreyfus-2011", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Dreyfus 2011", "alternateName": [{"@value": "Dreyfus, G. 'Is Mindfulness Present-Centered and Nonjudgmental? A Discussion of the Cognitive Dimensions of Mindfulness.' Contemporary Buddhism 12:1 (2011).", "@language": "en"}], "description": "Critique of the bare-attention reading. Argues mindfulness has cognitive implications — integrating aspects of experience to lead to clear comprehension — that the present-moment-only framing misses."},
+    {"@id": "ans:ref/analayo-2003", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Anālayo 2003", "alternateName": [{"@value": "Anālayo, Bhikkhu. Satipaṭṭhāna: The Direct Path to Realization. Windhorse, 2003.", "@language": "en"}], "description": "Reconstructive reading of the Satipaṭṭhāna Sutta. Argues sati is both retentive and present-attentive — 'that which facilitates and enables memory.' Pushes back gently on memory-only readings."},
+    {"@id": "ans:ref/kim-2007", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Kim 2007", "alternateName": [{"@value": "Kim, Hee-Jin. Dōgen on Meditation and Thinking: A Reflection on His View of Zen. SUNY Press, 2007.", "@language": "en"}], "description": "Reads Dōgen's 非思量 (hishiryō) as 'thinking that is non-objectifying.' Distinguishes ordinary negation (不思量) from structural negation (非思量). Source for reading 非思量 as resolution of the cultivate-念 / eliminate-念 binary."},
+    {"@id": "ans:ref/waddell-abe-1973", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Waddell & Abe 1973", "alternateName": [{"@value": "Waddell, N. & Abe, M. 'Dōgen's Fukanzazengi and Shōbōgenzō Zazengi.' The Eastern Buddhist 6:2 (1973): 115–128.", "@language": "en"}], "description": "Standard English translation of Dōgen's Fukanzazengi. Source for the Yakusan dialogue (思量箇不思量底。不思量底、如何思量。非思量) at the center of Sōtō zazen practice."},
+    {"@id": "ans:ref/kabat-zinn-1994", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Kabat-Zinn 1994", "alternateName": [{"@value": "Kabat-Zinn, J. Wherever You Go, There You Are: Mindfulness Meditation in Everyday Life. Hyperion, 1994.", "@language": "en"}], "description": "Canonical modern definition (p. 4): 'Mindfulness means paying attention in a particular way: on purpose, in the present moment, and non-judgmentally.' Founded MBSR program in 1979."},
+    {"@id": "ans:ref/nyanaponika-1962", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Nyanaponika 1962", "alternateName": [{"@value": "Nyanaponika Thera. The Heart of Buddhist Meditation. Rider & Co., London, 1962.", "@language": "en"}], "description": "Operationally defined sati as 'bare attention': 'the clear and single-minded awareness of what actually happens to us … without reacting to them by deed, speech or mental comment.' Pivotal reformulation that Kabat-Zinn later inherited."},
+    {"@id": "ans:ref/braun-2013", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Braun 2013", "alternateName": [{"@value": "Braun, E. The Birth of Insight: Meditation, Modern Buddhism, and the Burmese Monk Ledi Sayadaw. University of Chicago Press, 2013.", "@language": "en"}], "description": "Historicizes the Burmese vipassanā movement (Ledi → Mahāsi → Western MBSR upstream) as a modern reform of traditional Theravāda, not a continuation."},
+    {"@id": "ans:ref/faure-1991", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Faure 1991", "alternateName": [{"@value": "Faure, B. The Rhetoric of Immediacy: A Cultural Critique of Chan/Zen Buddhism. Princeton University Press, 1991.", "@language": "en"}], "description": "Critical-cultural reading of Chan/Zen rhetoric, including the 'sudden' / 'direct' tropes. Compatible with but not identical to Sharf's deconstructive reading of early Chan."},
+    {"@id": "ans:ref/mcrae-2003", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "McRae 2003", "alternateName": [{"@value": "McRae, J. Seeing Through Zen: Encounter, Transformation, and Genealogy in Chinese Chan Buddhism. University of California Press, 2003.", "@language": "en"}], "description": "Genealogical history of Chinese Chan. Also produced the BDK Numata translation of the Zongbao recension of the Platform Sutra (2000)."},
+    {"@id": "ans:ref/suzuki-dt-1959", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Suzuki D.T. 1959", "alternateName": [{"@value": "Suzuki, D. T. Zen and Japanese Culture. Princeton/Bollingen, 1959 (orig. Japan 1938).", "@language": "en"}], "description": "Conflates munen / muga / mushin / musō into a single cluster; treats Huineng's 無念 as the central insight of Zen. Major channel by which 'no-mind' Zen reached Anglophone audiences. Sharf 1995 critiques this framing as a Meiji-era Kyoto-School construction."},
+    {"@id": "ans:ref/levman-2017", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Levman 2017", "alternateName": [{"@value": "Levman, B. 'Putting smṛti back into sati.' Journal of the Oxford Centre for Buddhist Studies 13 (2017): 121–149.", "@language": "en"}], "description": "Philological argument that sati / smṛti retains its memory-pole sense more robustly than Anālayo's reconstruction allows. Pushes back on present-moment-awareness readings."}
   ]
 }
