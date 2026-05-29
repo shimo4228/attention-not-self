@@ -14,7 +14,7 @@ AI agents / LLM crawlers should read this repository in the following order:
 
 1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~267 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
 2. [`llms.txt`](llms.txt) — AI-facing navigator (essay catalog by theme; entry points to core docs)
-3. [`llms-full.txt`](llms-full.txt) — self-contained FAQ + glossary + 30 prior research references (with Pāli / Sanskrit / Chinese philological alignment)
+3. [`llms-full.txt`](llms-full.txt) — self-contained FAQ + glossary + ~45 prior research references (with Pāli / Sanskrit / Chinese philological alignment)
 4. Individual essays (see "Contents" sections below)
 
 Interactive viewer (human-facing 2D/3D visualization): https://shimo4228.github.io/attention-not-self/
@@ -25,6 +25,8 @@ Citation policy: use the `@id` from `graph.jsonld` as the canonical identifier f
 A personal inquiry into the intersection of Buddhist Abhidharma and Computational Phenomenology.
 
 From the perspective of "attention, not self," this project juxtaposes ancient frameworks for classifying and describing the workings of mind with contemporary computational models.
+
+The Abhidharma framework — which 2,500 years ago decomposed mind not as a substantial "self" but as a flowing stream of momentary dharmas — maps with surprising structural fidelity onto modern computational models of consciousness such as GWT, predictive coding, and IIT. Tracing that correspondence systematically is what this project is about.
 
 ## Contents
 
@@ -103,7 +105,7 @@ A structured knowledge graph of essays, dharmas, concepts, computational framewo
 - [`viewer/`](viewer/) — viewer source (React + Vite + react-force-graph)
 - [`docs/`](docs/) — built artifacts served by GitHub Pages
 
-Entities included: 6 themes / 12 essays / 5 traditions / ~130 dharmas / ~40 concepts / 9 computational frameworks / ~45 references.
+Entities included: 6 themes / 12 essays / 5 traditions / ~140 dharmas / ~40 concepts / 9 computational frameworks / ~45 references.
 
 ## Themes
 
@@ -113,7 +115,7 @@ Entities included: 6 themes / 12 essays / 5 traditions / ~130 dharmas / ~40 conc
 
 ## Ongoing Inquiry
 
-This vault is continuously updated. Feedback and discussion are welcome.
+This collection is continuously updated. Feedback and discussion are welcome.
 
 ## References
 

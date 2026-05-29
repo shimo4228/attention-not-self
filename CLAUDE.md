@@ -5,7 +5,7 @@
 ## Tech Stack
 
 - 資料中心（Markdown, PDF, xlsx）
-- 知識グラフ: `graph.jsonld`（schema.org + 独自 `ans:` 語彙、約 238 ノード）
+- 知識グラフ: `graph.jsonld`（schema.org + 独自 `ans:` 語彙、約 267 ノード）
 - Viewer: React + Vite + react-force-graph (2D/3D)、Node.js 20+
 - GitHub Pages で `docs/` を配信、live URL: https://shimo4228.github.io/attention-not-self/
 
@@ -13,7 +13,7 @@
 
 ```
 attention-not-self/
-├── *.md                       # 5 テーマ × 日英の論考 10 本 + README + TABLES
+├── *.md                       # 6 テーマ × 日英の論考 12 本 + README + TABLES
 ├── csv/                       # 三大アビダルマ法対照表の per-sheet 出力
 ├── 三大アビダルマ法対照表.xlsx  # 元データ
 ├── graph.jsonld               # JSON-LD 知識グラフ（LLM / クローラ向け）

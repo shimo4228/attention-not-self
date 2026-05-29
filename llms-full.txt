@@ -14,7 +14,7 @@ A personal research repository at the intersection of classical Buddhist Abhidha
 - **Computational frameworks mapped**: Global Workspace Theory (GWT / GNW), predictive processing (PP), Free Energy Principle / active inference (FEP / AIF), Integrated Information Theory (IIT), Parallel Distributed Processing (PDP / connectionism), Interface Theory of Perception (Hoffman), Phenomenal Self-Model (Metzinger), Posner attention networks, neurophenomenology (Varela), computational phenomenology (Ramstead / Sandved-Smith)
 - **License**: CC BY 4.0 (free reuse with attribution)
 - **DOI (concept, latest)**: [10.5281/zenodo.20262112](https://doi.org/10.5281/zenodo.20262112)
-- **DOI (version v0.1.0)**: [10.5281/zenodo.20262113](https://doi.org/10.5281/zenodo.20262113)
+- **DOI (version v0.2.0, latest)**: [10.5281/zenodo.20263604](https://doi.org/10.5281/zenodo.20263604)
 - **Resource type**: Working paper / essay collection (Zenodo `publication-workingpaper`). Not a peer-reviewed journal article.
 - **Methodology**: AI-assisted scholarship — developed in collaboration with the Claude language model (Anthropic) for cross-tradition synthesis and graph encoding. Author retains responsibility for claims; primary source verification ongoing.
 - **Project namesake**: Ganeri, J. *Attention, Not Self*. Oxford University Press, 2017
@@ -146,7 +146,7 @@ Because 念 carries at least four incompatible Buddhist senses, and the same gra
 
 A machine-readable knowledge graph (~267 nodes) is published at [`graph.jsonld`](graph.jsonld), encoded as schema.org + custom `ans:` vocabulary JSON-LD. It encodes:
 
-- **Node types**: 6 themes, 12 essays (6 themes × en+ja), 5 traditions (Theravāda / Sarvāstivāda / Yogācāra / Chan-Zen / Pure Land), 10 dharma categories (色法 / 心法 / 心所法 5 subtypes / 心不相応行 / 無為), ~130 dharmas, ~40 concepts (manaskāra, citta-vīthi, ālaya-vijñāna, sati, precision-weighting, 念, 無念, 非思量, 念仏, *apilāpana*, etc.), 9 computational frameworks (GWT, GNW, PP, FEP, IIT, PDP, AST, neurophenomenology, computational phenomenology), ~45 prior research references.
+- **Node types**: 6 themes, 12 essays (6 themes × en+ja), 5 traditions (Theravāda / Sarvāstivāda / Yogācāra / Chan-Zen / Pure Land), 10 dharma categories (色法 / 心法 / 心所法 5 subtypes / 心不相応行 / 無為), ~140 dharmas, ~40 concepts (manaskāra, citta-vīthi, ālaya-vijñāna, sati, precision-weighting, 念, 無念, 非思量, 念仏, *apilāpana*, etc.), 9 computational frameworks (GWT, GNW, PP, FEP, IIT, PDP, AST, neurophenomenology, computational phenomenology), ~45 prior research references.
 - **Edge types**: `classifiedIn` (Dharma → Category), `tradition` (Dharma → Tradition), `comparesWith` (cross-tradition / cross-category equivalents, including the 範疇移動 cases such as 命根 / jīvitindriya), `mapsTo` with `evidenceQuality` (Concept / Tradition → Framework), `exemplifies` (Dharma → Concept), `buildsOn` (Essay → Essay; Theme 4 → 3 → 2 → 1; Theme 5 orthogonal), `isPartOf` (Essay → Theme), `mentions` (Essay → Concept / Framework / Tradition / Category), `citation` (Essay → Reference).
 - **Bilingual labels**: every Theme / Concept / Framework / DharmaCategory carries `alternateName` with `@language: "en"` + `@language: "ja"` literals. Dharma nodes carry `sanskritName` / `paliName` / `chineseName` as separate fields aligned to the three philological registers above.
 - **Interactive viewer**: https://shimo4228.github.io/attention-not-self/ (React + react-force-graph; 2D / 3D toggle; click any node → side panel with description + outgoing/incoming edges + link to source essay).
