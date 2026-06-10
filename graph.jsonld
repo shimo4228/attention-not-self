@@ -40,7 +40,7 @@
       "@id": "https://doi.org/10.5281/zenodo.20262112",
       "sameAs": "https://www.wikidata.org/wiki/Q140090189",
       "@type": ["schema:Dataset", "schema:CreativeWork"],
-      "name": "Attention, Not Self — Knowledge Graph",
+      "name": "Attention, Not Self",
       "alternateName": [
         {"@value": "Attention, Not Self — Knowledge Graph", "@language": "en"},
         {"@value": "Attention, Not Self — 知識グラフ", "@language": "ja"}
