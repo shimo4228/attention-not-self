@@ -2,6 +2,10 @@
   "@context": {
     "schema": "https://schema.org/",
     "ans": "https://github.com/shimo4228/attention-not-self/vocab#",
+    "shimo": "https://shimo4228.github.io/shimo4228/vocab#",
+    "ResearchLine": "shimo:ResearchLine",
+    "siblingOf": {"@id": "shimo:siblingOf", "@type": "@id"},
+    "identifier": "schema:identifier",
     "name": "schema:name",
     "alternateName": "schema:alternateName",
     "description": "schema:description",
@@ -11,7 +15,9 @@
     "isBasedOn": {"@id": "schema:isBasedOn", "@type": "@id"},
     "mainEntity": {"@id": "schema:mainEntity", "@type": "@id"},
     "citation": {"@id": "schema:citation", "@type": "@id"},
-    "author": "schema:author",
+    "author": {"@id": "schema:author", "@type": "@id"},
+    "creator": {"@id": "schema:creator", "@type": "@id"},
+    "sameAs": {"@id": "schema:sameAs", "@type": "@id"},
     "datePublished": "schema:datePublished",
     "publisher": "schema:publisher",
     "sanskritName": "ans:sanskritName",
@@ -43,6 +49,14 @@
       "isBasedOn": "https://github.com/shimo4228/attention-not-self",
       "url": "https://shimo4228.github.io/attention-not-self/",
       "publisher": "Tatsuya Shimomoto",
+      "author": "https://orcid.org/0009-0002-6168-4162",
+      "creator": "https://orcid.org/0009-0002-6168-4162",
+      "siblingOf": [
+        "https://doi.org/10.5281/zenodo.19200726",
+        "https://doi.org/10.5281/zenodo.19212118",
+        "https://doi.org/10.5281/zenodo.19652013",
+        "https://doi.org/10.5281/zenodo.20263316"
+      ],
       "mainEntity": [
         "ans:theme/1-introduction",
         "ans:theme/2-dharma-comparison",
@@ -51,6 +65,74 @@
         "ans:theme/5-awareness-genealogy",
         "ans:theme/6-nen-collision"
       ]
+    },
+
+    {
+      "@id": "https://orcid.org/0009-0002-6168-4162",
+      "@type": "schema:Person",
+      "name": "Tatsuya Shimomoto",
+      "alternateName": ["shimo4228", {"@value": "下本竜也", "@language": "ja"}],
+      "sameAs": ["https://github.com/shimo4228", "https://orcid.org/0009-0002-6168-4162", "https://www.wikidata.org/wiki/Q140090100"]
+    },
+
+    {
+      "@id": "https://doi.org/10.5281/zenodo.19200726",
+      "sameAs": "https://www.wikidata.org/wiki/Q140090186",
+      "@type": ["ResearchLine", "schema:ScholarlyArticle"],
+      "name": "Agent Knowledge Cycle (AKC)",
+      "alternateName": [
+        {"@value": "Agent Knowledge Cycle", "@language": "en"},
+        {"@value": "エージェント知識サイクル", "@language": "ja"}
+      ],
+      "description": "Six-phase bidirectional growth loop for sustaining agent-operator intent alignment. Agent-design sibling: defines a mechanism, while this line specifies no agent mechanism and works as a comparative cognitive inquiry.",
+      "url": "https://github.com/shimo4228/agent-knowledge-cycle",
+      "identifier": "10.5281/zenodo.19200726",
+      "siblingOf": "https://doi.org/10.5281/zenodo.20262112"
+    },
+
+    {
+      "@id": "https://doi.org/10.5281/zenodo.19212118",
+      "sameAs": "https://www.wikidata.org/wiki/Q140090187",
+      "@type": ["ResearchLine", "schema:ScholarlyArticle"],
+      "name": "Contemplative Agent",
+      "alternateName": [
+        {"@value": "Contemplative Agent", "@language": "en"},
+        {"@value": "観想的エージェント", "@language": "ja"}
+      ],
+      "description": "CLI agent grounded in four contemplative axioms running on a local 9B stack. Vocabulary sibling: shares Buddhist phenomenological vocabulary with this line, but with asymmetric usage — Contemplative Agent applies it as an agent behavioral preset, this line as a comparative cognitive framework.",
+      "url": "https://github.com/shimo4228/contemplative-agent",
+      "identifier": "10.5281/zenodo.19212118",
+      "siblingOf": "https://doi.org/10.5281/zenodo.20262112"
+    },
+
+    {
+      "@id": "https://doi.org/10.5281/zenodo.19652013",
+      "sameAs": "https://www.wikidata.org/wiki/Q140090188",
+      "@type": ["ResearchLine", "schema:ScholarlyArticle"],
+      "name": "Agent Attribution Practice (AAP)",
+      "alternateName": [
+        {"@value": "Agent Attribution Practice", "@language": "en"},
+        {"@value": "エージェント帰責実践", "@language": "ja"}
+      ],
+      "description": "Harness-neutral ADRs on accountability distribution in autonomous AI agents. Agent-design sibling: records a practice, while this line specifies no agent mechanism or practice.",
+      "url": "https://github.com/shimo4228/agent-attribution-practice",
+      "identifier": "10.5281/zenodo.19652013",
+      "siblingOf": "https://doi.org/10.5281/zenodo.20262112"
+    },
+
+    {
+      "@id": "https://doi.org/10.5281/zenodo.20263316",
+      "sameAs": "https://www.wikidata.org/wiki/Q140090190",
+      "@type": ["ResearchLine", "schema:ScholarlyArticle"],
+      "name": "Authorship Strategy",
+      "alternateName": [
+        {"@value": "Authorship Strategy", "@language": "en"},
+        {"@value": "著者戦略", "@language": "ja"}
+      ],
+      "description": "Normative framework, tactical catalog, and empirical baseline for being a known author under AI-mediated diffusion. Cross-cutting sibling: like this line it occupies the agent-design lines' diffusion and framing layer rather than their implementation layer.",
+      "url": "https://github.com/shimo4228/authorship-strategy",
+      "identifier": "10.5281/zenodo.20263316",
+      "siblingOf": "https://doi.org/10.5281/zenodo.20262112"
     },
 
     {
