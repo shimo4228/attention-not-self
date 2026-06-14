@@ -197,6 +197,16 @@
       "description": "The single character 念 (nen / niàn) carries four incompatible Buddhist senses — Theravāda sati/smṛti (non-floating retention), Chan/Zen 無念 (non-fixation in thought; Huineng's 於念而不念), Pure Land 念仏 (recollection/recitation of the Buddha), and modern Kabat-Zinn 'bare attention' mindfulness. Reconstructs the collision through Huineng's Platform Sutra §17, Sharf 2014 on early Chan, Dōgen's 非思量 (Fukanzazengi), and the 20th-century Nyanaponika → MBSR genealogy. Argues Dōgen's 非思量 is the most defensible structural resolution. Companion to Theme 5 on the English 'awareness' side; this theme covers the Chinese-character side.",
       "comparesWith": ["ans:theme/5-awareness-genealogy"]
     },
+    {
+      "@id": "ans:theme/7-cessation-continuity",
+      "@type": ["ans:Theme", "schema:CreativeWorkSeries"],
+      "name": "Cessation and continuity without a self",
+      "alternateName": [
+        {"@value": "Cessation and continuity without a self", "@language": "en"},
+        {"@value": "滅尽定と、自己なき連続性", "@language": "ja"}
+      ],
+      "description": "Takes meditative cessation (nirodha samāpatti) — the total stopping of consciousness — as the sharpest form of the Abhidharma problem of continuity without a permanent self. Reads Laukkonen et al. 2023 (an active-inference model of cessation that explicitly leaves the 'restart' question open) against four scholastic answers to what carries continuity across the gap: Sarvāstivāda prāpti, Sautrāntika bīja, Yogācāra ālaya-vijñāna, Theravāda bhavaṅga. Frames the parallel soberly — two inquiries reaching the same problem by different roads — and disavows Buddhist-modernist exceptionalism."
+    },
 
     {
       "@id": "https://github.com/shimo4228/attention-not-self/blob/main/Abhidharma%20Meets%20Computational%20Phenomenology.md",
@@ -461,6 +471,52 @@
       ],
       "inLanguage": "ja",
       "isPartOf": "ans:theme/6-nen-collision"
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "When Consciousness Fully Stops, How Does the Mind Return?",
+      "alternateName": [
+        {"@value": "When Consciousness Fully Stops, How Does the Mind Return?", "@language": "en"}
+      ],
+      "inLanguage": "en",
+      "isPartOf": "ans:theme/7-cessation-continuity",
+      "mentions": [
+        "ans:concept/alaya-vijnana-store",
+        "ans:concept/bhavanga-continuum",
+        "ans:concept/bija",
+        "ans:concept/anatman",
+        "ans:concept/pratityasamutpada",
+        "ans:category/cittaviprayukta",
+        "ans:framework/pp",
+        "ans:framework/fep",
+        "ans:tradition/theravada",
+        "ans:tradition/sarvastivada",
+        "ans:tradition/yogacara"
+      ],
+      "citation": [
+        "ans:ref/laukkonen-2023",
+        "ans:ref/laukkonen-slagter-2021",
+        "ans:ref/thompson-2020",
+        "ans:ref/mcmahan-2008",
+        "ans:ref/tweed-2002",
+        "ans:ref/crick-koch-1990",
+        "ans:ref/chalmers-2000",
+        "ans:ref/koch-2016",
+        "ans:ref/waldron-2003",
+        "ans:ref/buswell-lopez-2014"
+      ]
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "意識が完全に止まる瞑想状態（滅尽定）のあとに心はどう戻るのか",
+      "alternateName": [
+        {"@value": "When Consciousness Fully Stops, How Does the Mind Return? (Japanese)", "@language": "en"},
+        {"@value": "意識が完全に止まる瞑想状態（滅尽定）のあとに心はどう戻るのか", "@language": "ja"}
+      ],
+      "inLanguage": "ja",
+      "isPartOf": "ans:theme/7-cessation-continuity"
     },
 
     {
@@ -2817,6 +2873,14 @@
     {"@id": "ans:ref/sandved-smith-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sandved-Smith et al. 2021", "alternateName": [{"@value": "Sandved-Smith, Hesp, Mattout, Friston, Lutz, Ramstead. Hierarchical model of meta-awareness, 2021.", "@language": "en"}], "description": "Deep parametric AIF; parallels 自証分 / 証自証分 distinction."},
     {"@id": "ans:ref/laukkonen-slagter-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen & Slagter 2021", "alternateName": [{"@value": "Laukkonen, R. & Slagter, H. 'From many to (n)one.' Neuroscience & Biobehavioral Reviews, 2021.", "@language": "en"}], "description": "FA / OM / ND meditation as precision-modulation stages."},
     {"@id": "ans:ref/laukkonen-2025", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen et al. 2025", "identifier": "arXiv:2504.15125", "url": "https://arxiv.org/abs/2504.15125", "sameAs": "https://www.wikidata.org/wiki/Q140181291", "alternateName": [{"@value": "Laukkonen, R. et al. Contemplative Constitutional AI with four axioms, 2025.", "@language": "en"}], "description": "Mindfulness, emptiness, non-duality, boundless care as AI alignment principles."},
+    {"@id": "ans:ref/laukkonen-2023", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen et al. 2023", "identifier": "doi:10.1016/bs.pbr.2022.12.007", "url": "https://doi.org/10.1016/bs.pbr.2022.12.007", "alternateName": [{"@value": "Laukkonen, R. E., Sacchet, M. D., Barendregt, H., Devaney, K. J., Chowdhury, A., & Slagter, H. A. 'Cessations of consciousness in meditation: Advancing a scientific understanding of nirodha samāpatti.' Progress in Brain Research 280 (2023): 61–87.", "@language": "en"}], "description": "Active-inference account of meditative cessation (nirodha samāpatti); explicitly leaves the post-cessation 'restart' as a key open question (p.16). Primary source for the cessation essay."},
+    {"@id": "ans:ref/thompson-2020", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Thompson 2020", "alternateName": [{"@value": "Thompson, E. Why I Am Not a Buddhist. Yale University Press, 2020.", "@language": "en"}], "description": "Critique of Buddhist exceptionalism (the claim that Buddhism is uniquely rational / scientific). Frames the essay's anti-modernist stance."},
+    {"@id": "ans:ref/mcmahan-2008", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "McMahan 2008", "alternateName": [{"@value": "McMahan, D. L. The Making of Buddhist Modernism. Oxford University Press, 2008.", "@language": "en"}], "description": "Defines Buddhist modernism as a 19th-century-onward co-production foregrounding meditation, rationality, and compatibility with science."},
+    {"@id": "ans:ref/tweed-2002", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Tweed 2002", "alternateName": [{"@value": "Tweed, T. A. 'Who Is a Buddhist? Night-Stand Buddhists and Other Creatures.' In Westward Dharma, University of California Press, 2002.", "@language": "en"}], "description": "Coins 'nightstand Buddhist' — a non-affiliated sympathizer who reads and practices privately."},
+    {"@id": "ans:ref/crick-koch-1990", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Crick & Koch 1990", "alternateName": [{"@value": "Crick, F. & Koch, C. 'Towards a neurobiological theory of consciousness.' Seminars in the Neurosciences 2 (1990): 263–275.", "@language": "en"}], "description": "Founding programme for the contrastive search for the neural correlates of consciousness (NCC)."},
+    {"@id": "ans:ref/chalmers-2000", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Chalmers 2000", "alternateName": [{"@value": "Chalmers, D. 'What is a neural correlate of consciousness?' In Neural Correlates of Consciousness (ed. Metzinger), MIT Press, 2000.", "@language": "en"}], "description": "Methodological analysis of the NCC concept and the contrastive method."},
+    {"@id": "ans:ref/koch-2016", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Koch et al. 2016", "identifier": "doi:10.1038/nrn.2016.22", "url": "https://doi.org/10.1038/nrn.2016.22", "alternateName": [{"@value": "Koch, C., Massimini, M., Boly, M. & Tononi, G. 'Neural correlates of consciousness: progress and problems.' Nature Reviews Neuroscience 17 (2016): 307–321.", "@language": "en"}], "description": "Review of NCC progress, including the difficulty of switching consciousness on/off cleanly."},
+    {"@id": "ans:ref/buswell-lopez-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Buswell & Lopez 2014", "alternateName": [{"@value": "Buswell, R. E. & Lopez, D. S. The Princeton Dictionary of Buddhism. Princeton University Press, 2014.", "@language": "en"}], "description": "Reference for the prāpti / bīja / ālaya-vijñāna / bhavaṅga classifications."},
     {"@id": "ans:ref/thompson-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Thompson 2014", "alternateName": [{"@value": "Thompson, E. Waking, Dreaming, Being. Columbia UP, 2014.", "@language": "en"}], "description": "Three-layer Yogācāra architecture mapped onto implicit memory + pre-reflective self + working memory."},
     {"@id": "ans:ref/yampolsky-1967", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Yampolsky 1967", "alternateName": [{"@value": "Yampolsky, P. B., trans. The Platform Sutra of the Sixth Patriarch. Columbia University Press, 1967.", "@language": "en"}], "description": "Standard English translation of the Dunhuang recension of Liùzǔ Tánjīng 六祖壇經. Source for the 無念/無相/無住 triad and the 於念而不念 gloss central to the 念 collision argument."},
     {"@id": "ans:ref/sharf-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sharf 2014", "identifier": "doi:10.1353/PEW.2014.0074", "url": "https://doi.org/10.1353/pew.2014.0074", "sameAs": "https://www.wikidata.org/wiki/Q56474802", "alternateName": [{"@value": "Sharf, R. 'Mindfulness and Mindlessness in Early Chan.' Philosophy East and West 64:4 (October 2014): 933–964.", "@language": "en"}], "description": "Documents 8th-century Chan deconstructive critique of 守心/觀心/念, opposing them with 無心/絕觀/無念. Foundational source for reading 無念 as critique of reified mindfulness, not as anti-meditative quietism."},
