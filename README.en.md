@@ -88,6 +88,15 @@ Shows how the single character 念 (*nen* / *niàn*) carries four incompatible B
 | English | [`The 念 Collision - How One Chinese Character Holds Four Buddhisms Apart.md`](The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md) |
 | 日本語 | [`念の衝突 - 一つの漢字がいかにして四つの仏教を隔てるか（日本語）.md`](%E5%BF%B5%E3%81%AE%E8%A1%9D%E7%AA%81%20-%20%E4%B8%80%E3%81%A4%E3%81%AE%E6%BC%A2%E5%AD%97%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%9B%9B%E3%81%A4%E3%81%AE%E4%BB%8F%E6%95%99%E3%82%92%E9%9A%94%E3%81%A6%E3%82%8B%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
 
+#### 7. When Consciousness Fully Stops, How Does the Mind Return? (Buddhism and the science of consciousness)
+
+Takes meditative cessation (nirodha samāpatti) — stopping consciousness completely from the inside — as the entry point to consciousness science's open "how does the mind restart?" problem, set against Abhidharma's four answers to continuity without a self: Sarvāstivāda prāpti, Sautrāntika bīja (seeds), Yogācāra ālaya-vijñāna, Theravāda bhavaṅga. Laukkonen et al. (2023) model cessation with active inference but explicitly leave "restart" for future research; the ancient typology is offered there as a vocabulary of testable hypotheses. Refuses the "Buddhism predicted neuroscience" exceptionalism — soberly tracing two traditions that, from different motives, designed different answers to the same hard problem.
+
+| Language | File |
+|----------|------|
+| English | [`When Consciousness Fully Stops - How Does the Mind Return.md`](When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md) |
+| 日本語 | [`滅尽定のあとに心はどう戻るのか（日本語）.md`](%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
+
 ### Comparison Table (multiple formats)
 
 | File | Purpose |

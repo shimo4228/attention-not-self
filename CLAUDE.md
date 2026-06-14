@@ -35,6 +35,7 @@ attention-not-self/
 
 - 2026-04-14: 初期アップロード（論考・対照表 5ファイル）
 - 2026-05-18: 知識グラフ（graph.jsonld）+ React viewer 追加。GitHub Pages 配信
+- 2026-06-14: テーマ7「滅尽定と自己なき連続性」エッセイ（日英）追加。graph に Laukkonen 2023 引用。Substack 公開（英語）
 
 ## Graph 更新フロー
 

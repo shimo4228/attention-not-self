@@ -86,6 +86,15 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 | 日本語 | [`念の衝突 - 一つの漢字がいかにして四つの仏教を隔てるか（日本語）.md`](%E5%BF%B5%E3%81%AE%E8%A1%9D%E7%AA%81%20-%20%E4%B8%80%E3%81%A4%E3%81%AE%E6%BC%A2%E5%AD%97%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%9B%9B%E3%81%A4%E3%81%AE%E4%BB%8F%E6%95%99%E3%82%92%E9%9A%94%E3%81%A6%E3%82%8B%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
 | English | [`The 念 Collision - How One Chinese Character Holds Four Buddhisms Apart.md`](The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md) |
 
+#### 7. 滅尽定のあとに心はどう戻るのか（仏教と意識科学）
+
+意識を内側から完全に止める滅尽定（nirodha samāpatti）を入口に、「停止のあと心はどう再起動するのか」という意識科学の未解明問題と、アビダルマの「自己なき連続性」への四つの答え（説一切有部の得 prāpti ／経量部の種子 bīja ／唯識の阿頼耶識 ／上座部の有分 bhavaṅga）を対照する。Laukkonen et al. (2023) が能動的推論で停止を論じつつ「再起動」を将来課題として空けた点に、古代の類型論を検証可能な仮説の語彙として接続。「仏教が科学を予言した」式の exceptionalism を退け、別の動機を持つ二つの伝統が同じ難問に別々の解を設計していた、と醒めて辿る。
+
+| 言語 | ファイル |
+|------|---------|
+| 日本語 | [`滅尽定のあとに心はどう戻るのか（日本語）.md`](%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
+| English | [`When Consciousness Fully Stops - How Does the Mind Return.md`](When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md) |
+
 ### 対照表データ（複数形式）
 
 | ファイル | 用途 |
