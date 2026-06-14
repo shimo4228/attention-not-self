@@ -118,4 +118,4 @@ And yet, I think. More than two thousand years ago, someone asked in earnest, "i
 - The classifications and doctrines of prāpti, bīja, ālaya-vijñāna, and bhavaṅga draw on this repository's "[Three Abhidharma Systems Dharma Comparison](<Three Abhidharma Systems Dharma Comparison.md>)" and standard Abhidharma scholarship (Waldron, *The Buddhist Unconscious*, 2003; Buswell & Lopez, *The Princeton Dictionary of Buddhism*, 2014). **The functional correspondence ālaya-vijñāna ≈ bhavaṅga is this project's own synthesis, not a claim of Laukkonen and colleagues.**
 - The label "attention, not self" derives from the inquiry project to which this essay belongs, [Attention, Not Self](README.en.md) (and Jonardon Ganeri, *Attention, Not Self*, 2017).
 
-*Japanese original（日本語版）: [意識が完全に止まる瞑想状態（滅尽定）のあとに心はどう戻るのか](<滅尽定のあとに心はどう戻るのか（日本語）.md>).*
+*Published on [Substack](https://shimo4228.substack.com/p/when-consciousness-fully-stops-how). Japanese original（日本語版）: [意識が完全に止まる瞑想状態（滅尽定）のあとに心はどう戻るのか](<滅尽定のあとに心はどう戻るのか（日本語）.md>).*
