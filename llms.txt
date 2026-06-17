@@ -8,13 +8,13 @@
 
 ## Recommended reading order
 
-1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~283 nodes, schema.org JSON-LD)
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~284 nodes, schema.org JSON-LD)
 2. [`llms-full.txt`](llms-full.txt) — full FAQ + glossary + ~45 prior research references
 3. Individual essays under "Essays" sections below
 
 ## Core documentation
 
-- [`graph.jsonld`](graph.jsonld): JSON-LD knowledge graph (~283 nodes: 7 themes, 14 essays, 5 traditions, ~140 dharmas, ~40 concepts, 9 frameworks, ~53 references). Interactive viewer at https://shimo4228.github.io/attention-not-self/
+- [`graph.jsonld`](graph.jsonld): JSON-LD knowledge graph (~284 nodes: 7 themes, 14 essays, 5 traditions, ~140 dharmas, ~40 concepts, 9 frameworks, ~53 references). Interactive viewer at https://shimo4228.github.io/attention-not-self/
 - [Full AI Reference](llms-full.txt): self-contained FAQ, glossary, and prior research references for AI agents
 - [README (English)](README.en.md): human-facing project overview
 - [README (Japanese, canonical)](README.md): 日本語版プロジェクト正本

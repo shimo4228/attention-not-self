@@ -5,7 +5,7 @@
 ## Tech Stack
 
 - 資料中心（Markdown, PDF, xlsx）
-- 知識グラフ: `graph.jsonld`（schema.org + 独自 `ans:` 語彙、約 283 ノード）
+- 知識グラフ: `graph.jsonld`（schema.org + 独自 `ans:` 語彙、約 284 ノード）
 - Viewer: React + Vite + react-force-graph (2D/3D)、Node.js 20+
 - GitHub Pages で `docs/` を配信、live URL: https://shimo4228.github.io/attention-not-self/
 
@@ -36,6 +36,7 @@ attention-not-self/
 - 2026-04-14: 初期アップロード（論考・対照表 5ファイル）
 - 2026-05-18: 知識グラフ（graph.jsonld）+ React viewer 追加。GitHub Pages 配信
 - 2026-06-14: テーマ7「滅尽定と自己なき連続性」エッセイ（日英）追加。graph に Laukkonen 2023 引用。Substack 公開（英語）
+- 2026-06-17: v0.3.0 release（Zenodo）。CC0 1.0 へ relicense、研究プログラム hub への federation、graph 267→284 ノード
 
 ## Graph 更新フロー
 

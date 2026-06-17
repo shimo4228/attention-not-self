@@ -12,7 +12,7 @@ Language: [日本語](README.md) | English
 
 AI agents / LLM crawlers should read this repository in the following order:
 
-1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~283 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~284 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
 2. [`llms.txt`](llms.txt) — AI-facing navigator (essay catalog by theme; entry points to core docs)
 3. [`llms-full.txt`](llms-full.txt) — self-contained FAQ + glossary + ~45 prior research references (with Pāli / Sanskrit / Chinese philological alignment)
 4. Individual essays (see "Contents" sections below)
@@ -110,7 +110,7 @@ Takes meditative cessation (nirodha samāpatti) — stopping consciousness compl
 A structured knowledge graph of essays, dharmas, concepts, computational frameworks, and references.
 
 - **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — interactive exploration in browser (2D / 3D toggle, search, click-for-detail)
-- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (~283 nodes). For LLM / search-engine crawlers.
+- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (~284 nodes). For LLM / search-engine crawlers.
 - [`viewer/`](viewer/) — viewer source (React + Vite + react-force-graph)
 - [`docs/`](docs/) — built artifacts served by GitHub Pages
 
@@ -141,7 +141,7 @@ When citing this project, please use the Zenodo concept DOI (always resolves to 
   title        = {Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology},
   year         = {2026},
   publisher    = {Zenodo},
-  version      = {0.2.0},
+  version      = {0.3.0},
   doi          = {10.5281/zenodo.20263604},
   url          = {https://doi.org/10.5281/zenodo.20263604},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}

@@ -37,6 +37,13 @@
   },
   "@graph": [
     {
+      "@id": "https://github.com/shimo4228/shimo4228",
+      "@type": "shimo:EcosystemRepo",
+      "name": "Research Program Hub",
+      "description": "Hub repository of the shimo4228 research program; its graph.jsonld is the canonical relationship map of the research ecosystem, federating the Attention, Not Self line with its sibling and downstream lines.",
+      "url": "https://github.com/shimo4228/shimo4228"
+    },
+    {
       "@id": "https://doi.org/10.5281/zenodo.20262112",
       "sameAs": "https://www.wikidata.org/wiki/Q140090189",
       "@type": ["schema:Dataset", "schema:CreativeWork"],
@@ -51,6 +58,7 @@
       "publisher": "Tatsuya Shimomoto",
       "author": "https://orcid.org/0009-0002-6168-4162",
       "creator": "https://orcid.org/0009-0002-6168-4162",
+      "isPartOf": "https://github.com/shimo4228/shimo4228",
       "siblingOf": [
         "https://doi.org/10.5281/zenodo.19200726",
         "https://doi.org/10.5281/zenodo.19212118",

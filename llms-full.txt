@@ -144,7 +144,7 @@ Because 念 carries at least four incompatible Buddhist senses, and the same gra
 
 ## How do entities in this project relate as a graph?
 
-A machine-readable knowledge graph (~283 nodes) is published at [`graph.jsonld`](graph.jsonld), encoded as schema.org + custom `ans:` vocabulary JSON-LD. It encodes:
+A machine-readable knowledge graph (~284 nodes) is published at [`graph.jsonld`](graph.jsonld), encoded as schema.org + custom `ans:` vocabulary JSON-LD. It encodes:
 
 - **Node types**: 7 themes, 14 essays (7 themes × en+ja), 5 traditions (Theravāda / Sarvāstivāda / Yogācāra / Chan-Zen / Pure Land), 10 dharma categories (色法 / 心法 / 心所法 5 subtypes / 心不相応行 / 無為), ~140 dharmas, ~40 concepts (manaskāra, citta-vīthi, ālaya-vijñāna, sati, precision-weighting, 念, 無念, 非思量, 念仏, *apilāpana*, etc.), 9 computational frameworks (GWT, GNW, PP, FEP, IIT, PDP, AST, neurophenomenology, computational phenomenology), ~53 prior research references.
 - **Edge types**: `classifiedIn` (Dharma → Category), `tradition` (Dharma → Tradition), `comparesWith` (cross-tradition / cross-category equivalents, including the 範疇移動 cases such as 命根 / jīvitindriya), `mapsTo` with `evidenceQuality` (Concept / Tradition → Framework), `exemplifies` (Dharma → Concept), `buildsOn` (Essay → Essay; Theme 4 → 3 → 2 → 1; Theme 5 orthogonal), `isPartOf` (Essay → Theme), `mentions` (Essay → Concept / Framework / Tradition / Category), `citation` (Essay → Reference).
