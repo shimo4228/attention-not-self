@@ -13,7 +13,7 @@ version: "0.2.0"
 doi: "10.5281/zenodo.20263604"
 url: "https://doi.org/10.5281/zenodo.20263604"
 repository-code: "https://github.com/shimo4228/attention-not-self"
-license: CC-BY-4.0
+license: CC0-1.0
 abstract: >-
   A personal essay collection and structured knowledge graph mapping the three
   major Buddhist Abhidharma traditions (Theravāda, Sarvāstivāda, Yogācāra) onto

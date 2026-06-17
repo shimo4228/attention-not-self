@@ -5,7 +5,9 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/); versioni
 
 ## Unreleased
 
-(none)
+### Changed
+
+- **Relicensed CC BY 4.0 → CC0 1.0** across all surfaces (`LICENSE`, `.zenodo.json`, `CITATION.cff`, `README.md` / `README.en.md` badges, `llms.txt`, `llms-full.txt`). Aligns the line with the ecosystem's audience-based license policy ([Authorship Strategy ADR-0015](https://github.com/shimo4228/authorship-strategy/blob/main/docs/adr/0015-license-selection-by-audience.md)): an LLM-first artifact is mined rather than read, so a public-domain dedication removes attribution-clause ingestion friction while the federated-identifier layer (concept DOI, knowledge graph) carries the credit. Takes effect for the repository and future deposits; existing Zenodo versions retain CC BY 4.0. Third-party material quoted in the essays (primary sources) remains under its own rights; CC0 dedicates only this repository's own authored content.
 
 ## v0.2.0 — Theme 6 added: The 念 Collision (2026-05-18)
 
