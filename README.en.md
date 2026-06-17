@@ -142,8 +142,8 @@ When citing this project, please use the Zenodo concept DOI (always resolves to 
   year         = {2026},
   publisher    = {Zenodo},
   version      = {0.3.0},
-  doi          = {10.5281/zenodo.20263604},
-  url          = {https://doi.org/10.5281/zenodo.20263604},
+  doi          = {10.5281/zenodo.20733464},
+  url          = {https://doi.org/10.5281/zenodo.20733464},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}
 }
 ```
@@ -158,4 +158,4 @@ This repository is **not a peer-reviewed journal article**. It is positioned as 
 
 ## License
 
-[CC BY 4.0](LICENSE) — free citation, reuse, derivative works, and commercial use are all permitted, subject to attribution.
+[CC0 1.0 Universal](LICENSE) (public domain dedication) — citation, reuse, derivative works, and commercial use are all permitted with no attribution requirement. Third-party material quoted in the essays (primary sources) remains under its own rights.

@@ -140,8 +140,8 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
   year         = {2026},
   publisher    = {Zenodo},
   version      = {0.3.0},
-  doi          = {10.5281/zenodo.20263604},
-  url          = {https://doi.org/10.5281/zenodo.20263604},
+  doi          = {10.5281/zenodo.20733464},
+  url          = {https://doi.org/10.5281/zenodo.20733464},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}
 }
 ```
@@ -156,4 +156,4 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 
 ## License
 
-[CC BY 4.0](LICENSE) — 出典明記の上での自由な引用・再利用・派生作品の作成・商用利用すべてを許諾します。
+[CC0 1.0 Universal](LICENSE)（パブリックドメイン提供）— 引用・再利用・派生作品の作成・商用利用すべてを、出典明記の義務なしに自由に行えます。エッセイ内で引用した第三者資料（一次文献）は各々の権利に従います。

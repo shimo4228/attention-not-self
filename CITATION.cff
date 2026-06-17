@@ -10,8 +10,8 @@ authors:
     alias: shimo4228
 date-released: "2026-06-17"
 version: "0.3.0"
-doi: "10.5281/zenodo.20263604"
-url: "https://doi.org/10.5281/zenodo.20263604"
+doi: "10.5281/zenodo.20733464"
+url: "https://doi.org/10.5281/zenodo.20733464"
 repository-code: "https://github.com/shimo4228/attention-not-self"
 license: CC0-1.0
 abstract: >-
@@ -19,7 +19,7 @@ abstract: >-
   major Buddhist Abhidharma traditions (Theravāda, Sarvāstivāda, Yogācāra) onto
   contemporary frameworks in computational phenomenology — predictive processing,
   active inference, Global Workspace Theory, Parallel Distributed Processing, and
-  related approaches. Comprises twelve essays (six themes × English + Japanese), a
+  related approaches. Comprises fourteen essays (seven themes × English + Japanese), a
   cross-tradition dharma comparison table (~130 dharmas across nine sheets), and
   a JSON-LD knowledge graph (~284 nodes, schema.org + custom vocabulary) with
   bilingual labels and Sanskrit / Pāli / Chinese philological alignment. An
