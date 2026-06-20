@@ -50,7 +50,8 @@
       "name": "Attention, Not Self",
       "alternateName": [
         {"@value": "Attention, Not Self — Knowledge Graph", "@language": "en"},
-        {"@value": "Attention, Not Self — 知識グラフ", "@language": "ja"}
+        {"@value": "Attention, Not Self — 知識グラフ", "@language": "ja"},
+        "ANS"
       ],
       "description": "Structured knowledge graph mapping Buddhist Abhidharma dharma taxonomies (Theravāda, Sarvāstivāda, Yogācāra) and cognitive process models onto computational phenomenology frameworks. Encodes ~130 dharmas, ~30 concepts, 5 essay themes, 10 essays, 6 frameworks, and prior research references as schema.org triples with custom ans: vocabulary. Concept DOI: 10.5281/zenodo.20262112 (resolves to latest version).",
       "isBasedOn": "https://github.com/shimo4228/attention-not-self",
@@ -90,7 +91,8 @@
       "name": "Agent Knowledge Cycle (AKC)",
       "alternateName": [
         {"@value": "Agent Knowledge Cycle", "@language": "en"},
-        {"@value": "エージェント知識サイクル", "@language": "ja"}
+        {"@value": "エージェント知識サイクル", "@language": "ja"},
+        "AKC"
       ],
       "description": "Six-phase bidirectional growth loop for sustaining agent-operator intent alignment. Agent-design sibling: defines a mechanism, while this line specifies no agent mechanism and works as a comparative cognitive inquiry.",
       "url": "https://github.com/shimo4228/agent-knowledge-cycle",
@@ -105,7 +107,8 @@
       "name": "Contemplative Agent",
       "alternateName": [
         {"@value": "Contemplative Agent", "@language": "en"},
-        {"@value": "観想的エージェント", "@language": "ja"}
+        {"@value": "観想的エージェント", "@language": "ja"},
+        "CA"
       ],
       "description": "CLI agent grounded in four contemplative axioms running on a local 9B stack. Vocabulary sibling: shares Buddhist phenomenological vocabulary with this line, but with asymmetric usage — Contemplative Agent applies it as an agent behavioral preset, this line as a comparative cognitive framework.",
       "url": "https://github.com/shimo4228/contemplative-agent",
@@ -120,7 +123,8 @@
       "name": "Agent Attribution Practice (AAP)",
       "alternateName": [
         {"@value": "Agent Attribution Practice", "@language": "en"},
-        {"@value": "エージェント帰責実践", "@language": "ja"}
+        {"@value": "エージェント帰責実践", "@language": "ja"},
+        "AAP"
       ],
       "description": "Harness-neutral ADRs on accountability distribution in autonomous AI agents. Agent-design sibling: records a practice, while this line specifies no agent mechanism or practice.",
       "url": "https://github.com/shimo4228/agent-attribution-practice",
@@ -135,7 +139,8 @@
       "name": "Authorship Strategy",
       "alternateName": [
         {"@value": "Authorship Strategy", "@language": "en"},
-        {"@value": "著者戦略", "@language": "ja"}
+        {"@value": "著者戦略", "@language": "ja"},
+        "AS"
       ],
       "description": "Normative framework, tactical catalog, and empirical baseline for being a known author under AI-mediated diffusion. Cross-cutting sibling: like this line it occupies the agent-design lines' diffusion and framing layer rather than their implementation layer.",
       "url": "https://github.com/shimo4228/authorship-strategy",
