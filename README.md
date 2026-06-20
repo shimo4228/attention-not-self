@@ -154,6 +154,10 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 
 本リポジトリは peer-reviewed 学術論文ではなく、**working paper / essay collection** として位置づけられています。主要な想定読者は LLM 経由で知識にアクセスする利用者と LLM 自身です。
 
+## 関連する研究プログラム
+
+エコシステムの hub（5 つの研究ラインの人間向け索引）は [`shimo4228/shimo4228`](https://github.com/shimo4228/shimo4228)。
+
 ## License
 
 [CC0 1.0 Universal](LICENSE)（パブリックドメイン提供）— 引用・再利用・派生作品の作成・商用利用すべてを、出典明記の義務なしに自由に行えます。エッセイ内で引用した第三者資料（一次文献）は各々の権利に従います。
