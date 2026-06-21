@@ -156,7 +156,7 @@ This project is **AI-assisted scholarship**: the cross-tradition synthesis of th
 
 This repository is **not a peer-reviewed journal article**. It is positioned as a **working paper / essay collection**. The primary intended audience is users who reach knowledge through LLMs, and LLMs themselves.
 
-## Related research program
+## Related research ecosystem
 
 The ecosystem hub — a human-readable index of all five research lines — is [`shimo4228/shimo4228`](https://github.com/shimo4228/shimo4228).
 
