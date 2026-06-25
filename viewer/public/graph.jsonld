@@ -50,7 +50,8 @@
       "name": "Attention, Not Self",
       "alternateName": [
         {"@value": "Attention, Not Self — Knowledge Graph", "@language": "en"},
-        {"@value": "Attention, Not Self — 知識グラフ", "@language": "ja"}
+        {"@value": "Attention, Not Self — 知識グラフ", "@language": "ja"},
+        "ANS"
       ],
       "description": "Structured knowledge graph mapping Buddhist Abhidharma dharma taxonomies (Theravāda, Sarvāstivāda, Yogācāra) and cognitive process models onto computational phenomenology frameworks. Encodes ~130 dharmas, ~30 concepts, 5 essay themes, 10 essays, 6 frameworks, and prior research references as schema.org triples with custom ans: vocabulary. Concept DOI: 10.5281/zenodo.20262112 (resolves to latest version).",
       "isBasedOn": "https://github.com/shimo4228/attention-not-self",
@@ -87,10 +88,11 @@
       "@id": "https://doi.org/10.5281/zenodo.19200726",
       "sameAs": "https://www.wikidata.org/wiki/Q140090186",
       "@type": ["ResearchLine", "schema:ScholarlyArticle"],
-      "name": "Agent Knowledge Cycle (AKC)",
+      "name": "Agent Knowledge Cycle",
       "alternateName": [
         {"@value": "Agent Knowledge Cycle", "@language": "en"},
-        {"@value": "エージェント知識サイクル", "@language": "ja"}
+        {"@value": "エージェント知識サイクル", "@language": "ja"},
+        "AKC"
       ],
       "description": "Six-phase bidirectional growth loop for sustaining agent-operator intent alignment. Agent-design sibling: defines a mechanism, while this line specifies no agent mechanism and works as a comparative cognitive inquiry.",
       "url": "https://github.com/shimo4228/agent-knowledge-cycle",
@@ -105,7 +107,8 @@
       "name": "Contemplative Agent",
       "alternateName": [
         {"@value": "Contemplative Agent", "@language": "en"},
-        {"@value": "観想的エージェント", "@language": "ja"}
+        {"@value": "観想的エージェント", "@language": "ja"},
+        "CA"
       ],
       "description": "CLI agent grounded in four contemplative axioms running on a local 9B stack. Vocabulary sibling: shares Buddhist phenomenological vocabulary with this line, but with asymmetric usage — Contemplative Agent applies it as an agent behavioral preset, this line as a comparative cognitive framework.",
       "url": "https://github.com/shimo4228/contemplative-agent",
@@ -117,10 +120,11 @@
       "@id": "https://doi.org/10.5281/zenodo.19652013",
       "sameAs": "https://www.wikidata.org/wiki/Q140090188",
       "@type": ["ResearchLine", "schema:ScholarlyArticle"],
-      "name": "Agent Attribution Practice (AAP)",
+      "name": "Agent Attribution Practice",
       "alternateName": [
         {"@value": "Agent Attribution Practice", "@language": "en"},
-        {"@value": "エージェント帰責実践", "@language": "ja"}
+        {"@value": "エージェント帰責実践", "@language": "ja"},
+        "AAP"
       ],
       "description": "Harness-neutral ADRs on accountability distribution in autonomous AI agents. Agent-design sibling: records a practice, while this line specifies no agent mechanism or practice.",
       "url": "https://github.com/shimo4228/agent-attribution-practice",
@@ -135,7 +139,8 @@
       "name": "Authorship Strategy",
       "alternateName": [
         {"@value": "Authorship Strategy", "@language": "en"},
-        {"@value": "著者戦略", "@language": "ja"}
+        {"@value": "著者戦略", "@language": "ja"},
+        "AS"
       ],
       "description": "Normative framework, tactical catalog, and empirical baseline for being a known author under AI-mediated diffusion. Cross-cutting sibling: like this line it occupies the agent-design lines' diffusion and framing layer rather than their implementation layer.",
       "url": "https://github.com/shimo4228/authorship-strategy",
@@ -380,7 +385,8 @@
         "ans:ref/laukkonen-slagter-2021",
         "ans:ref/posner-petersen-1990",
         "ans:ref/hoffman-2015",
-        "ans:ref/macy-1991"
+        "ans:ref/macy-1991",
+        "ans:ref/becattini-2026"
       ]
     },
     {
@@ -512,7 +518,10 @@
         "ans:ref/chalmers-2000",
         "ans:ref/koch-2016",
         "ans:ref/waldron-2003",
-        "ans:ref/buswell-lopez-2014"
+        "ans:ref/buswell-lopez-2014",
+        "ans:ref/jhana-acamj-2026",
+        "ans:ref/nondual-int-2025",
+        "ans:ref/jia-liu-2026"
       ]
     },
     {
@@ -2882,6 +2891,10 @@
     {"@id": "ans:ref/laukkonen-slagter-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen & Slagter 2021", "alternateName": [{"@value": "Laukkonen, R. & Slagter, H. 'From many to (n)one.' Neuroscience & Biobehavioral Reviews, 2021.", "@language": "en"}], "description": "FA / OM / ND meditation as precision-modulation stages."},
     {"@id": "ans:ref/laukkonen-2025", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen et al. 2025", "identifier": "arXiv:2504.15125", "url": "https://arxiv.org/abs/2504.15125", "sameAs": "https://www.wikidata.org/wiki/Q140181291", "alternateName": [{"@value": "Laukkonen, R. et al. Contemplative Constitutional AI with four axioms, 2025.", "@language": "en"}], "description": "Mindfulness, emptiness, non-duality, boundless care as AI alignment principles."},
     {"@id": "ans:ref/laukkonen-2023", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen et al. 2023", "identifier": "doi:10.1016/bs.pbr.2022.12.007", "url": "https://doi.org/10.1016/bs.pbr.2022.12.007", "sameAs": "https://www.wikidata.org/wiki/Q140265025", "alternateName": [{"@value": "Laukkonen, R. E., Sacchet, M. D., Barendregt, H., Devaney, K. J., Chowdhury, A., & Slagter, H. A. 'Cessations of consciousness in meditation: Advancing a scientific understanding of nirodha samāpatti.' Progress in Brain Research 280 (2023): 61–87.", "@language": "en"}], "description": "Active-inference account of meditative cessation (nirodha samāpatti); explicitly leaves the post-cessation 'restart' as a key open question (p.16). Primary source for the cessation essay."},
+    {"@id": "ans:ref/becattini-2026", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Becattini et al. 2026", "identifier": "doi:10.1093/nc/niag001", "url": "https://doi.org/10.1093/nc/niag001", "alternateName": [{"@value": "Becattini, V., Lifshitz, M. & Miller, M. 'Learning to attenuate myself: a predictive-processing account of body-scan meditation and the dissolution of bodily boundaries.' Neuroscience of Consciousness 2026(1): niag001.", "@language": "en"}], "description": "Precision-weighting account of body-scan meditation: focused attention first sharpens somatosensory precision, then open monitoring lets higher-level precision relax, dissolving the bodily boundary — 'adaptive attenuation,' a mechanism for the Pāli bhaṅga at the level of the bodily self. Conceptual neighbour of Deane's (2021) ego-dissolution as self-model collapse."},
+    {"@id": "ans:ref/jhana-acamj-2026", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Jhāna ACAM-J 7T fMRI 2026", "identifier": "arXiv:2602.13008", "url": "https://arxiv.org/abs/2602.13008", "alternateName": [{"@value": "'Machine Learning-Based Classification of Jhana Advanced Concentrative Absorption Meditation (ACAM-J) using 7T fMRI.' arXiv:2602.13008, 2026.", "@language": "en"}], "description": "Classifies jhāna (ACAM-J) states from 7T-fMRI regional homogeneity (ReHo) with prefrontal / anterior-cingulate features dominant — a candidate neural signature for the concentration end of the FA / OM / non-dual continuum. Preprint."},
+    {"@id": "ans:ref/nondual-int-2025", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Non-duality & Intrinsic Neural Timescales 2025", "identifier": "doi:10.1101/2025.04.21.649758", "url": "https://www.biorxiv.org/content/10.1101/2025.04.21.649758v1", "alternateName": [{"@value": "'Non-duality in brain and experience of advanced meditators — key role for intrinsic neural timescales.' bioRxiv 2025.04.21.649758 (preprint).", "@language": "en"}], "description": "Operationalizes non-dual awareness as a collapse of the internal/external distinction in intrinsic neural timescales: advanced meditators show equal EEG autocorrelation windows across breath-watching (internal attention) and a visual oddball task (external attention). Preprint, not peer-reviewed."},
+    {"@id": "ans:ref/jia-liu-2026", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Jia Liu 2026", "identifier": "doi:10.3390/rel17030378", "url": "https://doi.org/10.3390/rel17030378", "alternateName": [{"@value": "Liu, J. 'Between No-Self and the Algorithm: Buddhist Mind-Nature as Ethical Architecture for AI and Human Self-Realization.' Religions 17(3): 378, 2026.", "@language": "en"}], "description": "Reads no-self (anattā), dependent origination, and mind-nature (tathāgatagarbha) as an ethical architecture for AI: AI as a contingent mirror lacking prajñā, not an autonomous moral subject. A different use of no-self from this project's continuity question."},
     {"@id": "ans:ref/thompson-2020", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Thompson 2020", "alternateName": [{"@value": "Thompson, E. Why I Am Not a Buddhist. Yale University Press, 2020.", "@language": "en"}], "description": "Critique of Buddhist exceptionalism (the claim that Buddhism is uniquely rational / scientific). Frames the essay's anti-modernist stance."},
     {"@id": "ans:ref/mcmahan-2008", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "McMahan 2008", "alternateName": [{"@value": "McMahan, D. L. The Making of Buddhist Modernism. Oxford University Press, 2008.", "@language": "en"}], "description": "Defines Buddhist modernism as a 19th-century-onward co-production foregrounding meditation, rationality, and compatibility with science."},
     {"@id": "ans:ref/tweed-2002", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Tweed 2002", "alternateName": [{"@value": "Tweed, T. A. 'Who Is a Buddhist? Night-Stand Buddhists and Other Creatures.' In Westward Dharma, University of California Press, 2002.", "@language": "en"}], "description": "Coins 'nightstand Buddhist' — a non-affiliated sympathizer who reads and practices privately."},
