@@ -1,6 +1,6 @@
 Language: [日本語](README.md) | English
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20262112.svg)](https://doi.org/10.5281/zenodo.20262112) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shimo4228/attention-not-self)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20262112.svg)](https://doi.org/10.5281/zenodo.20262112) [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/shimo4228/attention-not-self) [![GitMCP](https://img.shields.io/endpoint?url=https://gitmcp.io/badge/shimo4228/attention-not-self)](https://gitmcp.io/shimo4228/attention-not-self)
 [![License: CC0 1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 > Note: Japanese is the canonical version of this repository. This English README is provided for accessibility.
