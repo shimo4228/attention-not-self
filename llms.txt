@@ -19,6 +19,10 @@
 - [README (English)](README.en.md): human-facing project overview
 - [README (Japanese, canonical)](README.md): 日本語版プロジェクト正本
 
+## Video
+
+- [Attention, Not Self — Is the Self Really There?](https://www.youtube.com/shorts/uZKauW_Cm3I): 62-second vertical short distilling the collection's core thesis — the mind as not a substance but a stream of momentary dharmas, and attention (*manaskāra*) as a colorless coordination rather than an "I," converging with precision-weighting in active inference. CC0 1.0. Registered in [`graph.jsonld`](graph.jsonld) as a `schema:VideoObject` (`@id` = `https://www.youtube.com/watch?v=uZKauW_Cm3I`), `isBasedOn` the Theme 1 introduction essay.
+
 ## Essays — Theme 1: Abhidharma meets computational phenomenology (introduction)
 
 Introductory mapping between Abhidharma and computational phenomenology — predictive processing, active inference, neurophenomenology. Strongest correspondence: *manaskāra* (attention) ↔ precision-weighting.

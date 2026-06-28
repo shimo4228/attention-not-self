@@ -33,7 +33,14 @@
     "exemplifies": {"@id": "ans:exemplifies", "@type": "@id"},
     "buildsOn": {"@id": "ans:buildsOn", "@type": "@id"},
     "mentions": {"@id": "ans:mentions", "@type": "@id"},
-    "discussesIn": {"@id": "ans:discussesIn", "@type": "@id"}
+    "discussesIn": {"@id": "ans:discussesIn", "@type": "@id"},
+    "about": {"@id": "schema:about", "@type": "@id"},
+    "license": {"@id": "schema:license", "@type": "@id"},
+    "contentUrl": {"@id": "schema:contentUrl", "@type": "@id"},
+    "embedUrl": {"@id": "schema:embedUrl", "@type": "@id"},
+    "thumbnailUrl": {"@id": "schema:thumbnailUrl", "@type": "@id"},
+    "duration": "schema:duration",
+    "uploadDate": "schema:uploadDate"
   },
   "@graph": [
     {
@@ -2917,6 +2924,27 @@
     {"@id": "ans:ref/faure-1991", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Faure 1991", "alternateName": [{"@value": "Faure, B. The Rhetoric of Immediacy: A Cultural Critique of Chan/Zen Buddhism. Princeton University Press, 1991.", "@language": "en"}], "description": "Critical-cultural reading of Chan/Zen rhetoric, including the 'sudden' / 'direct' tropes. Compatible with but not identical to Sharf's deconstructive reading of early Chan."},
     {"@id": "ans:ref/mcrae-2003", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "McRae 2003", "alternateName": [{"@value": "McRae, J. Seeing Through Zen: Encounter, Transformation, and Genealogy in Chinese Chan Buddhism. University of California Press, 2003.", "@language": "en"}], "description": "Genealogical history of Chinese Chan. Also produced the BDK Numata translation of the Zongbao recension of the Platform Sutra (2000)."},
     {"@id": "ans:ref/suzuki-dt-1959", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Suzuki D.T. 1959", "alternateName": [{"@value": "Suzuki, D. T. Zen and Japanese Culture. Princeton/Bollingen, 1959 (orig. Japan 1938).", "@language": "en"}], "description": "Conflates munen / muga / mushin / musō into a single cluster; treats Huineng's 無念 as the central insight of Zen. Major channel by which 'no-mind' Zen reached Anglophone audiences. Sharf 1995 critiques this framing as a Meiji-era Kyoto-School construction."},
-    {"@id": "ans:ref/levman-2017", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Levman 2017", "alternateName": [{"@value": "Levman, B. 'Putting smṛti back into sati.' Journal of the Oxford Centre for Buddhist Studies 13 (2017): 121–149.", "@language": "en"}], "description": "Philological argument that sati / smṛti retains its memory-pole sense more robustly than Anālayo's reconstruction allows. Pushes back on present-moment-awareness readings."}
+    {"@id": "ans:ref/levman-2017", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Levman 2017", "alternateName": [{"@value": "Levman, B. 'Putting smṛti back into sati.' Journal of the Oxford Centre for Buddhist Studies 13 (2017): 121–149.", "@language": "en"}], "description": "Philological argument that sati / smṛti retains its memory-pole sense more robustly than Anālayo's reconstruction allows. Pushes back on present-moment-awareness readings."},
+    {
+      "@id": "https://www.youtube.com/watch?v=uZKauW_Cm3I",
+      "@type": ["schema:VideoObject", "schema:CreativeWork"],
+      "name": "Attention, Not Self — Is the Self Really There?",
+      "description": "A 62-second vertical short distilling the collection's core thesis: the mind as not a substance but a stream of momentary dharmas, and attention (manaskāra) as a colorless coordination rather than an 'I' — converging with precision-weighting in active inference. Not a prediction of neuroscience by Buddhism, but two inquiries reaching the same structure.",
+      "inLanguage": "en",
+      "isBasedOn": ["https://doi.org/10.5281/zenodo.20262112", "https://github.com/shimo4228/attention-not-self/blob/main/Abhidharma%20Meets%20Computational%20Phenomenology.md"],
+      "isPartOf": "ans:theme/1-introduction",
+      "about": "ans:dharma/manaskara",
+      "author": "https://orcid.org/0009-0002-6168-4162",
+      "creator": "https://orcid.org/0009-0002-6168-4162",
+      "publisher": "Tatsuya Shimomoto",
+      "datePublished": "2026-06-28",
+      "uploadDate": "2026-06-28",
+      "duration": "PT1M2S",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.youtube.com/shorts/uZKauW_Cm3I",
+      "contentUrl": "https://www.youtube.com/watch?v=uZKauW_Cm3I",
+      "embedUrl": "https://www.youtube.com/embed/uZKauW_Cm3I",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uZKauW_Cm3I/maxresdefault.jpg"
+    }
   ]
 }

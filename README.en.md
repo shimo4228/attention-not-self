@@ -28,6 +28,14 @@ From the perspective of "attention, not self," this project juxtaposes ancient f
 
 The Abhidharma framework — which 2,500 years ago decomposed mind not as a substantial "self" but as a flowing stream of momentary dharmas — maps with surprising structural fidelity onto modern computational models of consciousness such as GWT, predictive coding, and IIT. Tracing that correspondence systematically is what this project is about.
 
+## Video
+
+A 62-second vertical short distilling this collection's core thesis — the mind as not a substance but a stream of momentary dharmas, and attention (*manaskāra*) as a colorless coordination rather than an "I," converging with precision-weighting in active inference.
+
+▸ **Watch on YouTube**: https://www.youtube.com/shorts/uZKauW_Cm3I
+
+CC0 1.0, like the rest of the project. Its full text and structure are registered in [`graph.jsonld`](graph.jsonld) as a `schema:VideoObject` (`https://www.youtube.com/watch?v=uZKauW_Cm3I`).
+
 ## Contents
 
 ### Essays (Markdown)

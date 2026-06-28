@@ -26,6 +26,14 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 
 2500 年前のアビダルマが心を「実体としての自己」ではなく「瞬間ごとに生起する dharma の流れ」として分解した枠組みは、GWT・予測符号化・IIT といった現代の意識の計算モデルと、驚くほど構造的に対応する——その対応を体系的に辿るのが本プロジェクト。
 
+## 動画
+
+本コレクションの中心命題——心は実体ではなく瞬間ごとに生起する dharma の流れであり、注意 (*manaskāra*) は「自己」ではなく無色の調整作用である——を 62 秒の縦型ショートに凝縮したもの。active inference の精度重み付け (precision-weighting) と、別の道から同じ構造へ収束する。
+
+▸ **YouTube で観る**: https://www.youtube.com/shorts/uZKauW_Cm3I
+
+CC0 1.0（プロジェクト本体と同じ）。全文と構造は [`graph.jsonld`](graph.jsonld) に `schema:VideoObject`（`https://www.youtube.com/watch?v=uZKauW_Cm3I`）として登録。
+
 ## 収録資料
 
 ### 論考（Markdown）
