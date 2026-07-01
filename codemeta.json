@@ -17,7 +17,7 @@
   "codeRepository": "https://github.com/shimo4228/attention-not-self",
   "datePublished": "2026-07-01",
   "description": "A personal essay collection and structured knowledge graph mapping the three major Buddhist Abhidharma traditions (Theravāda, Sarvāstivāda, Yogācāra) onto contemporary frameworks in computational phenomenology — predictive processing, active inference, Global Workspace Theory, Parallel Distributed Processing, and related approaches. Comprises sixteen essays (eight themes × English + Japanese), a cross-tradition dharma comparison table (~130 dharmas across nine sheets), and a JSON-LD knowledge graph (307 nodes, schema.org + custom vocabulary) with bilingual labels and Sanskrit / Pāli / Chinese philological alignment. An interactive 2D/3D viewer is provided. v0.4.0 adds Theme 8 (Epistemic luck across traditions) — starting from the finding that the Free Energy Principle (FEP) literature never engages with the Gettier problem (justified true belief that is true only by luck, and so not knowledge), it turns to Dharmakīrti's pramāṇa-vāda (avisaṃvāda, arthakriyā) and its commentator Dharmottara (c. 770 CE), who rejected a mirage/water case as invalid cognition roughly 1200 years before Gettier. Deliberately avoids the \"Buddhism had the answer first\" framing. Developed in collaboration with the Claude language model (Anthropic) for synthesis, cross-tradition mapping, and graph encoding; the author retains responsibility for all claims.",
-  "identifier": "https://doi.org/10.5281/zenodo.20733464",
+  "identifier": "https://doi.org/10.5281/zenodo.21102754",
   "keywords": [
     "Abhidharma",
     "computational phenomenology",
@@ -50,6 +50,6 @@
   ],
   "license": "https://spdx.org/licenses/CC0-1.0",
   "name": "Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology",
-  "url": "https://doi.org/10.5281/zenodo.20733464",
+  "url": "https://doi.org/10.5281/zenodo.21102754",
   "version": "0.4.0"
 }

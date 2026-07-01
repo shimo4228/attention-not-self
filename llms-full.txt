@@ -14,7 +14,7 @@ A personal research repository at the intersection of classical Buddhist Abhidha
 - **Computational frameworks mapped**: Global Workspace Theory (GWT / GNW), predictive processing (PP), Free Energy Principle / active inference (FEP / AIF), Integrated Information Theory (IIT), Parallel Distributed Processing (PDP / connectionism), Interface Theory of Perception (Hoffman), Phenomenal Self-Model (Metzinger), Posner attention networks, neurophenomenology (Varela), computational phenomenology (Ramstead / Sandved-Smith)
 - **License**: CC0 1.0 (public domain dedication, no attribution required)
 - **DOI (concept, latest)**: [10.5281/zenodo.20262112](https://doi.org/10.5281/zenodo.20262112)
-- **DOI (version v0.3.0, latest)**: [10.5281/zenodo.20733464](https://doi.org/10.5281/zenodo.20733464)
+- **DOI (version v0.4.0, latest)**: [10.5281/zenodo.21102754](https://doi.org/10.5281/zenodo.21102754)
 - **Resource type**: Working paper / essay collection (Zenodo `publication-workingpaper`). Not a peer-reviewed journal article.
 - **Methodology**: AI-assisted scholarship — developed in collaboration with the Claude language model (Anthropic) for cross-tradition synthesis and graph encoding. Author retains responsibility for claims; primary source verification ongoing.
 - **Project namesake**: Ganeri, J. *Attention, Not Self*. Oxford University Press, 2017
