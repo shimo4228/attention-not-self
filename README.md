@@ -154,7 +154,7 @@ CC0 1.0（プロジェクト本体と同じ）。全文と構造は [`graph.json
 }
 ```
 
-特定 version を引用する場合は、Zenodo の version DOI を使用してください。最新の引用情報は [`CITATION.cff`](CITATION.cff) を参照。
+特定 version を引用する場合は、Zenodo の version DOI を使用してください。最新の引用情報は [`CITATION.cff`](CITATION.cff) を参照（[`codemeta.json`](codemeta.json) としても提供 — schema.org ベースの dataset メタデータで、Software Heritage のインデクサーが読み取る）。
 
 ## メソドロジー
 

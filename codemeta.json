@@ -1,0 +1,55 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "author": [
+    {
+      "@id": "https://orcid.org/0009-0002-6168-4162",
+      "@type": "Person",
+      "affiliation": {
+        "@type": "Organization",
+        "legalName": "Independent"
+      },
+      "alternateName": "shimo4228",
+      "familyName": "Shimomoto",
+      "givenName": "Tatsuya"
+    }
+  ],
+  "codeRepository": "https://github.com/shimo4228/attention-not-self",
+  "datePublished": "2026-06-17",
+  "description": "A personal essay collection and structured knowledge graph mapping the three major Buddhist Abhidharma traditions (Theravāda, Sarvāstivāda, Yogācāra) onto contemporary frameworks in computational phenomenology — predictive processing, active inference, Global Workspace Theory, Parallel Distributed Processing, and related approaches. Comprises fourteen essays (seven themes × English + Japanese), a cross-tradition dharma comparison table (~130 dharmas across nine sheets), and a JSON-LD knowledge graph (~284 nodes, schema.org + custom vocabulary) with bilingual labels and Sanskrit / Pāli / Chinese philological alignment. An interactive 2D/3D viewer is provided. v0.3.0 adds Theme 7 (Cessation and continuity without a self) — meditative cessation (nirodha samāpatti) as the sharpest form of the no-self continuity problem, set against four Abhidharma answers to what carries continuity across the gap (Sarvāstivāda prāpti / Sautrāntika bīja / Yogācāra ālaya-vijñāna / Theravāda bhavaṅga) and Laukkonen et al. 2023's active-inference model of cessation. It also relicenses the repository to CC0 1.0 and federates the line into the shimo4228 research-program hub. Developed in collaboration with the Claude language model (Anthropic) for synthesis, cross-tradition mapping, and graph encoding; the author retains responsibility for all claims.",
+  "identifier": "https://doi.org/10.5281/zenodo.20733464",
+  "keywords": [
+    "Abhidharma",
+    "computational phenomenology",
+    "predictive processing",
+    "active inference",
+    "free energy principle",
+    "Theravāda",
+    "Sarvāstivāda",
+    "Yogācāra",
+    "dharma classification",
+    "citta-vīthi",
+    "ālaya-vijñāna",
+    "manaskāra",
+    "mindfulness",
+    "sati",
+    "knowledge graph",
+    "JSON-LD",
+    "schema.org",
+    "AI-assisted scholarship",
+    "Buddhist philosophy",
+    "philosophy of mind",
+    "Zen",
+    "Chan",
+    "Dōgen",
+    "Huineng",
+    "nenbutsu",
+    "Pure Land Buddhism",
+    "non-thinking",
+    "hishiryō"
+  ],
+  "license": "https://spdx.org/licenses/CC0-1.0",
+  "name": "Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology",
+  "url": "https://doi.org/10.5281/zenodo.20733464",
+  "version": "0.3.0"
+}
