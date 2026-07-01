@@ -33,7 +33,14 @@
     "exemplifies": {"@id": "ans:exemplifies", "@type": "@id"},
     "buildsOn": {"@id": "ans:buildsOn", "@type": "@id"},
     "mentions": {"@id": "ans:mentions", "@type": "@id"},
-    "discussesIn": {"@id": "ans:discussesIn", "@type": "@id"}
+    "discussesIn": {"@id": "ans:discussesIn", "@type": "@id"},
+    "about": {"@id": "schema:about", "@type": "@id"},
+    "license": {"@id": "schema:license", "@type": "@id"},
+    "contentUrl": {"@id": "schema:contentUrl", "@type": "@id"},
+    "embedUrl": {"@id": "schema:embedUrl", "@type": "@id"},
+    "thumbnailUrl": {"@id": "schema:thumbnailUrl", "@type": "@id"},
+    "duration": "schema:duration",
+    "uploadDate": "schema:uploadDate"
   },
   "@graph": [
     {
@@ -219,6 +226,16 @@
         {"@value": "滅尽定と、自己なき連続性", "@language": "ja"}
       ],
       "description": "Takes meditative cessation (nirodha samāpatti) — the total stopping of consciousness — as the sharpest form of the Abhidharma problem of continuity without a permanent self. Reads Laukkonen et al. 2023 (an active-inference model of cessation that explicitly leaves the 'restart' question open) against four scholastic answers to what carries continuity across the gap: Sarvāstivāda prāpti, Sautrāntika bīja, Yogācāra ālaya-vijñāna, Theravāda bhavaṅga. Frames the parallel soberly — two inquiries reaching the same problem by different roads — and disavows Buddhist-modernist exceptionalism."
+    },
+    {
+      "@id": "ans:theme/8-epistemic-luck-gettier-dharmakirti",
+      "@type": ["ans:Theme", "schema:CreativeWorkSeries"],
+      "name": "Epistemic luck: Gettier, the Free Energy Principle, and Dharmakīrti",
+      "alternateName": [
+        {"@value": "Epistemic luck: Gettier, the Free Energy Principle, and Dharmakīrti", "@language": "en"},
+        {"@value": "運による知識の偽装 ── ゲティア問題・自由エネルギー原理・ダルマキールティ", "@language": "ja"}
+      ],
+      "description": "Asks whether the Free Energy Principle's descriptive vocabulary (precision-weighted posterior beliefs) has anything to say about the Gettier problem (justified true belief that is true only by luck, and so not knowledge) — and finds the FEP literature silent. Turns to Dharmakīrti's pramāṇa-vāda (avisaṃvāda, arthakriyā) and its commentator Dharmottara (c. 770 CE), who — via arthasārūpya, exclusion of kākatālīya, and santāna — rejected a mirage/water case as not valid cognition, roughly 1200 years before Gettier."
     },
 
     {
@@ -534,6 +551,50 @@
       ],
       "inLanguage": "ja",
       "isPartOf": "ans:theme/7-cessation-continuity"
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "You Got It Right — But You Didn't Know It",
+      "alternateName": [
+        {"@value": "You Got It Right — But You Didn't Know It", "@language": "en"}
+      ],
+      "inLanguage": "en",
+      "isPartOf": "ans:theme/8-epistemic-luck-gettier-dharmakirti",
+      "mentions": [
+        "ans:concept/gettier-luck",
+        "ans:concept/pramana-vada",
+        "ans:concept/ksanikatva",
+        "ans:concept/anatman",
+        "ans:framework/fep",
+        "ans:framework/pp"
+      ],
+      "citation": [
+        "ans:ref/uejima-2020",
+        "ans:ref/gettier-1963",
+        "ans:ref/goldman-1976",
+        "ans:ref/iep-gettier-problems",
+        "ans:ref/iep-reliabilism",
+        "ans:ref/friston-2015-epistemic-value",
+        "ans:ref/parr-friston-2019",
+        "ans:ref/gladziejewski-2021",
+        "ans:ref/ghijsen-2018",
+        "ans:ref/sep-dharmakirti",
+        "ans:ref/dunne-dharmakirti-foundations",
+        "ans:ref/wikipedia-gettier-problem",
+        "ans:ref/mandal-2022"
+      ]
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/%E6%AD%A3%E3%81%97%E3%81%8F%E8%A8%80%E3%81%84%E5%BD%93%E3%81%A6%E3%81%9F%E3%81%AE%E3%81%AB%E3%80%81%E7%9F%A5%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A8%E3%81%AF%E8%A8%80%E3%81%88%E3%81%AA%E3%81%84%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "正しく言い当てたのに、知っていたとは言えない",
+      "alternateName": [
+        {"@value": "You Got It Right, But You Didn't Know It (Japanese)", "@language": "en"},
+        {"@value": "正しく言い当てたのに、知っていたとは言えない", "@language": "ja"}
+      ],
+      "inLanguage": "ja",
+      "isPartOf": "ans:theme/8-epistemic-luck-gettier-dharmakirti"
     },
 
     {
@@ -2764,6 +2825,26 @@
       ],
       "description": "Active-inference account where the phenomenal self-model temporarily destabilizes. Parallels Yogācāra's āśraya-parāvṛtti."
     },
+    {
+      "@id": "ans:concept/gettier-luck",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "Gettier problem / epistemic luck",
+      "alternateName": [
+        {"@value": "Gettier problem — justified true belief that is true only by luck, and so not knowledge", "@language": "en"},
+        {"@value": "ゲティア問題 ── 正当化された真なる信念が、運によって知識でなくなる問題", "@language": "ja"}
+      ],
+      "description": "Edmund Gettier's 1963 counter-examples to the justified-true-belief (JTB) analysis of knowledge. The recurring structural culprit is luck intervening between justification and truth (inferential luck in Gettier's original cases; environmental luck in Goldman's fake-barn-country). Six decades of reliabilist and knowledge-first responses have not settled it."
+    },
+    {
+      "@id": "ans:concept/pramana-vada",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "pramāṇa-vāda (Dharmakīrti's theory of valid cognition)",
+      "alternateName": [
+        {"@value": "pramāṇa-vāda — Dharmakīrti's externalist theory of valid cognition (avisaṃvāda, arthakriyā, santāna)", "@language": "en"},
+        {"@value": "量論 ── ダルマキールティの外在主義的な正しい認識の理論", "@language": "ja"}
+      ],
+      "description": "Dharmakīrti's 7th-century system defining pramāṇa as avisaṃvādin (non-deceptive) cognition reliable as a basis for successful action (arthakriyā). Structurally close to Western reliabilism. Dharmottara (c. 770 CE) added arthasārūpya, exclusion of kākatālīya, and santāna to reject lucky-but-true cognitions as non-pramāṇa — roughly 1200 years before Gettier."
+    },
 
     {
       "@id": "ans:framework/gwt",
@@ -2917,6 +2998,40 @@
     {"@id": "ans:ref/faure-1991", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Faure 1991", "alternateName": [{"@value": "Faure, B. The Rhetoric of Immediacy: A Cultural Critique of Chan/Zen Buddhism. Princeton University Press, 1991.", "@language": "en"}], "description": "Critical-cultural reading of Chan/Zen rhetoric, including the 'sudden' / 'direct' tropes. Compatible with but not identical to Sharf's deconstructive reading of early Chan."},
     {"@id": "ans:ref/mcrae-2003", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "McRae 2003", "alternateName": [{"@value": "McRae, J. Seeing Through Zen: Encounter, Transformation, and Genealogy in Chinese Chan Buddhism. University of California Press, 2003.", "@language": "en"}], "description": "Genealogical history of Chinese Chan. Also produced the BDK Numata translation of the Zongbao recension of the Platform Sutra (2000)."},
     {"@id": "ans:ref/suzuki-dt-1959", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Suzuki D.T. 1959", "alternateName": [{"@value": "Suzuki, D. T. Zen and Japanese Culture. Princeton/Bollingen, 1959 (orig. Japan 1938).", "@language": "en"}], "description": "Conflates munen / muga / mushin / musō into a single cluster; treats Huineng's 無念 as the central insight of Zen. Major channel by which 'no-mind' Zen reached Anglophone audiences. Sharf 1995 critiques this framing as a Meiji-era Kyoto-School construction."},
-    {"@id": "ans:ref/levman-2017", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Levman 2017", "alternateName": [{"@value": "Levman, B. 'Putting smṛti back into sati.' Journal of the Oxford Centre for Buddhist Studies 13 (2017): 121–149.", "@language": "en"}], "description": "Philological argument that sati / smṛti retains its memory-pole sense more robustly than Anālayo's reconstruction allows. Pushes back on present-moment-awareness readings."}
+    {"@id": "ans:ref/levman-2017", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Levman 2017", "alternateName": [{"@value": "Levman, B. 'Putting smṛti back into sati.' Journal of the Oxford Centre for Buddhist Studies 13 (2017): 121–149.", "@language": "en"}], "description": "Philological argument that sati / smṛti retains its memory-pole sense more robustly than Anālayo's reconstruction allows. Pushes back on present-moment-awareness readings."},
+    {"@id": "ans:ref/uejima-2020", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Uejima 2020", "url": "https://www.keisoshobo.co.jp/book/b524661.html", "alternateName": [{"@value": "Uejima, Y. Gendai Ninshikiron Nyūmon [Introduction to Contemporary Epistemology]. Keisō Shobō, 2020.", "@language": "en"}], "description": "Japanese-language survey of post-Gettier epistemology that motivated the essay; not directly quoted."},
+    {"@id": "ans:ref/gettier-1963", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Gettier 1963", "url": "https://fitelson.org/proseminar/gettier.pdf", "alternateName": [{"@value": "Gettier, E. 'Is Justified True Belief Knowledge?' Analysis 23(6) (1963): 121–123.", "@language": "en"}], "description": "Original counter-examples to the JTB analysis of knowledge."},
+    {"@id": "ans:ref/goldman-1976", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Goldman 1976", "url": "https://www.jstor.org/stable/i335719", "alternateName": [{"@value": "Goldman, A. I. 'Discrimination and Perceptual Knowledge.' The Journal of Philosophy 73(20) (1976): 771–791.", "@language": "en"}], "description": "Source of the 'fake barn country' case; reliabilism's vulnerability to environmental luck."},
+    {"@id": "ans:ref/iep-gettier-problems", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "IEP 'Gettier Problems'", "url": "https://iep.utm.edu/gettier/", "alternateName": [{"@value": "Internet Encyclopedia of Philosophy. 'Gettier Problems.'", "@language": "en"}], "description": "Summarizes six decades of reliabilist/knowledge-first responses."},
+    {"@id": "ans:ref/iep-reliabilism", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "IEP 'Reliabilism'", "url": "https://iep.utm.edu/reliabilism/", "alternateName": [{"@value": "Internet Encyclopedia of Philosophy. 'Reliabilism.'", "@language": "en"}], "description": "Standard formulation: belief is justified iff formed by a reliable process."},
+    {"@id": "ans:ref/friston-2015-epistemic-value", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Friston et al. 2015", "alternateName": [{"@value": "Friston, K. et al. 'Active inference and epistemic value.' Cognitive Neuroscience 6(4) (2015): 187–214.", "@language": "en"}], "description": "Decomposes expected free energy into extrinsic/epistemic value; precision as descriptive, not normative. Distinct from friston-2010/friston-2018 already in this graph."},
+    {"@id": "ans:ref/parr-friston-2019", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Parr & Friston 2019", "url": "https://discovery.ucl.ac.uk/10082773/1/Parr-Friston2019_Article_GeneralisedFreeEnergyAndActive.pdf", "alternateName": [{"@value": "Parr, T. & Friston, K. J. 'Generalised free energy and active inference.' Biological Cybernetics 113(5-6) (2019): 495–513.", "@language": "en"}], "description": "Decomposes expected free energy into Risk and Ambiguity; no normative epistemic-justification concept."},
+    {"@id": "ans:ref/gladziejewski-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Gładziejewski 2021", "identifier": "doi:10.1007/s11229-021-03295-1", "url": "https://doi.org/10.1007/s11229-021-03295-1", "alternateName": [{"@value": "Gładziejewski, P. 'Perceptual justification in the Bayesian brain: a foundherentist account.' Synthese 199 (2021).", "@language": "en"}], "description": "Rare perceptual-justification theory within predictive processing; never mentions Gettier. DOI verified resolving and matching metadata (2026-07-01)."},
+    {"@id": "ans:ref/ghijsen-2018", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Ghijsen 2018", "identifier": "doi:10.1007/s11229-018-1715-x", "url": "https://doi.org/10.1007/s11229-018-1715-x", "alternateName": [{"@value": "Ghijsen, H. 'Predictive processing and foundationalism about perception.' Synthese 198(Suppl 7) (2018): 1751–1769.", "@language": "en"}], "description": "'Externalist foundationalism' for PP, structurally close to reliabilism; never mentions Gettier. DOI verified resolving and matching metadata (2026-07-01)."},
+    {"@id": "ans:ref/sep-dharmakirti", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "SEP 'Dharmakīrti'", "url": "https://plato.stanford.edu/entries/dharmakiirti/", "alternateName": [{"@value": "Stanford Encyclopedia of Philosophy. 'Dharmakīrti.'", "@language": "en"}], "description": "Source for Pramāṇavārttika II.1's avisaṃvādin definition of pramāṇa."},
+    {"@id": "ans:ref/dunne-dharmakirti-foundations", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Dunne, Foundations of Dharmakīrti's Philosophy", "alternateName": [{"@value": "Dunne, J. D. Foundations of Dharmakīrti's Philosophy. Wisdom Publications.", "@language": "en"}], "description": "Source for arthakriyā as the true test of knowledge."},
+    {"@id": "ans:ref/wikipedia-gettier-problem", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Wikipedia 'Gettier problem' (§ Dharmottara)", "url": "https://en.wikipedia.org/wiki/Gettier_problem", "alternateName": [{"@value": "Wikipedia. 'Gettier problem,' § Dharmottara.", "@language": "en"}], "description": "Source for Dharmottara's smoke/insects and mirage/water cases and c. 770 CE dating. Self-flagged by the essay's author as tertiary; primary-source (Dreyfus/Tillemans) verification not yet done."},
+    {"@id": "ans:ref/mandal-2022", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Manotosh Mandal 2022", "alternateName": [{"@value": "Mandal, M. 'The Concept of Valid Cognition According to Buddhist Logic.' International Journal of Creative Research Thoughts (IJCRT) (2022).", "@language": "en"}], "description": "Source for verbatim Sanskrit quotations from Dharmottara's Nyāyabinduṭīkā. Self-flagged by the essay's author as a lower-tier peer-reviewed venue; quotations not independently cross-checked against a critical Sanskrit edition."},
+    {
+      "@id": "https://www.youtube.com/watch?v=uZKauW_Cm3I",
+      "@type": ["schema:VideoObject", "schema:CreativeWork"],
+      "name": "Attention, Not Self — Is the Self Really There?",
+      "description": "A 62-second vertical short distilling the collection's core thesis: the mind as not a substance but a stream of momentary dharmas, and attention (manaskāra) as a colorless coordination rather than an 'I' — converging with precision-weighting in active inference. Not a prediction of neuroscience by Buddhism, but two inquiries reaching the same structure.",
+      "inLanguage": "en",
+      "isBasedOn": ["https://doi.org/10.5281/zenodo.20262112", "https://github.com/shimo4228/attention-not-self/blob/main/Abhidharma%20Meets%20Computational%20Phenomenology.md"],
+      "isPartOf": "ans:theme/1-introduction",
+      "about": "ans:dharma/manaskara",
+      "author": "https://orcid.org/0009-0002-6168-4162",
+      "creator": "https://orcid.org/0009-0002-6168-4162",
+      "publisher": "Tatsuya Shimomoto",
+      "datePublished": "2026-06-28",
+      "uploadDate": "2026-06-28",
+      "duration": "PT1M2S",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.youtube.com/shorts/uZKauW_Cm3I",
+      "contentUrl": "https://www.youtube.com/watch?v=uZKauW_Cm3I",
+      "embedUrl": "https://www.youtube.com/embed/uZKauW_Cm3I",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uZKauW_Cm3I/maxresdefault.jpg"
+    }
   ]
 }

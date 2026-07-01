@@ -12,7 +12,7 @@ Language: [日本語](README.md) | English
 
 AI agents / LLM crawlers should read this repository in the following order:
 
-1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~284 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (307 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
 2. [`llms.txt`](llms.txt) — AI-facing navigator (essay catalog by theme; entry points to core docs)
 3. [`llms-full.txt`](llms-full.txt) — self-contained FAQ + glossary + ~45 prior research references (with Pāli / Sanskrit / Chinese philological alignment)
 4. Individual essays (see "Contents" sections below)
@@ -40,7 +40,7 @@ CC0 1.0, like the rest of the project. Its full text and structure are registere
 
 ### Essays (Markdown)
 
-Essays are organized into seven themes. Each theme is available in both Japanese and English.
+Essays are organized into eight themes. Each theme is available in both Japanese and English.
 
 #### 1. Introduction: Abhidharma Meets Computational Phenomenology
 
@@ -105,6 +105,15 @@ Takes meditative cessation (nirodha samāpatti) — stopping consciousness compl
 | English | [`When Consciousness Fully Stops - How Does the Mind Return.md`](When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md) |
 | 日本語 | [`滅尽定のあとに心はどう戻るのか（日本語）.md`](%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
 
+#### 8. You Got It Right — But You Didn't Know It (the Gettier problem, the Free Energy Principle, and Dharmakīrti)
+
+Starting from the finding that the Free Energy Principle (FEP) literature never once engages with the Gettier problem (justified true belief that is true only by luck, and so not knowledge), turns to Dharmakīrti's *pramāṇa-vāda* (avisaṃvāda, arthakriyā) and its commentator Dharmottara (c. 770 CE), who — via arthasārūpya, exclusion of kākatālīya, and santāna — rejected a mirage/water case as invalid cognition roughly 1200 years before Gettier. Avoids the conclusion that "Buddhism had the answer first," instead tracing three independent lineages — the Gettier lineage in analytic philosophy, FEP's descriptive vocabulary and its silence, and Dharmakīrti's pramāṇa-vāda — each peering, in a different vocabulary, over the edge of the same problem.
+
+| Language | File |
+|----------|------|
+| English | [`You Got It Right - But You Didn't Know It.md`](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md) |
+| 日本語 | [`正しく言い当てたのに、知っていたとは言えない（日本語）.md`](正しく言い当てたのに、知っていたとは言えない（日本語）.md) |
+
 ### Comparison Table (multiple formats)
 
 | File | Purpose |
@@ -118,11 +127,11 @@ Takes meditative cessation (nirodha samāpatti) — stopping consciousness compl
 A structured knowledge graph of essays, dharmas, concepts, computational frameworks, and references.
 
 - **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — interactive exploration in browser (2D / 3D toggle, search, click-for-detail)
-- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (~284 nodes). For LLM / search-engine crawlers.
+- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (307 nodes). For LLM / search-engine crawlers.
 - [`viewer/`](viewer/) — viewer source (React + Vite + react-force-graph)
 - [`docs/`](docs/) — built artifacts served by GitHub Pages
 
-Entities included: 7 themes / 14 essays / 5 traditions / ~140 dharmas / ~40 concepts / 9 computational frameworks / ~53 references.
+Entities included: 8 themes / 16 essays / 5 traditions / ~140 dharmas / ~42 concepts / 9 computational frameworks / 69 references.
 
 ## Themes
 
@@ -149,7 +158,7 @@ When citing this project, please use the Zenodo concept DOI (always resolves to 
   title        = {Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology},
   year         = {2026},
   publisher    = {Zenodo},
-  version      = {0.3.0},
+  version      = {0.4.0},
   doi          = {10.5281/zenodo.20733464},
   url          = {https://doi.org/10.5281/zenodo.20733464},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}

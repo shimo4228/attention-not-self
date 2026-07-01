@@ -10,7 +10,7 @@ Language: 日本語 | [English](README.en.md)
 
 AI エージェント・LLM クローラは以下の順で読むことを推奨します。
 
-1. [`graph.jsonld`](graph.jsonld) — 構造化された知識グラフ（約 284 ノード、schema.org + 独自 `ans:` 語彙）。テーマ・エッセイ・伝統・dharma・概念・計算フレームワーク・引用文献の関係を triples として encode
+1. [`graph.jsonld`](graph.jsonld) — 構造化された知識グラフ（307 ノード、schema.org + 独自 `ans:` 語彙）。テーマ・エッセイ・伝統・dharma・概念・計算フレームワーク・引用文献の関係を triples として encode
 2. [`llms.txt`](llms.txt) — AI-facing navigator（テーマ別エッセイ一覧、core docs への入口）
 3. [`llms-full.txt`](llms-full.txt) — 自己完結 FAQ + 用語集 + 約 45 件の引用文献（Pāli / Sanskrit / 漢字の三言語整合あり）
 4. 個別のエッセイ（下記 "収録資料" セクション参照）
@@ -38,7 +38,7 @@ CC0 1.0（プロジェクト本体と同じ）。全文と構造は [`graph.json
 
 ### 論考（Markdown）
 
-論考はテーマ別に 7 種類。各テーマで日本語版と英語版を用意している。
+論考はテーマ別に 8 種類。各テーマで日本語版と英語版を用意している。
 
 #### 1. アビダルマと計算論的現象学（導入）
 
@@ -103,6 +103,15 @@ CC0 1.0（プロジェクト本体と同じ）。全文と構造は [`graph.json
 | 日本語 | [`滅尽定のあとに心はどう戻るのか（日本語）.md`](%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
 | English | [`When Consciousness Fully Stops - How Does the Mind Return.md`](When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md) |
 
+#### 8. 正しく言い当てたのに、知っていたとは言えない（ゲティア問題・自由エネルギー原理・ダルマキールティ）
+
+FEP（自由エネルギー原理）の文献にゲティア問題（正当化された真なる信念が運によって知識でなくなる問題）への言及が皆無であることを起点に、ダルマキールティの量論（*pramāṇa-vāda*、avisaṃvāda・arthakriyā）と、その注釈者ダルモーッタラ（c.770年）が技術的装置（arthasārūpya・kākatālīya排除・santāna）によって「運による知識の偽装」を、ゲティアより約1200年早く退けていたことを論じる。「仏教が答えを先取りしていた」という結論を避け、分析哲学のゲティア系譜・FEPの記述的語彙とその沈黙・ダルマキールティの量論という独立した三系統が、それぞれ別の語彙で同じ問題の縁を覗き込んでいた、という配置として辿る。
+
+| 言語 | ファイル |
+|------|---------|
+| 日本語 | [`正しく言い当てたのに、知っていたとは言えない（日本語）.md`](正しく言い当てたのに、知っていたとは言えない（日本語）.md) |
+| English | [`You Got It Right - But You Didn't Know It.md`](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md) |
+
 ### 対照表データ（複数形式）
 
 | ファイル | 用途 |
@@ -116,11 +125,11 @@ CC0 1.0（プロジェクト本体と同じ）。全文と構造は [`graph.json
 論考・dharma・概念・計算フレームワーク・参考文献を構造化したナレッジグラフ。
 
 - **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — ブラウザでインタラクティブに探索（2D/3D 切替、検索、ノードクリックで詳細）
-- [`graph.jsonld`](graph.jsonld) — schema.org + 独自 `ans:` 語彙の JSON-LD（約 284 ノード）。LLM / 検索クローラ向け
+- [`graph.jsonld`](graph.jsonld) — schema.org + 独自 `ans:` 語彙の JSON-LD（307 ノード）。LLM / 検索クローラ向け
 - [`viewer/`](viewer/) — viewer のソース（React + Vite + react-force-graph）
 - [`docs/`](docs/) — GitHub Pages 配信用にビルドされた成果物
 
-含まれるエンティティ: 7 テーマ / 14 エッセイ / 5 伝統 / 約 140 dharma / 約 40 概念 / 9 計算フレームワーク / 約 53 引用文献。
+含まれるエンティティ: 8 テーマ / 16 エッセイ / 5 伝統 / 約 140 dharma / 約 42 概念 / 9 計算フレームワーク / 69 引用文献。
 
 ## テーマ
 
@@ -147,7 +156,7 @@ CC0 1.0（プロジェクト本体と同じ）。全文と構造は [`graph.json
   title        = {Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology},
   year         = {2026},
   publisher    = {Zenodo},
-  version      = {0.3.0},
+  version      = {0.4.0},
   doi          = {10.5281/zenodo.20733464},
   url          = {https://doi.org/10.5281/zenodo.20733464},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}

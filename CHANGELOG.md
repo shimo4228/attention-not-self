@@ -3,6 +3,26 @@
 All notable changes to this project are documented in this file.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
+## v0.4.0 — Theme 8 added: Epistemic luck across traditions (2026-07-01)
+
+Adds an eighth essay theme asking whether the Free Energy Principle's descriptive vocabulary has anything to say about the Gettier problem, and tracing Dharmakīrti's Buddhist epistemology as an independent line that reached a structurally similar problem roughly 1200 years earlier.
+
+### Added
+
+- **Theme 8: *You Got It Right — But You Didn't Know It*** (English canonical + Japanese mirror *正しく言い当てたのに、知っていたとは言えない*). Starts from the finding that the Free Energy Principle (FEP) literature never engages with the Gettier problem (justified true belief that is true only by luck, and so not knowledge). Turns to Dharmakīrti's *pramāṇa-vāda* (*avisaṃvāda*, *arthakriyā*) and its commentator Dharmottara (c. 770 CE), who — via *arthasārūpya*, exclusion of *kākatālīya*, and *santāna* — rejected a mirage/water case as invalid cognition roughly 1200 years before Gettier. Deliberately avoids the "Buddhism had the answer first" framing, instead tracing three independent lineages — the Gettier lineage in analytic philosophy, FEP's descriptive vocabulary and its silence, and Dharmakīrti's *pramāṇa-vāda* — each peering, in a different vocabulary, over the edge of the same problem.
+- **`graph.jsonld` expansion** — Theme 8 node (`ans:theme/8-epistemic-luck-gettier-dharmakirti`) + 2 essay nodes (en / ja) + 13 new reference nodes (Gettier 1963, Goldman 1976, IEP Gettier Problems, IEP Reliabilism, Friston et al. 2015, Parr & Friston 2019, Gładziejewski 2021, Ghijsen 2018, SEP Dharmakīrti, Dunne, Wikipedia Gettier problem §Dharmottara, Mandal 2022, Uejima 2020) + 2 new concept nodes (`gettier-luck`, `pramana-vada`). Total node count 289 → 307.
+- **`llms-full.txt` Prior Research References backfill** — all 13 new Theme 8 citations added to the self-contained AI-facing bibliography table (a gap left open for Theme 7 is not repeated here).
+
+### Changed
+
+- `README.md` / `README.en.md` / `llms.txt` / `llms-full.txt` / `CLAUDE.md` — entity counts updated (7 → 8 themes, 14 → 16 essays, ~284 → 307 nodes, ~53 → 69 references, ~40 → ~42 concepts); BibTeX `version` 0.3.0 → 0.4.0.
+- `.zenodo.json` / `CITATION.cff` / `codemeta.json` — description/abstract updated to Theme 8; `related_identifiers` gains DOIs for Gładziejewski 2021 (`10.1007/s11229-021-03295-1`) and Ghijsen 2018 (`10.1007/s11229-018-1715-x`).
+- `viewer/` rebuilt; `docs/` regenerated with the new node count (289 → 307).
+
+### Notes
+
+- A companion draft on the Nyāya school's independent, opposite resolution (Śrīharṣa, Gaṅgeśa) was written alongside the main Theme 8 essay but held back in `.notes/` (not published) — it needs its own English translation and citation verification pass before it is ready to join the collection as future work.
+
 ## v0.3.0 — Theme 7 added: Cessation & self-less continuity; relicensed CC0 (2026-06-17)
 
 Adds a seventh essay theme taking meditative cessation (*nirodha samāpatti*) as the sharpest form of the Abhidharma problem of continuity without a self, federates the line into the research-program hub, and relicenses the repository to CC0 1.0.

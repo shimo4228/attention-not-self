@@ -8,8 +8,8 @@ authors:
     orcid: "https://orcid.org/0009-0002-6168-4162"
     affiliation: "Independent"
     alias: shimo4228
-date-released: "2026-06-17"
-version: "0.3.0"
+date-released: "2026-07-01"
+version: "0.4.0"
 doi: "10.5281/zenodo.20733464"
 url: "https://doi.org/10.5281/zenodo.20733464"
 repository-code: "https://github.com/shimo4228/attention-not-self"
@@ -23,18 +23,18 @@ abstract: >-
   major Buddhist Abhidharma traditions (Theravāda, Sarvāstivāda, Yogācāra) onto
   contemporary frameworks in computational phenomenology — predictive processing,
   active inference, Global Workspace Theory, Parallel Distributed Processing, and
-  related approaches. Comprises fourteen essays (seven themes × English + Japanese), a
+  related approaches. Comprises sixteen essays (eight themes × English + Japanese), a
   cross-tradition dharma comparison table (~130 dharmas across nine sheets), and
-  a JSON-LD knowledge graph (~284 nodes, schema.org + custom vocabulary) with
+  a JSON-LD knowledge graph (307 nodes, schema.org + custom vocabulary) with
   bilingual labels and Sanskrit / Pāli / Chinese philological alignment. An
-  interactive 2D/3D viewer is provided. v0.3.0 adds Theme 7 (Cessation and
-  continuity without a self) — meditative cessation (nirodha samāpatti) as the
-  sharpest form of the no-self continuity problem, set against four Abhidharma
-  answers to what carries continuity across the gap (Sarvāstivāda prāpti /
-  Sautrāntika bīja / Yogācāra ālaya-vijñāna / Theravāda bhavaṅga) and
-  Laukkonen et al. 2023's active-inference model of cessation. It also relicenses
-  the repository to CC0 1.0 and federates the line into the shimo4228
-  research-program hub. Developed in collaboration with the Claude
+  interactive 2D/3D viewer is provided. v0.4.0 adds Theme 8 (Epistemic luck
+  across traditions) — starting from the finding that the Free Energy Principle
+  (FEP) literature never engages with the Gettier problem (justified true belief
+  that is true only by luck, and so not knowledge), it turns to Dharmakīrti's
+  pramāṇa-vāda (avisaṃvāda, arthakriyā) and its commentator Dharmottara (c. 770
+  CE), who rejected a mirage/water case as invalid cognition roughly 1200 years
+  before Gettier. Deliberately avoids the "Buddhism had the answer first"
+  framing. Developed in collaboration with the Claude
   language model (Anthropic) for synthesis, cross-tradition mapping, and graph
   encoding; the author retains responsibility for all claims.
 keywords:

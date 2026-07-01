@@ -5,7 +5,7 @@
 ## Tech Stack
 
 - 資料中心（Markdown, PDF, xlsx）
-- 知識グラフ: `graph.jsonld`（schema.org + 独自 `ans:` 語彙、約 284 ノード）
+- 知識グラフ: `graph.jsonld`（schema.org + 独自 `ans:` 語彙、307 ノード）
 - Viewer: React + Vite + react-force-graph (2D/3D)、Node.js 20+
 - GitHub Pages で `docs/` を配信、live URL: https://shimo4228.github.io/attention-not-self/
 
@@ -13,7 +13,7 @@
 
 ```
 attention-not-self/
-├── *.md                       # 7 テーマ × 日英の論考 14 本 + README + TABLES
+├── *.md                       # 8 テーマ × 日英の論考 16 本 + README + TABLES
 ├── csv/                       # 三大アビダルマ法対照表の per-sheet 出力
 ├── 三大アビダルマ法対照表.xlsx  # 元データ
 ├── graph.jsonld               # JSON-LD 知識グラフ（LLM / クローラ向け）
@@ -37,6 +37,7 @@ attention-not-self/
 - 2026-05-18: 知識グラフ（graph.jsonld）+ React viewer 追加。GitHub Pages 配信
 - 2026-06-14: テーマ7「滅尽定と自己なき連続性」エッセイ（日英）追加。graph に Laukkonen 2023 引用。Substack 公開（英語）
 - 2026-06-17: v0.3.0 release（Zenodo）。CC0 1.0 へ relicense、研究プログラム hub への federation、graph 267→284 ノード
+- 2026-07-01: テーマ8「運による知識の偽装 ── ゲティア問題・自由エネルギー原理・ダルマキールティ」エッセイ（日英）追加。graph 289→307 ノード
 
 ## Graph 更新フロー
 

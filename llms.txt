@@ -8,13 +8,13 @@
 
 ## Recommended reading order
 
-1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (~284 nodes, schema.org JSON-LD)
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (307 nodes, schema.org JSON-LD)
 2. [`llms-full.txt`](llms-full.txt) — full FAQ + glossary + ~45 prior research references
 3. Individual essays under "Essays" sections below
 
 ## Core documentation
 
-- [`graph.jsonld`](graph.jsonld): JSON-LD knowledge graph (~284 nodes: 7 themes, 14 essays, 5 traditions, ~140 dharmas, ~40 concepts, 9 frameworks, ~53 references). Interactive viewer at https://shimo4228.github.io/attention-not-self/
+- [`graph.jsonld`](graph.jsonld): JSON-LD knowledge graph (307 nodes: 8 themes, 16 essays, 5 traditions, ~140 dharmas, ~42 concepts, 9 frameworks, 69 references). Interactive viewer at https://shimo4228.github.io/attention-not-self/
 - [Full AI Reference](llms-full.txt): self-contained FAQ, glossary, and prior research references for AI agents
 - [README (English)](README.en.md): human-facing project overview
 - [README (Japanese, canonical)](README.md): 日本語版プロジェクト正本
@@ -71,6 +71,13 @@ Takes meditative cessation (*nirodha samāpatti*) — the total stopping of cons
 
 - [When Consciousness Fully Stops - How Does the Mind Return?](When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md): English canonical version.
 - [意識が完全に止まる瞑想状態（滅尽定）のあとに心はどう戻るのか（日本語）](%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md): Japanese mirror.
+
+## Essays — Theme 8: Epistemic luck across traditions — Gettier, the Free Energy Principle, and Dharmakīrti
+
+The Free Energy Principle (FEP) literature never once engages with the Gettier problem (justified true belief that is true only by luck, and so not knowledge). Turns to Dharmakīrti's *pramāṇa-vāda* (avisaṃvāda, arthakriyā) and its commentator Dharmottara (c. 770 CE), who — via arthasārūpya, exclusion of kākatālīya, and santāna — rejected a mirage/water case as invalid cognition roughly 1200 years before Gettier. Deliberately avoids the "Buddhism had the answer first" framing; instead traces three independent lineages — the Gettier lineage in analytic philosophy, FEP's descriptive vocabulary and its silence, and Dharmakīrti's pramāṇa-vāda — each peering, in a different vocabulary, over the edge of the same problem: knowledge counterfeited by luck.
+
+- [You Got It Right - But You Didn't Know It](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md): English canonical version.
+- [正しく言い当てたのに、知っていたとは言えない（日本語）](正しく言い当てたのに、知っていたとは言えない（日本語）.md): Japanese mirror.
 
 ## Comparison tables (data)
 
