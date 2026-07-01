@@ -1,7 +1,35 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import { copyFileSync, mkdirSync, existsSync, readdirSync, rmSync } from 'node:fs';
+import { copyFileSync, mkdirSync, existsSync, readdirSync, rmSync, readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
+
+// The viewer renders the graph client-side (JS), so a crawler that does not run
+// JS sees no structured data — only the noscript fallback. Embed the canonical
+// graph.jsonld as an in-page `<script type="application/ld+json">` block in the
+// served page's <head> so the concept graph is crawler-readable structured data
+// on an already-indexed page (authorship-strategy ADR-0009 served-page markup).
+// Reads the canonical root graph.jsonld at build time — single source of truth,
+// no drift.
+function injectGraphJsonld() {
+  return {
+    name: 'inject-graph-jsonld',
+    transformIndexHtml() {
+      const src = resolve(__dirname, '..', 'graph.jsonld');
+      // Escape '<' so a string value containing '</script>' cannot break out of
+      // the inline script. '<' is valid inside JSON strings, and JSON
+      // structure has no bare '<', so the JSON-LD stays parseable.
+      const jsonld = readFileSync(src, 'utf-8').replace(/</g, '\\u003c');
+      return [
+        {
+          tag: 'script',
+          attrs: { type: 'application/ld+json' },
+          children: jsonld,
+          injectTo: 'head' as const,
+        },
+      ];
+    },
+  };
+}
 
 function copyGraphJsonld() {
   return {
@@ -44,7 +72,7 @@ function cleanOutDirExcept(keep: string[]) {
 
 export default defineConfig({
   base: '/attention-not-self/',
-  plugins: [react(), copyGraphJsonld(), cleanOutDirExcept(PRESERVE_IN_DOCS)],
+  plugins: [react(), copyGraphJsonld(), injectGraphJsonld(), cleanOutDirExcept(PRESERVE_IN_DOCS)],
   build: {
     outDir: '../docs',
     // Do not let Vite wipe the whole dir; cleanOutDirExcept handles it. See note above.

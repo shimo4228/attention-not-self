@@ -7,6 +7,3044 @@
     <meta name="description" content="Interactive 2D/3D knowledge graph of Buddhist Abhidharma dharma classifications, cognitive process models, and computational phenomenology frameworks." />
     <script type="module" crossorigin src="/attention-not-self/assets/index-C4XQDb7q.js"></script>
     <link rel="stylesheet" crossorigin href="/attention-not-self/assets/index-LdaME5jO.css">
+    <script type="application/ld+json">{
+  "@context": {
+    "schema": "https://schema.org/",
+    "ans": "https://github.com/shimo4228/attention-not-self/vocab#",
+    "shimo": "https://shimo4228.github.io/shimo4228/vocab#",
+    "ResearchLine": "shimo:ResearchLine",
+    "siblingOf": {"@id": "shimo:siblingOf", "@type": "@id"},
+    "identifier": "schema:identifier",
+    "name": "schema:name",
+    "alternateName": "schema:alternateName",
+    "description": "schema:description",
+    "url": "schema:url",
+    "inLanguage": "schema:inLanguage",
+    "isPartOf": {"@id": "schema:isPartOf", "@type": "@id"},
+    "isBasedOn": {"@id": "schema:isBasedOn", "@type": "@id"},
+    "mainEntity": {"@id": "schema:mainEntity", "@type": "@id"},
+    "citation": {"@id": "schema:citation", "@type": "@id"},
+    "author": {"@id": "schema:author", "@type": "@id"},
+    "creator": {"@id": "schema:creator", "@type": "@id"},
+    "sameAs": {"@id": "schema:sameAs", "@type": "@id"},
+    "datePublished": "schema:datePublished",
+    "publisher": "schema:publisher",
+    "sanskritName": "ans:sanskritName",
+    "paliName": "ans:paliName",
+    "chineseName": "ans:chineseName",
+    "tradition": {"@id": "ans:tradition", "@type": "@id"},
+    "classifiedIn": {"@id": "ans:classifiedIn", "@type": "@id"},
+    "categoryLabel": "ans:categoryLabel",
+    "uniqueTo": {"@id": "ans:uniqueTo", "@type": "@id"},
+    "comparesWith": {"@id": "ans:comparesWith", "@type": "@id"},
+    "mapsTo": {"@id": "ans:mapsTo", "@type": "@id"},
+    "evidenceQuality": "ans:evidenceQuality",
+    "exemplifies": {"@id": "ans:exemplifies", "@type": "@id"},
+    "buildsOn": {"@id": "ans:buildsOn", "@type": "@id"},
+    "mentions": {"@id": "ans:mentions", "@type": "@id"},
+    "discussesIn": {"@id": "ans:discussesIn", "@type": "@id"},
+    "about": {"@id": "schema:about", "@type": "@id"},
+    "license": {"@id": "schema:license", "@type": "@id"},
+    "contentUrl": {"@id": "schema:contentUrl", "@type": "@id"},
+    "embedUrl": {"@id": "schema:embedUrl", "@type": "@id"},
+    "thumbnailUrl": {"@id": "schema:thumbnailUrl", "@type": "@id"},
+    "duration": "schema:duration",
+    "uploadDate": "schema:uploadDate"
+  },
+  "@graph": [
+    {
+      "@id": "https://github.com/shimo4228/shimo4228",
+      "@type": "shimo:EcosystemRepo",
+      "name": "Research Program Hub",
+      "description": "Hub repository of the shimo4228 research ecosystem; its graph.jsonld is the canonical relationship map of the research ecosystem, federating the Attention, Not Self line with its sibling and downstream lines.",
+      "url": "https://github.com/shimo4228/shimo4228"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.20262112",
+      "sameAs": "https://www.wikidata.org/wiki/Q140090189",
+      "@type": ["schema:Dataset", "schema:CreativeWork"],
+      "name": "Attention, Not Self",
+      "alternateName": [
+        {"@value": "Attention, Not Self — Knowledge Graph", "@language": "en"},
+        {"@value": "Attention, Not Self — 知識グラフ", "@language": "ja"},
+        "ANS"
+      ],
+      "description": "Structured knowledge graph mapping Buddhist Abhidharma dharma taxonomies (Theravāda, Sarvāstivāda, Yogācāra) and cognitive process models onto computational phenomenology frameworks. Encodes ~130 dharmas, ~30 concepts, 5 essay themes, 10 essays, 6 frameworks, and prior research references as schema.org triples with custom ans: vocabulary. Concept DOI: 10.5281/zenodo.20262112 (resolves to latest version).",
+      "isBasedOn": "https://github.com/shimo4228/attention-not-self",
+      "url": "https://shimo4228.github.io/attention-not-self/",
+      "publisher": "Tatsuya Shimomoto",
+      "author": "https://orcid.org/0009-0002-6168-4162",
+      "creator": "https://orcid.org/0009-0002-6168-4162",
+      "isPartOf": "https://github.com/shimo4228/shimo4228",
+      "siblingOf": [
+        "https://doi.org/10.5281/zenodo.19200726",
+        "https://doi.org/10.5281/zenodo.19212118",
+        "https://doi.org/10.5281/zenodo.19652013",
+        "https://doi.org/10.5281/zenodo.20263316"
+      ],
+      "mainEntity": [
+        "ans:theme/1-introduction",
+        "ans:theme/2-dharma-comparison",
+        "ans:theme/3-cognitive-process",
+        "ans:theme/4-mapping-to-cp",
+        "ans:theme/5-awareness-genealogy",
+        "ans:theme/6-nen-collision"
+      ]
+    },
+
+    {
+      "@id": "https://orcid.org/0009-0002-6168-4162",
+      "@type": "schema:Person",
+      "name": "Tatsuya Shimomoto",
+      "alternateName": ["shimo4228", {"@value": "下本竜也", "@language": "ja"}],
+      "sameAs": ["https://github.com/shimo4228", "https://orcid.org/0009-0002-6168-4162", "https://www.wikidata.org/wiki/Q140090100"]
+    },
+
+    {
+      "@id": "https://doi.org/10.5281/zenodo.19200726",
+      "sameAs": "https://www.wikidata.org/wiki/Q140090186",
+      "@type": ["ResearchLine", "schema:ScholarlyArticle"],
+      "name": "Agent Knowledge Cycle",
+      "alternateName": [
+        {"@value": "Agent Knowledge Cycle", "@language": "en"},
+        {"@value": "エージェント知識サイクル", "@language": "ja"},
+        "AKC"
+      ],
+      "description": "Six-phase bidirectional growth loop for sustaining agent-operator intent alignment. Agent-design sibling: defines a mechanism, while this line specifies no agent mechanism and works as a comparative cognitive inquiry.",
+      "url": "https://github.com/shimo4228/agent-knowledge-cycle",
+      "identifier": "10.5281/zenodo.19200726",
+      "siblingOf": "https://doi.org/10.5281/zenodo.20262112"
+    },
+
+    {
+      "@id": "https://doi.org/10.5281/zenodo.19212118",
+      "sameAs": "https://www.wikidata.org/wiki/Q140090187",
+      "@type": ["ResearchLine", "schema:ScholarlyArticle"],
+      "name": "Contemplative Agent",
+      "alternateName": [
+        {"@value": "Contemplative Agent", "@language": "en"},
+        {"@value": "観想的エージェント", "@language": "ja"},
+        "CA"
+      ],
+      "description": "CLI agent grounded in four contemplative axioms running on a local 9B stack. Vocabulary sibling: shares Buddhist phenomenological vocabulary with this line, but with asymmetric usage — Contemplative Agent applies it as an agent behavioral preset, this line as a comparative cognitive framework.",
+      "url": "https://github.com/shimo4228/contemplative-agent",
+      "identifier": "10.5281/zenodo.19212118",
+      "siblingOf": "https://doi.org/10.5281/zenodo.20262112"
+    },
+
+    {
+      "@id": "https://doi.org/10.5281/zenodo.19652013",
+      "sameAs": "https://www.wikidata.org/wiki/Q140090188",
+      "@type": ["ResearchLine", "schema:ScholarlyArticle"],
+      "name": "Agent Attribution Practice",
+      "alternateName": [
+        {"@value": "Agent Attribution Practice", "@language": "en"},
+        {"@value": "エージェント帰責実践", "@language": "ja"},
+        "AAP"
+      ],
+      "description": "Harness-neutral ADRs on accountability distribution in autonomous AI agents. Agent-design sibling: records a practice, while this line specifies no agent mechanism or practice.",
+      "url": "https://github.com/shimo4228/agent-attribution-practice",
+      "identifier": "10.5281/zenodo.19652013",
+      "siblingOf": "https://doi.org/10.5281/zenodo.20262112"
+    },
+
+    {
+      "@id": "https://doi.org/10.5281/zenodo.20263316",
+      "sameAs": "https://www.wikidata.org/wiki/Q140090190",
+      "@type": ["ResearchLine", "schema:ScholarlyArticle"],
+      "name": "Authorship Strategy",
+      "alternateName": [
+        {"@value": "Authorship Strategy", "@language": "en"},
+        {"@value": "著者戦略", "@language": "ja"},
+        "AS"
+      ],
+      "description": "Normative framework, tactical catalog, and empirical baseline for being a known author under AI-mediated diffusion. Cross-cutting sibling: like this line it occupies the agent-design lines' diffusion and framing layer rather than their implementation layer.",
+      "url": "https://github.com/shimo4228/authorship-strategy",
+      "identifier": "10.5281/zenodo.20263316",
+      "siblingOf": "https://doi.org/10.5281/zenodo.20262112"
+    },
+
+    {
+      "@id": "ans:theme/1-introduction",
+      "@type": ["ans:Theme", "schema:CreativeWorkSeries"],
+      "name": "Abhidharma meets computational phenomenology (introduction)",
+      "alternateName": [
+        {"@value": "Abhidharma meets computational phenomenology (introduction)", "@language": "en"},
+        {"@value": "アビダルマと計算論的現象学（導入）", "@language": "ja"}
+      ],
+      "description": "Introductory mapping between Abhidharma and computational phenomenology — predictive processing, active inference, neurophenomenology. Strongest correspondence: manaskāra ↔ precision-weighting."
+    },
+    {
+      "@id": "ans:theme/2-dharma-comparison",
+      "@type": ["ans:Theme", "schema:CreativeWorkSeries"],
+      "name": "Dharma classification across the three Abhidharma systems",
+      "alternateName": [
+        {"@value": "Dharma classification across the three Abhidharma systems", "@language": "en"},
+        {"@value": "三大アビダルマ体系における法分類の対照", "@language": "ja"}
+      ],
+      "description": "Side-by-side comparison of dharma taxonomies — Theravāda (82 dhammas), Sarvāstivāda (75 dharmas), Yogācāra (100 dharmas)."
+    },
+    {
+      "@id": "ans:theme/3-cognitive-process",
+      "@type": ["ans:Theme", "schema:CreativeWorkSeries"],
+      "name": "Cognitive process models in the three Abhidharma traditions",
+      "alternateName": [
+        {"@value": "Cognitive process models in the three Abhidharma traditions", "@language": "en"},
+        {"@value": "三大アビダルマ伝統における認識過程モデル", "@language": "ja"}
+      ],
+      "description": "Comparative study of how the three Abhidharma traditions explain cognition from stimulus to conscious experience — Theravāda citta-vīthi, Sarvāstivāda saṃprayoga + samanantara-pratyaya, Yogācāra four-bhāga + ālaya-vijñāna."
+    },
+    {
+      "@id": "ans:theme/4-mapping-to-cp",
+      "@type": ["ans:Theme", "schema:CreativeWorkSeries"],
+      "name": "Mapping cognitive process models onto computational phenomenology",
+      "alternateName": [
+        {"@value": "Mapping cognitive process models onto computational phenomenology", "@language": "en"},
+        {"@value": "認識過程モデルと計算論的現象学のマッピング", "@language": "ja"}
+      ],
+      "description": "Systematic mapping of the three Abhidharma cognitive process architectures onto computational frameworks — citta-vīthi ↔ GWT, saṃprayoga ↔ PDP, ālaya-vijñāna ↔ PP/AIF. Includes evidence-quality summary and hard limits (karmic valence, nirvāṇa).",
+      "buildsOn": ["ans:theme/3-cognitive-process", "ans:theme/1-introduction"]
+    },
+    {
+      "@id": "ans:theme/5-awareness-genealogy",
+      "@type": ["ans:Theme", "schema:CreativeWorkSeries"],
+      "name": "Genealogy and typology of 'awareness' / 気づき",
+      "alternateName": [
+        {"@value": "Genealogy and typology of 'awareness' / kizuki", "@language": "en"},
+        {"@value": "「気づき / awareness」の系譜と類型論", "@language": "ja"}
+      ],
+      "description": "Unpacks the Buddhist technical vocabulary collapsed into 'awareness' / 気づき — sati, sampajañña, manasikāra, rigpa, appamāda. Traces the Western genealogy (Rhys Davids 1881 → Nyanaponika → Esalen → MBSR → Sam Harris) and typologizes ten resulting confusions."
+    },
+    {
+      "@id": "ans:theme/6-nen-collision",
+      "@type": ["ans:Theme", "schema:CreativeWorkSeries"],
+      "name": "The 念 Collision — one character, four Buddhisms",
+      "alternateName": [
+        {"@value": "The 念 Collision — one Chinese character, four Buddhisms", "@language": "en"},
+        {"@value": "念の衝突──一つの漢字が四つの仏教を隔てる", "@language": "ja"}
+      ],
+      "description": "The single character 念 (nen / niàn) carries four incompatible Buddhist senses — Theravāda sati/smṛti (non-floating retention), Chan/Zen 無念 (non-fixation in thought; Huineng's 於念而不念), Pure Land 念仏 (recollection/recitation of the Buddha), and modern Kabat-Zinn 'bare attention' mindfulness. Reconstructs the collision through Huineng's Platform Sutra §17, Sharf 2014 on early Chan, Dōgen's 非思量 (Fukanzazengi), and the 20th-century Nyanaponika → MBSR genealogy. Argues Dōgen's 非思量 is the most defensible structural resolution. Companion to Theme 5 on the English 'awareness' side; this theme covers the Chinese-character side.",
+      "comparesWith": ["ans:theme/5-awareness-genealogy"]
+    },
+    {
+      "@id": "ans:theme/7-cessation-continuity",
+      "@type": ["ans:Theme", "schema:CreativeWorkSeries"],
+      "name": "Cessation and continuity without a self",
+      "alternateName": [
+        {"@value": "Cessation and continuity without a self", "@language": "en"},
+        {"@value": "滅尽定と、自己なき連続性", "@language": "ja"}
+      ],
+      "description": "Takes meditative cessation (nirodha samāpatti) — the total stopping of consciousness — as the sharpest form of the Abhidharma problem of continuity without a permanent self. Reads Laukkonen et al. 2023 (an active-inference model of cessation that explicitly leaves the 'restart' question open) against four scholastic answers to what carries continuity across the gap: Sarvāstivāda prāpti, Sautrāntika bīja, Yogācāra ālaya-vijñāna, Theravāda bhavaṅga. Frames the parallel soberly — two inquiries reaching the same problem by different roads — and disavows Buddhist-modernist exceptionalism."
+    },
+    {
+      "@id": "ans:theme/8-epistemic-luck-gettier-dharmakirti",
+      "@type": ["ans:Theme", "schema:CreativeWorkSeries"],
+      "name": "Epistemic luck: Gettier, the Free Energy Principle, and Dharmakīrti",
+      "alternateName": [
+        {"@value": "Epistemic luck: Gettier, the Free Energy Principle, and Dharmakīrti", "@language": "en"},
+        {"@value": "運による知識の偽装 ── ゲティア問題・自由エネルギー原理・ダルマキールティ", "@language": "ja"}
+      ],
+      "description": "Asks whether the Free Energy Principle's descriptive vocabulary (precision-weighted posterior beliefs) has anything to say about the Gettier problem (justified true belief that is true only by luck, and so not knowledge) — and finds the FEP literature silent. Turns to Dharmakīrti's pramāṇa-vāda (avisaṃvāda, arthakriyā) and its commentator Dharmottara (c. 770 CE), who — via arthasārūpya, exclusion of kākatālīya, and santāna — rejected a mirage/water case as not valid cognition, roughly 1200 years before Gettier."
+    },
+
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/Abhidharma%20Meets%20Computational%20Phenomenology.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "Abhidharma Meets Computational Phenomenology",
+      "alternateName": [
+        {"@value": "Abhidharma Meets Computational Phenomenology", "@language": "en"}
+      ],
+      "inLanguage": "en",
+      "isPartOf": "ans:theme/1-introduction",
+      "mentions": [
+        "ans:concept/manaskara-attention",
+        "ans:concept/precision-weighting",
+        "ans:framework/pp",
+        "ans:framework/fep",
+        "ans:framework/neurophenomenology",
+        "ans:framework/comp-phenomenology"
+      ],
+      "citation": [
+        "ans:ref/ganeri-2017",
+        "ans:ref/ramstead-2022",
+        "ans:ref/varela-1996",
+        "ans:ref/clark-2016",
+        "ans:ref/hohwy-2013",
+        "ans:ref/friston-2010",
+        "ans:ref/tal-2025"
+      ]
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/%E3%82%A2%E3%83%93%E3%83%80%E3%83%AB%E3%83%9E%E3%81%A8%E8%A8%88%E7%AE%97%E8%AB%96%E7%9A%84%E7%8F%BE%E8%B1%A1%E5%AD%A6%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "アビダルマと計算論的現象学（日本語）",
+      "alternateName": [
+        {"@value": "Abhidharma and Computational Phenomenology (Japanese)", "@language": "en"},
+        {"@value": "アビダルマと計算論的現象学（日本語）", "@language": "ja"}
+      ],
+      "inLanguage": "ja",
+      "isPartOf": "ans:theme/1-introduction"
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/Three%20Abhidharma%20Systems%20Dharma%20Comparison.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "Three Abhidharma Systems Dharma Comparison",
+      "alternateName": [
+        {"@value": "Three Abhidharma Systems Dharma Comparison", "@language": "en"}
+      ],
+      "inLanguage": "en",
+      "isPartOf": "ans:theme/2-dharma-comparison",
+      "mentions": [
+        "ans:category/rupa",
+        "ans:category/citta",
+        "ans:category/caitta-universal",
+        "ans:category/caitta-wholesome",
+        "ans:category/caitta-affliction",
+        "ans:category/cittaviprayukta",
+        "ans:category/asamskrta",
+        "ans:tradition/theravada",
+        "ans:tradition/sarvastivada",
+        "ans:tradition/yogacara"
+      ],
+      "citation": ["ans:ref/karunadasa-2010", "ans:ref/dhammajoti-2009", "ans:ref/cox-1995", "ans:ref/ronkin-2005"]
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/%E4%B8%89%E5%A4%A7%E3%82%A2%E3%83%93%E3%83%80%E3%83%AB%E3%83%9E%E6%B3%95%E5%AF%BE%E7%85%A7%E8%A1%A8%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "三大アビダルマ法対照表（日本語）",
+      "alternateName": [
+        {"@value": "Three Abhidharma Systems Dharma Comparison (Japanese)", "@language": "en"},
+        {"@value": "三大アビダルマ法対照表（日本語）", "@language": "ja"}
+      ],
+      "inLanguage": "ja",
+      "isPartOf": "ans:theme/2-dharma-comparison"
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/Three%20Abhidharma%20Models%20of%20Cognition.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "Three Abhidharma Models of Cognition",
+      "alternateName": [
+        {"@value": "Three Abhidharma Models of Cognition", "@language": "en"}
+      ],
+      "inLanguage": "en",
+      "isPartOf": "ans:theme/3-cognitive-process",
+      "buildsOn": "https://github.com/shimo4228/attention-not-self/blob/main/Three%20Abhidharma%20Systems%20Dharma%20Comparison.md",
+      "mentions": [
+        "ans:concept/citta-vithi",
+        "ans:concept/javana",
+        "ans:concept/bhavanga-continuum",
+        "ans:concept/samprayoga",
+        "ans:concept/samanantara-pratyaya",
+        "ans:concept/three-time-realism",
+        "ans:concept/alaya-vijnana-store",
+        "ans:concept/four-bhagas",
+        "ans:concept/manas-ego-clinging",
+        "ans:concept/ksanikatva"
+      ],
+      "citation": [
+        "ans:ref/karunadasa-2010",
+        "ans:ref/dhammajoti-2009",
+        "ans:ref/lusthaus-2002",
+        "ans:ref/waldron-2003",
+        "ans:ref/sharf-2016",
+        "ans:ref/arnold-2012",
+        "ans:ref/thompson-2014",
+        "ans:ref/vanrullen-koch-2003"
+      ]
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/%E4%B8%89%E5%A4%A7%E3%82%A2%E3%83%93%E3%83%80%E3%83%AB%E3%83%9E%E4%BC%9D%E7%B5%B1%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E8%AA%8D%E8%AD%98%E9%81%8E%E7%A8%8B%E3%81%AE%E6%AF%94%E8%BC%83%E7%A0%94%E7%A9%B6%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "三大アビダルマ伝統における認識過程の比較研究（日本語）",
+      "alternateName": [
+        {"@value": "Comparative Study of Cognitive Process in the Three Abhidharma Traditions (Japanese)", "@language": "en"},
+        {"@value": "三大アビダルマ伝統における認識過程の比較研究（日本語）", "@language": "ja"}
+      ],
+      "inLanguage": "ja",
+      "isPartOf": "ans:theme/3-cognitive-process"
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "Abhidharma Cognitive Process Models Meets Computational Phenomenology",
+      "alternateName": [
+        {"@value": "Abhidharma Cognitive Process Models Meets Computational Phenomenology", "@language": "en"}
+      ],
+      "inLanguage": "en",
+      "isPartOf": "ans:theme/4-mapping-to-cp",
+      "buildsOn": [
+        "https://github.com/shimo4228/attention-not-self/blob/main/Three%20Abhidharma%20Models%20of%20Cognition.md",
+        "https://github.com/shimo4228/attention-not-self/blob/main/Abhidharma%20Meets%20Computational%20Phenomenology.md"
+      ],
+      "mentions": [
+        "ans:concept/citta-vithi",
+        "ans:concept/samprayoga",
+        "ans:concept/alaya-vijnana-store",
+        "ans:concept/four-bhagas",
+        "ans:concept/manas-ego-clinging",
+        "ans:concept/ashraya-paravritti",
+        "ans:concept/karmic-valence",
+        "ans:concept/nirvana",
+        "ans:concept/precision-weighting",
+        "ans:concept/meta-awareness",
+        "ans:concept/ego-dissolution",
+        "ans:framework/gwt",
+        "ans:framework/gnw",
+        "ans:framework/pp",
+        "ans:framework/fep",
+        "ans:framework/pdp",
+        "ans:framework/iit",
+        "ans:framework/ast",
+        "ans:framework/comp-phenomenology"
+      ],
+      "citation": [
+        "ans:ref/baars-1988",
+        "ans:ref/dehaene-naccache-2001",
+        "ans:ref/clark-2016",
+        "ans:ref/hohwy-2013",
+        "ans:ref/friston-2010",
+        "ans:ref/friston-2018",
+        "ans:ref/metzinger-2003",
+        "ans:ref/sandved-smith-2021",
+        "ans:ref/sandved-smith-2024",
+        "ans:ref/deane-2021",
+        "ans:ref/laukkonen-slagter-2021",
+        "ans:ref/posner-petersen-1990",
+        "ans:ref/hoffman-2015",
+        "ans:ref/macy-1991",
+        "ans:ref/becattini-2026"
+      ]
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/%E4%B8%89%E5%A4%A7%E3%82%A2%E3%83%93%E3%83%80%E3%83%AB%E3%83%9E%E8%AA%8D%E8%AD%98%E9%81%8E%E7%A8%8B%E3%83%A2%E3%83%87%E3%83%AB%E3%81%A8%E8%A8%88%E7%AE%97%E8%AB%96%E7%9A%84%E7%8F%BE%E8%B1%A1%E5%AD%A6%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "三大アビダルマ認識過程モデルと計算論的現象学（日本語）",
+      "alternateName": [
+        {"@value": "Three Abhidharma Cognitive Process Models and Computational Phenomenology (Japanese)", "@language": "en"},
+        {"@value": "三大アビダルマ認識過程モデルと計算論的現象学（日本語）", "@language": "ja"}
+      ],
+      "inLanguage": "ja",
+      "isPartOf": "ans:theme/4-mapping-to-cp"
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/Awareness%20-%20A%20Genealogy%20and%20Typology.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "Awareness - A Genealogy and Typology",
+      "alternateName": [
+        {"@value": "Awareness — A Genealogy and Typology", "@language": "en"}
+      ],
+      "inLanguage": "en",
+      "isPartOf": "ans:theme/5-awareness-genealogy",
+      "mentions": [
+        "ans:concept/sati-mindfulness",
+        "ans:concept/sampajanna",
+        "ans:concept/manaskara-attention",
+        "ans:concept/bare-attention",
+        "ans:concept/rigpa",
+        "ans:concept/appamada-heedfulness",
+        "ans:concept/jagariya",
+        "ans:concept/anatman"
+      ],
+      "citation": ["ans:ref/ganeri-2017", "ans:ref/karunadasa-2010", "ans:ref/laukkonen-2025"]
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/%E6%B0%97%E3%81%A5%E3%81%8D%E3%81%A8Awareness%20-%20%E7%B3%BB%E8%AD%9C%E3%81%A8%E9%A1%9E%E5%9E%8B%E8%AB%96%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "気づきとAwareness - 系譜と類型論（日本語）",
+      "alternateName": [
+        {"@value": "Kizuki and Awareness — Genealogy and Typology (Japanese)", "@language": "en"},
+        {"@value": "気づきとAwareness — 系譜と類型論（日本語）", "@language": "ja"}
+      ],
+      "inLanguage": "ja",
+      "isPartOf": "ans:theme/5-awareness-genealogy"
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "The 念 Collision - How One Chinese Character Holds Four Buddhisms Apart",
+      "alternateName": [
+        {"@value": "The 念 Collision — How One Chinese Character Holds Four Buddhisms Apart", "@language": "en"}
+      ],
+      "inLanguage": "en",
+      "isPartOf": "ans:theme/6-nen-collision",
+      "mentions": [
+        "ans:concept/nen-character",
+        "ans:concept/wunian-munen",
+        "ans:concept/hishiryo",
+        "ans:concept/nenbutsu",
+        "ans:concept/apilapana",
+        "ans:concept/satipatthana",
+        "ans:concept/anussati",
+        "ans:concept/zen-deconstructive-critique",
+        "ans:concept/kizuki-rendering",
+        "ans:concept/sati-mindfulness",
+        "ans:concept/bare-attention",
+        "ans:tradition/zen",
+        "ans:tradition/pure-land"
+      ],
+      "citation": [
+        "ans:ref/yampolsky-1967",
+        "ans:ref/sharf-2014",
+        "ans:ref/sharf-2015",
+        "ans:ref/gethin-2011",
+        "ans:ref/dreyfus-2011",
+        "ans:ref/analayo-2003",
+        "ans:ref/kim-2007",
+        "ans:ref/waddell-abe-1973",
+        "ans:ref/kabat-zinn-1994",
+        "ans:ref/nyanaponika-1962",
+        "ans:ref/braun-2013",
+        "ans:ref/faure-1991",
+        "ans:ref/mcrae-2003",
+        "ans:ref/suzuki-dt-1959",
+        "ans:ref/levman-2017",
+        "ans:ref/ganeri-2017"
+      ]
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/%E5%BF%B5%E3%81%AE%E8%A1%9D%E7%AA%81%20-%20%E4%B8%80%E3%81%A4%E3%81%AE%E6%BC%A2%E5%AD%97%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%9B%9B%E3%81%A4%E3%81%AE%E4%BB%8F%E6%95%99%E3%82%92%E9%9A%94%E3%81%A6%E3%82%8B%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "念の衝突 - 一つの漢字がいかにして四つの仏教を隔てるか（日本語）",
+      "alternateName": [
+        {"@value": "The 念 Collision — How One Chinese Character Holds Four Buddhisms Apart (Japanese)", "@language": "en"},
+        {"@value": "念の衝突──一つの漢字がいかにして四つの仏教を隔てるか（日本語）", "@language": "ja"}
+      ],
+      "inLanguage": "ja",
+      "isPartOf": "ans:theme/6-nen-collision"
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "When Consciousness Fully Stops, How Does the Mind Return?",
+      "alternateName": [
+        {"@value": "When Consciousness Fully Stops, How Does the Mind Return?", "@language": "en"}
+      ],
+      "inLanguage": "en",
+      "isPartOf": "ans:theme/7-cessation-continuity",
+      "mentions": [
+        "ans:concept/alaya-vijnana-store",
+        "ans:concept/bhavanga-continuum",
+        "ans:concept/bija",
+        "ans:concept/anatman",
+        "ans:concept/pratityasamutpada",
+        "ans:category/cittaviprayukta",
+        "ans:framework/pp",
+        "ans:framework/fep",
+        "ans:tradition/theravada",
+        "ans:tradition/sarvastivada",
+        "ans:tradition/yogacara"
+      ],
+      "citation": [
+        "ans:ref/laukkonen-2023",
+        "ans:ref/laukkonen-slagter-2021",
+        "ans:ref/thompson-2020",
+        "ans:ref/mcmahan-2008",
+        "ans:ref/tweed-2002",
+        "ans:ref/crick-koch-1990",
+        "ans:ref/chalmers-2000",
+        "ans:ref/koch-2016",
+        "ans:ref/waldron-2003",
+        "ans:ref/buswell-lopez-2014",
+        "ans:ref/jhana-acamj-2026",
+        "ans:ref/nondual-int-2025",
+        "ans:ref/jia-liu-2026"
+      ]
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "意識が完全に止まる瞑想状態（滅尽定）のあとに心はどう戻るのか",
+      "alternateName": [
+        {"@value": "When Consciousness Fully Stops, How Does the Mind Return? (Japanese)", "@language": "en"},
+        {"@value": "意識が完全に止まる瞑想状態（滅尽定）のあとに心はどう戻るのか", "@language": "ja"}
+      ],
+      "inLanguage": "ja",
+      "isPartOf": "ans:theme/7-cessation-continuity"
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "You Got It Right — But You Didn't Know It",
+      "alternateName": [
+        {"@value": "You Got It Right — But You Didn't Know It", "@language": "en"}
+      ],
+      "inLanguage": "en",
+      "isPartOf": "ans:theme/8-epistemic-luck-gettier-dharmakirti",
+      "mentions": [
+        "ans:concept/gettier-luck",
+        "ans:concept/pramana-vada",
+        "ans:concept/ksanikatva",
+        "ans:concept/anatman",
+        "ans:framework/fep",
+        "ans:framework/pp"
+      ],
+      "citation": [
+        "ans:ref/uejima-2020",
+        "ans:ref/gettier-1963",
+        "ans:ref/goldman-1976",
+        "ans:ref/iep-gettier-problems",
+        "ans:ref/iep-reliabilism",
+        "ans:ref/friston-2015-epistemic-value",
+        "ans:ref/parr-friston-2019",
+        "ans:ref/gladziejewski-2021",
+        "ans:ref/ghijsen-2018",
+        "ans:ref/sep-dharmakirti",
+        "ans:ref/dunne-dharmakirti-foundations",
+        "ans:ref/wikipedia-gettier-problem",
+        "ans:ref/mandal-2022"
+      ]
+    },
+    {
+      "@id": "https://github.com/shimo4228/attention-not-self/blob/main/%E6%AD%A3%E3%81%97%E3%81%8F%E8%A8%80%E3%81%84%E5%BD%93%E3%81%A6%E3%81%9F%E3%81%AE%E3%81%AB%E3%80%81%E7%9F%A5%E3%81%A3%E3%81%A6%E3%81%84%E3%81%9F%E3%81%A8%E3%81%AF%E8%A8%80%E3%81%88%E3%81%AA%E3%81%84%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md",
+      "@type": ["ans:Essay", "schema:ScholarlyArticle"],
+      "name": "正しく言い当てたのに、知っていたとは言えない",
+      "alternateName": [
+        {"@value": "You Got It Right, But You Didn't Know It (Japanese)", "@language": "en"},
+        {"@value": "正しく言い当てたのに、知っていたとは言えない", "@language": "ja"}
+      ],
+      "inLanguage": "ja",
+      "isPartOf": "ans:theme/8-epistemic-luck-gettier-dharmakirti"
+    },
+
+    {
+      "@id": "ans:tradition/theravada",
+      "@type": ["ans:Tradition", "schema:DefinedTerm"],
+      "name": "Theravāda",
+      "alternateName": [
+        {"@value": "Theravāda Abhidhamma (82 dhammas, Pāli canon)", "@language": "en"},
+        {"@value": "上座部仏教（パーリ語、82法）", "@language": "ja"}
+      ],
+      "description": "South/Southeast Asian Abhidhamma tradition. Pāli canon. Distinguishing features: 17-moment citta-vīthi, bhavaṅga (life-continuum), 82 dhammas with nibbāna as the sole unconditioned."
+    },
+    {
+      "@id": "ans:tradition/sarvastivada",
+      "@type": ["ans:Tradition", "schema:DefinedTerm"],
+      "name": "Sarvāstivāda",
+      "alternateName": [
+        {"@value": "Sarvāstivāda Abhidharma (75 dharmas, Sanskrit/Chinese)", "@language": "en"},
+        {"@value": "説一切有部（サンスクリット／漢訳、75法）", "@language": "ja"}
+      ],
+      "description": "North Indian Abhidharma tradition. 75 dharmas across 5 categories. Distinguishing features: three-time realism (三世実有), saṃprayoga + samanantara-pratyaya, intrinsic-nature (svabhāva) doctrine."
+    },
+    {
+      "@id": "ans:tradition/yogacara",
+      "@type": ["ans:Tradition", "schema:DefinedTerm"],
+      "name": "Yogācāra",
+      "alternateName": [
+        {"@value": "Yogācāra / Vijñānavāda (100 dharmas)", "@language": "en"},
+        {"@value": "瑜伽行唯識学派（100法）", "@language": "ja"}
+      ],
+      "description": "Mahāyāna Abhidharma tradition. 100 dharmas. Distinguishing features: eight consciousnesses (ālaya-vijñāna + manas + 6 sense-consciousnesses), four-bhāga structure, vijñaptimātratā (consciousness-only)."
+    },
+    {
+      "@id": "ans:tradition/zen",
+      "@type": ["ans:Tradition", "schema:DefinedTerm"],
+      "name": "Chan / Zen",
+      "alternateName": [
+        {"@value": "Chan (Chinese) / Sŏn (Korean) / Zen (Japanese) — Mahāyāna meditation school", "@language": "en"},
+        {"@value": "禅宗（中国禅・朝鮮禅・日本禅 — 臨済・曹洞）", "@language": "ja"}
+      ],
+      "description": "East Asian Mahāyāna lineage emphasizing direct insight, seated meditation, and the deconstruction of conceptual fixation. Key figures: Huineng (慧能, 638–713), Dahui Zonggao (大慧宗杲, 1089–1163), Dōgen (道元, 1200–1253). Doctrinal core: 無念 (non-fixation in thought), 無相, 無住. By the 8th century, early Chan develops a quasi-deconstructive critique of 'mindfulness' (念) itself."
+    },
+    {
+      "@id": "ans:tradition/pure-land",
+      "@type": ["ans:Tradition", "schema:DefinedTerm"],
+      "name": "Pure Land",
+      "alternateName": [
+        {"@value": "Pure Land (Jōdo / Jōdo Shinshū) — Mahāyāna devotional tradition centered on Amitābha", "@language": "en"},
+        {"@value": "浄土宗・浄土真宗（阿弥陀仏信仰）", "@language": "ja"}
+      ],
+      "description": "East Asian Mahāyāna devotional lineage centered on rebirth in Amitābha's Pure Land. Doctrinal core: 念仏 (nenbutsu / niànfó), originally buddhānusmṛti (recollection of the Buddha), later systematized as vocal recitation (shōmyō nenbutsu) by Shandao (善導, 613–681), Hōnen (法然, 1133–1212), and radicalized as tariki / Other-Power by Shinran (親鸞, 1173–1263). Preserves the memory pole of smṛti that Zen's 無念 polemic largely set aside."
+    },
+
+    {
+      "@id": "ans:category/rupa",
+      "@type": ["ans:DharmaCategory", "schema:DefinedTerm"],
+      "name": "rūpa (form / matter)",
+      "alternateName": [
+        {"@value": "rūpa — material form", "@language": "en"},
+        {"@value": "色法（物質）", "@language": "ja"}
+      ],
+      "description": "Material/physical dharmas: sense organs, sense objects, four great elements."
+    },
+    {
+      "@id": "ans:category/citta",
+      "@type": ["ans:DharmaCategory", "schema:DefinedTerm"],
+      "name": "citta (mind / consciousness)",
+      "alternateName": [
+        {"@value": "citta — consciousness moments", "@language": "en"},
+        {"@value": "心法（心・識）", "@language": "ja"}
+      ],
+      "description": "Consciousness itself. Sarvāstivāda: 1 dharma. Yogācāra: 8 vijñānas. Theravāda: 89/121 types of citta."
+    },
+    {
+      "@id": "ans:category/caitta-universal",
+      "@type": ["ans:DharmaCategory", "schema:DefinedTerm"],
+      "name": "universal mental factors",
+      "alternateName": [
+        {"@value": "caitta — universal mental factors (sarvatraga / sabbacittasādhāraṇa)", "@language": "en"},
+        {"@value": "心所法・遍行（全心に伴う）", "@language": "ja"}
+      ],
+      "description": "Mental factors present in every conscious moment. Sarvāstivāda mahābhūmika, Yogācāra sarvatraga, Theravāda sabbacittasādhāraṇa."
+    },
+    {
+      "@id": "ans:category/caitta-object-determining",
+      "@type": ["ans:DharmaCategory", "schema:DefinedTerm"],
+      "name": "object-determining mental factors",
+      "alternateName": [
+        {"@value": "caitta — object-determining (viniyata / pakiṇṇaka)", "@language": "en"},
+        {"@value": "心所法・別境（対象限定）", "@language": "ja"}
+      ],
+      "description": "Mental factors that arise only with specific objects. Yogācāra biekjing (別境)."
+    },
+    {
+      "@id": "ans:category/caitta-wholesome",
+      "@type": ["ans:DharmaCategory", "schema:DefinedTerm"],
+      "name": "wholesome mental factors",
+      "alternateName": [
+        {"@value": "caitta — wholesome (kuśala / sobhana)", "@language": "en"},
+        {"@value": "心所法・善", "@language": "ja"}
+      ],
+      "description": "Wholesome/skillful mental factors. Sarvāstivāda kuśala-mahābhūmika, Theravāda sobhana."
+    },
+    {
+      "@id": "ans:category/caitta-affliction",
+      "@type": ["ans:DharmaCategory", "schema:DefinedTerm"],
+      "name": "primary afflictions",
+      "alternateName": [
+        {"@value": "caitta — primary afflictions (kleśa / mūla-kleśa)", "@language": "en"},
+        {"@value": "心所法・根本煩悩", "@language": "ja"}
+      ],
+      "description": "Root afflictions: greed, hatred, delusion, pride, doubt, wrong view."
+    },
+    {
+      "@id": "ans:category/caitta-secondary-affliction",
+      "@type": ["ans:DharmaCategory", "schema:DefinedTerm"],
+      "name": "secondary afflictions",
+      "alternateName": [
+        {"@value": "caitta — secondary afflictions (upakleśa)", "@language": "en"},
+        {"@value": "心所法・随煩悩", "@language": "ja"}
+      ],
+      "description": "Derivative afflictions: anger, hypocrisy, jealousy, envy, etc."
+    },
+    {
+      "@id": "ans:category/caitta-variable",
+      "@type": ["ans:DharmaCategory", "schema:DefinedTerm"],
+      "name": "variable mental factors",
+      "alternateName": [
+        {"@value": "caitta — variable / indeterminate (aniyata)", "@language": "en"},
+        {"@value": "心所法・不定", "@language": "ja"}
+      ],
+      "description": "Mental factors that may be wholesome or unwholesome: vitarka, vicāra, kaukṛtya, middha."
+    },
+    {
+      "@id": "ans:category/cittaviprayukta",
+      "@type": ["ans:DharmaCategory", "schema:DefinedTerm"],
+      "name": "non-associated formations",
+      "alternateName": [
+        {"@value": "cittaviprayukta-saṃskāra — formations not associated with mind", "@language": "en"},
+        {"@value": "心不相応行法", "@language": "ja"}
+      ],
+      "description": "Conditioned dharmas neither material nor mental: prāpti, jāti, sthiti, anityatā, life-faculty, etc. Sarvāstivāda 14, Yogācāra 24. Theravāda denies the category."
+    },
+    {
+      "@id": "ans:category/asamskrta",
+      "@type": ["ans:DharmaCategory", "schema:DefinedTerm"],
+      "name": "unconditioned dharmas",
+      "alternateName": [
+        {"@value": "asaṃskṛta — unconditioned dharmas", "@language": "en"},
+        {"@value": "無為法", "@language": "ja"}
+      ],
+      "description": "Dharmas not subject to arising/ceasing. Sarvāstivāda 3 (space + 2 cessations), Yogācāra 6 (+ tathatā etc.), Theravāda 1 (nibbāna only)."
+    },
+
+    {
+      "@id": "ans:dharma/cakshus",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "cakṣus",
+      "sanskritName": "cakṣus",
+      "paliName": "cakkhu-pasāda",
+      "chineseName": "眼根",
+      "alternateName": [
+        {"@value": "eye-faculty / visual sense organ", "@language": "en"},
+        {"@value": "眼根（視覚器官）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/shrotra",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "śrotra",
+      "sanskritName": "śrotra",
+      "paliName": "sota-pasāda",
+      "chineseName": "耳根",
+      "alternateName": [
+        {"@value": "ear-faculty / auditory sense organ", "@language": "en"},
+        {"@value": "耳根（聴覚器官）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/ghrana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "ghrāṇa",
+      "sanskritName": "ghrāṇa",
+      "paliName": "ghāna-pasāda",
+      "chineseName": "鼻根",
+      "alternateName": [
+        {"@value": "nose-faculty / olfactory sense organ", "@language": "en"},
+        {"@value": "鼻根（嗅覚器官）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/jihva",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "jihvā",
+      "sanskritName": "jihvā",
+      "paliName": "jivhā-pasāda",
+      "chineseName": "舌根",
+      "alternateName": [
+        {"@value": "tongue-faculty / gustatory sense organ", "@language": "en"},
+        {"@value": "舌根（味覚器官）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/kaya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "kāya",
+      "sanskritName": "kāya",
+      "paliName": "kāya-pasāda",
+      "chineseName": "身根",
+      "alternateName": [
+        {"@value": "body-faculty / tactile sense organ", "@language": "en"},
+        {"@value": "身根（身体・触覚器官）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/rupa-object",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "rūpa (visible form)",
+      "sanskritName": "rūpa",
+      "paliName": "rūpa (vaṇṇa)",
+      "chineseName": "色境",
+      "alternateName": [
+        {"@value": "visible form / color-object", "@language": "en"},
+        {"@value": "色境（可見の色）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/shabda",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "śabda",
+      "sanskritName": "śabda",
+      "paliName": "sadda",
+      "chineseName": "声境",
+      "alternateName": [
+        {"@value": "sound-object", "@language": "en"},
+        {"@value": "声境（音）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/gandha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "gandha",
+      "sanskritName": "gandha",
+      "paliName": "gandha",
+      "chineseName": "香境",
+      "alternateName": [
+        {"@value": "odor-object", "@language": "en"},
+        {"@value": "香境（におい）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/rasa",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "rasa",
+      "sanskritName": "rasa",
+      "paliName": "rasa",
+      "chineseName": "味境",
+      "alternateName": [
+        {"@value": "taste-object", "@language": "en"},
+        {"@value": "味境（味）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/sprashtavya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "spraṣṭavya",
+      "sanskritName": "spraṣṭavya",
+      "paliName": "phoṭṭhabba",
+      "chineseName": "触境",
+      "alternateName": [
+        {"@value": "tangible-object (north: unified; south: split into 3 elements)", "@language": "en"},
+        {"@value": "触境（北方：単一；南方：地・火・風に分割）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/avijnapti-rupa",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "avijñapti-rūpa",
+      "sanskritName": "avijñapti-rūpa",
+      "chineseName": "無表色",
+      "alternateName": [
+        {"@value": "unmanifest matter (Sarvāstivāda) / dharmas as object of mind (Yogācāra)", "@language": "en"},
+        {"@value": "無表色（有部）／法処所摂色（唯識）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "uniqueTo": "ans:tradition/sarvastivada"
+    },
+    {
+      "@id": "ans:dharma/pathavi",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "paṭhavī-dhātu",
+      "paliName": "paṭhavī-dhātu",
+      "alternateName": [
+        {"@value": "earth element (Theravāda lists explicitly; north subsumes under tangible)", "@language": "en"},
+        {"@value": "地界（上座部は個別列挙、北方は触境に包摂）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada",
+      "comparesWith": "ans:dharma/sprashtavya"
+    },
+    {
+      "@id": "ans:dharma/apo",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "āpo-dhātu",
+      "paliName": "āpo-dhātu",
+      "alternateName": [
+        {"@value": "water element", "@language": "en"},
+        {"@value": "水界", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/tejo",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "tejo-dhātu",
+      "paliName": "tejo-dhātu",
+      "alternateName": [
+        {"@value": "fire element", "@language": "en"},
+        {"@value": "火界", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada",
+      "comparesWith": "ans:dharma/sprashtavya"
+    },
+    {
+      "@id": "ans:dharma/vayo",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "vāyo-dhātu",
+      "paliName": "vāyo-dhātu",
+      "alternateName": [
+        {"@value": "wind element", "@language": "en"},
+        {"@value": "風界", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada",
+      "comparesWith": "ans:dharma/sprashtavya"
+    },
+    {
+      "@id": "ans:dharma/itthindriya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "itthindriya",
+      "paliName": "itthindriya",
+      "alternateName": [
+        {"@value": "femininity-faculty (Theravāda-specific subset of body-faculty)", "@language": "en"},
+        {"@value": "女根（上座部固有；北方は身根に包摂）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/purisindriya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "purisindriya",
+      "paliName": "purisindriya",
+      "alternateName": [
+        {"@value": "masculinity-faculty", "@language": "en"},
+        {"@value": "男根", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/hadaya-vatthu",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "hadaya-vatthu",
+      "paliName": "hadaya-vatthu",
+      "alternateName": [
+        {"@value": "heart-base (Theravāda unique; physical seat of mind-consciousness)", "@language": "en"},
+        {"@value": "心臓色（上座部固有；意識の物質的依処）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/jivitindriya-rupa",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "jīvitindriya (rūpa)",
+      "paliName": "jīvitindriya",
+      "alternateName": [
+        {"@value": "life-faculty (matter-side; Theravāda places in rūpa, north places in cittaviprayukta)", "@language": "en"},
+        {"@value": "命色（範疇移動：北方では不相応行）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/oja",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "ojā",
+      "paliName": "ojā",
+      "alternateName": [
+        {"@value": "nutriment (Theravāda unique)", "@language": "en"},
+        {"@value": "食素（上座部固有）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/akasa-dhatu",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "ākāsa-dhātu (delimited space)",
+      "paliName": "ākāsa-dhātu",
+      "alternateName": [
+        {"@value": "delimited space (Theravāda treats as conditioned rūpa, not unconditioned)", "@language": "en"},
+        {"@value": "限定虚空（上座部では有為色法）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/kaya-vinnatti",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "kāya-viññatti",
+      "paliName": "kāya-viññatti",
+      "alternateName": [
+        {"@value": "bodily intimation (Theravāda explicit; north subsumes)", "@language": "en"},
+        {"@value": "身表（上座部明示、北方は色処に包摂）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/vaci-vinnatti",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "vacī-viññatti",
+      "paliName": "vacī-viññatti",
+      "alternateName": [
+        {"@value": "verbal intimation", "@language": "en"},
+        {"@value": "語表", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/rupa-lahuta",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "rūpassa lahutā",
+      "paliName": "rūpassa lahutā",
+      "alternateName": [
+        {"@value": "matter-lightness", "@language": "en"},
+        {"@value": "色軽快性", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/rupa-muduta",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "rūpassa mudutā",
+      "paliName": "rūpassa mudutā",
+      "alternateName": [
+        {"@value": "matter-malleability", "@language": "en"},
+        {"@value": "色柔軟性", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/rupa-kammannata",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "rūpassa kammaññatā",
+      "paliName": "rūpassa kammaññatā",
+      "alternateName": [
+        {"@value": "matter-wieldiness (Theravāda unique)", "@language": "en"},
+        {"@value": "色適業性（上座部固有）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/upacaya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "upacaya",
+      "paliName": "upacaya",
+      "sanskritName": "jāti",
+      "chineseName": "生",
+      "alternateName": [
+        {"@value": "matter-accumulation (Theravāda); arising (north places in cittaviprayukta)", "@language": "en"},
+        {"@value": "積集（上座部）／生（北方では不相応行）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/santati",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "santati",
+      "paliName": "santati",
+      "sanskritName": "sthiti",
+      "chineseName": "住",
+      "alternateName": [
+        {"@value": "matter-continuity (Theravāda) / abiding (north)", "@language": "en"},
+        {"@value": "相続（上座部）／住（北方）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/jarata",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "jaratā",
+      "paliName": "jaratā",
+      "sanskritName": "jarā",
+      "chineseName": "老",
+      "alternateName": [
+        {"@value": "matter-decay (Theravāda) / decay (north cittaviprayukta)", "@language": "en"},
+        {"@value": "老性（上座部）／異・老（北方）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/aniccata",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "aniccatā",
+      "paliName": "aniccatā",
+      "sanskritName": "anityatā",
+      "chineseName": "無常",
+      "alternateName": [
+        {"@value": "matter-impermanence (Theravāda) / impermanence (north cittaviprayukta)", "@language": "en"},
+        {"@value": "無常性（上座部）／滅・無常（北方）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/rupa",
+      "tradition": "ans:tradition/theravada"
+    },
+
+    {
+      "@id": "ans:dharma/citta",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "citta",
+      "sanskritName": "citta",
+      "paliName": "citta",
+      "chineseName": "心",
+      "alternateName": [
+        {"@value": "consciousness / mind (Sarvāstivāda treats as 1 dharma manifesting as six)", "@language": "en"},
+        {"@value": "心（有部：1法として六識身に顕現）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/citta",
+      "tradition": "ans:tradition/sarvastivada"
+    },
+    {
+      "@id": "ans:dharma/cakshur-vijnana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "cakṣur-vijñāna",
+      "sanskritName": "cakṣur-vijñāna",
+      "chineseName": "眼識",
+      "alternateName": [
+        {"@value": "eye-consciousness", "@language": "en"},
+        {"@value": "眼識", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/citta",
+      "tradition": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/shrotra-vijnana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "śrotra-vijñāna",
+      "sanskritName": "śrotra-vijñāna",
+      "chineseName": "耳識",
+      "alternateName": [
+        {"@value": "ear-consciousness", "@language": "en"},
+        {"@value": "耳識", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/citta",
+      "tradition": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/ghrana-vijnana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "ghrāṇa-vijñāna",
+      "sanskritName": "ghrāṇa-vijñāna",
+      "chineseName": "鼻識",
+      "alternateName": [
+        {"@value": "nose-consciousness", "@language": "en"},
+        {"@value": "鼻識", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/citta",
+      "tradition": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/jihva-vijnana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "jihvā-vijñāna",
+      "sanskritName": "jihvā-vijñāna",
+      "chineseName": "舌識",
+      "alternateName": [
+        {"@value": "tongue-consciousness", "@language": "en"},
+        {"@value": "舌識", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/citta",
+      "tradition": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/kaya-vijnana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "kāya-vijñāna",
+      "sanskritName": "kāya-vijñāna",
+      "chineseName": "身識",
+      "alternateName": [
+        {"@value": "body-consciousness", "@language": "en"},
+        {"@value": "身識", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/citta",
+      "tradition": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/mano-vijnana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "mano-vijñāna",
+      "sanskritName": "mano-vijñāna",
+      "chineseName": "意識",
+      "alternateName": [
+        {"@value": "mental consciousness (the sixth)", "@language": "en"},
+        {"@value": "意識（第六識）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/citta",
+      "tradition": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/manas",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "manas (manas-vijñāna)",
+      "sanskritName": "manas",
+      "chineseName": "末那識",
+      "alternateName": [
+        {"@value": "afflicted-mind (the seventh; persistent ego-clinging) — Yogācāra unique", "@language": "en"},
+        {"@value": "末那識（第七識：恒常的自我執着）—唯識固有", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/citta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara",
+      "exemplifies": "ans:concept/manas-ego-clinging"
+    },
+    {
+      "@id": "ans:dharma/alaya-vijnana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "ālaya-vijñāna",
+      "sanskritName": "ālaya-vijñāna",
+      "chineseName": "阿賴耶識",
+      "alternateName": [
+        {"@value": "store-consciousness / substratum-consciousness (the eighth; seed-store) — Yogācāra unique; functional parallel: Theravāda bhavaṅga", "@language": "en"},
+        {"@value": "阿賴耶識（第八識：種子蔵）—唯識固有；機能類似：上座部の有分（bhavaṅga）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/citta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara",
+      "comparesWith": "ans:dharma/bhavanga",
+      "exemplifies": "ans:concept/alaya-vijnana-store"
+    },
+    {
+      "@id": "ans:dharma/bhavanga",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "bhavaṅga",
+      "paliName": "bhavaṅga",
+      "alternateName": [
+        {"@value": "life-continuum (Theravāda; subconscious stream between citta-vīthi cycles)", "@language": "en"},
+        {"@value": "有分（上座部：認識過程の合間に流れる潜在的生命相続）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/citta",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada",
+      "exemplifies": "ans:concept/bhavanga-continuum"
+    },
+
+    {
+      "@id": "ans:dharma/sparsha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "sparśa",
+      "sanskritName": "sparśa",
+      "paliName": "phassa",
+      "chineseName": "触",
+      "alternateName": [
+        {"@value": "contact — universal mental factor in all three traditions", "@language": "en"},
+        {"@value": "触（三系共通の遍行心所）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/caitta-universal",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/vedana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "vedanā",
+      "sanskritName": "vedanā",
+      "paliName": "vedanā",
+      "chineseName": "受",
+      "alternateName": [
+        {"@value": "feeling-tone (pleasant/unpleasant/neutral) — universal", "@language": "en"},
+        {"@value": "受（感受：苦・楽・捨）—三系共通の遍行", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/caitta-universal",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/samjna",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "saṃjñā",
+      "sanskritName": "saṃjñā",
+      "paliName": "saññā",
+      "chineseName": "想",
+      "alternateName": [
+        {"@value": "perception / apperception — universal", "@language": "en"},
+        {"@value": "想（表象・概念化）—三系共通の遍行", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/caitta-universal",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/cetana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "cetanā",
+      "sanskritName": "cetanā",
+      "paliName": "cetanā",
+      "chineseName": "思",
+      "alternateName": [
+        {"@value": "volition / intention — universal; karma-generative factor", "@language": "en"},
+        {"@value": "思（意志・カルマ生成因）—三系共通の遍行", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/caitta-universal",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/manaskara",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "manaskāra",
+      "sanskritName": "manaskāra",
+      "paliName": "manasikāra",
+      "chineseName": "作意",
+      "alternateName": [
+        {"@value": "attention — direction-fixing of mind toward an object. Universal in all three traditions; central mapping target for precision-weighting.", "@language": "en"},
+        {"@value": "作意（注意：心を対象に向ける機能）—三系共通；計算論的現象学への中核マッピング", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/caitta-universal",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "exemplifies": "ans:concept/manaskara-attention"
+    },
+    {
+      "@id": "ans:dharma/chanda",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "chanda",
+      "sanskritName": "chanda",
+      "paliName": "chanda",
+      "chineseName": "欲",
+      "alternateName": [
+        {"@value": "desire-to-act / wish (Sarvāstivāda universal; Yogācāra object-determining; Theravāda variable)", "@language": "en"},
+        {"@value": "欲（為そうとする欲求）—有部：遍行；唯識：別境；上座部：雑", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/caitta-universal",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/adhimoksha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "adhimokṣa",
+      "sanskritName": "adhimokṣa",
+      "paliName": "adhimokkha",
+      "chineseName": "勝解",
+      "alternateName": [
+        {"@value": "determination / conviction about object", "@language": "en"},
+        {"@value": "勝解（対象への確信・決定）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/caitta-object-determining",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/smrti",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "smṛti / sati",
+      "sanskritName": "smṛti",
+      "paliName": "sati",
+      "chineseName": "念",
+      "alternateName": [
+        {"@value": "mindfulness / recollection — Theravāda restricts to wholesome citta; central concept in awareness genealogy", "@language": "en"},
+        {"@value": "念（憶念・気づき）—上座部では善心のみ；気づきの系譜論の中心概念", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/caitta-object-determining",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "exemplifies": "ans:concept/sati-mindfulness"
+    },
+    {
+      "@id": "ans:dharma/samadhi",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "samādhi / ekaggatā",
+      "sanskritName": "samādhi",
+      "paliName": "ekaggatā",
+      "chineseName": "定",
+      "alternateName": [
+        {"@value": "concentration / one-pointedness (Theravāda calls it ekaggatā, universal)", "@language": "en"},
+        {"@value": "定（一境性）—上座部は ekaggatā として遍一切心", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/caitta-object-determining",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/prajna",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "prajñā / paññā",
+      "sanskritName": "prajñā",
+      "paliName": "paññā",
+      "chineseName": "慧",
+      "alternateName": [
+        {"@value": "wisdom / discernment (Theravāda paññindriya in wholesome citta only)", "@language": "en"},
+        {"@value": "慧（智慧）—上座部は paññindriya として善心のみ", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/caitta-object-determining",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/jivitindriya-caitta",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "jīvitindriya (caitta)",
+      "paliName": "jīvitindriya",
+      "alternateName": [
+        {"@value": "life-faculty as mental factor (Theravāda; north places in cittaviprayukta)", "@language": "en"},
+        {"@value": "命根（上座部：心所として；北方では不相応行）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/caitta-universal",
+      "tradition": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/piti",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "pīti",
+      "paliName": "pīti",
+      "alternateName": [
+        {"@value": "rapture / joy (Theravāda independent factor; north subsumes under vedanā)", "@language": "en"},
+        {"@value": "喜（上座部固有の独立心所；北方は受に包摂）", "@language": "ja"}
+      ],
+      "classifiedIn": "ans:category/caitta-object-determining",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+
+    {
+      "@id": "ans:dharma/shraddha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "śraddhā / saddhā",
+      "sanskritName": "śraddhā",
+      "paliName": "saddhā",
+      "chineseName": "信",
+      "alternateName": [{"@value": "faith / confidence", "@language": "en"}, {"@value": "信", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/hri",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "hrī / hiri",
+      "sanskritName": "hrī",
+      "paliName": "hiri",
+      "chineseName": "慚",
+      "alternateName": [{"@value": "moral shame (self-regard)", "@language": "en"}, {"@value": "慚（自省的羞恥）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/apatrapya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "apatrāpya / ottappa",
+      "sanskritName": "apatrāpya",
+      "paliName": "ottappa",
+      "chineseName": "愧",
+      "alternateName": [{"@value": "moral dread (other-regard)", "@language": "en"}, {"@value": "愧（他者顧慮的羞恥）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/alobha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "alobha",
+      "sanskritName": "alobha",
+      "paliName": "alobha",
+      "chineseName": "無貪",
+      "alternateName": [{"@value": "non-greed", "@language": "en"}, {"@value": "無貪", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/advesha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "adveṣa / adosa",
+      "sanskritName": "adveṣa",
+      "paliName": "adosa",
+      "chineseName": "無瞋",
+      "alternateName": [{"@value": "non-hatred", "@language": "en"}, {"@value": "無瞋", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/amoha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "amoha",
+      "sanskritName": "amoha",
+      "chineseName": "無癡",
+      "alternateName": [{"@value": "non-delusion (Yogācāra adds as independent; Theravāda equates with paññā)", "@language": "en"}, {"@value": "無癡（唯識で独立；上座部は慧と同一視）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/virya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "vīrya / viriya",
+      "sanskritName": "vīrya",
+      "paliName": "viriya",
+      "chineseName": "精進",
+      "alternateName": [{"@value": "energy / diligence (north wholesome only; Theravāda variable)", "@language": "en"}, {"@value": "精進（北方：善のみ；上座部：善悪可変）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/prashrabdhi",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "praśrabdhi / passaddhi",
+      "sanskritName": "praśrabdhi",
+      "paliName": "passaddhi",
+      "chineseName": "軽安",
+      "alternateName": [{"@value": "tranquility (Theravāda splits into bodily + mental)", "@language": "en"}, {"@value": "軽安（上座部は身軽安・心軽安に分割）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/apramada",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "apramāda",
+      "sanskritName": "apramāda",
+      "paliName": "appamāda",
+      "chineseName": "不放逸",
+      "alternateName": [{"@value": "diligence / heedfulness (north independent; Theravāda compound concept)", "@language": "en"}, {"@value": "不放逸（北方独立、上座部は複合概念）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "exemplifies": "ans:concept/appamada-heedfulness"
+    },
+    {
+      "@id": "ans:dharma/upeksha-caitta",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "upekṣā / tatramajjhattatā",
+      "sanskritName": "upekṣā",
+      "paliName": "tatramajjhattatā",
+      "chineseName": "捨",
+      "alternateName": [{"@value": "equanimity (wholesome factor)", "@language": "en"}, {"@value": "捨（善心所としての平等）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/ahimsa",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "ahiṃsā",
+      "sanskritName": "ahiṃsā",
+      "chineseName": "不害",
+      "alternateName": [{"@value": "non-harming (north independent; Theravāda compounds adosa+karuṇā)", "@language": "en"}, {"@value": "不害（北方独立、上座部は無瞋＋悲で処理）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/kaya-lahuta",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "kāya-lahutā",
+      "paliName": "kāya-lahutā",
+      "alternateName": [{"@value": "bodily lightness (Theravāda unique pairs body+citta)", "@language": "en"}, {"@value": "身軽快性（上座部固有）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/citta-lahuta",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "citta-lahutā",
+      "paliName": "citta-lahutā",
+      "alternateName": [{"@value": "mental lightness", "@language": "en"}, {"@value": "心軽快性", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/kaya-muduta",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "kāya-mudutā",
+      "paliName": "kāya-mudutā",
+      "alternateName": [{"@value": "bodily malleability", "@language": "en"}, {"@value": "身柔軟性", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/citta-muduta",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "citta-mudutā",
+      "paliName": "citta-mudutā",
+      "alternateName": [{"@value": "mental malleability", "@language": "en"}, {"@value": "心柔軟性", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/kaya-kammannata",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "kāya-kammaññatā",
+      "paliName": "kāya-kammaññatā",
+      "alternateName": [{"@value": "bodily wieldiness", "@language": "en"}, {"@value": "身適業性", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/citta-kammannata",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "citta-kammaññatā",
+      "paliName": "citta-kammaññatā",
+      "alternateName": [{"@value": "mental wieldiness", "@language": "en"}, {"@value": "心適業性", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/kaya-pagunnata",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "kāya-pāguññatā",
+      "paliName": "kāya-pāguññatā",
+      "alternateName": [{"@value": "bodily proficiency", "@language": "en"}, {"@value": "身練達性", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/citta-pagunnata",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "citta-pāguññatā",
+      "paliName": "citta-pāguññatā",
+      "alternateName": [{"@value": "mental proficiency", "@language": "en"}, {"@value": "心練達性", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/kayujjukata",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "kāyujjukatā",
+      "paliName": "kāyujjukatā",
+      "alternateName": [{"@value": "bodily rectitude", "@language": "en"}, {"@value": "身正直性", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/cittujjukata",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "cittujjukatā",
+      "paliName": "cittujjukatā",
+      "alternateName": [{"@value": "mental rectitude", "@language": "en"}, {"@value": "心正直性", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/samma-vaca",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "sammā-vācā",
+      "paliName": "sammā-vācā",
+      "alternateName": [{"@value": "right speech (Theravāda treats as cetasika; north does not)", "@language": "en"}, {"@value": "正語（上座部は心所として扱う；北方は心所でない）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/samma-kammanta",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "sammā-kammanta",
+      "paliName": "sammā-kammanta",
+      "alternateName": [{"@value": "right action", "@language": "en"}, {"@value": "正業", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/samma-ajiva",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "sammā-ājīva",
+      "paliName": "sammā-ājīva",
+      "alternateName": [{"@value": "right livelihood", "@language": "en"}, {"@value": "正命", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/karuna",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "karuṇā",
+      "paliName": "karuṇā",
+      "sanskritName": "karuṇā",
+      "chineseName": "悲",
+      "alternateName": [{"@value": "compassion (Theravāda independent cetasika; north a complex)", "@language": "en"}, {"@value": "悲（上座部は独立心所、北方は複合）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+    {
+      "@id": "ans:dharma/mudita",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "muditā",
+      "paliName": "muditā",
+      "sanskritName": "muditā",
+      "chineseName": "随喜",
+      "alternateName": [{"@value": "sympathetic joy", "@language": "en"}, {"@value": "随喜", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-wholesome",
+      "tradition": "ans:tradition/theravada",
+      "uniqueTo": "ans:tradition/theravada"
+    },
+
+    {
+      "@id": "ans:dharma/raga",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "rāga / lobha",
+      "sanskritName": "rāga",
+      "paliName": "lobha",
+      "chineseName": "貪",
+      "alternateName": [{"@value": "greed / craving", "@language": "en"}, {"@value": "貪", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-affliction",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/pratigha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "pratigha / dosa",
+      "sanskritName": "pratigha",
+      "paliName": "dosa",
+      "chineseName": "瞋",
+      "alternateName": [{"@value": "hatred / aversion", "@language": "en"}, {"@value": "瞋", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-affliction",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/moha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "moha (= avidyā)",
+      "sanskritName": "moha",
+      "paliName": "moha",
+      "chineseName": "癡",
+      "alternateName": [{"@value": "delusion / ignorance (= avidyā)", "@language": "en"}, {"@value": "癡（＝無明）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-affliction",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/mana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "māna",
+      "sanskritName": "māna",
+      "paliName": "māna",
+      "chineseName": "慢",
+      "alternateName": [{"@value": "conceit / pride", "@language": "en"}, {"@value": "慢", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-affliction",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/vicikitsa",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "vicikitsā / vicikicchā",
+      "sanskritName": "vicikitsā",
+      "paliName": "vicikicchā",
+      "chineseName": "疑",
+      "alternateName": [{"@value": "skeptical doubt", "@language": "en"}, {"@value": "疑", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-affliction",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/drshti",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "dṛṣṭi / diṭṭhi",
+      "sanskritName": "dṛṣṭi",
+      "paliName": "diṭṭhi",
+      "chineseName": "見",
+      "alternateName": [{"@value": "wrong view (Yogācāra+Theravāda independent; Sarvāstivāda subsumes under paññā)", "@language": "en"}, {"@value": "見・悪見（唯識＋上座部独立、有部は慧に包摂）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-affliction",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/ahrikya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "āhrīkya / ahirika",
+      "sanskritName": "āhrīkya",
+      "paliName": "ahirika",
+      "chineseName": "無慚",
+      "alternateName": [{"@value": "shamelessness", "@language": "en"}, {"@value": "無慚", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/anapatrapya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "anapatrāpya / anottappa",
+      "sanskritName": "anapatrāpya",
+      "paliName": "anottappa",
+      "chineseName": "無愧",
+      "alternateName": [{"@value": "fearlessness of wrongdoing", "@language": "en"}, {"@value": "無愧", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/auddhatya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "auddhatya / uddhacca",
+      "sanskritName": "auddhatya",
+      "paliName": "uddhacca",
+      "chineseName": "掉挙",
+      "alternateName": [{"@value": "restlessness / agitation", "@language": "en"}, {"@value": "掉挙", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/styana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "styāna / thīna",
+      "sanskritName": "styāna",
+      "paliName": "thīna",
+      "chineseName": "惛沈",
+      "alternateName": [{"@value": "sloth / sluggishness", "@language": "en"}, {"@value": "惛沈", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/ashraddhya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "āśraddhya",
+      "sanskritName": "āśraddhya",
+      "chineseName": "不信",
+      "alternateName": [{"@value": "lack of faith (Theravāda treats as absence of saddhā)", "@language": "en"}, {"@value": "不信（上座部は信の欠如として処理）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/kausidya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "kausīdya",
+      "sanskritName": "kausīdya",
+      "chineseName": "懈怠",
+      "alternateName": [{"@value": "laziness", "@language": "en"}, {"@value": "懈怠", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/pramada",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "pramāda",
+      "sanskritName": "pramāda",
+      "chineseName": "放逸",
+      "alternateName": [{"@value": "heedlessness (Theravāda: absence of appamāda)", "@language": "en"}, {"@value": "放逸（上座部：不放逸の欠如）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/krodha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "krodha",
+      "sanskritName": "krodha",
+      "chineseName": "忿",
+      "alternateName": [{"@value": "anger / wrath", "@language": "en"}, {"@value": "忿", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/upanaha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "upanāha",
+      "sanskritName": "upanāha",
+      "chineseName": "恨",
+      "alternateName": [{"@value": "resentment", "@language": "en"}, {"@value": "恨", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/mraksha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "mrakṣa",
+      "sanskritName": "mrakṣa",
+      "chineseName": "覆",
+      "alternateName": [{"@value": "concealment", "@language": "en"}, {"@value": "覆", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/pradasha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "pradāśa",
+      "sanskritName": "pradāśa",
+      "chineseName": "悩",
+      "alternateName": [{"@value": "spite / vexation", "@language": "en"}, {"@value": "悩", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/irshya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "īrṣyā / issā",
+      "sanskritName": "īrṣyā",
+      "paliName": "issā",
+      "chineseName": "嫉",
+      "alternateName": [{"@value": "jealousy / envy", "@language": "en"}, {"@value": "嫉", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/matsarya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "mātsarya / macchariya",
+      "sanskritName": "mātsarya",
+      "paliName": "macchariya",
+      "chineseName": "慳",
+      "alternateName": [{"@value": "stinginess / avarice", "@language": "en"}, {"@value": "慳", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/maya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "māyā",
+      "sanskritName": "māyā",
+      "chineseName": "誑",
+      "alternateName": [{"@value": "deceit", "@language": "en"}, {"@value": "誑", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/shathya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "śāṭhya",
+      "sanskritName": "śāṭhya",
+      "chineseName": "諂",
+      "alternateName": [{"@value": "hypocrisy / dishonesty", "@language": "en"}, {"@value": "諂", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/vihimsa",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "vihiṃsā",
+      "sanskritName": "vihiṃsā",
+      "chineseName": "害",
+      "alternateName": [{"@value": "cruelty / harming", "@language": "en"}, {"@value": "害", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/mada",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "mada",
+      "sanskritName": "mada",
+      "chineseName": "憍",
+      "alternateName": [{"@value": "intoxication / arrogance", "@language": "en"}, {"@value": "憍", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/mushitasmrtita",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "muṣitasmṛtitā",
+      "sanskritName": "muṣitasmṛtitā",
+      "chineseName": "失念",
+      "alternateName": [{"@value": "forgetfulness (Yogācāra unique)", "@language": "en"}, {"@value": "失念（唯識固有）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/vikshepa",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "vikṣepa",
+      "sanskritName": "vikṣepa",
+      "chineseName": "散乱",
+      "alternateName": [{"@value": "distraction (Yogācāra unique)", "@language": "en"}, {"@value": "散乱（唯識固有）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/asamprajanya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "asaṃprajanya",
+      "sanskritName": "asaṃprajanya",
+      "chineseName": "不正知",
+      "alternateName": [{"@value": "lack of clear comprehension (Yogācāra unique)", "@language": "en"}, {"@value": "不正知（唯識固有）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-secondary-affliction",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+
+    {
+      "@id": "ans:dharma/kaukrtya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "kaukṛtya / kukkucca",
+      "sanskritName": "kaukṛtya",
+      "paliName": "kukkucca",
+      "chineseName": "悪作",
+      "alternateName": [{"@value": "regret / worry (north: variable; Theravāda: always unwholesome)", "@language": "en"}, {"@value": "悪作（北方：不定；上座部：常に不善）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-variable",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/middha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "middha",
+      "sanskritName": "middha",
+      "paliName": "middha",
+      "chineseName": "睡眠",
+      "alternateName": [{"@value": "torpor / sleep (north: variable; Theravāda: always unwholesome)", "@language": "en"}, {"@value": "睡眠（北方：不定；上座部：常に不善）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-variable",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/vitarka",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "vitarka / vitakka",
+      "sanskritName": "vitarka",
+      "paliName": "vitakka",
+      "chineseName": "尋",
+      "alternateName": [{"@value": "applied thought / initial mental application", "@language": "en"}, {"@value": "尋（粗大な思考の起ち上がり）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-variable",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/vicara",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "vicāra",
+      "sanskritName": "vicāra",
+      "paliName": "vicāra",
+      "chineseName": "伺",
+      "alternateName": [{"@value": "sustained thought / discursive examination", "@language": "en"}, {"@value": "伺（持続的思考）", "@language": "ja"}],
+      "classifiedIn": "ans:category/caitta-variable",
+      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+
+    {
+      "@id": "ans:dharma/prapti",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "prāpti",
+      "sanskritName": "prāpti",
+      "chineseName": "得",
+      "alternateName": [{"@value": "possession / acquisition (Theravāda denies the whole category)", "@language": "en"}, {"@value": "得（上座部はこの範疇自体を否定）", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/aprapti",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "aprāpti",
+      "sanskritName": "aprāpti",
+      "chineseName": "非得",
+      "alternateName": [{"@value": "non-possession (Sarvāstivāda; Yogācāra removed)", "@language": "en"}, {"@value": "非得（有部のみ、唯識で削除）", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": "ans:tradition/sarvastivada",
+      "uniqueTo": "ans:tradition/sarvastivada"
+    },
+    {
+      "@id": "ans:dharma/nikaya-sabhaga",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "nikāya-sabhāga",
+      "sanskritName": "nikāya-sabhāga",
+      "chineseName": "同分・衆同分",
+      "alternateName": [{"@value": "class-similarity / homogeneity of birth", "@language": "en"}, {"@value": "同分（衆同分）", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/asamjnika",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "āsaṃjñika",
+      "sanskritName": "āsaṃjñika",
+      "chineseName": "無想果",
+      "alternateName": [{"@value": "non-perception state (rebirth in unconscious heaven)", "@language": "en"}, {"@value": "無想果", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/asamjni-samapatti",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "asaṃjñi-samāpatti",
+      "sanskritName": "asaṃjñi-samāpatti",
+      "chineseName": "無想定",
+      "alternateName": [{"@value": "attainment of non-perception", "@language": "en"}, {"@value": "無想定", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/nirodha-samapatti",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "nirodha-samāpatti",
+      "sanskritName": "nirodha-samāpatti",
+      "chineseName": "滅尽定",
+      "alternateName": [{"@value": "attainment of cessation (of perception and feeling)", "@language": "en"}, {"@value": "滅尽定", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/jivitendriya-vp",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "jīvitendriya (cittaviprayukta)",
+      "sanskritName": "jīvitendriya",
+      "chineseName": "命根",
+      "alternateName": [{"@value": "life-faculty (north places in non-associated formations; Theravāda splits into caitta+rūpa)", "@language": "en"}, {"@value": "命根（北方：不相応行；上座部：心所＋色法に分割）", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "comparesWith": ["ans:dharma/jivitindriya-rupa", "ans:dharma/jivitindriya-caitta"]
+    },
+    {
+      "@id": "ans:dharma/jati",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "jāti",
+      "sanskritName": "jāti",
+      "chineseName": "生",
+      "alternateName": [{"@value": "arising / birth (north non-associated; Theravāda places in rūpa as upacaya)", "@language": "en"}, {"@value": "生（北方：不相応行；上座部：色法・積集）", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "comparesWith": "ans:dharma/upacaya"
+    },
+    {
+      "@id": "ans:dharma/sthiti",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "sthiti",
+      "sanskritName": "sthiti",
+      "chineseName": "住",
+      "alternateName": [{"@value": "abiding / duration", "@language": "en"}, {"@value": "住", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "comparesWith": "ans:dharma/santati"
+    },
+    {
+      "@id": "ans:dharma/jara",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "jarā",
+      "sanskritName": "jarā",
+      "chineseName": "異・老",
+      "alternateName": [{"@value": "decay / aging", "@language": "en"}, {"@value": "異（有部）／老（唯識）", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "comparesWith": "ans:dharma/jarata"
+    },
+    {
+      "@id": "ans:dharma/anityata",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "anityatā",
+      "sanskritName": "anityatā",
+      "chineseName": "滅・無常",
+      "alternateName": [{"@value": "impermanence / cessation", "@language": "en"}, {"@value": "滅（有部）／無常（唯識）", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "comparesWith": "ans:dharma/aniccata"
+    },
+    {
+      "@id": "ans:dharma/nama-kaya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "nāma-kāya",
+      "sanskritName": "nāma-kāya",
+      "chineseName": "名身",
+      "alternateName": [{"@value": "collection of names", "@language": "en"}, {"@value": "名身", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/pada-kaya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "pada-kāya",
+      "sanskritName": "pada-kāya",
+      "chineseName": "句身",
+      "alternateName": [{"@value": "collection of phrases", "@language": "en"}, {"@value": "句身", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/vyanjana-kaya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "vyañjana-kāya",
+      "sanskritName": "vyañjana-kāya",
+      "chineseName": "文身",
+      "alternateName": [{"@value": "collection of phonemes / letters", "@language": "en"}, {"@value": "文身", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/visabhaga",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "visabhāga",
+      "sanskritName": "visabhāga",
+      "chineseName": "異生法",
+      "alternateName": [{"@value": "ordinary-being state (Yogācāra addition)", "@language": "en"}, {"@value": "異生法（唯識追加）", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/pravrtti",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "pravṛtti",
+      "sanskritName": "pravṛtti",
+      "chineseName": "流轉",
+      "alternateName": [{"@value": "flowing / continuum (Yogācāra addition)", "@language": "en"}, {"@value": "流轉（唯識追加）", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/pratiniyama",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "pratiniyama",
+      "sanskritName": "pratiniyama",
+      "chineseName": "定異",
+      "alternateName": [{"@value": "distinct-fixity", "@language": "en"}, {"@value": "定異", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/yoga-vp",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "yoga (cittaviprayukta)",
+      "sanskritName": "yoga",
+      "chineseName": "相應",
+      "alternateName": [{"@value": "association (Yogācāra addition)", "@language": "en"}, {"@value": "相應（唯識追加）", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/java",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "jāva",
+      "sanskritName": "jāva",
+      "chineseName": "勢速",
+      "alternateName": [{"@value": "swiftness / impetus", "@language": "en"}, {"@value": "勢速", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/anukrama",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "anukrama",
+      "sanskritName": "anukrama",
+      "chineseName": "次第",
+      "alternateName": [{"@value": "succession / order", "@language": "en"}, {"@value": "次第", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/desha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "deśa",
+      "sanskritName": "deśa",
+      "chineseName": "方",
+      "alternateName": [{"@value": "place / direction", "@language": "en"}, {"@value": "方（場所）", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/kala",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "kāla",
+      "sanskritName": "kāla",
+      "chineseName": "時",
+      "alternateName": [{"@value": "time", "@language": "en"}, {"@value": "時", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/samkhya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "saṃkhyā",
+      "sanskritName": "saṃkhyā",
+      "chineseName": "數",
+      "alternateName": [{"@value": "number", "@language": "en"}, {"@value": "數", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/samagri",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "sāmagrī",
+      "sanskritName": "sāmagrī",
+      "chineseName": "和合性",
+      "alternateName": [{"@value": "harmony / aggregation", "@language": "en"}, {"@value": "和合性", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/anyathatva",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "anyathātva",
+      "sanskritName": "anyathātva",
+      "chineseName": "不和合性",
+      "alternateName": [{"@value": "disharmony / difference", "@language": "en"}, {"@value": "不和合性", "@language": "ja"}],
+      "classifiedIn": "ans:category/cittaviprayukta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+
+    {
+      "@id": "ans:dharma/akasha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "ākāśa",
+      "sanskritName": "ākāśa",
+      "chineseName": "虚空",
+      "alternateName": [{"@value": "space as unconditioned (Theravāda denies; treats delimited space as conditioned rūpa)", "@language": "en"}, {"@value": "虚空（無為）—上座部はこれを否定し、限定虚空を有為色法とする", "@language": "ja"}],
+      "classifiedIn": "ans:category/asamskrta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "comparesWith": "ans:dharma/akasa-dhatu"
+    },
+    {
+      "@id": "ans:dharma/pratisamkhya-nirodha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "pratisaṃkhyā-nirodha",
+      "sanskritName": "pratisaṃkhyā-nirodha",
+      "chineseName": "択滅",
+      "alternateName": [{"@value": "analytical cessation (≈ nirvāṇa in Theravāda)", "@language": "en"}, {"@value": "択滅（分析的滅；上座部では涅槃に包摂）", "@language": "ja"}],
+      "classifiedIn": "ans:category/asamskrta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/apratisamkhya-nirodha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "apratisaṃkhyā-nirodha",
+      "sanskritName": "apratisaṃkhyā-nirodha",
+      "chineseName": "非択滅",
+      "alternateName": [{"@value": "non-analytical cessation", "@language": "en"}, {"@value": "非択滅（非分析的滅）", "@language": "ja"}],
+      "classifiedIn": "ans:category/asamskrta",
+      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+    },
+    {
+      "@id": "ans:dharma/aninjya",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "āniñjya",
+      "sanskritName": "āniñjya",
+      "chineseName": "不動滅無為",
+      "alternateName": [{"@value": "immovability (Yogācāra unique unconditioned)", "@language": "en"}, {"@value": "不動滅無為（唯識固有）", "@language": "ja"}],
+      "classifiedIn": "ans:category/asamskrta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/samjna-vedayita-nirodha",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "saṃjñā-vedayita-nirodha",
+      "sanskritName": "saṃjñā-vedayita-nirodha",
+      "chineseName": "想受滅無為",
+      "alternateName": [{"@value": "cessation of perception-and-feeling (Yogācāra unique)", "@language": "en"}, {"@value": "想受滅無為（唯識固有）", "@language": "ja"}],
+      "classifiedIn": "ans:category/asamskrta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara"
+    },
+    {
+      "@id": "ans:dharma/tathata",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "tathatā",
+      "sanskritName": "tathatā",
+      "chineseName": "真如",
+      "alternateName": [{"@value": "thusness / ultimate nature (Mahāyāna unique)", "@language": "en"}, {"@value": "真如（大乗固有：究極の実在性）", "@language": "ja"}],
+      "classifiedIn": "ans:category/asamskrta",
+      "tradition": "ans:tradition/yogacara",
+      "uniqueTo": "ans:tradition/yogacara",
+      "exemplifies": "ans:concept/tathata-thusness"
+    },
+    {
+      "@id": "ans:dharma/nibbana",
+      "@type": ["ans:Dharma", "schema:DefinedTerm"],
+      "name": "nibbāna",
+      "paliName": "nibbāna",
+      "sanskritName": "nirvāṇa",
+      "chineseName": "涅槃",
+      "alternateName": [{"@value": "nirvāṇa — Theravāda's sole unconditioned dharma; in north subsumed by analytical cessation", "@language": "en"}, {"@value": "涅槃（上座部唯一の無為法；北方では択滅に包摂）", "@language": "ja"}],
+      "classifiedIn": "ans:category/asamskrta",
+      "tradition": "ans:tradition/theravada",
+      "comparesWith": "ans:dharma/pratisamkhya-nirodha",
+      "exemplifies": "ans:concept/nirvana"
+    },
+
+    {
+      "@id": "ans:concept/manaskara-attention",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "manaskāra as attention",
+      "alternateName": [
+        {"@value": "manaskāra (attention as direction-fixing)", "@language": "en"},
+        {"@value": "作意（注意：心を対象に向ける作用）", "@language": "ja"}
+      ],
+      "description": "Central mapping target. The universal mental factor manaskāra functions as attention — selecting which sense-object or mental content becomes salient. Maps strongly onto precision-weighting in predictive processing / active inference.",
+      "mapsTo": "ans:framework/pp",
+      "discussesIn": [
+        "https://github.com/shimo4228/attention-not-self/blob/main/Abhidharma%20Meets%20Computational%20Phenomenology.md",
+        "https://github.com/shimo4228/attention-not-self/blob/main/Awareness%20-%20A%20Genealogy%20and%20Typology.md"
+      ]
+    },
+    {
+      "@id": "ans:concept/citta-vithi",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "citta-vīthi (cognitive process)",
+      "alternateName": [
+        {"@value": "citta-vīthi — Theravāda 17-moment cognitive process", "@language": "en"},
+        {"@value": "心路過程（上座部の17刹那認識過程）", "@language": "ja"}
+      ],
+      "description": "Theravāda's serial 17-moment model of how a single sense-object is processed: bhavaṅga → āvajjana → sense-consciousness → receiving → investigating → determining → 7 javana → 2 registration → back to bhavaṅga. Maps onto Global Workspace Theory's serial ignition.",
+      "mapsTo": {"@id": "ans:framework/gwt", "evidenceQuality": "strong"},
+      "discussesIn": "https://github.com/shimo4228/attention-not-self/blob/main/Three%20Abhidharma%20Models%20of%20Cognition.md"
+    },
+    {
+      "@id": "ans:concept/javana",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "javana (impulsion)",
+      "alternateName": [
+        {"@value": "javana — impulsion phase of citta-vīthi (7 moments)", "@language": "en"},
+        {"@value": "速行（javana：心路過程における7刹那の能動相）", "@language": "ja"}
+      ],
+      "description": "Karmically active phase of citta-vīthi where wholesome or unwholesome volition arises. Functional parallel to predictive top-down inference."
+    },
+    {
+      "@id": "ans:concept/alaya-vijnana-store",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "ālaya-vijñāna (store-consciousness)",
+      "alternateName": [
+        {"@value": "ālaya-vijñāna — Yogācāra storehouse consciousness with seeds (bīja)", "@language": "en"},
+        {"@value": "阿賴耶識（唯識の種子蔵としての根本識）", "@language": "ja"}
+      ],
+      "description": "Yogācāra's eighth consciousness storing karmic seeds (bīja). Maps onto generative-model substrate in predictive processing; functional parallel to Theravāda bhavaṅga but with active causal role.",
+      "mapsTo": [{"@id": "ans:framework/pp", "evidenceQuality": "strong"}, {"@id": "ans:framework/fep", "evidenceQuality": "moderate"}]
+    },
+    {
+      "@id": "ans:concept/manas-ego-clinging",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "manas (ego-clinging)",
+      "alternateName": [
+        {"@value": "manas — seventh consciousness, persistent ego-clinging onto ālaya", "@language": "en"},
+        {"@value": "末那識（恒常的自我執着としての第七識）", "@language": "ja"}
+      ],
+      "description": "Yogācāra's seventh consciousness that misapprehends ālaya as a self. Structural parallel to Metzinger's Phenomenal Self-Model (PSM).",
+      "mapsTo": {"@id": "ans:framework/ast", "evidenceQuality": "moderate"}
+    },
+    {
+      "@id": "ans:concept/bhavanga-continuum",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "bhavaṅga (life-continuum)",
+      "alternateName": [
+        {"@value": "bhavaṅga — Theravāda subliminal stream between cognitive processes", "@language": "en"},
+        {"@value": "有分（上座部：認識過程の合間に流れる潜在的心）", "@language": "ja"}
+      ],
+      "description": "Subliminal continuity-stream that runs between citta-vīthi cycles. Functional parallel to ālaya-vijñāna but passive (no causal role)."
+    },
+    {
+      "@id": "ans:concept/four-bhagas",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "four bhāgas",
+      "alternateName": [
+        {"@value": "four bhāgas — nimitta, darśana, svasaṃvitti, svasaṃvitti-saṃvitti", "@language": "en"},
+        {"@value": "四分（相分・見分・自証分・証自証分）", "@language": "ja"}
+      ],
+      "description": "Yogācāra's analysis of every cognitive act into four moments: object-image (nimitta-bhāga), seeing-part (darśana-bhāga), self-cognition (svasaṃvitti), and meta-self-cognition. Parallels Sandved-Smith et al.'s hierarchical model of meta-awareness.",
+      "mapsTo": {"@id": "ans:framework/fep", "evidenceQuality": "moderate"}
+    },
+    {
+      "@id": "ans:concept/samprayoga",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "saṃprayoga (mental-factor concurrence)",
+      "alternateName": [
+        {"@value": "saṃprayoga — Sarvāstivāda's parallel concurrence of mental factors", "@language": "en"},
+        {"@value": "相応（さまざまな心所が並列的に同時生起する有部の機制）", "@language": "ja"}
+      ],
+      "description": "In Sarvāstivāda, citta and caitta arise simultaneously in parallel — basis for the PDP mapping.",
+      "mapsTo": {"@id": "ans:framework/pdp", "evidenceQuality": "strong"}
+    },
+    {
+      "@id": "ans:concept/samanantara-pratyaya",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "samanantara-pratyaya (immediate-antecedent condition)",
+      "alternateName": [
+        {"@value": "samanantara-pratyaya — immediate-antecedent condition linking consecutive citta-moments", "@language": "en"},
+        {"@value": "等無間縁（前刹那の心が次刹那の心の生起条件となる縁）", "@language": "ja"}
+      ],
+      "description": "Sarvāstivāda's solution to inter-moment continuity without an enduring self."
+    },
+    {
+      "@id": "ans:concept/three-time-realism",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "three-time realism",
+      "alternateName": [
+        {"@value": "three-time realism (sarvāstivāda) — past/present/future dharmas are all real", "@language": "en"},
+        {"@value": "三世実有（過去・現在・未来の法はいずれも実在）", "@language": "ja"}
+      ],
+      "description": "Sarvāstivāda's distinctive doctrine that all three time-periods of a dharma have ontological reality — only the 'activity' (kāritra) differs."
+    },
+    {
+      "@id": "ans:concept/ksanikatva",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "kṣaṇikatva (momentariness)",
+      "alternateName": [
+        {"@value": "kṣaṇikatva — doctrine of momentary existence", "@language": "en"},
+        {"@value": "刹那滅論（あらゆる存在は刹那ごとに生滅する）", "@language": "ja"}
+      ],
+      "description": "Universal Abhidharma doctrine that all conditioned dharmas exist only for a single moment (kṣaṇa). Convergence point with VanRullen & Koch's ~10 Hz discrete perceptual frames.",
+      "mapsTo": {"@id": "ans:framework/neurophenomenology", "evidenceQuality": "moderate"}
+    },
+    {
+      "@id": "ans:concept/svabhava",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "svabhāva (intrinsic nature)",
+      "alternateName": [
+        {"@value": "svabhāva — intrinsic nature; Sarvāstivāda realism vs. Madhyamaka critique", "@language": "en"},
+        {"@value": "自性（svabhāva）—有部の本性実在論／中観派の批判対象", "@language": "ja"}
+      ],
+      "description": "Each dharma's defining characteristic. Central topic in the Sautrāntika and Madhyamaka critiques of Sarvāstivāda realism."
+    },
+    {
+      "@id": "ans:concept/pratityasamutpada",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "pratītyasamutpāda (dependent origination)",
+      "alternateName": [
+        {"@value": "pratītyasamutpāda — dependent co-arising; Theravāda 24 paccaya is the most elaborated framework", "@language": "en"},
+        {"@value": "縁起（pratītyasamutpāda）；上座部の24縁が最も精緻", "@language": "ja"}
+      ],
+      "description": "All phenomena arise dependent on conditions. Macy 1991 reads as systems-theoretic mutual causation."
+    },
+    {
+      "@id": "ans:concept/anatman",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "anātman (non-self)",
+      "alternateName": [
+        {"@value": "anātman — no enduring self; the project's titular thesis", "@language": "en"},
+        {"@value": "無我（あらゆる現象に恒常な「私」はない）—本プロジェクトの中核命題", "@language": "ja"}
+      ],
+      "description": "Core Buddhist doctrine: there is no enduring self underlying experience. The project's title 'Attention, Not Self' follows Ganeri in foregrounding attention as the organizing principle in place of self."
+    },
+    {
+      "@id": "ans:concept/karmic-valence",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "karmic valence (kuśala / akuśala)",
+      "alternateName": [
+        {"@value": "karmic valence — wholesomeness/unwholesomeness as primitive evaluative property", "@language": "en"},
+        {"@value": "業の善悪価（kuśala / akuśala）—計算論では捉えにくい根源的評価次元", "@language": "ja"}
+      ],
+      "description": "One of the 'hard limits' of computational mapping: Abhidharma encodes ethical valence at the level of individual dharmas, whereas computational frameworks have no analog at the basic level."
+    },
+    {
+      "@id": "ans:concept/vipaka",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "vipāka (karmic ripening)",
+      "alternateName": [
+        {"@value": "vipāka — karmic ripening; how past intention shapes present experience", "@language": "en"},
+        {"@value": "異熟（vipāka）—過去の意志が現在の経験を生成する仕組み", "@language": "ja"}
+      ],
+      "description": "Yogācāra's account: bīja stored in ālaya ripen into present cognitive moments. Functional parallel to generative-model prior weighting."
+    },
+    {
+      "@id": "ans:concept/bija",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "bīja (seed)",
+      "alternateName": [
+        {"@value": "bīja — seeds stored in ālaya-vijñāna; carrier of karmic causation", "@language": "en"},
+        {"@value": "種子（bīja）—阿賴耶識に蔵される業のキャリア", "@language": "ja"}
+      ],
+      "description": "Yogācāra's unit of karmic potency stored in ālaya. Maps onto parameters/priors of a generative model."
+    },
+    {
+      "@id": "ans:concept/vasana",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "vāsanā (perfuming / habit-energy)",
+      "alternateName": [
+        {"@value": "vāsanā — habit-energy that perfumes the ālaya through repeated action", "@language": "en"},
+        {"@value": "薫習（vāsanā）—行為の反復が阿賴耶識に痕跡を残す機制", "@language": "ja"}
+      ],
+      "description": "How conscious cognitive acts deposit dispositions into ālaya. Functional parallel to gradient updates of learned representations."
+    },
+    {
+      "@id": "ans:concept/vijnaptimatrata",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "vijñaptimātratā (consciousness-only)",
+      "alternateName": [
+        {"@value": "vijñaptimātratā — Yogācāra's 'consciousness-only' doctrine; not metaphysical idealism (per Lusthaus 2002)", "@language": "en"},
+        {"@value": "唯識性（vijñaptimātratā）—形而上的観念論ではなく認識批判（Lusthaus 2002）", "@language": "ja"}
+      ],
+      "description": "Yogācāra's analytical stance that experience is exhaustively explicable in terms of consciousness-events. Lusthaus reads as 'critique of consciousness,' rejecting the idealist misreading."
+    },
+    {
+      "@id": "ans:concept/ashraya-paravritti",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "āśraya-parāvṛtti (revolution of the basis)",
+      "alternateName": [
+        {"@value": "āśraya-parāvṛtti — Yogācāra's 'turning of the basis'; soteriological transformation of ālaya", "@language": "en"},
+        {"@value": "転依（āśraya-parāvṛtti）—唯識における阿賴耶識の根本的転換", "@language": "ja"}
+      ],
+      "description": "The soteriological event where ālaya is purified and converted into pure wisdom. Parallels self-model collapse in active inference accounts of ego dissolution (Deane 2021).",
+      "mapsTo": {"@id": "ans:framework/fep", "evidenceQuality": "speculative"}
+    },
+    {
+      "@id": "ans:concept/tathata-thusness",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "tathatā (thusness)",
+      "alternateName": [
+        {"@value": "tathatā — Mahāyāna's ultimate nature; the way things are", "@language": "en"},
+        {"@value": "真如（tathatā）—大乗における究極的実在の本性", "@language": "ja"}
+      ],
+      "description": "The unconditioned suchness of phenomena; in Yogācāra, the ultimate referent of vijñaptimātratā insight."
+    },
+    {
+      "@id": "ans:concept/nirvana",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "nirvāṇa / nibbāna",
+      "alternateName": [
+        {"@value": "nirvāṇa — cessation of suffering; one of the 'hard limits' of computational mapping", "@language": "en"},
+        {"@value": "涅槃（nirvāṇa / nibbāna）—苦の終息；計算論的マッピングの限界点の一つ", "@language": "ja"}
+      ],
+      "description": "Theravāda's sole unconditioned dharma; soteriological telos. Resists computational analog because it is defined precisely as non-conditioned."
+    },
+    {
+      "@id": "ans:concept/sati-mindfulness",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "sati (mindfulness)",
+      "paliName": "sati",
+      "sanskritName": "smṛti",
+      "chineseName": "念",
+      "alternateName": [
+        {"@value": "sati — Pāli technical term collapsed into Western 'mindfulness' (Nyanaponika 1962 → MBSR 1979)", "@language": "en"},
+        {"@value": "念（sati）—西欧で「マインドフルネス」として包括された技術的術語", "@language": "ja"}
+      ],
+      "description": "Buddhist technical term for present-moment recollection. Genealogical study tracks Rhys Davids 1881 → Nyanaponika's 'bare attention' 1962 → Kabat-Zinn's MBSR 1979 → Sam Harris's Waking Up app.",
+      "comparesWith": ["ans:concept/nen-character", "ans:concept/apilapana"]
+    },
+    {
+      "@id": "ans:concept/sampajanna",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "sampajañña (clear comprehension)",
+      "alternateName": [
+        {"@value": "sampajañña — clear comprehension; paired with sati but distinct in function", "@language": "en"},
+        {"@value": "正知（sampajañña）—念とペアで現れるが機能的に区別される", "@language": "ja"}
+      ],
+      "description": "Often conflated with sati in popular discourse. Genealogy essay disentangles the two."
+    },
+    {
+      "@id": "ans:concept/bare-attention",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "bare attention (Nyanaponika 1962)",
+      "alternateName": [
+        {"@value": "bare attention — Nyanaponika's translation of sati that re-shaped modern mindfulness", "@language": "en"},
+        {"@value": "純粋な気づき（bare attention）—Nyanaponika 1962 の翻訳が近代マインドフルネスを形作った", "@language": "ja"}
+      ],
+      "description": "Coined in *The Heart of Buddhist Meditation* (1962). Genealogy traces its journey from Theravāda monasticism through Esalen, est, NLP, and into MBSR."
+    },
+    {
+      "@id": "ans:concept/rigpa",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "rigpa (Dzogchen non-dual awareness)",
+      "alternateName": [
+        {"@value": "rigpa — Tibetan Dzogchen's non-dual primordial awareness", "@language": "en"},
+        {"@value": "リクパ（rigpa）—チベット・ゾクチェン伝統における非二元的根源的気づき", "@language": "ja"}
+      ],
+      "description": "Often conflated with sati in contemporary discourse (especially Sam Harris's Waking Up app). The genealogy essay's typology includes this as one of the ten confusions."
+    },
+    {
+      "@id": "ans:concept/appamada-heedfulness",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "appamāda (heedfulness)",
+      "alternateName": [
+        {"@value": "appamāda — heedfulness / diligence; Buddha's last word", "@language": "en"},
+        {"@value": "不放逸（appamāda）—仏陀の遺言とされる徳目", "@language": "ja"}
+      ],
+      "description": "Frequently absent from the modern 'awareness' vocabulary despite being central in early Buddhism. Genealogy essay restores it to the typology."
+    },
+    {
+      "@id": "ans:concept/jagariya",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "jāgariya (wakefulness)",
+      "alternateName": [
+        {"@value": "jāgariya — wakefulness; another technical term often collapsed into 'awareness'", "@language": "en"},
+        {"@value": "覚醒（jāgariya）—「awareness」に包括されてしまう技術的術語の一つ", "@language": "ja"}
+      ],
+      "description": "Part of the genealogy essay's ten-term typology that recovers distinctions the single word 'awareness' / 気づき has flattened."
+    },
+    {
+      "@id": "ans:concept/nen-character",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "念 (nen / niàn) — the four-sense character",
+      "chineseName": "念",
+      "alternateName": [
+        {"@value": "念 (nen / niàn) — single Chinese character carrying four incompatible Buddhist senses", "@language": "en"},
+        {"@value": "念（nen / niàn）—四つの互換不能な意味を担う単一の漢字", "@language": "ja"}
+      ],
+      "description": "Composed of 今 (now) + 心 (mind). Pre-Buddhist senses: 'to think of,' 'to recite,' 'to remember,' 'to dwell on.' Adopted by Kumārajīva (5th c.) and Xuanzang (7th c.) to render smṛti, but already overloaded. In later Buddhist usage carries at least four irreducibly distinct senses: (1) Theravāda sati / smṛti as non-floating retention, (2) Chan/Zen thought-moment to be transcended, (3) Pure Land buddhānusmṛti / recitation, (4) modern Kabat-Zinn 'bare attention.'"
+    },
+    {
+      "@id": "ans:concept/wunian-munen",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "無念 (wúniàn / munen) — non-fixation in thought",
+      "chineseName": "無念",
+      "alternateName": [
+        {"@value": "無念 (wúniàn / munen) — Huineng's 'not to think even when involved in thought'", "@language": "en"},
+        {"@value": "無念（wúniàn / munen）—慧能の「念に於いて念ぜず」", "@language": "ja"}
+      ],
+      "description": "Central Chan/Zen doctrine from the Platform Sutra §17, paired with 無相 (no-form) and 無住 (no-abiding). Defined positively as 於念而不念 ('not to think even when involved in thought') and 於一切境上不染 ('to be unstained in all environments'). NOT the cessation of mental activity — a mode of non-fixation within arising thought. Often misread by Theravāda-trained readers as 'no-mindfulness,' the apparent negation of sati."
+    },
+    {
+      "@id": "ans:concept/hishiryo",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "非思量 (hishiryō) — non-thinking",
+      "chineseName": "非思量",
+      "alternateName": [
+        {"@value": "非思量 (hishiryō) — Dōgen's structural negation of the thinking/not-thinking binary", "@language": "en"},
+        {"@value": "非思量（hishiryō）—思量/不思量の二項対立の構造的否定（道元）", "@language": "ja"}
+      ],
+      "description": "From the Yakusan dialogue cited in Dōgen's Fukanzazengi and Shōbōgenzō Zazenshin: 思量箇不思量底。不思量底、如何思量。非思量. Distinguishes 思量 (thinking), 不思量 (its ordinary negation), and 非思量 (structural negation: the predicate 'thinking/not-thinking' does not apply). Hee-Jin Kim glosses as 'thinking that is non-objectifying.' Structurally parallel to Huineng's 無念 (於念而不念). Argued in this theme as the most defensible resolution of the 念 collision."
+    },
+    {
+      "@id": "ans:concept/nenbutsu",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "念仏 (nenbutsu / niànfó) — recollection/recitation of the Buddha",
+      "sanskritName": "buddhānusmṛti",
+      "chineseName": "念佛",
+      "alternateName": [
+        {"@value": "念仏 (nenbutsu / niànfó) — Pure Land recollection / vocal recitation of Amitābha", "@language": "en"},
+        {"@value": "念仏（nenbutsu / niànfó）—阿弥陀仏の憶念・称名", "@language": "ja"}
+      ],
+      "description": "Originally one of the anussati practices: contemplative recollection of the Buddha's qualities. Systematized as vocal recitation (shōmyō nenbutsu) by Shandao, declared sole adequate practice by Hōnen (Senchakushū 1198), radicalized by Shinran as the working of Amida's vow uttering itself through us (tariki). Preserves the memory / calling-to-mind pole of smṛti that Kabat-Zinn-style 'mindfulness' loses."
+    },
+    {
+      "@id": "ans:concept/apilapana",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "apilāpana — non-floating",
+      "paliName": "apilāpana",
+      "alternateName": [
+        {"@value": "apilāpana — sati's defining characteristic in commentarial Theravāda: 'not floating away' / 'calling to mind'", "@language": "en"},
+        {"@value": "非浮動（apilāpana）—注釈的テーラワーダにおけるサティの定義的特相", "@language": "ja"}
+      ],
+      "description": "Defining characteristic (lakkhaṇa) of sati given in the Milindapañha, Visuddhimagga (XIV.141), and Aṭṭhasālinī. Gethin (2011), Dreyfus (2011), Anālayo (2003), and Bhikkhu Bodhi argue this retention pole is precisely what gets lost when sati is reformulated as 'bare attention' (Nyanaponika 1962) or 'non-judgmental present-moment awareness' (Kabat-Zinn 1994)."
+    },
+    {
+      "@id": "ans:concept/satipatthana",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "satipaṭṭhāna — the four establishings of mindfulness",
+      "paliName": "satipaṭṭhāna",
+      "sanskritName": "smṛtyupasthāna",
+      "chineseName": "念處",
+      "alternateName": [
+        {"@value": "satipaṭṭhāna — four-fold establishing of sati on body, feelings, mind, and dhammas", "@language": "en"},
+        {"@value": "念処（satipaṭṭhāna）—身・受・心・法の四念処", "@language": "ja"}
+      ],
+      "description": "The canonical framework within which sati is deployed (Satipaṭṭhāna Sutta, MN 10 / DN 22). Kumārajīva rendered as 念處 (niànchù). Ethically directional: sati conditioned by Right View, oriented to liberation — not affect-neutral 'bare attention.'"
+    },
+    {
+      "@id": "ans:concept/anussati",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "anussati — recollection",
+      "paliName": "anussati",
+      "sanskritName": "anusmṛti",
+      "alternateName": [
+        {"@value": "anussati / anusmṛti — recollection; subsumes buddhānusmṛti / 念仏 (nenbutsu)", "@language": "en"},
+        {"@value": "随念（anussati / anusmṛti）—仏随念（念仏）を含む回想の実践群", "@language": "ja"}
+      ],
+      "description": "Class of recollective practices including buddhānusmṛti (recollection of the Buddha), dhammānussati, saṅghānussati, etc. The memorial / temporal pole of smṛti, distinct from the present-attentive pole that modern 'mindfulness' has foregrounded. Preserved in 念仏 (nenbutsu) but lost in MBSR-style 'mindfulness.'"
+    },
+    {
+      "@id": "ans:concept/zen-deconstructive-critique",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "Early Chan deconstructive critique of 'mindfulness'",
+      "alternateName": [
+        {"@value": "8th-century Chan critique of 守心 (shouxin) / 觀心 (guanxin) / 念 (nian) — Sharf 2014", "@language": "en"},
+        {"@value": "8世紀禅の守心・観心・念に対する脱構築的批判（Sharf 2014）", "@language": "ja"}
+      ],
+      "description": "Documented in Sharf's 'Mindfulness and Mindlessness in Early Chan' (PEW 2014). Early Chan manuscripts (Wuxin lun, Jueguan lun, etc.) systematically oppose 守心 → 無心, 觀心 → 絕觀, 念 → 無念. Sharf reads as a quasi-deconstructive refusal to reify mindfulness into a substantialist object of cultivation — not anti-meditative quietism."
+    },
+    {
+      "@id": "ans:concept/kizuki-rendering",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "気づき (kizuki) — 20th-century rendering of 'mindfulness'",
+      "alternateName": [
+        {"@value": "気づき (kizuki) — Japanese translation of 'mindfulness' with no Buddhist textual pedigree", "@language": "en"},
+        {"@value": "気づき（kizuki）—仏教テキスト的血統を持たない「mindfulness」の日本語訳", "@language": "ja"}
+      ],
+      "description": "Adopted as the Japanese rendering of 'mindfulness' (e.g., Gunaratana's Mindfulness in Plain English → 『マインドフルネス：気づきの瞑想』). Severs the term from 念's Buddhist resonances and from Zen, recoding sati as a generic perceptual quality — exactly the move Kabat-Zinn made in English with 'awareness.' Everyday Japanese sense is 'noticing' or 'epiphany,' not a trained faculty.",
+      "comparesWith": ["ans:concept/nen-character", "ans:concept/bare-attention"]
+    },
+    {
+      "@id": "ans:concept/precision-weighting",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "precision-weighting",
+      "alternateName": [
+        {"@value": "precision-weighting — predictive-processing mechanism for attention (inverse-variance of prediction errors)", "@language": "en"},
+        {"@value": "精度重み付け（precision-weighting）—予測符号化における注意の機制", "@language": "ja"}
+      ],
+      "description": "In active inference, attention is modeled as precision-weighting of prediction-error signals. Confirmed by Tal et al. 2025 as the common mechanism across computational meditation models.",
+      "mapsTo": "ans:framework/pp"
+    },
+    {
+      "@id": "ans:concept/meta-awareness",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "meta-awareness",
+      "alternateName": [
+        {"@value": "meta-awareness — hierarchical AIF model of awareness of awareness (Sandved-Smith et al. 2021)", "@language": "en"},
+        {"@value": "メタ気づき（meta-awareness）—気づきへの気づきの階層的AIFモデル", "@language": "ja"}
+      ],
+      "description": "Deep parametric active inference model. Parallels Yogācāra's svasaṃvitti / svasaṃvitti-saṃvitti distinction."
+    },
+    {
+      "@id": "ans:concept/ego-dissolution",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "ego dissolution",
+      "alternateName": [
+        {"@value": "ego dissolution — self-model collapse under psychedelics or deep meditation (Deane 2021)", "@language": "en"},
+        {"@value": "自我溶解（ego dissolution）—サイケデリクスや深い瞑想下での自己モデル崩壊", "@language": "ja"}
+      ],
+      "description": "Active-inference account where the phenomenal self-model temporarily destabilizes. Parallels Yogācāra's āśraya-parāvṛtti."
+    },
+    {
+      "@id": "ans:concept/gettier-luck",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "Gettier problem / epistemic luck",
+      "alternateName": [
+        {"@value": "Gettier problem — justified true belief that is true only by luck, and so not knowledge", "@language": "en"},
+        {"@value": "ゲティア問題 ── 正当化された真なる信念が、運によって知識でなくなる問題", "@language": "ja"}
+      ],
+      "description": "Edmund Gettier's 1963 counter-examples to the justified-true-belief (JTB) analysis of knowledge. The recurring structural culprit is luck intervening between justification and truth (inferential luck in Gettier's original cases; environmental luck in Goldman's fake-barn-country). Six decades of reliabilist and knowledge-first responses have not settled it."
+    },
+    {
+      "@id": "ans:concept/pramana-vada",
+      "@type": ["ans:Concept", "schema:DefinedTerm"],
+      "name": "pramāṇa-vāda (Dharmakīrti's theory of valid cognition)",
+      "alternateName": [
+        {"@value": "pramāṇa-vāda — Dharmakīrti's externalist theory of valid cognition (avisaṃvāda, arthakriyā, santāna)", "@language": "en"},
+        {"@value": "量論 ── ダルマキールティの外在主義的な正しい認識の理論", "@language": "ja"}
+      ],
+      "description": "Dharmakīrti's 7th-century system defining pramāṇa as avisaṃvādin (non-deceptive) cognition reliable as a basis for successful action (arthakriyā). Structurally close to Western reliabilism. Dharmottara (c. 770 CE) added arthasārūpya, exclusion of kākatālīya, and santāna to reject lucky-but-true cognitions as non-pramāṇa — roughly 1200 years before Gettier."
+    },
+
+    {
+      "@id": "ans:framework/gwt",
+      "@type": ["ans:Framework", "schema:DefinedTerm"],
+      "name": "Global Workspace Theory",
+      "alternateName": [
+        {"@value": "Global Workspace Theory (GWT) — Baars 1988", "@language": "en"},
+        {"@value": "グローバル・ワークスペース理論（GWT, Baars 1988）", "@language": "ja"}
+      ],
+      "description": "Cognitive theory: consciousness emerges from broadcast of selected content to a global workspace. Strongest mapping to Theravāda citta-vīthi's serial all-or-nothing javana ignition.",
+      "citation": ["ans:ref/baars-1988", "ans:ref/dehaene-naccache-2001"]
+    },
+    {
+      "@id": "ans:framework/gnw",
+      "@type": ["ans:Framework", "schema:DefinedTerm"],
+      "name": "Global Neuronal Workspace",
+      "alternateName": [
+        {"@value": "Global Neuronal Workspace (GNW) — Dehaene & Naccache 2001 neural implementation of GWT", "@language": "en"},
+        {"@value": "グローバル・ニューロナル・ワークスペース（GNW, Dehaene & Naccache 2001）", "@language": "ja"}
+      ],
+      "description": "Neural implementation of GWT. All-or-nothing ignition closely parallels javana cascade in citta-vīthi.",
+      "citation": "ans:ref/dehaene-naccache-2001"
+    },
+    {
+      "@id": "ans:framework/pp",
+      "@type": ["ans:Framework", "schema:DefinedTerm"],
+      "name": "Predictive Processing",
+      "alternateName": [
+        {"@value": "Predictive Processing (PP) — Clark 2016, Hohwy 2013", "@language": "en"},
+        {"@value": "予測符号化（Predictive Processing, Clark 2016 / Hohwy 2013）", "@language": "ja"}
+      ],
+      "description": "The brain as a hierarchical prediction machine. Maps onto Yogācāra ālaya-vijñāna (generative model) and manaskāra (precision-weighting).",
+      "citation": ["ans:ref/clark-2016", "ans:ref/hohwy-2013"]
+    },
+    {
+      "@id": "ans:framework/fep",
+      "@type": ["ans:Framework", "schema:DefinedTerm"],
+      "name": "Free Energy Principle / Active Inference",
+      "alternateName": [
+        {"@value": "Free Energy Principle / Active Inference (FEP / AIF) — Friston 2010", "@language": "en"},
+        {"@value": "自由エネルギー原理／能動推論（FEP / AIF, Friston 2010）", "@language": "ja"}
+      ],
+      "description": "Unified brain theory: all biological systems minimize variational free energy. AIF extends to action. Maps onto Yogācāra cognition and Sandved-Smith's hierarchical meta-awareness.",
+      "citation": ["ans:ref/friston-2010", "ans:ref/friston-2018"]
+    },
+    {
+      "@id": "ans:framework/iit",
+      "@type": ["ans:Framework", "schema:DefinedTerm"],
+      "name": "Integrated Information Theory",
+      "alternateName": [
+        {"@value": "Integrated Information Theory (IIT) — Tononi", "@language": "en"},
+        {"@value": "統合情報理論（IIT, Tononi）", "@language": "ja"}
+      ],
+      "description": "Consciousness = integrated information (Φ). Weaker mapping to Abhidharma; discussed mainly for completeness."
+    },
+    {
+      "@id": "ans:framework/pdp",
+      "@type": ["ans:Framework", "schema:DefinedTerm"],
+      "name": "Parallel Distributed Processing",
+      "alternateName": [
+        {"@value": "Parallel Distributed Processing (PDP) — McClelland & Rumelhart 1986", "@language": "en"},
+        {"@value": "並列分散処理（PDP, McClelland & Rumelhart 1986）", "@language": "ja"}
+      ],
+      "description": "Cognition as parallel activation across distributed units. Strongest mapping to Sarvāstivāda saṃprayoga (mental factors firing concurrently)."
+    },
+    {
+      "@id": "ans:framework/ast",
+      "@type": ["ans:Framework", "schema:DefinedTerm"],
+      "name": "Attention Schema Theory",
+      "alternateName": [
+        {"@value": "Attention Schema Theory (AST) — Graziano", "@language": "en"},
+        {"@value": "注意スキーマ理論（AST, Graziano）", "@language": "ja"}
+      ],
+      "description": "Consciousness as the brain's internal model of its own attention. Structural parallel to Yogācāra manas / svasaṃvitti."
+    },
+    {
+      "@id": "ans:framework/neurophenomenology",
+      "@type": ["ans:Framework", "schema:DefinedTerm"],
+      "name": "Neurophenomenology",
+      "alternateName": [
+        {"@value": "Neurophenomenology — Varela 1996", "@language": "en"},
+        {"@value": "神経現象学（Varela 1996）", "@language": "ja"}
+      ],
+      "description": "First-person phenomenological reports + third-person neural data, with mindfulness-Buddhism connection.",
+      "citation": "ans:ref/varela-1996"
+    },
+    {
+      "@id": "ans:framework/comp-phenomenology",
+      "@type": ["ans:Framework", "schema:DefinedTerm"],
+      "name": "Computational Phenomenology",
+      "alternateName": [
+        {"@value": "Computational Phenomenology — Ramstead 2022 / Sandved-Smith 2024 five-level framework", "@language": "en"},
+        {"@value": "計算論的現象学（Ramstead 2022 / Sandved-Smith 2024 の5段階フレームワーク）", "@language": "ja"}
+      ],
+      "description": "Methodology connecting phenomenological description to mathematical models (Bayesian mechanics). The project's primary computational interlocutor.",
+      "citation": ["ans:ref/ramstead-2022", "ans:ref/sandved-smith-2024"]
+    },
+
+    {"@id": "ans:ref/ganeri-2017", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Ganeri 2017", "identifier": "doi:10.1093/OSO/9780198757405.001.0001", "url": "https://doi.org/10.1093/oso/9780198757405.001.0001", "sameAs": "https://www.wikidata.org/wiki/Q140181316", "alternateName": [{"@value": "Ganeri, J. Attention, Not Self. Oxford University Press, 2017.", "@language": "en"}], "description": "Project namesake; attention-first reading of Buddhaghosa's Abhidhamma."},
+    {"@id": "ans:ref/karunadasa-2010", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Karunadasa 2010", "alternateName": [{"@value": "Karunadasa, Y. The Theravāda Abhidhamma. Wisdom Publications, 2010.", "@language": "en"}], "description": "Authoritative survey of Theravāda Abhidhamma; reconstructive reading of citta-vīthi."},
+    {"@id": "ans:ref/ronkin-2005", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Ronkin 2005", "alternateName": [{"@value": "Ronkin, N. Early Buddhist Metaphysics. RoutledgeCurzon, 2005.", "@language": "en"}], "description": "Time-scale reduction framework; svabhāva dynamic-vs-substantialist debate."},
+    {"@id": "ans:ref/cox-1995", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Cox 1995", "alternateName": [{"@value": "Cox, C. Disputed Dharmas: Early Buddhist Theories on Existence. ICPBS, 1995.", "@language": "en"}], "description": "Sarvāstivāda intrinsic-nature realism (svabhāva) and its critics."},
+    {"@id": "ans:ref/dhammajoti-2009", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Dhammajoti 2009", "alternateName": [{"@value": "Dhammajoti, KL. Sarvāstivāda Abhidharma. Centre of Buddhist Studies, HK, 2009.", "@language": "en"}], "description": "Standard reference on Sarvāstivāda doctrine; 'dharmas weak alone, active together.'"},
+    {"@id": "ans:ref/lusthaus-2002", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Lusthaus 2002", "alternateName": [{"@value": "Lusthaus, D. Buddhist Phenomenology. RoutledgeCurzon, 2002.", "@language": "en"}], "description": "Reads Yogācāra as a 'critique of consciousness,' rejecting the idealist misreading."},
+    {"@id": "ans:ref/waldron-2003", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Waldron 2003", "alternateName": [{"@value": "Waldron, W. The Buddhist Unconscious: The Ālaya-vijñāna. RoutledgeCurzon, 2003.", "@language": "en"}], "description": "Ālaya as unconscious substrate; simultaneity of the eight consciousnesses."},
+    {"@id": "ans:ref/sharf-2016", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sharf 2016", "alternateName": [{"@value": "Sharf, R. 'Is Yogācāra Phenomenology?' Journal of Indian Philosophy, 2016.", "@language": "en"}], "description": "Argues against a Husserlian reading of the four bhāgas."},
+    {"@id": "ans:ref/arnold-2012", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Arnold 2012", "alternateName": [{"@value": "Arnold, D. Brains, Buddhas, and Believing. Columbia University Press, 2012.", "@language": "en"}], "description": "Transcendental (not phenomenological) reading of svasaṃvitti."},
+    {"@id": "ans:ref/ramstead-2022", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Ramstead 2022", "alternateName": [{"@value": "Ramstead, M. et al. 'From Generative Models to Generative Passages.' Review of Philosophy and Psychology, 2022.", "@language": "en"}], "description": "Foundational paper on computational phenomenology methodology."},
+    {"@id": "ans:ref/sandved-smith-2024", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sandved-Smith 2024", "alternateName": [{"@value": "Sandved-Smith, L. et al. Five-level framework (A1–A5) for computational neurophenomenology, 2024.", "@language": "en"}], "description": "Phenomenology-to-mathematics circulation; Bayesian mechanics."},
+    {"@id": "ans:ref/varela-1996", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Varela 1996", "alternateName": [{"@value": "Varela, F. 'Neurophenomenology: A Methodological Remedy for the Hard Problem.' Journal of Consciousness Studies, 1996.", "@language": "en"}], "description": "Foundational neurophenomenology paper; mindfulness-Buddhism connection."},
+    {"@id": "ans:ref/tal-2025", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Tal et al. 2025", "alternateName": [{"@value": "Tal, Wright, Prest, Sandved-Smith, Sacchet (Harvard/MGH). Review of computational meditation models, 2025.", "@language": "en"}], "description": "Confirms precision-weighting as common mechanism across meditation models."},
+    {"@id": "ans:ref/friston-2010", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Friston 2010", "alternateName": [{"@value": "Friston, K. 'The free-energy principle: a unified brain theory?' Nature Reviews Neuroscience, 2010.", "@language": "en"}], "description": "Foundational FEP paper."},
+    {"@id": "ans:ref/friston-2018", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Friston 2018", "alternateName": [{"@value": "Friston, K. 'Am I self-conscious?' Frontiers in Psychology, 2018.", "@language": "en"}], "description": "Self-evidencing as source of minimal self-modeling."},
+    {"@id": "ans:ref/clark-2016", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Clark 2016", "alternateName": [{"@value": "Clark, A. Surfing Uncertainty. Oxford UP, 2016.", "@language": "en"}], "description": "Canonical exposition of predictive processing."},
+    {"@id": "ans:ref/hohwy-2013", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Hohwy 2013", "alternateName": [{"@value": "Hohwy, J. The Predictive Mind. Oxford UP, 2013.", "@language": "en"}], "description": "Companion canonical treatment of PP."},
+    {"@id": "ans:ref/metzinger-2003", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Metzinger 2003", "alternateName": [{"@value": "Metzinger, T. Being No One: The Self-Model Theory of Subjectivity. MIT Press, 2003.", "@language": "en"}], "description": "Phenomenal Self-Model (PSM); structural parallel to Yogācāra manas."},
+    {"@id": "ans:ref/hoffman-2015", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Hoffman 2015", "alternateName": [{"@value": "Hoffman, D. 'The Interface Theory of Perception.' Current Directions in Psychological Science, 2015.", "@language": "en"}], "description": "Perception as fitness-tuned user interface."},
+    {"@id": "ans:ref/dehaene-naccache-2001", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Dehaene & Naccache 2001", "alternateName": [{"@value": "Dehaene, S. & Naccache, L. 'Towards a cognitive neuroscience of consciousness.' Cognition, 2001.", "@language": "en"}], "description": "Global Neuronal Workspace; all-or-nothing ignition."},
+    {"@id": "ans:ref/baars-1988", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Baars 1988", "alternateName": [{"@value": "Baars, B. A Cognitive Theory of Consciousness. Cambridge UP, 1988.", "@language": "en"}], "description": "Original Global Workspace Theory."},
+    {"@id": "ans:ref/posner-petersen-1990", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Posner & Petersen 1990", "alternateName": [{"@value": "Posner, M. & Petersen, S. 'The attention system of the human brain.' Annual Review of Neuroscience, 1990.", "@language": "en"}], "description": "Three attention networks: alerting / orienting / executive."},
+    {"@id": "ans:ref/vanrullen-koch-2003", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "VanRullen & Koch 2003", "alternateName": [{"@value": "VanRullen, R. & Koch, C. 'Is perception discrete or continuous?' TICS, 2003.", "@language": "en"}], "description": "Discrete perceptual frames (~10 Hz); convergence with kṣaṇa-vāda."},
+    {"@id": "ans:ref/macy-1991", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Macy 1991", "alternateName": [{"@value": "Macy, J. Mutual Causality in Buddhism and General Systems Theory. SUNY Press, 1991.", "@language": "en"}], "description": "Pratītyasamutpāda as systems-theoretic mutual causation."},
+    {"@id": "ans:ref/deane-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Deane 2021", "alternateName": [{"@value": "Deane, G. Active inference accounts of ego dissolution under psychedelics and deep meditation, 2021.", "@language": "en"}], "description": "Self-model collapse parallels āśraya-parāvṛtti."},
+    {"@id": "ans:ref/sandved-smith-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sandved-Smith et al. 2021", "alternateName": [{"@value": "Sandved-Smith, Hesp, Mattout, Friston, Lutz, Ramstead. Hierarchical model of meta-awareness, 2021.", "@language": "en"}], "description": "Deep parametric AIF; parallels 自証分 / 証自証分 distinction."},
+    {"@id": "ans:ref/laukkonen-slagter-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen & Slagter 2021", "alternateName": [{"@value": "Laukkonen, R. & Slagter, H. 'From many to (n)one.' Neuroscience & Biobehavioral Reviews, 2021.", "@language": "en"}], "description": "FA / OM / ND meditation as precision-modulation stages."},
+    {"@id": "ans:ref/laukkonen-2025", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen et al. 2025", "identifier": "arXiv:2504.15125", "url": "https://arxiv.org/abs/2504.15125", "sameAs": "https://www.wikidata.org/wiki/Q140181291", "alternateName": [{"@value": "Laukkonen, R. et al. Contemplative Constitutional AI with four axioms, 2025.", "@language": "en"}], "description": "Mindfulness, emptiness, non-duality, boundless care as AI alignment principles."},
+    {"@id": "ans:ref/laukkonen-2023", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen et al. 2023", "identifier": "doi:10.1016/bs.pbr.2022.12.007", "url": "https://doi.org/10.1016/bs.pbr.2022.12.007", "sameAs": "https://www.wikidata.org/wiki/Q140265025", "alternateName": [{"@value": "Laukkonen, R. E., Sacchet, M. D., Barendregt, H., Devaney, K. J., Chowdhury, A., & Slagter, H. A. 'Cessations of consciousness in meditation: Advancing a scientific understanding of nirodha samāpatti.' Progress in Brain Research 280 (2023): 61–87.", "@language": "en"}], "description": "Active-inference account of meditative cessation (nirodha samāpatti); explicitly leaves the post-cessation 'restart' as a key open question (p.16). Primary source for the cessation essay."},
+    {"@id": "ans:ref/becattini-2026", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Becattini et al. 2026", "identifier": "doi:10.1093/nc/niag001", "url": "https://doi.org/10.1093/nc/niag001", "alternateName": [{"@value": "Becattini, V., Lifshitz, M. & Miller, M. 'Learning to attenuate myself: a predictive-processing account of body-scan meditation and the dissolution of bodily boundaries.' Neuroscience of Consciousness 2026(1): niag001.", "@language": "en"}], "description": "Precision-weighting account of body-scan meditation: focused attention first sharpens somatosensory precision, then open monitoring lets higher-level precision relax, dissolving the bodily boundary — 'adaptive attenuation,' a mechanism for the Pāli bhaṅga at the level of the bodily self. Conceptual neighbour of Deane's (2021) ego-dissolution as self-model collapse."},
+    {"@id": "ans:ref/jhana-acamj-2026", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Jhāna ACAM-J 7T fMRI 2026", "identifier": "arXiv:2602.13008", "url": "https://arxiv.org/abs/2602.13008", "alternateName": [{"@value": "'Machine Learning-Based Classification of Jhana Advanced Concentrative Absorption Meditation (ACAM-J) using 7T fMRI.' arXiv:2602.13008, 2026.", "@language": "en"}], "description": "Classifies jhāna (ACAM-J) states from 7T-fMRI regional homogeneity (ReHo) with prefrontal / anterior-cingulate features dominant — a candidate neural signature for the concentration end of the FA / OM / non-dual continuum. Preprint."},
+    {"@id": "ans:ref/nondual-int-2025", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Non-duality & Intrinsic Neural Timescales 2025", "identifier": "doi:10.1101/2025.04.21.649758", "url": "https://www.biorxiv.org/content/10.1101/2025.04.21.649758v1", "alternateName": [{"@value": "'Non-duality in brain and experience of advanced meditators — key role for intrinsic neural timescales.' bioRxiv 2025.04.21.649758 (preprint).", "@language": "en"}], "description": "Operationalizes non-dual awareness as a collapse of the internal/external distinction in intrinsic neural timescales: advanced meditators show equal EEG autocorrelation windows across breath-watching (internal attention) and a visual oddball task (external attention). Preprint, not peer-reviewed."},
+    {"@id": "ans:ref/jia-liu-2026", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Jia Liu 2026", "identifier": "doi:10.3390/rel17030378", "url": "https://doi.org/10.3390/rel17030378", "alternateName": [{"@value": "Liu, J. 'Between No-Self and the Algorithm: Buddhist Mind-Nature as Ethical Architecture for AI and Human Self-Realization.' Religions 17(3): 378, 2026.", "@language": "en"}], "description": "Reads no-self (anattā), dependent origination, and mind-nature (tathāgatagarbha) as an ethical architecture for AI: AI as a contingent mirror lacking prajñā, not an autonomous moral subject. A different use of no-self from this project's continuity question."},
+    {"@id": "ans:ref/thompson-2020", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Thompson 2020", "alternateName": [{"@value": "Thompson, E. Why I Am Not a Buddhist. Yale University Press, 2020.", "@language": "en"}], "description": "Critique of Buddhist exceptionalism (the claim that Buddhism is uniquely rational / scientific). Frames the essay's anti-modernist stance."},
+    {"@id": "ans:ref/mcmahan-2008", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "McMahan 2008", "alternateName": [{"@value": "McMahan, D. L. The Making of Buddhist Modernism. Oxford University Press, 2008.", "@language": "en"}], "description": "Defines Buddhist modernism as a 19th-century-onward co-production foregrounding meditation, rationality, and compatibility with science."},
+    {"@id": "ans:ref/tweed-2002", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Tweed 2002", "alternateName": [{"@value": "Tweed, T. A. 'Who Is a Buddhist? Night-Stand Buddhists and Other Creatures.' In Westward Dharma, University of California Press, 2002.", "@language": "en"}], "description": "Coins 'nightstand Buddhist' — a non-affiliated sympathizer who reads and practices privately."},
+    {"@id": "ans:ref/crick-koch-1990", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Crick & Koch 1990", "alternateName": [{"@value": "Crick, F. & Koch, C. 'Towards a neurobiological theory of consciousness.' Seminars in the Neurosciences 2 (1990): 263–275.", "@language": "en"}], "description": "Founding programme for the contrastive search for the neural correlates of consciousness (NCC)."},
+    {"@id": "ans:ref/chalmers-2000", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Chalmers 2000", "alternateName": [{"@value": "Chalmers, D. 'What is a neural correlate of consciousness?' In Neural Correlates of Consciousness (ed. Metzinger), MIT Press, 2000.", "@language": "en"}], "description": "Methodological analysis of the NCC concept and the contrastive method."},
+    {"@id": "ans:ref/koch-2016", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Koch et al. 2016", "identifier": "doi:10.1038/nrn.2016.22", "url": "https://doi.org/10.1038/nrn.2016.22", "sameAs": "https://www.wikidata.org/wiki/Q38812052", "alternateName": [{"@value": "Koch, C., Massimini, M., Boly, M. & Tononi, G. 'Neural correlates of consciousness: progress and problems.' Nature Reviews Neuroscience 17 (2016): 307–321.", "@language": "en"}], "description": "Review of NCC progress, including the difficulty of switching consciousness on/off cleanly."},
+    {"@id": "ans:ref/buswell-lopez-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Buswell & Lopez 2014", "alternateName": [{"@value": "Buswell, R. E. & Lopez, D. S. The Princeton Dictionary of Buddhism. Princeton University Press, 2014.", "@language": "en"}], "description": "Reference for the prāpti / bīja / ālaya-vijñāna / bhavaṅga classifications."},
+    {"@id": "ans:ref/thompson-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Thompson 2014", "alternateName": [{"@value": "Thompson, E. Waking, Dreaming, Being. Columbia UP, 2014.", "@language": "en"}], "description": "Three-layer Yogācāra architecture mapped onto implicit memory + pre-reflective self + working memory."},
+    {"@id": "ans:ref/yampolsky-1967", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Yampolsky 1967", "alternateName": [{"@value": "Yampolsky, P. B., trans. The Platform Sutra of the Sixth Patriarch. Columbia University Press, 1967.", "@language": "en"}], "description": "Standard English translation of the Dunhuang recension of Liùzǔ Tánjīng 六祖壇經. Source for the 無念/無相/無住 triad and the 於念而不念 gloss central to the 念 collision argument."},
+    {"@id": "ans:ref/sharf-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sharf 2014", "identifier": "doi:10.1353/PEW.2014.0074", "url": "https://doi.org/10.1353/pew.2014.0074", "sameAs": "https://www.wikidata.org/wiki/Q56474802", "alternateName": [{"@value": "Sharf, R. 'Mindfulness and Mindlessness in Early Chan.' Philosophy East and West 64:4 (October 2014): 933–964.", "@language": "en"}], "description": "Documents 8th-century Chan deconstructive critique of 守心/觀心/念, opposing them with 無心/絕觀/無念. Foundational source for reading 無念 as critique of reified mindfulness, not as anti-meditative quietism."},
+    {"@id": "ans:ref/sharf-2015", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sharf 2015", "alternateName": [{"@value": "Sharf, R. 'Is Mindfulness Buddhist? (and why it matters).' Transcultural Psychiatry 52:4 (August 2015): 470–484.", "@language": "en"}], "description": "Argues current 'mindfulness' is a 20th-century reform of sati, descending from Nyanaponika (1962) → Kabat-Zinn (MBSR 1979 / 1994), not the commentarial definition."},
+    {"@id": "ans:ref/gethin-2011", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Gethin 2011", "alternateName": [{"@value": "Gethin, R. 'On Some Definitions of Mindfulness.' Contemporary Buddhism 12:1 (2011).", "@language": "en"}], "description": "Locates sati's commentarial definition (Milindapañha, Visuddhimagga, Aṭṭhasālinī) in apilāpana — 'not floating away.' Distinguishes the retention pole from modern 'present-moment awareness.'"},
+    {"@id": "ans:ref/dreyfus-2011", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Dreyfus 2011", "alternateName": [{"@value": "Dreyfus, G. 'Is Mindfulness Present-Centered and Nonjudgmental? A Discussion of the Cognitive Dimensions of Mindfulness.' Contemporary Buddhism 12:1 (2011).", "@language": "en"}], "description": "Critique of the bare-attention reading. Argues mindfulness has cognitive implications — integrating aspects of experience to lead to clear comprehension — that the present-moment-only framing misses."},
+    {"@id": "ans:ref/analayo-2003", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Anālayo 2003", "alternateName": [{"@value": "Anālayo, Bhikkhu. Satipaṭṭhāna: The Direct Path to Realization. Windhorse, 2003.", "@language": "en"}], "description": "Reconstructive reading of the Satipaṭṭhāna Sutta. Argues sati is both retentive and present-attentive — 'that which facilitates and enables memory.' Pushes back gently on memory-only readings."},
+    {"@id": "ans:ref/kim-2007", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Kim 2007", "alternateName": [{"@value": "Kim, Hee-Jin. Dōgen on Meditation and Thinking: A Reflection on His View of Zen. SUNY Press, 2007.", "@language": "en"}], "description": "Reads Dōgen's 非思量 (hishiryō) as 'thinking that is non-objectifying.' Distinguishes ordinary negation (不思量) from structural negation (非思量). Source for reading 非思量 as resolution of the cultivate-念 / eliminate-念 binary."},
+    {"@id": "ans:ref/waddell-abe-1973", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Waddell & Abe 1973", "alternateName": [{"@value": "Waddell, N. & Abe, M. 'Dōgen's Fukanzazengi and Shōbōgenzō Zazengi.' The Eastern Buddhist 6:2 (1973): 115–128.", "@language": "en"}], "description": "Standard English translation of Dōgen's Fukanzazengi. Source for the Yakusan dialogue (思量箇不思量底。不思量底、如何思量。非思量) at the center of Sōtō zazen practice."},
+    {"@id": "ans:ref/kabat-zinn-1994", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Kabat-Zinn 1994", "alternateName": [{"@value": "Kabat-Zinn, J. Wherever You Go, There You Are: Mindfulness Meditation in Everyday Life. Hyperion, 1994.", "@language": "en"}], "description": "Canonical modern definition (p. 4): 'Mindfulness means paying attention in a particular way: on purpose, in the present moment, and non-judgmentally.' Founded MBSR program in 1979."},
+    {"@id": "ans:ref/nyanaponika-1962", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Nyanaponika 1962", "alternateName": [{"@value": "Nyanaponika Thera. The Heart of Buddhist Meditation. Rider & Co., London, 1962.", "@language": "en"}], "description": "Operationally defined sati as 'bare attention': 'the clear and single-minded awareness of what actually happens to us … without reacting to them by deed, speech or mental comment.' Pivotal reformulation that Kabat-Zinn later inherited."},
+    {"@id": "ans:ref/braun-2013", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Braun 2013", "alternateName": [{"@value": "Braun, E. The Birth of Insight: Meditation, Modern Buddhism, and the Burmese Monk Ledi Sayadaw. University of Chicago Press, 2013.", "@language": "en"}], "description": "Historicizes the Burmese vipassanā movement (Ledi → Mahāsi → Western MBSR upstream) as a modern reform of traditional Theravāda, not a continuation."},
+    {"@id": "ans:ref/faure-1991", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Faure 1991", "alternateName": [{"@value": "Faure, B. The Rhetoric of Immediacy: A Cultural Critique of Chan/Zen Buddhism. Princeton University Press, 1991.", "@language": "en"}], "description": "Critical-cultural reading of Chan/Zen rhetoric, including the 'sudden' / 'direct' tropes. Compatible with but not identical to Sharf's deconstructive reading of early Chan."},
+    {"@id": "ans:ref/mcrae-2003", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "McRae 2003", "alternateName": [{"@value": "McRae, J. Seeing Through Zen: Encounter, Transformation, and Genealogy in Chinese Chan Buddhism. University of California Press, 2003.", "@language": "en"}], "description": "Genealogical history of Chinese Chan. Also produced the BDK Numata translation of the Zongbao recension of the Platform Sutra (2000)."},
+    {"@id": "ans:ref/suzuki-dt-1959", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Suzuki D.T. 1959", "alternateName": [{"@value": "Suzuki, D. T. Zen and Japanese Culture. Princeton/Bollingen, 1959 (orig. Japan 1938).", "@language": "en"}], "description": "Conflates munen / muga / mushin / musō into a single cluster; treats Huineng's 無念 as the central insight of Zen. Major channel by which 'no-mind' Zen reached Anglophone audiences. Sharf 1995 critiques this framing as a Meiji-era Kyoto-School construction."},
+    {"@id": "ans:ref/levman-2017", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Levman 2017", "alternateName": [{"@value": "Levman, B. 'Putting smṛti back into sati.' Journal of the Oxford Centre for Buddhist Studies 13 (2017): 121–149.", "@language": "en"}], "description": "Philological argument that sati / smṛti retains its memory-pole sense more robustly than Anālayo's reconstruction allows. Pushes back on present-moment-awareness readings."},
+    {"@id": "ans:ref/uejima-2020", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Uejima 2020", "url": "https://www.keisoshobo.co.jp/book/b524661.html", "alternateName": [{"@value": "Uejima, Y. Gendai Ninshikiron Nyūmon [Introduction to Contemporary Epistemology]. Keisō Shobō, 2020.", "@language": "en"}], "description": "Japanese-language survey of post-Gettier epistemology that motivated the essay; not directly quoted."},
+    {"@id": "ans:ref/gettier-1963", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Gettier 1963", "url": "https://fitelson.org/proseminar/gettier.pdf", "alternateName": [{"@value": "Gettier, E. 'Is Justified True Belief Knowledge?' Analysis 23(6) (1963): 121–123.", "@language": "en"}], "description": "Original counter-examples to the JTB analysis of knowledge."},
+    {"@id": "ans:ref/goldman-1976", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Goldman 1976", "url": "https://www.jstor.org/stable/i335719", "alternateName": [{"@value": "Goldman, A. I. 'Discrimination and Perceptual Knowledge.' The Journal of Philosophy 73(20) (1976): 771–791.", "@language": "en"}], "description": "Source of the 'fake barn country' case; reliabilism's vulnerability to environmental luck."},
+    {"@id": "ans:ref/iep-gettier-problems", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "IEP 'Gettier Problems'", "url": "https://iep.utm.edu/gettier/", "alternateName": [{"@value": "Internet Encyclopedia of Philosophy. 'Gettier Problems.'", "@language": "en"}], "description": "Summarizes six decades of reliabilist/knowledge-first responses."},
+    {"@id": "ans:ref/iep-reliabilism", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "IEP 'Reliabilism'", "url": "https://iep.utm.edu/reliabilism/", "alternateName": [{"@value": "Internet Encyclopedia of Philosophy. 'Reliabilism.'", "@language": "en"}], "description": "Standard formulation: belief is justified iff formed by a reliable process."},
+    {"@id": "ans:ref/friston-2015-epistemic-value", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Friston et al. 2015", "alternateName": [{"@value": "Friston, K. et al. 'Active inference and epistemic value.' Cognitive Neuroscience 6(4) (2015): 187–214.", "@language": "en"}], "description": "Decomposes expected free energy into extrinsic/epistemic value; precision as descriptive, not normative. Distinct from friston-2010/friston-2018 already in this graph."},
+    {"@id": "ans:ref/parr-friston-2019", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Parr & Friston 2019", "url": "https://discovery.ucl.ac.uk/10082773/1/Parr-Friston2019_Article_GeneralisedFreeEnergyAndActive.pdf", "alternateName": [{"@value": "Parr, T. & Friston, K. J. 'Generalised free energy and active inference.' Biological Cybernetics 113(5-6) (2019): 495–513.", "@language": "en"}], "description": "Decomposes expected free energy into Risk and Ambiguity; no normative epistemic-justification concept."},
+    {"@id": "ans:ref/gladziejewski-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Gładziejewski 2021", "identifier": "doi:10.1007/s11229-021-03295-1", "url": "https://doi.org/10.1007/s11229-021-03295-1", "alternateName": [{"@value": "Gładziejewski, P. 'Perceptual justification in the Bayesian brain: a foundherentist account.' Synthese 199 (2021).", "@language": "en"}], "description": "Rare perceptual-justification theory within predictive processing; never mentions Gettier. DOI verified resolving and matching metadata (2026-07-01)."},
+    {"@id": "ans:ref/ghijsen-2018", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Ghijsen 2018", "identifier": "doi:10.1007/s11229-018-1715-x", "url": "https://doi.org/10.1007/s11229-018-1715-x", "alternateName": [{"@value": "Ghijsen, H. 'Predictive processing and foundationalism about perception.' Synthese 198(Suppl 7) (2018): 1751–1769.", "@language": "en"}], "description": "'Externalist foundationalism' for PP, structurally close to reliabilism; never mentions Gettier. DOI verified resolving and matching metadata (2026-07-01)."},
+    {"@id": "ans:ref/sep-dharmakirti", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "SEP 'Dharmakīrti'", "url": "https://plato.stanford.edu/entries/dharmakiirti/", "alternateName": [{"@value": "Stanford Encyclopedia of Philosophy. 'Dharmakīrti.'", "@language": "en"}], "description": "Source for Pramāṇavārttika II.1's avisaṃvādin definition of pramāṇa."},
+    {"@id": "ans:ref/dunne-dharmakirti-foundations", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Dunne, Foundations of Dharmakīrti's Philosophy", "alternateName": [{"@value": "Dunne, J. D. Foundations of Dharmakīrti's Philosophy. Wisdom Publications.", "@language": "en"}], "description": "Source for arthakriyā as the true test of knowledge."},
+    {"@id": "ans:ref/wikipedia-gettier-problem", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Wikipedia 'Gettier problem' (§ Dharmottara)", "url": "https://en.wikipedia.org/wiki/Gettier_problem", "alternateName": [{"@value": "Wikipedia. 'Gettier problem,' § Dharmottara.", "@language": "en"}], "description": "Source for Dharmottara's smoke/insects and mirage/water cases and c. 770 CE dating. Self-flagged by the essay's author as tertiary; primary-source (Dreyfus/Tillemans) verification not yet done."},
+    {"@id": "ans:ref/mandal-2022", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Manotosh Mandal 2022", "alternateName": [{"@value": "Mandal, M. 'The Concept of Valid Cognition According to Buddhist Logic.' International Journal of Creative Research Thoughts (IJCRT) (2022).", "@language": "en"}], "description": "Source for verbatim Sanskrit quotations from Dharmottara's Nyāyabinduṭīkā. Self-flagged by the essay's author as a lower-tier peer-reviewed venue; quotations not independently cross-checked against a critical Sanskrit edition."},
+    {
+      "@id": "https://www.youtube.com/watch?v=uZKauW_Cm3I",
+      "@type": ["schema:VideoObject", "schema:CreativeWork"],
+      "name": "Attention, Not Self — Is the Self Really There?",
+      "description": "A 62-second vertical short distilling the collection's core thesis: the mind as not a substance but a stream of momentary dharmas, and attention (manaskāra) as a colorless coordination rather than an 'I' — converging with precision-weighting in active inference. Not a prediction of neuroscience by Buddhism, but two inquiries reaching the same structure.",
+      "inLanguage": "en",
+      "isBasedOn": ["https://doi.org/10.5281/zenodo.20262112", "https://github.com/shimo4228/attention-not-self/blob/main/Abhidharma%20Meets%20Computational%20Phenomenology.md"],
+      "isPartOf": "ans:theme/1-introduction",
+      "about": "ans:dharma/manaskara",
+      "author": "https://orcid.org/0009-0002-6168-4162",
+      "creator": "https://orcid.org/0009-0002-6168-4162",
+      "publisher": "Tatsuya Shimomoto",
+      "datePublished": "2026-06-28",
+      "uploadDate": "2026-06-28",
+      "duration": "PT1M2S",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://www.youtube.com/shorts/uZKauW_Cm3I",
+      "contentUrl": "https://www.youtube.com/watch?v=uZKauW_Cm3I",
+      "embedUrl": "https://www.youtube.com/embed/uZKauW_Cm3I",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uZKauW_Cm3I/maxresdefault.jpg"
+    }
+  ]
+}
+</script>
   </head>
   <body>
     <div id="root"></div>
