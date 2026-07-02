@@ -3,6 +3,12 @@
 All notable changes to this project are documented in this file.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
+## Unreleased
+
+### Changed
+
+- Theme 8 published on Substack (English). Essay footers (JA / EN) and `llms.txt` updated to the live Substack URL.
+
 ## v0.4.0 — Theme 8 added: Epistemic luck across traditions (2026-07-01)
 
 Adds an eighth essay theme asking whether the Free Energy Principle's descriptive vocabulary has anything to say about the Gettier problem, and tracing Dharmakīrti's Buddhist epistemology as an independent line that reached a structurally similar problem roughly 1200 years earlier.
