@@ -36,6 +36,12 @@ A 62-second vertical short distilling this collection's core thesis — the mind
 
 CC0 1.0, like the rest of the project. Its full text and structure are registered in [`graph.jsonld`](graph.jsonld) as a `schema:VideoObject` (`https://www.youtube.com/watch?v=uZKauW_Cm3I`).
 
+**You Got It Right — But You Didn't Know It** (9-minute narrated 16:9 video essay) — three traditions circling "knowledge counterfeited by luck": the Gettier problem and sixty unresolved years, the Free Energy Principle's silence on justification (the inheritance problem is the essay's own hypothesis), and Dharmottara's two counter-examples — the swarm and the mirage — ruled out as valid cognition via *kākatālīya* and *santāna*, twelve hundred years before Gettier.
+
+▸ **Watch on YouTube**: https://youtu.be/c2WuG9l5CJA
+
+CC0 1.0. Based on the Theme 8 essay ["You Got It Right - But You Didn't Know It"](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md). Registered in `graph.jsonld` as a `schema:VideoObject` (`https://www.youtube.com/watch?v=c2WuG9l5CJA`).
+
 ## Contents
 
 ### Essays (Markdown)

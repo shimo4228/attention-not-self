@@ -3032,6 +3032,27 @@
       "contentUrl": "https://www.youtube.com/watch?v=uZKauW_Cm3I",
       "embedUrl": "https://www.youtube.com/embed/uZKauW_Cm3I",
       "thumbnailUrl": "https://i.ytimg.com/vi/uZKauW_Cm3I/maxresdefault.jpg"
+    },
+    {
+      "@id": "https://www.youtube.com/watch?v=c2WuG9l5CJA",
+      "@type": ["schema:VideoObject", "schema:CreativeWork"],
+      "name": "You Got It Right — But You Didn't Know It",
+      "description": "A 9-minute narrated video essay on knowledge counterfeited by luck: the Gettier problem and sixty years of failed patches, the Free Energy Principle's silence on justification and the essay's own inheritance hypothesis, and Dharmottara's two counter-examples (the swarm and the mirage) — ruled out as valid cognition via kākatālīya and santāna, twelve hundred years before Gettier. Explicitly not a claim that 'Buddhism solved the Gettier problem'; the essay's own syntheses are marked as such, and the mirage ruling (primary text) is distinguished from the swarm ruling (inference only).",
+      "inLanguage": "en",
+      "isBasedOn": ["https://doi.org/10.5281/zenodo.20262112", "https://github.com/shimo4228/attention-not-self/blob/main/You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md"],
+      "isPartOf": "ans:theme/8-epistemic-luck-gettier-dharmakirti",
+      "about": "ans:concept/gettier-luck",
+      "author": "https://orcid.org/0009-0002-6168-4162",
+      "creator": "https://orcid.org/0009-0002-6168-4162",
+      "publisher": "Tatsuya Shimomoto",
+      "datePublished": "2026-07-03",
+      "uploadDate": "2026-07-03",
+      "duration": "PT9M19S",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "url": "https://youtu.be/c2WuG9l5CJA",
+      "contentUrl": "https://www.youtube.com/watch?v=c2WuG9l5CJA",
+      "embedUrl": "https://www.youtube.com/embed/c2WuG9l5CJA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c2WuG9l5CJA/maxresdefault.jpg"
     }
   ]
 }

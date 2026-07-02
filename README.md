@@ -34,6 +34,12 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 
 CC0 1.0（プロジェクト本体と同じ）。全文と構造は [`graph.jsonld`](graph.jsonld) に `schema:VideoObject`（`https://www.youtube.com/watch?v=uZKauW_Cm3I`）として登録。
 
+**You Got It Right — But You Didn't Know It**（9 分・16:9 ナレーション付きビデオエッセイ）——「運によって偽造された知識」をめぐる 3 つの伝統。Gettier 問題と 60 年の未解決、自由エネルギー原理の「正当化」への沈黙（継承問題はエッセイ独自仮説）、そしてダルモーッタラの 2 つの反例（虫の群れと蜃気楼）が kākatālīya と santāna によって「有効な認識ではない」と裁定される——Gettier の 1200 年前に。
+
+▸ **YouTube で観る**: https://youtu.be/c2WuG9l5CJA
+
+CC0 1.0。テーマ 8 のエッセイ[「You Got It Right - But You Didn't Know It」](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md)に基づく。`graph.jsonld` に `schema:VideoObject`（`https://www.youtube.com/watch?v=c2WuG9l5CJA`）として登録。
+
 ## 収録資料
 
 ### 論考（Markdown）

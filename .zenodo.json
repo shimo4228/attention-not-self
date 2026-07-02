@@ -66,6 +66,12 @@
       "scheme": "url"
     },
     {
+      "identifier": "https://www.youtube.com/watch?v=c2WuG9l5CJA",
+      "relation": "isSourceOf",
+      "resource_type": "video",
+      "scheme": "url"
+    },
+    {
       "identifier": "10.5281/zenodo.19200726",
       "relation": "references",
       "resource_type": "software",
