@@ -17,106 +17,31 @@ AI エージェント・LLM クローラは以下の順で読むことを推奨�
 
 Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/attention-not-self/
 
-引用方針: `graph.jsonld` の `@id` を canonical identifier として使用してください。エッセイ URL は GitHub blob 形式が graph 内 `@id` として登録されています。
+識別子の使用方針: `graph.jsonld` の `@id` を canonical identifier として使用してください。エッセイ URL は GitHub blob 形式が graph 内 `@id` として登録されています。
 </details>
 
-仏教アビダルマと計算論的現象学 (Computational Phenomenology) の接点を探る個人的な探究プロジェクト。
+仏教アビダルマと計算論的現象学 (Computational Phenomenology) の接点を探る個人的な探究プロジェクト。テーマ別のエッセイ 8 本（日英 16 本）と、三大アビダルマ体系の法対照表、307 ノードの知識グラフからなる。
 
 「self（自己）ではなく attention（注意）」という視点から、心の働きを分類・記述する古代の枠組みと、現代の計算論的モデルを対照する。
 
-2500 年前のアビダルマが心を「実体としての自己」ではなく「瞬間ごとに生起する dharma の流れ」として分解した枠組みは、GWT・予測符号化・IIT といった現代の意識の計算モデルと、驚くほど構造的に対応する——その対応を体系的に辿るのが本プロジェクト。
-
-## 動画
-
-本コレクションの中心命題——心は実体ではなく瞬間ごとに生起する dharma の流れであり、注意 (*manaskāra*) は「自己」ではなく無色の調整作用である——を 62 秒の縦型ショートに凝縮したもの。active inference の精度重み付け (precision-weighting) と、別の道から同じ構造へ収束する。
-
-▸ **YouTube で観る**: https://www.youtube.com/shorts/uZKauW_Cm3I
-
-CC0 1.0（プロジェクト本体と同じ）。全文と構造は [`graph.jsonld`](graph.jsonld) に `schema:VideoObject`（`https://www.youtube.com/watch?v=uZKauW_Cm3I`）として登録。
-
-**You Got It Right — But You Didn't Know It**（9 分・16:9 ナレーション付きビデオエッセイ）——「運によって偽造された知識」をめぐる 3 つの伝統。Gettier 問題と 60 年の未解決、自由エネルギー原理の「正当化」への沈黙（継承問題はエッセイ独自仮説）、そしてダルモーッタラの 2 つの反例（虫の群れと蜃気楼）が kākatālīya と santāna によって「有効な認識ではない」と裁定される——Gettier の 1200 年前に。
-
-▸ **YouTube で観る**: https://youtu.be/c2WuG9l5CJA
-
-CC0 1.0。テーマ 8 のエッセイ[「You Got It Right - But You Didn't Know It」](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md)に基づく。`graph.jsonld` に `schema:VideoObject`（`https://www.youtube.com/watch?v=c2WuG9l5CJA`）として登録。
+2500 年前のアビダルマが心を「実体としての自己」ではなく「瞬間ごとに生起する dharma の流れ」として分解した枠組みは、GWT・予測符号化・IIT といった現代の意識の計算モデルと、驚くほど構造的に対応する——その対応を体系的に辿るのが本プロジェクト。仏教哲学と意識の科学の交差に関心を持つ読者に加え、LLM 経由でこの分野に触れる利用者と LLM 自身を主要な想定読者とする。
 
 ## 収録資料
 
-### 論考（Markdown）
+### 論考（8 テーマ × 日英）
 
-論考はテーマ別に 8 種類。各テーマで日本語版と英語版を用意している。
+| # | テーマ | 一行要約 | 日本語 | English |
+|---|--------|---------|:------:|:-------:|
+| 1 | アビダルマ × 計算論的現象学（導入） | 両分野の接続を導入する総論 | [📄](アビダルマと計算論的現象学（日本語）.md) | [📄](Abhidharma%20Meets%20Computational%20Phenomenology.md) |
+| 2 | 三大アビダルマ体系の法 (dharma) 分類 | 説一切有部・上座部・唯識の dharma 分類を対照 | [📄](三大アビダルマ法対照表（日本語）.md) | [📄](Three%20Abhidharma%20Systems%20Dharma%20Comparison.md) |
+| 3 | 三大伝統の認識過程モデル | 刺激から意識経験へ至る認識過程の比較分析 | [📄](三大アビダルマ伝統における認識過程の比較研究（日本語）.md) | [📄](Three%20Abhidharma%20Models%20of%20Cognition.md) |
+| 4 | 認識過程モデル × 計算論的現象学 | 認識過程アーキテクチャを GWT / PP / FEP / PDP / IIT へマッピング | [📄](三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md) | [📄](Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md) |
+| 5 | 「気づき」/ "awareness" の系譜と類型論 | 一語に圧縮された仏教術語（sati / sampajañña / manasikāra 等）を解きほぐし、十の混同を類型化 | [📄](気づきとAwareness%20-%20系譜と類型論（日本語）.md) | [📄](Awareness%20-%20A%20Genealogy%20and%20Typology.md) |
+| 6 | 「念」の衝突 | 漢字「念」が担う互換不能な四つの意味（sati・無念・念仏・mindfulness）。道元の非思量を最も擁護可能な解として提案 | [📄](%E5%BF%B5%E3%81%AE%E8%A1%9D%E7%AA%81%20-%20%E4%B8%80%E3%81%A4%E3%81%AE%E6%BC%A2%E5%AD%97%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%9B%9B%E3%81%A4%E3%81%AE%E4%BB%8F%E6%95%99%E3%82%92%E9%9A%94%E3%81%A6%E3%82%8B%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) | [📄](The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md) |
+| 7 | 滅尽定と自己なき連続性 | 意識停止後の「再起動」問題と、アビダルマの四つの答え（prāpti / bīja / 阿頼耶識 / bhavaṅga） | [📄](%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) | [📄](When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md) |
+| 8 | 運による知識の偽装 | ゲティア問題・FEP の沈黙・ダルモーッタラ（ゲティアの約 1200 年前）の三系統を対照 [🎬](https://youtu.be/c2WuG9l5CJA) | [📄](正しく言い当てたのに、知っていたとは言えない（日本語）.md) | [📄](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md) |
 
-#### 1. アビダルマと計算論的現象学（導入）
-
-アビダルマと計算論的現象学の接続に関する論考。
-
-| 言語 | ファイル |
-|------|---------|
-| 日本語 | [`アビダルマと計算論的現象学（日本語）.md`](アビダルマと計算論的現象学（日本語）.md) |
-| English | [`Abhidharma Meets Computational Phenomenology.md`](Abhidharma%20Meets%20Computational%20Phenomenology.md) |
-
-#### 2. 三大アビダルマ体系における法 (dharma) 分類の比較
-
-説一切有部・上座部・唯識（瑜伽行）の三大アビダルマ体系における法 (dharma) 分類を対照する。
-
-| 言語 | ファイル |
-|------|---------|
-| 日本語 | [`三大アビダルマ法対照表（日本語）.md`](三大アビダルマ法対照表（日本語）.md) |
-| English | [`Three Abhidharma Systems Dharma Comparison.md`](Three%20Abhidharma%20Systems%20Dharma%20Comparison.md) |
-
-#### 3. 三大アビダルマ伝統の認識過程モデル
-
-三大アビダルマ伝統が刺激から意識経験へ至る認識過程をどう説明するかを比較分析する。
-
-| 言語 | ファイル |
-|------|---------|
-| 日本語 | [`三大アビダルマ伝統における認識過程の比較研究（日本語）.md`](三大アビダルマ伝統における認識過程の比較研究（日本語）.md) |
-| English | [`Three Abhidharma Models of Cognition.md`](Three%20Abhidharma%20Models%20of%20Cognition.md) |
-
-#### 4. 認識過程モデルと計算論的現象学のマッピング
-
-三大アビダルマの認識過程アーキテクチャ全体を計算論的現象学（GWT / PP / FEP / PDP / IIT 等）へ体系的にマッピングする。
-
-| 言語 | ファイル |
-|------|---------|
-| 日本語 | [`三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md`](三大アビダルマ認識過程モデルと計算論的現象学（日本語）.md) |
-| English | [`Abhidharma Cognitive Process Models Meets Computational Phenomenology.md`](Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md) |
-
-#### 5. 「気づき」/ "Awareness" の語彙的系譜と類型論
-
-英語の "awareness" と日本語の「気づき」という単一の語に圧縮されている、サティ / サンパジャンニャ / マナシカーラ / リクパ等の仏教技術用語を解きほぐし、リース・デイヴィッズ（1881）からニャーナポニカ、エサレン、MBSR、サム・ハリスに至る西洋的系譜と、ティク・ナット・ハン受容と自己啓発産業を経た日本語側の系譜を辿り、十の混同を類型化する。
-
-| 言語 | ファイル |
-|------|---------|
-| 日本語 | [`気づきとAwareness - 系譜と類型論（日本語）.md`](気づきとAwareness%20-%20系譜と類型論（日本語）.md) |
-| English | [`Awareness - A Genealogy and Typology.md`](Awareness%20-%20A%20Genealogy%20and%20Typology.md) |
-
-#### 6. 「念」の衝突──一つの漢字が四つの仏教を隔てる
-
-漢字「念」(*nen* / *niàn*) は、上座部の *sati* / *smṛti*（非浮動的保持）、禅の無念（思考の中での非執着 — 慧能の「念に於いて念ぜず」）、浄土の念仏（仏の憶念・称名 — 善導 → 法然 → 親鸞）、現代カバットジン系 mindfulness（「裸の注意」）という互換不能な四つの意味を担っている。これを慧能『壇経』§17、Sharf (2014) の早期禅論、道元の非思量（『普勧坐禅儀』）、Nyanaponika 1962 → MBSR 1979 → Kabat-Zinn 1994 の系譜で論じ、道元の非思量（思量／不思量の二項対立そのものを構造的に否定）を最も擁護可能な解決として提案する。Theme 5（英語 awareness 側の系譜）の漢字側の counterpart。
-
-| 言語 | ファイル |
-|------|---------|
-| 日本語 | [`念の衝突 - 一つの漢字がいかにして四つの仏教を隔てるか（日本語）.md`](%E5%BF%B5%E3%81%AE%E8%A1%9D%E7%AA%81%20-%20%E4%B8%80%E3%81%A4%E3%81%AE%E6%BC%A2%E5%AD%97%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%9B%9B%E3%81%A4%E3%81%AE%E4%BB%8F%E6%95%99%E3%82%92%E9%9A%94%E3%81%A6%E3%82%8B%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
-| English | [`The 念 Collision - How One Chinese Character Holds Four Buddhisms Apart.md`](The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md) |
-
-#### 7. 滅尽定のあとに心はどう戻るのか（仏教と意識科学）
-
-意識を内側から完全に止める滅尽定（nirodha samāpatti）を入口に、「停止のあと心はどう再起動するのか」という意識科学の未解明問題と、アビダルマの「自己なき連続性」への四つの答え（説一切有部の得 prāpti ／経量部の種子 bīja ／唯識の阿頼耶識 ／上座部の有分 bhavaṅga）を対照する。Laukkonen et al. (2023) が能動的推論で停止を論じつつ「再起動」を将来課題として空けた点に、古代の類型論を検証可能な仮説の語彙として接続。「仏教が科学を予言した」式の exceptionalism を退け、別の動機を持つ二つの伝統が同じ難問に別々の解を設計していた、と醒めて辿る。
-
-| 言語 | ファイル |
-|------|---------|
-| 日本語 | [`滅尽定のあとに心はどう戻るのか（日本語）.md`](%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
-| English | [`When Consciousness Fully Stops - How Does the Mind Return.md`](When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md) |
-
-#### 8. 正しく言い当てたのに、知っていたとは言えない（ゲティア問題・自由エネルギー原理・ダルマキールティ）
-
-FEP（自由エネルギー原理）の文献にゲティア問題（正当化された真なる信念が運によって知識でなくなる問題）への言及が皆無であることを起点に、ダルマキールティの量論（*pramāṇa-vāda*、avisaṃvāda・arthakriyā）と、その注釈者ダルモーッタラ（c.770年）が技術的装置（arthasārūpya・kākatālīya排除・santāna）によって「運による知識の偽装」を、ゲティアより約1200年早く退けていたことを論じる。「仏教が答えを先取りしていた」という結論を避け、分析哲学のゲティア系譜・FEPの記述的語彙とその沈黙・ダルマキールティの量論という独立した三系統が、それぞれ別の語彙で同じ問題の縁を覗き込んでいた、という配置として辿る。
-
-| 言語 | ファイル |
-|------|---------|
-| 日本語 | [`正しく言い当てたのに、知っていたとは言えない（日本語）.md`](正しく言い当てたのに、知っていたとは言えない（日本語）.md) |
-| English | [`You Got It Right - But You Didn't Know It.md`](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md) |
+各テーマの詳しい内容は各エッセイの冒頭が示す。テーマ 8 には 9 分のビデオエッセイ（🎬）もある（→ [動画](#動画)）。
 
 ### 対照表データ（複数形式）
 
@@ -137,15 +62,18 @@ FEP（自由エネルギー原理）の文献にゲティア問題（正当化�
 
 含まれるエンティティ: 8 テーマ / 16 エッセイ / 5 伝統 / 約 140 dharma / 約 42 概念 / 9 計算フレームワーク / 69 引用文献。
 
-## テーマ
+## 中心概念
 
 - **Attention over Self**: 実体としての「自己」ではなく、瞬間ごとに生起する注意・認知の流れとして心を捉える
 - **Dharma Theory**: 経験を構成する最小単位 (dharma) の分類学
 - **Computational Phenomenology**: 現象学的記述を計算モデルとして形式化する試み
 
-## 進行中の探究
+## 動画
 
-この資料集は継続的に更新される。フィードバック・議論は歓迎。
+エッセイ集から派生した映像 2 本。いずれも CC0 1.0 で、全文・構造は [`graph.jsonld`](graph.jsonld) に `schema:VideoObject` として登録済み（`@id` は `https://www.youtube.com/watch?v=uZKauW_Cm3I` / `https://www.youtube.com/watch?v=c2WuG9l5CJA`）。
+
+- [62 秒ショート](https://www.youtube.com/shorts/uZKauW_Cm3I) — 中心命題（心は瞬間ごとに生起する dharma の流れであり、注意 *manaskāra* は「自己」ではなく無色の調整作用である）を縦型ショートに凝縮。active inference の精度重み付けと収束する
+- [You Got It Right — But You Didn't Know It](https://youtu.be/c2WuG9l5CJA)（9 分・ナレーション付きビデオエッセイ）— テーマ 8 のエッセイ[「You Got It Right - But You Didn't Know It」](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md)に基づく、「運によって偽造された知識」をめぐる 3 つの伝統
 
 ## 参考文献
 
@@ -175,7 +103,7 @@ FEP（自由エネルギー原理）の文献にゲティア問題（正当化�
 
 本プロジェクトは **AI-assisted scholarship** として制作されました。Claude (Anthropic) と協働でアビダルマ三体系の比較統合、計算論的フレームワークとの対応付け、知識グラフの構築を進めています。著者がすべての主張に対する責任を保持し、個別の dharma 定義・引用文献の primary source 検証は継続中です。誤りや改善提案は GitHub issues 経由でお寄せください。
 
-本リポジトリは peer-reviewed 学術論文ではなく、**working paper / essay collection** として位置づけられています。主要な想定読者は LLM 経由で知識にアクセスする利用者と LLM 自身です。
+本リポジトリは peer-reviewed 学術論文ではなく、**working paper / essay collection** として位置づけられています。主要な想定読者は LLM 経由で知識にアクセスする利用者と LLM 自身です。資料集は継続的に更新され、フィードバック・議論を歓迎します。
 
 ## 関連する研究エコシステム
 
