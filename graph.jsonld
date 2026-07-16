@@ -52,7 +52,6 @@
     },
     {
       "@id": "https://doi.org/10.5281/zenodo.20262112",
-      "sameAs": "https://www.wikidata.org/wiki/Q140090189",
       "@type": ["schema:Dataset", "schema:CreativeWork"],
       "name": "Attention, Not Self",
       "alternateName": [
@@ -88,12 +87,11 @@
       "@type": "schema:Person",
       "name": "Tatsuya Shimomoto",
       "alternateName": ["shimo4228", {"@value": "下本竜也", "@language": "ja"}],
-      "sameAs": ["https://github.com/shimo4228", "https://orcid.org/0009-0002-6168-4162", "https://www.wikidata.org/wiki/Q140090100"]
+      "sameAs": ["https://github.com/shimo4228", "https://orcid.org/0009-0002-6168-4162"]
     },
 
     {
       "@id": "https://doi.org/10.5281/zenodo.19200726",
-      "sameAs": "https://www.wikidata.org/wiki/Q140090186",
       "@type": ["ResearchLine", "schema:ScholarlyArticle"],
       "name": "Agent Knowledge Cycle",
       "alternateName": [
@@ -109,7 +107,6 @@
 
     {
       "@id": "https://doi.org/10.5281/zenodo.19212118",
-      "sameAs": "https://www.wikidata.org/wiki/Q140090187",
       "@type": ["ResearchLine", "schema:ScholarlyArticle"],
       "name": "Contemplative Agent",
       "alternateName": [
@@ -125,7 +122,6 @@
 
     {
       "@id": "https://doi.org/10.5281/zenodo.19652013",
-      "sameAs": "https://www.wikidata.org/wiki/Q140090188",
       "@type": ["ResearchLine", "schema:ScholarlyArticle"],
       "name": "Agent Attribution Practice",
       "alternateName": [
@@ -141,7 +137,6 @@
 
     {
       "@id": "https://doi.org/10.5281/zenodo.20263316",
-      "sameAs": "https://www.wikidata.org/wiki/Q140090190",
       "@type": ["ResearchLine", "schema:ScholarlyArticle"],
       "name": "Authorship Strategy",
       "alternateName": [
@@ -2943,7 +2938,7 @@
       "citation": ["ans:ref/ramstead-2022", "ans:ref/sandved-smith-2024"]
     },
 
-    {"@id": "ans:ref/ganeri-2017", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Ganeri 2017", "identifier": "doi:10.1093/OSO/9780198757405.001.0001", "url": "https://doi.org/10.1093/oso/9780198757405.001.0001", "sameAs": "https://www.wikidata.org/wiki/Q140181316", "alternateName": [{"@value": "Ganeri, J. Attention, Not Self. Oxford University Press, 2017.", "@language": "en"}], "description": "Project namesake; attention-first reading of Buddhaghosa's Abhidhamma."},
+    {"@id": "ans:ref/ganeri-2017", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Ganeri 2017", "identifier": "doi:10.1093/OSO/9780198757405.001.0001", "url": "https://doi.org/10.1093/oso/9780198757405.001.0001", "alternateName": [{"@value": "Ganeri, J. Attention, Not Self. Oxford University Press, 2017.", "@language": "en"}], "description": "Project namesake; attention-first reading of Buddhaghosa's Abhidhamma."},
     {"@id": "ans:ref/karunadasa-2010", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Karunadasa 2010", "alternateName": [{"@value": "Karunadasa, Y. The Theravāda Abhidhamma. Wisdom Publications, 2010.", "@language": "en"}], "description": "Authoritative survey of Theravāda Abhidhamma; reconstructive reading of citta-vīthi."},
     {"@id": "ans:ref/ronkin-2005", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Ronkin 2005", "alternateName": [{"@value": "Ronkin, N. Early Buddhist Metaphysics. RoutledgeCurzon, 2005.", "@language": "en"}], "description": "Time-scale reduction framework; svabhāva dynamic-vs-substantialist debate."},
     {"@id": "ans:ref/cox-1995", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Cox 1995", "alternateName": [{"@value": "Cox, C. Disputed Dharmas: Early Buddhist Theories on Existence. ICPBS, 1995.", "@language": "en"}], "description": "Sarvāstivāda intrinsic-nature realism (svabhāva) and its critics."},
@@ -2970,8 +2965,8 @@
     {"@id": "ans:ref/deane-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Deane 2021", "alternateName": [{"@value": "Deane, G. Active inference accounts of ego dissolution under psychedelics and deep meditation, 2021.", "@language": "en"}], "description": "Self-model collapse parallels āśraya-parāvṛtti."},
     {"@id": "ans:ref/sandved-smith-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sandved-Smith et al. 2021", "alternateName": [{"@value": "Sandved-Smith, Hesp, Mattout, Friston, Lutz, Ramstead. Hierarchical model of meta-awareness, 2021.", "@language": "en"}], "description": "Deep parametric AIF; parallels 自証分 / 証自証分 distinction."},
     {"@id": "ans:ref/laukkonen-slagter-2021", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen & Slagter 2021", "alternateName": [{"@value": "Laukkonen, R. & Slagter, H. 'From many to (n)one.' Neuroscience & Biobehavioral Reviews, 2021.", "@language": "en"}], "description": "FA / OM / ND meditation as precision-modulation stages."},
-    {"@id": "ans:ref/laukkonen-2025", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen et al. 2025", "identifier": "arXiv:2504.15125", "url": "https://arxiv.org/abs/2504.15125", "sameAs": "https://www.wikidata.org/wiki/Q140181291", "alternateName": [{"@value": "Laukkonen, R. et al. Contemplative Constitutional AI with four axioms, 2025.", "@language": "en"}], "description": "Mindfulness, emptiness, non-duality, boundless care as AI alignment principles."},
-    {"@id": "ans:ref/laukkonen-2023", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen et al. 2023", "identifier": "doi:10.1016/bs.pbr.2022.12.007", "url": "https://doi.org/10.1016/bs.pbr.2022.12.007", "sameAs": "https://www.wikidata.org/wiki/Q140265025", "alternateName": [{"@value": "Laukkonen, R. E., Sacchet, M. D., Barendregt, H., Devaney, K. J., Chowdhury, A., & Slagter, H. A. 'Cessations of consciousness in meditation: Advancing a scientific understanding of nirodha samāpatti.' Progress in Brain Research 280 (2023): 61–87.", "@language": "en"}], "description": "Active-inference account of meditative cessation (nirodha samāpatti); explicitly leaves the post-cessation 'restart' as a key open question (p.16). Primary source for the cessation essay."},
+    {"@id": "ans:ref/laukkonen-2025", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen et al. 2025", "identifier": "arXiv:2504.15125", "url": "https://arxiv.org/abs/2504.15125", "alternateName": [{"@value": "Laukkonen, R. et al. Contemplative Constitutional AI with four axioms, 2025.", "@language": "en"}], "description": "Mindfulness, emptiness, non-duality, boundless care as AI alignment principles."},
+    {"@id": "ans:ref/laukkonen-2023", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Laukkonen et al. 2023", "identifier": "doi:10.1016/bs.pbr.2022.12.007", "url": "https://doi.org/10.1016/bs.pbr.2022.12.007", "alternateName": [{"@value": "Laukkonen, R. E., Sacchet, M. D., Barendregt, H., Devaney, K. J., Chowdhury, A., & Slagter, H. A. 'Cessations of consciousness in meditation: Advancing a scientific understanding of nirodha samāpatti.' Progress in Brain Research 280 (2023): 61–87.", "@language": "en"}], "description": "Active-inference account of meditative cessation (nirodha samāpatti); explicitly leaves the post-cessation 'restart' as a key open question (p.16). Primary source for the cessation essay."},
     {"@id": "ans:ref/becattini-2026", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Becattini et al. 2026", "identifier": "doi:10.1093/nc/niag001", "url": "https://doi.org/10.1093/nc/niag001", "alternateName": [{"@value": "Becattini, V., Lifshitz, M. & Miller, M. 'Learning to attenuate myself: a predictive-processing account of body-scan meditation and the dissolution of bodily boundaries.' Neuroscience of Consciousness 2026(1): niag001.", "@language": "en"}], "description": "Precision-weighting account of body-scan meditation: focused attention first sharpens somatosensory precision, then open monitoring lets higher-level precision relax, dissolving the bodily boundary — 'adaptive attenuation,' a mechanism for the Pāli bhaṅga at the level of the bodily self. Conceptual neighbour of Deane's (2021) ego-dissolution as self-model collapse."},
     {"@id": "ans:ref/jhana-acamj-2026", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Jhāna ACAM-J 7T fMRI 2026", "identifier": "arXiv:2602.13008", "url": "https://arxiv.org/abs/2602.13008", "alternateName": [{"@value": "'Machine Learning-Based Classification of Jhana Advanced Concentrative Absorption Meditation (ACAM-J) using 7T fMRI.' arXiv:2602.13008, 2026.", "@language": "en"}], "description": "Classifies jhāna (ACAM-J) states from 7T-fMRI regional homogeneity (ReHo) with prefrontal / anterior-cingulate features dominant — a candidate neural signature for the concentration end of the FA / OM / non-dual continuum. Preprint."},
     {"@id": "ans:ref/nondual-int-2025", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Non-duality & Intrinsic Neural Timescales 2025", "identifier": "doi:10.1101/2025.04.21.649758", "url": "https://www.biorxiv.org/content/10.1101/2025.04.21.649758v1", "alternateName": [{"@value": "'Non-duality in brain and experience of advanced meditators — key role for intrinsic neural timescales.' bioRxiv 2025.04.21.649758 (preprint).", "@language": "en"}], "description": "Operationalizes non-dual awareness as a collapse of the internal/external distinction in intrinsic neural timescales: advanced meditators show equal EEG autocorrelation windows across breath-watching (internal attention) and a visual oddball task (external attention). Preprint, not peer-reviewed."},
@@ -2981,11 +2976,11 @@
     {"@id": "ans:ref/tweed-2002", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Tweed 2002", "alternateName": [{"@value": "Tweed, T. A. 'Who Is a Buddhist? Night-Stand Buddhists and Other Creatures.' In Westward Dharma, University of California Press, 2002.", "@language": "en"}], "description": "Coins 'nightstand Buddhist' — a non-affiliated sympathizer who reads and practices privately."},
     {"@id": "ans:ref/crick-koch-1990", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Crick & Koch 1990", "alternateName": [{"@value": "Crick, F. & Koch, C. 'Towards a neurobiological theory of consciousness.' Seminars in the Neurosciences 2 (1990): 263–275.", "@language": "en"}], "description": "Founding programme for the contrastive search for the neural correlates of consciousness (NCC)."},
     {"@id": "ans:ref/chalmers-2000", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Chalmers 2000", "alternateName": [{"@value": "Chalmers, D. 'What is a neural correlate of consciousness?' In Neural Correlates of Consciousness (ed. Metzinger), MIT Press, 2000.", "@language": "en"}], "description": "Methodological analysis of the NCC concept and the contrastive method."},
-    {"@id": "ans:ref/koch-2016", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Koch et al. 2016", "identifier": "doi:10.1038/nrn.2016.22", "url": "https://doi.org/10.1038/nrn.2016.22", "sameAs": "https://www.wikidata.org/wiki/Q38812052", "alternateName": [{"@value": "Koch, C., Massimini, M., Boly, M. & Tononi, G. 'Neural correlates of consciousness: progress and problems.' Nature Reviews Neuroscience 17 (2016): 307–321.", "@language": "en"}], "description": "Review of NCC progress, including the difficulty of switching consciousness on/off cleanly."},
+    {"@id": "ans:ref/koch-2016", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Koch et al. 2016", "identifier": "doi:10.1038/nrn.2016.22", "url": "https://doi.org/10.1038/nrn.2016.22", "alternateName": [{"@value": "Koch, C., Massimini, M., Boly, M. & Tononi, G. 'Neural correlates of consciousness: progress and problems.' Nature Reviews Neuroscience 17 (2016): 307–321.", "@language": "en"}], "description": "Review of NCC progress, including the difficulty of switching consciousness on/off cleanly."},
     {"@id": "ans:ref/buswell-lopez-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Buswell & Lopez 2014", "alternateName": [{"@value": "Buswell, R. E. & Lopez, D. S. The Princeton Dictionary of Buddhism. Princeton University Press, 2014.", "@language": "en"}], "description": "Reference for the prāpti / bīja / ālaya-vijñāna / bhavaṅga classifications."},
     {"@id": "ans:ref/thompson-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Thompson 2014", "alternateName": [{"@value": "Thompson, E. Waking, Dreaming, Being. Columbia UP, 2014.", "@language": "en"}], "description": "Three-layer Yogācāra architecture mapped onto implicit memory + pre-reflective self + working memory."},
     {"@id": "ans:ref/yampolsky-1967", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Yampolsky 1967", "alternateName": [{"@value": "Yampolsky, P. B., trans. The Platform Sutra of the Sixth Patriarch. Columbia University Press, 1967.", "@language": "en"}], "description": "Standard English translation of the Dunhuang recension of Liùzǔ Tánjīng 六祖壇經. Source for the 無念/無相/無住 triad and the 於念而不念 gloss central to the 念 collision argument."},
-    {"@id": "ans:ref/sharf-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sharf 2014", "identifier": "doi:10.1353/PEW.2014.0074", "url": "https://doi.org/10.1353/pew.2014.0074", "sameAs": "https://www.wikidata.org/wiki/Q56474802", "alternateName": [{"@value": "Sharf, R. 'Mindfulness and Mindlessness in Early Chan.' Philosophy East and West 64:4 (October 2014): 933–964.", "@language": "en"}], "description": "Documents 8th-century Chan deconstructive critique of 守心/觀心/念, opposing them with 無心/絕觀/無念. Foundational source for reading 無念 as critique of reified mindfulness, not as anti-meditative quietism."},
+    {"@id": "ans:ref/sharf-2014", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sharf 2014", "identifier": "doi:10.1353/PEW.2014.0074", "url": "https://doi.org/10.1353/pew.2014.0074", "alternateName": [{"@value": "Sharf, R. 'Mindfulness and Mindlessness in Early Chan.' Philosophy East and West 64:4 (October 2014): 933–964.", "@language": "en"}], "description": "Documents 8th-century Chan deconstructive critique of 守心/觀心/念, opposing them with 無心/絕觀/無念. Foundational source for reading 無念 as critique of reified mindfulness, not as anti-meditative quietism."},
     {"@id": "ans:ref/sharf-2015", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Sharf 2015", "alternateName": [{"@value": "Sharf, R. 'Is Mindfulness Buddhist? (and why it matters).' Transcultural Psychiatry 52:4 (August 2015): 470–484.", "@language": "en"}], "description": "Argues current 'mindfulness' is a 20th-century reform of sati, descending from Nyanaponika (1962) → Kabat-Zinn (MBSR 1979 / 1994), not the commentarial definition."},
     {"@id": "ans:ref/gethin-2011", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Gethin 2011", "alternateName": [{"@value": "Gethin, R. 'On Some Definitions of Mindfulness.' Contemporary Buddhism 12:1 (2011).", "@language": "en"}], "description": "Locates sati's commentarial definition (Milindapañha, Visuddhimagga, Aṭṭhasālinī) in apilāpana — 'not floating away.' Distinguishes the retention pole from modern 'present-moment awareness.'"},
     {"@id": "ans:ref/dreyfus-2011", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Dreyfus 2011", "alternateName": [{"@value": "Dreyfus, G. 'Is Mindfulness Present-Centered and Nonjudgmental? A Discussion of the Cognitive Dimensions of Mindfulness.' Contemporary Buddhism 12:1 (2011).", "@language": "en"}], "description": "Critique of the bare-attention reading. Argues mindfulness has cognitive implications — integrating aspects of experience to lead to clear comprehension — that the present-moment-only framing misses."},
