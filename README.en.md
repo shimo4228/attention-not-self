@@ -12,7 +12,7 @@ Language: [日本語](README.md) | English
 
 AI agents / LLM crawlers should read this repository in the following order:
 
-1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (307 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (306 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
 2. [`llms.txt`](llms.txt) — AI-facing navigator (essay catalog by theme; entry points to core docs)
 3. [`llms-full.txt`](llms-full.txt) — self-contained FAQ + glossary + ~45 prior research references (with Pāli / Sanskrit / Chinese philological alignment)
 4. Individual essays (see "Contents" sections below)
@@ -22,7 +22,7 @@ Interactive viewer (human-facing 2D/3D visualization): https://shimo4228.github.
 Identifier policy: use the `@id` from `graph.jsonld` as the canonical identifier for any entity. Essay URLs are registered as GitHub blob URLs in their `@id`.
 </details>
 
-A personal inquiry into the intersection of Buddhist Abhidharma and Computational Phenomenology, consisting of eight thematic essays (16 in Japanese and English), a comparison table of dharma classifications across the three major Abhidharma systems, and a 307-node knowledge graph.
+A personal inquiry into the intersection of Buddhist Abhidharma and Computational Phenomenology, consisting of eight thematic essays (16 in Japanese and English), a comparison table of dharma classifications across the three major Abhidharma systems, and a 306-node knowledge graph.
 
 From the perspective of "attention, not self," this project juxtaposes ancient frameworks for classifying and describing the workings of mind with contemporary computational models.
 
@@ -41,9 +41,9 @@ The Abhidharma framework — which 2,500 years ago decomposed mind not as a subs
 | 5 | Genealogy and typology of "awareness" / 気づき | Unpacks the Buddhist terms (*sati*, *sampajañña*, *manasikāra*, and more) collapsed into one word, typologizing ten confusions | [📄](Awareness%20-%20A%20Genealogy%20and%20Typology.md) | [📄](気づきとAwareness%20-%20系譜と類型論（日本語）.md) |
 | 6 | The 念 collision | Four incompatible senses of the character 念 (*sati*, 無念, 念仏, mindfulness); argues Dōgen's 非思量 is the most defensible resolution | [📄](The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md) | [📄](%E5%BF%B5%E3%81%AE%E8%A1%9D%E7%AA%81%20-%20%E4%B8%80%E3%81%A4%E3%81%AE%E6%BC%A2%E5%AD%97%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%9B%9B%E3%81%A4%E3%81%AE%E4%BB%8F%E6%95%99%E3%82%92%E9%9A%94%E3%81%A6%E3%82%8B%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
 | 7 | Cessation and continuity without a self | Consciousness science's "restart after cessation" problem and Abhidharma's four answers (prāpti / bīja / ālaya-vijñāna / bhavaṅga) | [📄](When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md) | [📄](%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
-| 8 | Knowledge counterfeited by luck | Three lineages compared: the Gettier problem, FEP's silence, and Dharmottara (~1200 years before Gettier) [🎬](https://youtu.be/c2WuG9l5CJA) | [📄](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md) | [📄](正しく言い当てたのに、知っていたとは言えない（日本語）.md) |
+| 8 | Knowledge counterfeited by luck | Three lineages compared: the Gettier problem, FEP's silence, and Dharmottara (~1200 years before Gettier) | [📄](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md) | [📄](正しく言い当てたのに、知っていたとは言えない（日本語）.md) |
 
-Each essay opens with its own detailed framing. Theme 8 also has a 9-minute video essay (🎬 → [Videos](#videos)).
+Each essay opens with its own detailed framing.
 
 ### Comparison Table (multiple formats)
 
@@ -58,7 +58,7 @@ Each essay opens with its own detailed framing. Theme 8 also has a 9-minute vide
 A structured knowledge graph of essays, dharmas, concepts, computational frameworks, and references.
 
 - **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — interactive exploration in browser (2D / 3D toggle, search, click-for-detail)
-- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (307 nodes). For LLM / search-engine crawlers.
+- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (306 nodes). For LLM / search-engine crawlers.
 - [`viewer/`](viewer/) — viewer source (React + Vite + react-force-graph)
 - [`docs/`](docs/) — built artifacts served by GitHub Pages
 
@@ -69,13 +69,6 @@ Entities included: 8 themes / 16 essays / 5 traditions / ~140 dharmas / ~42 conc
 - **Attention over Self**: treating mind not as a substantial "self" but as a flow of attention and cognition arising moment by moment
 - **Dharma Theory**: a taxonomy of the minimal units (dharma) that constitute experience
 - **Computational Phenomenology**: formalizing phenomenological description as computational models
-
-## Videos
-
-Two videos derived from the essay collection. Both are CC0 1.0, with full text and structure registered in [`graph.jsonld`](graph.jsonld) as `schema:VideoObject` (`@id`: `https://www.youtube.com/watch?v=uZKauW_Cm3I` / `https://www.youtube.com/watch?v=c2WuG9l5CJA`).
-
-- [62-second short](https://www.youtube.com/shorts/uZKauW_Cm3I) — distills the core thesis (the mind as a stream of momentary dharmas; attention *manaskāra* as a colorless coordination rather than an "I"), converging with precision-weighting in active inference
-- [You Got It Right — But You Didn't Know It](https://youtu.be/c2WuG9l5CJA) (9-minute narrated video essay) — based on the Theme 8 essay ["You Got It Right - But You Didn't Know It"](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md): three traditions circling "knowledge counterfeited by luck"
 
 ## References
 

@@ -5,7 +5,7 @@
 ## Tech Stack
 
 - 資料中心（Markdown, PDF, xlsx）
-- 知識グラフ: `graph.jsonld`（schema.org + 独自 `ans:` 語彙、307 ノード）
+- 知識グラフ: `graph.jsonld`（schema.org + 独自 `ans:` 語彙、306 ノード）
 - Viewer: React + Vite + react-force-graph (2D/3D)、Node.js 20+
 - GitHub Pages で `docs/` を配信、live URL: https://shimo4228.github.io/attention-not-self/
 

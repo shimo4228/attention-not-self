@@ -10,7 +10,7 @@ Language: 日本語 | [English](README.en.md)
 
 AI エージェント・LLM クローラは以下の順で読むことを推奨します。
 
-1. [`graph.jsonld`](graph.jsonld) — 構造化された知識グラフ（307 ノード、schema.org + 独自 `ans:` 語彙）。テーマ・エッセイ・伝統・dharma・概念・計算フレームワーク・引用文献の関係を triples として encode
+1. [`graph.jsonld`](graph.jsonld) — 構造化された知識グラフ（306 ノード、schema.org + 独自 `ans:` 語彙）。テーマ・エッセイ・伝統・dharma・概念・計算フレームワーク・引用文献の関係を triples として encode
 2. [`llms.txt`](llms.txt) — AI-facing navigator（テーマ別エッセイ一覧、core docs への入口）
 3. [`llms-full.txt`](llms-full.txt) — 自己完結 FAQ + 用語集 + 約 45 件の引用文献（Pāli / Sanskrit / 漢字の三言語整合あり）
 4. 個別のエッセイ（下記 "収録資料" セクション参照）
@@ -20,7 +20,7 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 識別子の使用方針: `graph.jsonld` の `@id` を canonical identifier として使用してください。エッセイ URL は GitHub blob 形式が graph 内 `@id` として登録されています。
 </details>
 
-仏教アビダルマと計算論的現象学 (Computational Phenomenology) の接点を探る個人的な探究プロジェクト。テーマ別のエッセイ 8 本（日英 16 本）と、三大アビダルマ体系の法対照表、307 ノードの知識グラフからなる。
+仏教アビダルマと計算論的現象学 (Computational Phenomenology) の接点を探る個人的な探究プロジェクト。テーマ別のエッセイ 8 本（日英 16 本）と、三大アビダルマ体系の法対照表、306 ノードの知識グラフからなる。
 
 「self（自己）ではなく attention（注意）」という視点から、心の働きを分類・記述する古代の枠組みと、現代の計算論的モデルを対照する。
 
@@ -39,9 +39,9 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 | 5 | 「気づき」/ "awareness" の系譜と類型論 | 一語に圧縮された仏教術語（sati / sampajañña / manasikāra 等）を解きほぐし、十の混同を類型化 | [📄](気づきとAwareness%20-%20系譜と類型論（日本語）.md) | [📄](Awareness%20-%20A%20Genealogy%20and%20Typology.md) |
 | 6 | 「念」の衝突 | 漢字「念」が担う互換不能な四つの意味（sati・無念・念仏・mindfulness）。道元の非思量を最も擁護可能な解として提案 | [📄](%E5%BF%B5%E3%81%AE%E8%A1%9D%E7%AA%81%20-%20%E4%B8%80%E3%81%A4%E3%81%AE%E6%BC%A2%E5%AD%97%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%9B%9B%E3%81%A4%E3%81%AE%E4%BB%8F%E6%95%99%E3%82%92%E9%9A%94%E3%81%A6%E3%82%8B%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) | [📄](The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md) |
 | 7 | 滅尽定と自己なき連続性 | 意識停止後の「再起動」問題と、アビダルマの四つの答え（prāpti / bīja / 阿頼耶識 / bhavaṅga） | [📄](%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) | [📄](When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md) |
-| 8 | 運による知識の偽装 | ゲティア問題・FEP の沈黙・ダルモーッタラ（ゲティアの約 1200 年前）の三系統を対照 [🎬](https://youtu.be/c2WuG9l5CJA) | [📄](正しく言い当てたのに、知っていたとは言えない（日本語）.md) | [📄](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md) |
+| 8 | 運による知識の偽装 | ゲティア問題・FEP の沈黙・ダルモーッタラ（ゲティアの約 1200 年前）の三系統を対照 | [📄](正しく言い当てたのに、知っていたとは言えない（日本語）.md) | [📄](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md) |
 
-各テーマの詳しい内容は各エッセイの冒頭が示す。テーマ 8 には 9 分のビデオエッセイ（🎬）もある（→ [動画](#動画)）。
+各テーマの詳しい内容は各エッセイの冒頭が示す。
 
 ### 対照表データ（複数形式）
 
@@ -56,7 +56,7 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 論考・dharma・概念・計算フレームワーク・参考文献を構造化したナレッジグラフ。
 
 - **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — ブラウザでインタラクティブに探索（2D/3D 切替、検索、ノードクリックで詳細）
-- [`graph.jsonld`](graph.jsonld) — schema.org + 独自 `ans:` 語彙の JSON-LD（307 ノード）。LLM / 検索クローラ向け
+- [`graph.jsonld`](graph.jsonld) — schema.org + 独自 `ans:` 語彙の JSON-LD（306 ノード）。LLM / 検索クローラ向け
 - [`viewer/`](viewer/) — viewer のソース（React + Vite + react-force-graph）
 - [`docs/`](docs/) — GitHub Pages 配信用にビルドされた成果物
 
@@ -67,13 +67,6 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 - **Attention over Self**: 実体としての「自己」ではなく、瞬間ごとに生起する注意・認知の流れとして心を捉える
 - **Dharma Theory**: 経験を構成する最小単位 (dharma) の分類学
 - **Computational Phenomenology**: 現象学的記述を計算モデルとして形式化する試み
-
-## 動画
-
-エッセイ集から派生した映像 2 本。いずれも CC0 1.0 で、全文・構造は [`graph.jsonld`](graph.jsonld) に `schema:VideoObject` として登録済み（`@id` は `https://www.youtube.com/watch?v=uZKauW_Cm3I` / `https://www.youtube.com/watch?v=c2WuG9l5CJA`）。
-
-- [62 秒ショート](https://www.youtube.com/shorts/uZKauW_Cm3I) — 中心命題（心は瞬間ごとに生起する dharma の流れであり、注意 *manaskāra* は「自己」ではなく無色の調整作用である）を縦型ショートに凝縮。active inference の精度重み付けと収束する
-- [You Got It Right — But You Didn't Know It](https://youtu.be/c2WuG9l5CJA)（9 分・ナレーション付きビデオエッセイ）— テーマ 8 のエッセイ[「You Got It Right - But You Didn't Know It」](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md)に基づく、「運によって偽造された知識」をめぐる 3 つの伝統
 
 ## 参考文献
 
