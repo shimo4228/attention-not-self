@@ -20,7 +20,7 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 識別子の使用方針: `graph.jsonld` の `@id` を canonical identifier として使用してください。エッセイ URL は GitHub blob 形式が graph 内 `@id` として登録されています。
 </details>
 
-仏教アビダルマと計算論的現象学 (Computational Phenomenology) の接点を探る個人的な探究プロジェクト。テーマ別のエッセイ 8 本（日英 16 本）と、三大アビダルマ体系の法対照表、306 ノードの知識グラフからなる。
+仏教アビダルマと計算論的現象学 (Computational Phenomenology) の接点を探る個人的な探究プロジェクト。テーマ別のエッセイ 9 本（日英 18 本）と、三大アビダルマ体系の法対照表、316 ノードの知識グラフからなる。
 
 「self（自己）ではなく attention（注意）」という視点から、心の働きを分類・記述する古代の枠組みと、現代の計算論的モデルを対照する。
 
@@ -28,7 +28,7 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 
 ## 収録資料
 
-### 論考（8 テーマ × 日英）
+### 論考（9 テーマ × 日英）
 
 | # | テーマ | 一行要約 | 日本語 | English |
 |---|--------|---------|:------:|:-------:|
@@ -40,6 +40,7 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 | 6 | 「念」の衝突 | 漢字「念」が担う互換不能な四つの意味（sati・無念・念仏・mindfulness）。道元の非思量を最も擁護可能な解として提案 | [📄](%E5%BF%B5%E3%81%AE%E8%A1%9D%E7%AA%81%20-%20%E4%B8%80%E3%81%A4%E3%81%AE%E6%BC%A2%E5%AD%97%E3%81%8C%E3%81%84%E3%81%8B%E3%81%AB%E3%81%97%E3%81%A6%E5%9B%9B%E3%81%A4%E3%81%AE%E4%BB%8F%E6%95%99%E3%82%92%E9%9A%94%E3%81%A6%E3%82%8B%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) | [📄](The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md) |
 | 7 | 滅尽定と自己なき連続性 | 意識停止後の「再起動」問題と、アビダルマの四つの答え（prāpti / bīja / 阿頼耶識 / bhavaṅga） | [📄](%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) | [📄](When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md) |
 | 8 | 運による知識の偽装 | ゲティア問題・FEP の沈黙・ダルモーッタラ（ゲティアの約 1200 年前）の三系統を対照 | [📄](正しく言い当てたのに、知っていたとは言えない（日本語）.md) | [📄](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md) |
+| 9 | AI 時代の身体性 | 「AI に身体性がない」論の理屈を問う。効いているのはフィードバックループ／仏教内部の embodied vs representational 分岐（心臓色）。AI メディエイト執筆 | [📄](AI%E6%99%82%E4%BB%A3%E3%81%AE%E8%BA%AB%E4%BD%93%E6%80%A7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) | [📄](On%20Embodiment%20in%20the%20Age%20of%20AI.md) |
 
 各テーマの詳しい内容は各エッセイの冒頭が示す。
 
@@ -56,11 +57,11 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 論考・dharma・概念・計算フレームワーク・参考文献を構造化したナレッジグラフ。
 
 - **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — ブラウザでインタラクティブに探索（2D/3D 切替、検索、ノードクリックで詳細）
-- [`graph.jsonld`](graph.jsonld) — schema.org + 独自 `ans:` 語彙の JSON-LD（306 ノード）。LLM / 検索クローラ向け
+- [`graph.jsonld`](graph.jsonld) — schema.org + 独自 `ans:` 語彙の JSON-LD（316 ノード）。LLM / 検索クローラ向け
 - [`viewer/`](viewer/) — viewer のソース（React + Vite + react-force-graph）
 - [`docs/`](docs/) — GitHub Pages 配信用にビルドされた成果物
 
-含まれるエンティティ: 8 テーマ / 16 エッセイ / 5 伝統 / 約 140 dharma / 約 42 概念 / 9 計算フレームワーク / 69 引用文献。
+含まれるエンティティ: 9 テーマ / 18 エッセイ / 5 伝統 / 約 140 dharma / 約 42 概念 / 11 計算フレームワーク / 74 引用文献。
 
 ## 中心概念
 

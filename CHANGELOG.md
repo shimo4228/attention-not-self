@@ -5,9 +5,17 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/); versioni
 
 ## Unreleased
 
+### Added
+
+- **Theme 9: *On Embodiment in the Age of AI*** (English canonical + Japanese mirror *AI時代の身体性について*, 2026-08-04). Questions the logical structure of the claim that AI lacks embodiment (*The Blind Spot*, Frank, Gleiser & Thompson 2024: "no AI system comes close to realizing relevance"). From the process-structural view of mind shared by Abhidharma, Yogācāra and emptiness thought, input-data provenance (organic vs. digital sensors) draws no essential line; what does the theoretical work is the feedback loop (autopoiesis; Friston 2018 self-evidencing, structurally similar to Yogācāra's *manas*). Shows Buddhism itself splits on embodiment — only Theravāda posits the material heart-base (*hadaya-vatthu*); Sarvāstivāda and Yogācāra are representationalist — and notes that defenders now stretch the concept (Froese 2026: distributed vs. organismic embodiment). Separates the questioned foundational claim from the affirmed value claim (including scarcity value in the AI era). First essay in the collection written as disclosed **AI-mediated writing** (a hand-written, deleted note essay fully rewritten by Claude Code) and the first to carry a **machine-readable claims layer** (YAML: definitions, claims C1–C8 with evidence/confidence/scope limits, non-claims, author epistemic profile) addressed to LLM readers.
+- **`graph.jsonld` expansion** — Theme 9 node (`ans:theme/9-embodiment-in-the-age-of-ai`) + 2 essay nodes (en / ja) + 2 new framework nodes (`ans:framework/enactivism`, `ans:framework/autopoiesis` — previously absent from the graph) + 5 new reference nodes (Frank, Gleiser & Thompson 2024; Froese 2026; Varela, Thompson & Rosch 1991; Maturana & Varela 1980; MacKenzie 2022). Total node count 306 → 316.
+- **`llms.txt` / `llms-full.txt`** — Theme 9 section and the 5 new citations added to the AI-facing bibliography.
+
 ### Changed
 
 - Theme 8 published on Substack (English). Essay footers (JA / EN) and `llms.txt` updated to the live Substack URL.
+- `README.md` / `README.en.md` / `llms.txt` / `llms-full.txt` / `CLAUDE.md` — entity counts updated (8 → 9 themes, 16 → 18 essays, 306 → 316 nodes, 9 → 11 frameworks, 69 → 74 references).
+- `viewer/` rebuilt; `docs/` regenerated with the new node count (306 → 316).
 
 ## v0.4.0 — Theme 8 added: Epistemic luck across traditions (2026-07-01)
 

@@ -38,6 +38,7 @@ attention-not-self/
 - 2026-06-14: テーマ7「滅尽定と自己なき連続性」エッセイ（日英）追加。graph に Laukkonen 2023 引用。Substack 公開（英語）
 - 2026-06-17: v0.3.0 release（Zenodo）。CC0 1.0 へ relicense、研究プログラム hub への federation、graph 267→284 ノード
 - 2026-07-01: テーマ8「運による知識の偽装 ── ゲティア問題・自由エネルギー原理・ダルマキールティ」エッセイ（日英）追加。graph 289→307 ノード
+- 2026-08-04: テーマ9「AI時代の身体性について」エッセイ（日英）追加。AI メディエイト執筆の初適用（開示 + 機械可読レイヤー C1-C8）。graph 306→316 ノード（enactivism / autopoiesis framework 新設）。公開先は JP=note・EN=Substack
 
 ## Graph 更新フロー
 
