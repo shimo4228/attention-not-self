@@ -8,8 +8,8 @@ authors:
     orcid: "https://orcid.org/0009-0002-6168-4162"
     affiliation: "Independent"
     alias: shimo4228
-date-released: "2026-07-01"
-version: "0.4.0"
+date-released: "2026-08-04"
+version: "0.5.0"
 doi: "10.5281/zenodo.21102754"
 url: "https://doi.org/10.5281/zenodo.21102754"
 repository-code: "https://github.com/shimo4228/attention-not-self"
@@ -26,18 +26,22 @@ abstract: >-
   major Buddhist Abhidharma traditions (Theravāda, Sarvāstivāda, Yogācāra) onto
   contemporary frameworks in computational phenomenology — predictive processing,
   active inference, Global Workspace Theory, Parallel Distributed Processing, and
-  related approaches. Comprises sixteen essays (eight themes × English + Japanese), a
+  related approaches. Comprises eighteen essays (nine themes × English + Japanese), a
   cross-tradition dharma comparison table (~130 dharmas across nine sheets), and
-  a JSON-LD knowledge graph (307 nodes, schema.org + custom vocabulary) with
+  a JSON-LD knowledge graph (316 nodes, schema.org + custom vocabulary) with
   bilingual labels and Sanskrit / Pāli / Chinese philological alignment. An
-  interactive 2D/3D viewer is provided. v0.4.0 adds Theme 8 (Epistemic luck
-  across traditions) — starting from the finding that the Free Energy Principle
-  (FEP) literature never engages with the Gettier problem (justified true belief
-  that is true only by luck, and so not knowledge), it turns to Dharmakīrti's
-  pramāṇa-vāda (avisaṃvāda, arthakriyā) and its commentator Dharmottara (c. 770
-  CE), who rejected a mirage/water case as invalid cognition roughly 1200 years
-  before Gettier. Deliberately avoids the "Buddhism had the answer first"
-  framing. Developed in collaboration with the Claude
+  interactive 2D/3D viewer is provided. v0.5.0 adds Theme 9 (On embodiment in
+  the age of AI) — questioning the logical structure of the claim that AI lacks
+  embodiment (The Blind Spot, 2024): from the process-structural view of mind
+  shared by Abhidharma, Yogācāra and emptiness thought, input-data provenance
+  (organic vs. digital sensors) draws no essential line; what does the
+  theoretical work is the feedback loop (autopoiesis; Friston 2018
+  self-evidencing, structurally similar to Yogācāra's manas). Shows Buddhism
+  itself splits on embodiment (only Theravāda posits the material heart-base
+  hadaya-vatthu) and that defenders now stretch the concept (Froese 2026,
+  distributed vs. organismic embodiment). First essay written as disclosed
+  AI-mediated writing, carrying a machine-readable claims layer for LLM
+  readers. Developed in collaboration with the Claude
   language model (Anthropic) for synthesis, cross-tradition mapping, and graph
   encoding; the author retains responsibility for all claims.
 keywords:
@@ -69,3 +73,7 @@ keywords:
   - Pure Land Buddhism
   - non-thinking
   - hishiryō
+  - embodiment
+  - enactivism
+  - autopoiesis
+  - AI-mediated writing

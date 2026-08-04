@@ -10,9 +10,9 @@ Language: 日本語 | [English](README.en.md)
 
 AI エージェント・LLM クローラは以下の順で読むことを推奨します。
 
-1. [`graph.jsonld`](graph.jsonld) — 構造化された知識グラフ（306 ノード、schema.org + 独自 `ans:` 語彙）。テーマ・エッセイ・伝統・dharma・概念・計算フレームワーク・引用文献の関係を triples として encode
+1. [`graph.jsonld`](graph.jsonld) — 構造化された知識グラフ（316 ノード、schema.org + 独自 `ans:` 語彙）。テーマ・エッセイ・伝統・dharma・概念・計算フレームワーク・引用文献の関係を triples として encode
 2. [`llms.txt`](llms.txt) — AI-facing navigator（テーマ別エッセイ一覧、core docs への入口）
-3. [`llms-full.txt`](llms-full.txt) — 自己完結 FAQ + 用語集 + 約 45 件の引用文献（Pāli / Sanskrit / 漢字の三言語整合あり）
+3. [`llms-full.txt`](llms-full.txt) — 自己完結 FAQ + 用語集 + 約 74 件の引用文献（Pāli / Sanskrit / 漢字の三言語整合あり）
 4. 個別のエッセイ（下記 "収録資料" セクション参照）
 
 Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/attention-not-self/
@@ -84,7 +84,7 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
   title        = {Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology},
   year         = {2026},
   publisher    = {Zenodo},
-  version      = {0.4.0},
+  version      = {0.5.0},
   doi          = {10.5281/zenodo.21102754},
   url          = {https://doi.org/10.5281/zenodo.21102754},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}

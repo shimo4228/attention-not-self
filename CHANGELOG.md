@@ -3,7 +3,9 @@
 All notable changes to this project are documented in this file.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
-## Unreleased
+## v0.5.0 — Theme 9 added: On embodiment in the age of AI (2026-08-04)
+
+Adds a ninth essay theme questioning the logical structure of the claim that AI lacks embodiment, and introduces disclosed AI-mediated writing with a machine-readable claims layer to the collection.
 
 ### Added
 
