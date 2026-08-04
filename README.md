@@ -85,8 +85,8 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
   year         = {2026},
   publisher    = {Zenodo},
   version      = {0.5.0},
-  doi          = {10.5281/zenodo.21102754},
-  url          = {https://doi.org/10.5281/zenodo.21102754},
+  doi          = {10.5281/zenodo.21790516},
+  url          = {https://doi.org/10.5281/zenodo.21790516},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}
 }
 ```
