@@ -391,3 +391,5 @@ references:
 ## 関連リンク
 
 - [github.com/shimo4228](https://github.com/shimo4228) — 著者の GitHub（各リポジトリの入口）
+
+*この日本語版は [note](https://note.com/sakamaki4228/n/n90c26af4fd5f) でも公開。English version（英語版）: [On Embodiment in the Age of AI](<On Embodiment in the Age of AI.md>) ── [Substack](https://shimo4228.substack.com/p/on-embodiment-in-the-age-of-ai) で公開.*

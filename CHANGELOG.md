@@ -3,6 +3,12 @@
 All notable changes to this project are documented in this file.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
+## Unreleased
+
+### Changed
+
+- Theme 9 published externally (2026-08-04): Japanese on note (https://note.com/sakamaki4228/n/n90c26af4fd5f), English on Substack (https://shimo4228.substack.com/p/on-embodiment-in-the-age-of-ai). Essay footers (JA / EN) and `llms.txt` updated with the live URLs.
+
 ## v0.5.0 — Theme 9 added: On embodiment in the age of AI (2026-08-04)
 
 Adds a ninth essay theme questioning the logical structure of the claim that AI lacks embodiment, and introduces disclosed AI-mediated writing with a machine-readable claims layer to the collection.

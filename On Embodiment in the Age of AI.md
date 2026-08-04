@@ -410,3 +410,5 @@ references:
 ## Related links
 
 - [github.com/shimo4228](https://github.com/shimo4228) — the author's GitHub (gateway to all repositories)
+
+*Published on [Substack](https://shimo4228.substack.com/p/on-embodiment-in-the-age-of-ai). Japanese original（日本語版）: [AI時代の身体性について](<AI時代の身体性について（日本語）.md>) — also published on [note](https://note.com/sakamaki4228/n/n90c26af4fd5f).*
