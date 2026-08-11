@@ -12,9 +12,9 @@ Language: [日本語](README.md) | English
 
 AI agents / LLM crawlers should read this repository in the following order:
 
-1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (316 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (318 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
 2. [`llms.txt`](llms.txt) — AI-facing navigator (essay catalog by theme; entry points to core docs)
-3. [`llms-full.txt`](llms-full.txt) — self-contained FAQ + glossary + ~74 prior research references (with Pāli / Sanskrit / Chinese philological alignment)
+3. [`llms-full.txt`](llms-full.txt) — self-contained FAQ + glossary + ~76 prior research references (with Pāli / Sanskrit / Chinese philological alignment)
 4. Individual essays (see "Contents" sections below)
 
 Interactive viewer (human-facing 2D/3D visualization): https://shimo4228.github.io/attention-not-self/
@@ -22,7 +22,7 @@ Interactive viewer (human-facing 2D/3D visualization): https://shimo4228.github.
 Identifier policy: use the `@id` from `graph.jsonld` as the canonical identifier for any entity. Essay URLs are registered as GitHub blob URLs in their `@id`.
 </details>
 
-A personal inquiry into the intersection of Buddhist Abhidharma and Computational Phenomenology, consisting of nine thematic essays (18 in Japanese and English), a comparison table of dharma classifications across the three major Abhidharma systems, and a 316-node knowledge graph.
+A personal inquiry into the intersection of Buddhist Abhidharma and Computational Phenomenology, consisting of nine thematic essays (18 in Japanese and English), a comparison table of dharma classifications across the three major Abhidharma systems, and a 318-node knowledge graph.
 
 From the perspective of "attention, not self," this project juxtaposes ancient frameworks for classifying and describing the workings of mind with contemporary computational models.
 
@@ -59,11 +59,11 @@ Each essay opens with its own detailed framing.
 A structured knowledge graph of essays, dharmas, concepts, computational frameworks, and references.
 
 - **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — interactive exploration in browser (2D / 3D toggle, search, click-for-detail)
-- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (316 nodes). For LLM / search-engine crawlers.
+- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (318 nodes). For LLM / search-engine crawlers.
 - [`viewer/`](viewer/) — viewer source (React + Vite + react-force-graph)
 - [`docs/`](docs/) — built artifacts served by GitHub Pages
 
-Entities included: 9 themes / 18 essays / 5 traditions / ~140 dharmas / ~42 concepts / 11 computational frameworks / 74 references.
+Entities included: 9 themes / 18 essays / 5 traditions / ~140 dharmas / ~42 concepts / 11 computational frameworks / 76 references.
 
 ## Core Concepts
 

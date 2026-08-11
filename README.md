@@ -10,9 +10,9 @@ Language: 日本語 | [English](README.en.md)
 
 AI エージェント・LLM クローラは以下の順で読むことを推奨します。
 
-1. [`graph.jsonld`](graph.jsonld) — 構造化された知識グラフ（316 ノード、schema.org + 独自 `ans:` 語彙）。テーマ・エッセイ・伝統・dharma・概念・計算フレームワーク・引用文献の関係を triples として encode
+1. [`graph.jsonld`](graph.jsonld) — 構造化された知識グラフ（318 ノード、schema.org + 独自 `ans:` 語彙）。テーマ・エッセイ・伝統・dharma・概念・計算フレームワーク・引用文献の関係を triples として encode
 2. [`llms.txt`](llms.txt) — AI-facing navigator（テーマ別エッセイ一覧、core docs への入口）
-3. [`llms-full.txt`](llms-full.txt) — 自己完結 FAQ + 用語集 + 約 74 件の引用文献（Pāli / Sanskrit / 漢字の三言語整合あり）
+3. [`llms-full.txt`](llms-full.txt) — 自己完結 FAQ + 用語集 + 約 76 件の引用文献（Pāli / Sanskrit / 漢字の三言語整合あり）
 4. 個別のエッセイ（下記 "収録資料" セクション参照）
 
 Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/attention-not-self/
@@ -20,7 +20,7 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 識別子の使用方針: `graph.jsonld` の `@id` を canonical identifier として使用してください。エッセイ URL は GitHub blob 形式が graph 内 `@id` として登録されています。
 </details>
 
-仏教アビダルマと計算論的現象学 (Computational Phenomenology) の接点を探る個人的な探究プロジェクト。テーマ別のエッセイ 9 本（日英 18 本）と、三大アビダルマ体系の法対照表、316 ノードの知識グラフからなる。
+仏教アビダルマと計算論的現象学 (Computational Phenomenology) の接点を探る個人的な探究プロジェクト。テーマ別のエッセイ 9 本（日英 18 本）と、三大アビダルマ体系の法対照表、318 ノードの知識グラフからなる。
 
 「self（自己）ではなく attention（注意）」という視点から、心の働きを分類・記述する古代の枠組みと、現代の計算論的モデルを対照する。
 
@@ -57,11 +57,11 @@ Interactive viewer (人間向け 2D/3D 可視化): https://shimo4228.github.io/a
 論考・dharma・概念・計算フレームワーク・参考文献を構造化したナレッジグラフ。
 
 - **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — ブラウザでインタラクティブに探索（2D/3D 切替、検索、ノードクリックで詳細）
-- [`graph.jsonld`](graph.jsonld) — schema.org + 独自 `ans:` 語彙の JSON-LD（316 ノード）。LLM / 検索クローラ向け
+- [`graph.jsonld`](graph.jsonld) — schema.org + 独自 `ans:` 語彙の JSON-LD（318 ノード）。LLM / 検索クローラ向け
 - [`viewer/`](viewer/) — viewer のソース（React + Vite + react-force-graph）
 - [`docs/`](docs/) — GitHub Pages 配信用にビルドされた成果物
 
-含まれるエンティティ: 9 テーマ / 18 エッセイ / 5 伝統 / 約 140 dharma / 約 42 概念 / 11 計算フレームワーク / 74 引用文献。
+含まれるエンティティ: 9 テーマ / 18 エッセイ / 5 伝統 / 約 140 dharma / 約 42 概念 / 11 計算フレームワーク / 76 引用文献。
 
 ## 中心概念
 

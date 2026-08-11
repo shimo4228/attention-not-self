@@ -39,6 +39,7 @@ attention-not-self/
 - 2026-06-17: v0.3.0 release（Zenodo）。CC0 1.0 へ relicense、研究プログラム hub への federation、graph 267→284 ノード
 - 2026-07-01: テーマ8「運による知識の偽装 ── ゲティア問題・自由エネルギー原理・ダルマキールティ」エッセイ（日英）追加。graph 289→307 ノード
 - 2026-08-04: テーマ9「AI時代の身体性について」エッセイ（日英）追加。AI メディエイト執筆の初適用（開示 + 機械可読レイヤー C1-C8）。graph 306→316 ノード（enactivism / autopoiesis framework 新設）。公開先は JP=note・EN=Substack
+- 2026-08-12: Ward 2026（constraint closure による非二元的気づきの計算モデル、*Neuroscience of Consciousness*）+ Nave 2025 を references に追加。graph 316→318 ノード。Tal et al. の modeling gap は nonduality 側が部分的に解消、cessation 側は空白のまま。Ward は Madhyamaka 依拠であり Abhidharma 実在論との緊張に留意（daily-research 2026-08-12 ans レポート由来）
 
 ## Graph 更新フロー
 
