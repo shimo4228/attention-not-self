@@ -12,9 +12,9 @@ Language: [日本語](README.md) | English
 
 AI agents / LLM crawlers should read this repository in the following order:
 
-1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (318 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (323 nodes, schema.org + custom `ans:` vocabulary). Encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks, and references as triples
 2. [`llms.txt`](llms.txt) — AI-facing navigator (essay catalog by theme; entry points to core docs)
-3. [`llms-full.txt`](llms-full.txt) — self-contained FAQ + glossary + ~76 prior research references (with Pāli / Sanskrit / Chinese philological alignment)
+3. [`llms-full.txt`](llms-full.txt) — self-contained FAQ + glossary + ~80 prior research references (with Pāli / Sanskrit / Chinese philological alignment)
 4. Individual essays (see "Contents" sections below)
 
 Interactive viewer (human-facing 2D/3D visualization): https://shimo4228.github.io/attention-not-self/
@@ -22,7 +22,7 @@ Interactive viewer (human-facing 2D/3D visualization): https://shimo4228.github.
 Identifier policy: use the `@id` from `graph.jsonld` as the canonical identifier for any entity. Essay URLs are registered as GitHub blob URLs in their `@id`.
 </details>
 
-A personal inquiry into the intersection of Buddhist Abhidharma and Computational Phenomenology, consisting of nine thematic essays (18 in Japanese and English), a comparison table of dharma classifications across the three major Abhidharma systems, and a 318-node knowledge graph.
+A personal inquiry into the intersection of Buddhist Abhidharma and Computational Phenomenology, consisting of nine thematic essays (18 in Japanese and English), a comparison table of dharma classifications across the three major Abhidharma systems, and a 323-node knowledge graph.
 
 From the perspective of "attention, not self," this project juxtaposes ancient frameworks for classifying and describing the workings of mind with contemporary computational models.
 
@@ -59,11 +59,11 @@ Each essay opens with its own detailed framing.
 A structured knowledge graph of essays, dharmas, concepts, computational frameworks, and references.
 
 - **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — interactive exploration in browser (2D / 3D toggle, search, click-for-detail)
-- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (318 nodes). For LLM / search-engine crawlers.
+- [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org + custom `ans:` vocabulary (323 nodes). For LLM / search-engine crawlers.
 - [`viewer/`](viewer/) — viewer source (React + Vite + react-force-graph)
 - [`docs/`](docs/) — built artifacts served by GitHub Pages
 
-Entities included: 9 themes / 18 essays / 5 traditions / ~140 dharmas / ~42 concepts / 11 computational frameworks / 76 references.
+Entities included: 9 themes / 18 essays / 5 traditions / ~140 dharmas / ~42 concepts / 11 computational frameworks / 80 references.
 
 ## Core Concepts
 
@@ -75,6 +75,13 @@ Entities included: 9 themes / 18 essays / 5 traditions / ~140 dharmas / ~42 conc
 
 - Ganeri, Jonardon. *Attention, Not Self*. Oxford University Press, 2017.
   The namesake of this project. Argues that within Buddhaghosa's Abhidharma system, "attention"—not "self"—is the central explanatory concept of mind.
+
+### External dataset consulted
+
+- Bose, Joy. *Darshana Graph: A Text-Grounded Knowledge Graph of Indian Philosophy*. Hugging Face Datasets, 2026.
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — <https://huggingface.co/datasets/joyboseroy/darshana-graph>
+  Consulted when checking the attribution, dating, or sense-divergence of a term used in this repository. **Not modified and not redistributed** — the data is fetched at consultation time and never incorporated into this repository.
+  Related papers: [arXiv:2606.18222](https://arxiv.org/abs/2606.18222) (corpus and graph), [arXiv:2606.29070](https://arxiv.org/abs/2606.29070) (attribution bias), [arXiv:2606.25372](https://arxiv.org/abs/2606.25372) (Pāli Canon stylometry)
 
 ## How to cite
 

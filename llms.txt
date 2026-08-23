@@ -8,13 +8,13 @@
 
 ## Recommended reading order
 
-1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (306 nodes, schema.org JSON-LD)
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (323 nodes, schema.org JSON-LD)
 2. [`llms-full.txt`](llms-full.txt) — full FAQ + glossary + ~45 prior research references
 3. Individual essays under "Essays" sections below
 
 ## Core documentation
 
-- [`graph.jsonld`](graph.jsonld): JSON-LD knowledge graph (306 nodes: 8 themes, 16 essays, 5 traditions, ~140 dharmas, ~42 concepts, 9 frameworks, 69 references). Interactive viewer at https://shimo4228.github.io/attention-not-self/
+- [`graph.jsonld`](graph.jsonld): JSON-LD knowledge graph (323 nodes: 9 themes, 18 essays, 5 traditions, ~140 dharmas, ~42 concepts, 11 frameworks, 80 references). Interactive viewer at https://shimo4228.github.io/attention-not-self/
 - [Full AI Reference](llms-full.txt): self-contained FAQ, glossary, and prior research references for AI agents
 - [README (English)](README.en.md): human-facing project overview
 - [README (Japanese, canonical)](README.md): 日本語版プロジェクト正本
@@ -91,3 +91,4 @@ Questions the logical structure of the claim that AI lacks embodiment (*The Blin
 ## Related
 
 - [Ganeri, *Attention, Not Self* (Oxford 2017)](https://global.oup.com/academic/product/attention-not-self-9780198798507): project namesake; attention-first reading of Buddhaghosa's Abhidhamma.
+- [Darshana Graph (Joy Bose, CC BY 4.0)](https://huggingface.co/datasets/joyboseroy/darshana-graph): external text-grounded knowledge graph of Indian philosophy, consulted when checking attribution, dating, or sense-divergence of a term. Not modified and not redistributed here. Papers: arXiv:2606.18222, arXiv:2606.29070, arXiv:2606.25372.
