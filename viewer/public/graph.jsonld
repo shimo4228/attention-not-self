@@ -322,7 +322,7 @@
       ],
       "inLanguage": "ja",
       "isPartOf": "ans:theme/2-dharma-comparison",
-      "citation": ["ans:ref/karunadasa-2010", "ans:ref/dhammajoti-2009", "ans:ref/cox-1995", "ans:ref/ronkin-2005"]
+      "citation": ["ans:ref/karunadasa-2010", "ans:ref/dhammajoti-2009", "ans:ref/cox-1995", "ans:ref/ronkin-2005", "ans:ref/anuruddha-sangaha"]
     },
     {
       "@id": "https://github.com/shimo4228/attention-not-self/blob/main/Three%20Abhidharma%20Models%20of%20Cognition.md",
@@ -353,8 +353,6 @@
         "ans:ref/waldron-2003",
         "ans:ref/sharf-2016",
         "ans:ref/arnold-2012",
-        "ans:ref/thompson-2014",
-        "ans:ref/vanrullen-koch-2003",
         "ans:ref/anuruddha-sangaha"
       ]
     },
@@ -375,8 +373,6 @@
         "ans:ref/waldron-2003",
         "ans:ref/sharf-2016",
         "ans:ref/arnold-2012",
-        "ans:ref/thompson-2014",
-        "ans:ref/vanrullen-koch-2003",
         "ans:ref/anuruddha-sangaha"
       ]
     },
