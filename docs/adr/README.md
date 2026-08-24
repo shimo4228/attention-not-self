@@ -3,6 +3,7 @@
 | ID | Title | Status | Date |
 |---|---|---|---|
 | [0001](0001-flat-layout-essay-paths-as-canonical-ids.md) | Flat repository layout — essay file paths as canonical citation @ids | Accepted | 2026-06-14 |
+| [0002](0002-tradition-edge-provenance-fields.md) | tradition 辺の意味論定義と出典欄（provenance fields） | Accepted | 2026-08-24 |
 
 ## Template
 
