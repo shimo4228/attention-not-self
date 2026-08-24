@@ -53,6 +53,15 @@ crawler・LLM いずれも）は、明示の定義が無い以上、この辺を
    （`@id` の安定性は [ADR-0001](./0001-flat-layout-essay-paths-as-canonical-ids.md) の
    別レイヤーの判断であり、本 ADR はそこに触れない）。
 
+> **注記（2026-08-24、pilot 実施後の形式改訂）**: Decision 2 の書誌情報直書き形式は、
+> 厳密な JSON-LD 展開では `source` が辺ではなく対象 tradition ノードに帰属することが
+> pilot（task branch commit cdb6062）の cross-model review で確認された。247 辺への展開前に
+> 形式を改訂する: 一次文献を Reference ノード化（`ans:ref/vasubandhu-kosa`・
+> `ans:ref/vasubandhu-satadharma` を新設、`ans:ref/anuruddha-sangaha` は再利用）し、辺の
+> `source` は「ref @id — 当該文献リスト内の locus; 対照表 csv 参照」の短形式とする。
+> これは damage の最小化であり、厳密な辺帰属は reification なしには実現されない
+> （Alternatives の reified ノード化の却下判断は維持）。Decision 1・3・4 は変更なし。
+
 ## Review-when
 
 - viewer で辺修飾（`source` 等）を実際に表示する改修に着手した時（`loadGraph.ts` 側の
