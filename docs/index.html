@@ -69,7 +69,7 @@
         {"@value": "Attention, Not Self — 知識グラフ", "@language": "ja"},
         "ANS"
       ],
-      "description": "Structured knowledge graph mapping Buddhist Abhidharma dharma taxonomies (Theravāda, Sarvāstivāda, Yogācāra) and cognitive process models onto computational phenomenology frameworks. Encodes ~130 dharmas, ~30 concepts, 5 essay themes, 10 essays, 6 frameworks, and prior research references as schema.org triples with custom ans: vocabulary. A `tradition` edge asserts list-membership — that the dharma is carried as an item of that tradition's own dharma list, as tabulated in 三大アビダルマ法対照表 — and is not a claim of origination: it says nothing about which tradition or text the term first arose in. Where present, the edge-level `source` field records the primary text and table column the attribution rests on, and notes any case where the membership is functional rather than a separate list item. Concept DOI: 10.5281/zenodo.20262112 (resolves to latest version).",
+      "description": "Structured knowledge graph mapping Buddhist Abhidharma dharma taxonomies (Theravāda, Sarvāstivāda, Yogācāra) and cognitive process models onto computational phenomenology frameworks. Encodes ~130 dharmas, ~30 concepts, 5 essay themes, 10 essays, 6 frameworks, and prior research references as schema.org triples with custom ans: vocabulary. A `tradition` edge asserts list-membership — that the dharma is carried as an item of that tradition's own dharma list, as tabulated in 三大アビダルマ法対照表 — and is not a claim of origination: it says nothing about which tradition or text the term first arose in. Every `tradition` edge carries a `source`: the `ans:ref/` identifier of the primary text that fixes that tradition's dharma list, the locus of the item within it, and the comparison-table sheet and column the attribution was read from — flagging the few cases where the membership is functional rather than a separate list item. Concept DOI: 10.5281/zenodo.20262112 (resolves to latest version).",
       "isBasedOn": "https://github.com/shimo4228/attention-not-self",
       "url": "https://shimo4228.github.io/attention-not-self/",
       "publisher": "Tatsuya Shimomoto",
@@ -861,7 +861,11 @@
         {"@value": "眼根（視覚器官）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — # 1「上座部（Pāli）」欄: cakkhu-pasāda 眼浄色（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — # 1（11 項目中第 1 項）「説一切有部（Skt / 漢字）」欄: cakṣus 眼根（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 説一切有部（Skt / 漢字）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — # 1（11 項目中第 1 項）「唯識（Skt / 漢字）」欄: cakṣus 眼（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 唯識（Skt / 漢字）列"}
+      ]
     },
     {
       "@id": "ans:dharma/shrotra",
@@ -875,7 +879,11 @@
         {"@value": "耳根（聴覚器官）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — # 2「上座部（Pāli）」欄: sota-pasāda 耳浄色（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — # 2（11 項目中第 2 項）「説一切有部（Skt / 漢字）」欄: śrotra 耳根（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 説一切有部（Skt / 漢字）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — # 2（11 項目中第 2 項）「唯識（Skt / 漢字）」欄: śrotra 耳（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 唯識（Skt / 漢字）列"}
+      ]
     },
     {
       "@id": "ans:dharma/ghrana",
@@ -889,7 +897,11 @@
         {"@value": "鼻根（嗅覚器官）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — # 3「上座部（Pāli）」欄: ghāna-pasāda 鼻浄色（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — # 3（11 項目中第 3 項）「説一切有部（Skt / 漢字）」欄: ghrāṇa 鼻根（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 説一切有部（Skt / 漢字）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — # 3（11 項目中第 3 項）「唯識（Skt / 漢字）」欄: ghrāṇa 鼻（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 唯識（Skt / 漢字）列"}
+      ]
     },
     {
       "@id": "ans:dharma/jihva",
@@ -903,7 +915,11 @@
         {"@value": "舌根（味覚器官）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — # 4「上座部（Pāli）」欄: jivhā-pasāda 舌浄色（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — # 4（11 項目中第 4 項）「説一切有部（Skt / 漢字）」欄: jihvā 舌根（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 説一切有部（Skt / 漢字）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — # 4（11 項目中第 4 項）「唯識（Skt / 漢字）」欄: jihvā 舌（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 唯識（Skt / 漢字）列"}
+      ]
     },
     {
       "@id": "ans:dharma/kaya",
@@ -917,7 +933,11 @@
         {"@value": "身根（身体・触覚器官）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — # 5「上座部（Pāli）」欄: kāya-pasāda 身浄色（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — # 5（11 項目中第 5 項）「説一切有部（Skt / 漢字）」欄: kāya 身根（独立項目）。同 sheet 行 17-18 で女根・男根がこの身根に包摂されると記載; csv/色法（rūpa）.csv 説一切有部（Skt / 漢字）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — # 5（11 項目中第 5 項）「唯識（Skt / 漢字）」欄: kāya 身（独立項目）。同 sheet 行 17-18 で女根・男根がこの身根に包摂されると記載; csv/色法（rūpa）.csv 唯識（Skt / 漢字）列"}
+      ]
     },
     {
       "@id": "ans:dharma/rupa-object",
@@ -931,7 +951,11 @@
         {"@value": "色境（可見の色）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — # 6「上座部（Pāli）」欄: rūpa (vaṇṇa) 色（独立項目）。備考「✓三系共通: 可見の色」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — # 6（11 項目中第 6 項）「説一切有部（Skt / 漢字）」欄: rūpa 色境（独立項目）。備考「✓三系共通: 可見の色」。同 sheet 行 23 で身表がこの色境に包摂されると記載; csv/色法（rūpa）.csv 説一切有部（Skt / 漢字）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — # 6（11 項目中第 6 項）「唯識（Skt / 漢字）」欄: rūpa 色（独立項目）。備考「✓三系共通: 可見の色」。同 sheet 行 23 で身表がこの色境に包摂されると記載; csv/色法（rūpa）.csv 唯識（Skt / 漢字）列"}
+      ]
     },
     {
       "@id": "ans:dharma/shabda",
@@ -945,7 +969,11 @@
         {"@value": "声境（音）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — # 7「上座部（Pāli）」欄: sadda 声（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — # 7（11 項目中第 7 項）「説一切有部（Skt / 漢字）」欄: śabda 声境（独立項目）。同 sheet 行 24 で語表がこの声境に包摂されると記載; csv/色法（rūpa）.csv 説一切有部（Skt / 漢字）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — # 7（11 項目中第 7 項）「唯識（Skt / 漢字）」欄: śabda 聲（独立項目）。同 sheet 行 24 で語表がこの声境に包摂されると記載; csv/色法（rūpa）.csv 唯識（Skt / 漢字）列"}
+      ]
     },
     {
       "@id": "ans:dharma/gandha",
@@ -959,7 +987,11 @@
         {"@value": "香境（におい）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — # 8「上座部（Pāli）」欄: gandha 香（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — # 8（11 項目中第 8 項）「説一切有部（Skt / 漢字）」欄: gandha 香境（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 説一切有部（Skt / 漢字）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — # 8（11 項目中第 8 項）「唯識（Skt / 漢字）」欄: gandha 香（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 唯識（Skt / 漢字）列"}
+      ]
     },
     {
       "@id": "ans:dharma/rasa",
@@ -973,7 +1005,11 @@
         {"@value": "味境（味）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — # 9「上座部（Pāli）」欄: rasa 味（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — # 9（11 項目中第 9 項）「説一切有部（Skt / 漢字）」欄: rasa 味境（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 説一切有部（Skt / 漢字）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — # 9（11 項目中第 9 項）「唯識（Skt / 漢字）」欄: rasa 味（独立項目）。備考「✓三系共通」; csv/色法（rūpa）.csv 唯識（Skt / 漢字）列"}
+      ]
     },
     {
       "@id": "ans:dharma/sprashtavya",
@@ -987,7 +1023,11 @@
         {"@value": "触境（北方：単一；南方：地・火・風に分割）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — # 10「上座部（Pāli）」欄: 「★四大種に分割」— 独立項目として立てられていない。備考「上座部: phoṭṭhabba = 地+火+風」。上座部側では同 sheet 行 13・15・16 の paṭhavī-dhātu 地界 / tejo-dhātu 火界 / vāyo-dhātu 風界 が独立項目としてこの位置を占める（exceptions 参照）; csv/色法（rūpa）.csv 上座部（Pāli）列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — # 10（11 項目中第 10 項）「説一切有部（Skt / 漢字）」欄: spraṣṭavya 触境（独立項目）。同 sheet 行 13-16 の四大種は備考「北方: 触境に包摂」。行 25-26 の色軽快性・色柔軟性は北方欄が「部分的: 触境の下位」、備考「北方に厳密な対応物なし」（包摂とは断定されていない）; csv/色法（rūpa）.csv 説一切有部（Skt / 漢字）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — # 10（11 項目中第 10 項）「唯識（Skt / 漢字）」欄: spraṣṭavya 觸（独立項目）。同 sheet 行 13-16 の四大種は備考「北方: 触境に包摂」。行 25-26 の色軽快性・色柔軟性は北方欄が「部分的: 触境の下位」、備考「北方に厳密な対応物なし」（包摂とは断定されていない）; csv/色法（rūpa）.csv 唯識（Skt / 漢字）列"}
+      ]
     },
     {
       "@id": "ans:dharma/avijnapti-rupa",
@@ -1000,7 +1040,10 @@
         {"@value": "無表色（有部）／法処所摂色（唯識）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — # 11（11 項目中第 11 項＝最終項）「説一切有部（Skt / 漢字）」欄: avijñapti-rūpa 無表色（独立項目）。備考「有部と唯識で内容が異なる」。上座部欄は「★対応物なし」; csv/色法（rūpa）.csv 説一切有部（Skt / 漢字）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — # 11（11 項目中第 11 項＝最終項）「唯識（Skt / 漢字）」欄: dharmāyatanikāni rūpāṇi 法處所攝色（独立項目。項目名は有部の無表色と異なる）。備考「有部と唯識で内容が異なる」; csv/色法（rūpa）.csv 唯識（Skt / 漢字）列"}
+      ],
       "uniqueTo": "ans:tradition/sarvastivada"
     },
     {
@@ -1013,7 +1056,7 @@
         {"@value": "地界（上座部は個別列挙、北方は触境に包摂）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 13（# 欄「—」、11 項目の連番外）「上座部（Pāli）」欄: paṭhavī-dhātu 地界（上座部の独立項目）。北方 2 欄は「★個別に列挙せず」、備考「北方: 触境に包摂」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
       "comparesWith": "ans:dharma/sprashtavya"
     },
     {
@@ -1026,7 +1069,7 @@
         {"@value": "水界", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 14（# 欄「—」）「上座部（Pāli）」欄: āpo-dhātu 水界（上座部の独立項目）。北方 2 欄は「★個別に列挙せず」、備考「北方: 触境に包摂」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
     {
       "@id": "ans:dharma/tejo",
@@ -1038,7 +1081,7 @@
         {"@value": "火界", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 15（# 欄「—」）「上座部（Pāli）」欄: tejo-dhātu 火界（上座部の独立項目）。北方 2 欄は「★個別に列挙せず」、備考「北方: 触境に包摂」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
       "comparesWith": "ans:dharma/sprashtavya"
     },
     {
@@ -1051,7 +1094,7 @@
         {"@value": "風界", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 16（# 欄「—」）「上座部（Pāli）」欄: vāyo-dhātu 風界（上座部の独立項目）。北方 2 欄は「★個別に列挙せず」、備考「北方: 触境に包摂」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
       "comparesWith": "ans:dharma/sprashtavya"
     },
     {
@@ -1064,7 +1107,7 @@
         {"@value": "女根（上座部固有；北方は身根に包摂）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 17（# 欄「—」）「上座部（Pāli）」欄: itthindriya 女根（上座部の独立項目）。北方 2 欄は「身根に包摂」、備考「北方: 身根の下位」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
     {
       "@id": "ans:dharma/purisindriya",
@@ -1076,7 +1119,7 @@
         {"@value": "男根", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 18（# 欄「—」）「上座部（Pāli）」欄: purisindriya 男根（上座部の独立項目）。北方 2 欄は「身根に包摂」、備考「北方: 身根の下位」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
     {
       "@id": "ans:dharma/hadaya-vatthu",
@@ -1088,7 +1131,7 @@
         {"@value": "心臓色（上座部固有；意識の物質的依処）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 19（# 欄「—」）「上座部（Pāli）」欄: hadaya-vatthu 心臓色（上座部の独立項目）。北方 2 欄は「★対応物なし」、備考「上座部固有」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1101,7 +1144,7 @@
         {"@value": "命色（範疇移動：北方では不相応行）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 20（# 欄「—」）「上座部（Pāli）」欄: jīvitindriya 命色（上座部では色法の独立項目）。北方 2 欄は「不相応行: 命根」、備考「範疇移動: 不相応行→色法」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
     {
       "@id": "ans:dharma/oja",
@@ -1113,7 +1156,7 @@
         {"@value": "食素（上座部固有）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 21（# 欄「—」）「上座部（Pāli）」欄: ojā 食素（上座部の独立項目）。北方 2 欄は「★対応物なし」、備考「上座部固有」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1126,7 +1169,7 @@
         {"@value": "限定虚空（上座部では有為色法）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 22（# 欄「—」）「上座部（Pāli）」欄: ākāsa-dhātu 限定虚空（上座部では色法の独立項目）。北方 2 欄は「無為法: 虚空／虛空」、備考「概念根本的に異なる」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
     {
       "@id": "ans:dharma/kaya-vinnatti",
@@ -1138,7 +1181,7 @@
         {"@value": "身表（上座部明示、北方は色処に包摂）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 23（# 欄「—」）「上座部（Pāli）」欄: kāya-viññatti 身表（上座部の独立項目）。北方 2 欄は「色境に包摂」、備考「北方: 色処に包摂」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
     {
       "@id": "ans:dharma/vaci-vinnatti",
@@ -1150,7 +1193,7 @@
         {"@value": "語表", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 24（# 欄「—」）「上座部（Pāli）」欄: vacī-viññatti 語表（上座部の独立項目）。北方 2 欄は「声境に包摂」、備考「北方: 声処に包摂」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
     {
       "@id": "ans:dharma/rupa-lahuta",
@@ -1162,7 +1205,7 @@
         {"@value": "色軽快性", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 25（# 欄「—」）「上座部（Pāli）」欄: rūpassa lahutā 色軽快性（上座部の独立項目）。北方 2 欄は「部分的: 触境の下位」、備考「北方に厳密な対応物なし」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
     {
       "@id": "ans:dharma/rupa-muduta",
@@ -1174,7 +1217,7 @@
         {"@value": "色柔軟性", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 26（# 欄「—」）「上座部（Pāli）」欄: rūpassa mudutā 色柔軟性（上座部の独立項目）。北方 2 欄は「部分的: 触境の下位」、備考「北方に厳密な対応物なし」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
     {
       "@id": "ans:dharma/rupa-kammannata",
@@ -1186,7 +1229,7 @@
         {"@value": "色適業性（上座部固有）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 27（# 欄「—」）「上座部（Pāli）」欄: rūpassa kammaññatā 色適業性（上座部の独立項目）。北方 2 欄は「★対応物なし」、備考「上座部固有」; csv/色法（rūpa）.csv 上座部（Pāli）列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1201,7 +1244,7 @@
         {"@value": "積集（上座部）／生（北方では不相応行）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 28（# 欄「—」）「上座部（Pāli）」欄: upacaya 積集（上座部では色法の独立項目）。北方 2 欄は「不相応行: 生」、備考「範疇移動: 不相応行→色法」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
     {
       "@id": "ans:dharma/santati",
@@ -1215,7 +1258,7 @@
         {"@value": "相続（上座部）／住（北方）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 29（# 欄「—」）「上座部（Pāli）」欄: santati 相続（上座部では色法の独立項目）。北方 2 欄は「不相応行: 住」、備考「範疇移動: 不相応行→色法」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
     {
       "@id": "ans:dharma/jarata",
@@ -1229,7 +1272,7 @@
         {"@value": "老性（上座部）／異・老（北方）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 30（# 欄「—」）「上座部（Pāli）」欄: jaratā 老性（上座部では色法の独立項目）。北方欄は有部「不相応行: 異」／唯識「不相応行: 老」、備考「範疇移動: 不相応行→色法」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
     {
       "@id": "ans:dharma/aniccata",
@@ -1243,7 +1286,7 @@
         {"@value": "無常性（上座部）／滅・無常（北方）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/rupa",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行 31（# 欄「—」）「上座部（Pāli）」欄: aniccatā 無常性（上座部では色法の独立項目）。北方欄は有部「不相応行: 滅」／唯識「不相応行: 無常」、備考「範疇移動: 不相応行→色法」; csv/色法（rūpa）.csv 上座部（Pāli）列"}
     },
 
     {
@@ -1258,7 +1301,7 @@
         {"@value": "心（有部：1法として六識身に顕現）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": {"@id": "ans:tradition/sarvastivada", "source": "倶舎論 (Abhidharmakośa, Vasubandhu), 75-dharma list — 心法 1: citta counted as a single dharma manifesting as the six vijñāna-kāya; 三大アビダルマ法対照表 csv/心法（citta）.csv, 説一切有部 column"}
+      "tradition": {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 心法 1: citta counted as a single dharma manifesting as the six vijñāna-kāya; csv/心法（citta）.csv 説一切有部列"}
     },
     {
       "@id": "ans:dharma/cakshur-vijnana",
@@ -1271,7 +1314,7 @@
         {"@value": "眼識", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 1: 眼識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"}
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 心法 8, item 1: 眼識; csv/心法（citta）.csv 唯識列"}
     },
     {
       "@id": "ans:dharma/shrotra-vijnana",
@@ -1284,7 +1327,7 @@
         {"@value": "耳識", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 2: 耳識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"}
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 心法 8, item 2: 耳識; csv/心法（citta）.csv 唯識列"}
     },
     {
       "@id": "ans:dharma/ghrana-vijnana",
@@ -1297,7 +1340,7 @@
         {"@value": "鼻識", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 3: 鼻識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"}
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 心法 8, item 3: 鼻識; csv/心法（citta）.csv 唯識列"}
     },
     {
       "@id": "ans:dharma/jihva-vijnana",
@@ -1310,7 +1353,7 @@
         {"@value": "舌識", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 4: 舌識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"}
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 心法 8, item 4: 舌識; csv/心法（citta）.csv 唯識列"}
     },
     {
       "@id": "ans:dharma/kaya-vijnana",
@@ -1323,7 +1366,7 @@
         {"@value": "身識", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 5: 身識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"}
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 心法 8, item 5: 身識; csv/心法（citta）.csv 唯識列"}
     },
     {
       "@id": "ans:dharma/mano-vijnana",
@@ -1336,7 +1379,7 @@
         {"@value": "意識（第六識）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 6: 意識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"}
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 心法 8, item 6: 意識; csv/心法（citta）.csv 唯識列"}
     },
     {
       "@id": "ans:dharma/manas",
@@ -1349,7 +1392,7 @@
         {"@value": "末那識（第七識：恒常的自我執着）—唯識固有", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 7: 末那識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"},
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 心法 8, item 7: 末那識; csv/心法（citta）.csv 唯識列"},
       "uniqueTo": "ans:tradition/yogacara",
       "exemplifies": "ans:concept/manas-ego-clinging"
     },
@@ -1364,7 +1407,7 @@
         {"@value": "阿賴耶識（第八識：種子蔵）—唯識固有；機能類似：上座部の有分（bhavaṅga）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 8: 阿賴耶識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"},
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 心法 8, item 8: 阿賴耶識; csv/心法（citta）.csv 唯識列"},
       "uniqueTo": "ans:tradition/yogacara",
       "comparesWith": "ans:dharma/bhavanga",
       "exemplifies": "ans:concept/alaya-vijnana-store"
@@ -1379,7 +1422,7 @@
         {"@value": "有分（上座部：認識過程の合間に流れる潜在的生命相続）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": {"@id": "ans:tradition/theravada", "source": "摂阿毘達磨義論 (Abhidhammatthasaṅgaha, Anuruddha), 82-dhamma list — citta counted as 1 dhamma with 89/121 types; bhavaṅga is a citta-kicca (function of resultant citta), not a separate item in the 82; 三大アビダルマ法対照表 csv/心法（citta）.csv, 上座部 column (entered there as the functional counterpart of ālaya-vijñāna)"},
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — citta counted as 1 dhamma with 89/121 types; bhavaṅga is a citta-kicca (function of resultant citta), not a separate item in the 82; csv/心法（citta）.csv 上座部列 (entered there as the functional counterpart of ālaya-vijñāna)"},
       "uniqueTo": "ans:tradition/theravada",
       "exemplifies": "ans:concept/bhavanga-continuum"
     },
@@ -1396,7 +1439,11 @@
         {"@value": "触（三系共通の遍行心所）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/caitta-universal",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行2「sparśa / phassa 触」上座部列「遍一切心」— 上座部心所リストの遍一切心に独立項目として記載。備考欄「✓三系共通: 遍行」; csv/心所法・遍行別境.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 行2「sparśa / phassa 触」説一切有部列「大地法（遍行）」— 凡例により大地法＝有部における遍行心所（mahābhūmika）。独立項目として記載; csv/心所法・遍行別境.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 行2「sparśa / phassa 触」唯識列「遍行」— 凡例により遍行＝全ての心に伴う（universal）。独立項目として記載; csv/心所法・遍行別境.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/vedana",
@@ -1410,7 +1457,11 @@
         {"@value": "受（感受：苦・楽・捨）—三系共通の遍行", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/caitta-universal",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行3「vedanā 受」上座部列「遍一切心」— 上座部心所リストの遍一切心に独立項目として記載。備考欄「✓三系共通: 遍行」; csv/心所法・遍行別境.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 行3「vedanā 受」説一切有部列「大地法」— 凡例により大地法＝有部における遍行心所（mahābhūmika）。独立項目として記載; csv/心所法・遍行別境.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 行3「vedanā 受」唯識列「遍行」— 唯識の遍行心所として独立項目に記載; csv/心所法・遍行別境.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/samjna",
@@ -1424,7 +1475,11 @@
         {"@value": "想（表象・概念化）—三系共通の遍行", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/caitta-universal",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行4「saṃjñā / saññā 想」上座部列「遍一切心」— 上座部心所リストの遍一切心に独立項目として記載。備考欄「✓三系共通: 遍行」; csv/心所法・遍行別境.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 行4「saṃjñā / saññā 想」説一切有部列「大地法」（＝有部の遍行心所 mahābhūmika）。独立項目として記載; csv/心所法・遍行別境.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 行4「saṃjñā / saññā 想」唯識列「遍行」— 唯識の遍行心所として独立項目に記載; csv/心所法・遍行別境.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/cetana",
@@ -1438,7 +1493,11 @@
         {"@value": "思（意志・カルマ生成因）—三系共通の遍行", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/caitta-universal",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行5「cetanā 思」上座部列「遍一切心」— 上座部心所リストの遍一切心に独立項目として記載。備考欄「✓三系共通: 遍行」; csv/心所法・遍行別境.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 行5「cetanā 思」説一切有部列「大地法」（＝有部の遍行心所 mahābhūmika）。独立項目として記載; csv/心所法・遍行別境.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 行5「cetanā 思」唯識列「遍行」— 唯識の遍行心所として独立項目に記載; csv/心所法・遍行別境.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/manaskara",
@@ -1452,7 +1511,11 @@
         {"@value": "作意（注意：心を対象に向ける機能）—三系共通；計算論的現象学への中核マッピング", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/caitta-universal",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行6「manaskāra / manasikāra 作意」上座部列「遍一切心」— 上座部心所リストの遍一切心に独立項目として記載。備考欄「✓三系共通: 遍行」; csv/心所法・遍行別境.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 行6「manaskāra / manasikāra 作意」説一切有部列「大地法」（＝有部の遍行心所 mahābhūmika）。独立項目として記載; csv/心所法・遍行別境.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 行6「manaskāra / manasikāra 作意」唯識列「遍行」— 唯識の遍行心所として独立項目に記載; csv/心所法・遍行別境.csv 唯識列"}
+      ],
       "exemplifies": "ans:concept/manaskara-attention"
     },
     {
@@ -1467,7 +1530,11 @@
         {"@value": "欲（為そうとする欲求）—有部：遍行；唯識：別境；上座部：雑", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/caitta-universal",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行7「chanda 欲」上座部列「雑（pakiṇṇaka）」— 凡例により雑＝善悪いずれにも生じうる（occasional/variable）。遍一切心ではなく雑（pakiṇṇaka）の独立項目。備考欄「有部: 遍行; 唯識+上座部: 遍行でない」; csv/心所法・遍行別境.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 行7「chanda 欲」説一切有部列「大地法（遍行）」— 有部の遍行心所（mahābhūmika）に独立項目として記載; csv/心所法・遍行別境.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 行7「chanda 欲」唯識列「別境」— 凡例により別境＝対象を限定して生じる（object-determining）。唯識の別境心所として独立項目に記載; csv/心所法・遍行別境.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/adhimoksha",
@@ -1481,7 +1548,11 @@
         {"@value": "勝解（対象への確信・決定）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/caitta-object-determining",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行8「adhimokṣa / adhimokkha 勝解」上座部列「雑」（凡例: 雑＝善悪いずれにも生じうる occasional/variable）。遍一切心ではなく雑の独立項目。備考欄「有部: 遍行; 唯識+上座部: 遍行でない」; csv/心所法・遍行別境.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 行8「adhimokṣa / adhimokkha 勝解」説一切有部列「大地法（遍行）」— 有部の遍行心所（mahābhūmika）に独立項目として記載; csv/心所法・遍行別境.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 行8「adhimokṣa / adhimokkha 勝解」唯識列「別境」（＝対象を限定して生じる object-determining）。唯識の別境心所として独立項目に記載; csv/心所法・遍行別境.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/smrti",
@@ -1495,7 +1566,11 @@
         {"@value": "念（憶念・気づき）—上座部では善心のみ；気づきの系譜論の中心概念", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/caitta-object-determining",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行9「smṛti / sati 念」上座部列「浄心所（sobhana）」— 凡例により浄心所＝上座部における美心所（sobhana cetasika）。本シートの遍行・別境ではなく浄心所の独立項目。備考欄「上座部: 善心のみ」; csv/心所法・遍行別境.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 行9「smṛti / sati 念」説一切有部列「大地法（遍行）」— 有部の遍行心所（mahābhūmika）に独立項目として記載。備考欄「有部: 遍行」; csv/心所法・遍行別境.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 行9「smṛti / sati 念」唯識列「別境」（＝対象を限定して生じる object-determining）。独立項目として記載。備考欄「唯識: 条件付」; csv/心所法・遍行別境.csv 唯識列"}
+      ],
       "exemplifies": "ans:concept/sati-mindfulness"
     },
     {
@@ -1510,7 +1585,11 @@
         {"@value": "定（一境性）—上座部は ekaggatā として遍一切心", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/caitta-object-determining",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行10「samādhi / ekaggatā 定」上座部列「遍一切心」— 上座部心所リストの遍一切心に独立項目として記載。上座部での名称は ekaggatā（行13「— / ekaggatā 一境性」の備考「上座部の名称が異なる; 機能=定」）。備考欄「有部+上座部: 遍行」; csv/心所法・遍行別境.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 行10「samādhi / ekaggatā 定」説一切有部列「大地法（遍行）」— 有部の遍行心所（mahābhūmika）に独立項目として記載; csv/心所法・遍行別境.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 行10「samādhi / ekaggatā 定」唯識列「別境」（＝対象を限定して生じる object-determining）。独立項目として記載。備考欄「唯識: 遍行でない」; csv/心所法・遍行別境.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/prajna",
@@ -1524,7 +1603,11 @@
         {"@value": "慧（智慧）—上座部は paññindriya として善心のみ", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/caitta-object-determining",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行11「prajñā / paññā 慧」上座部列「浄心所（paññindriya）」— 凡例により浄心所＝上座部における美心所（sobhana cetasika）。本シートの遍行・別境ではなく浄心所に paññindriya の名で独立項目。備考欄「上座部: 善心のみ」; csv/心所法・遍行別境.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 行11「prajñā / paññā 慧」説一切有部列「大地法（遍行）」— 有部の遍行心所（mahābhūmika）に独立項目として記載。備考欄「有部: 遍行」; csv/心所法・遍行別境.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 行11「prajñā / paññā 慧」唯識列「別境」（＝対象を限定して生じる object-determining）。独立項目として記載。備考欄「唯識: 条件付」; csv/心所法・遍行別境.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/jivitindriya-caitta",
@@ -1536,7 +1619,7 @@
         {"@value": "命根（上座部：心所として；北方では不相応行）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/caitta-universal",
-      "tradition": "ans:tradition/theravada"
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行12「— / jīvitindriya 命根」上座部列「遍一切心」— 上座部心所リストの遍一切心に独立項目として記載。備考欄「範疇移動: 不相応行→心所」（凡例: 緑色背景＝範疇移動、同じ法が異なる五位に分類されている）。説一切有部・唯識の列は「★不相応行」で心所リスト内の独立項目でない（凡例: ★＝対応物なし、または特記事項あり）; csv/心所法・遍行別境.csv 上座部列"}
     },
     {
       "@id": "ans:dharma/piti",
@@ -1548,7 +1631,7 @@
         {"@value": "喜（上座部固有の独立心所；北方は受に包摂）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/caitta-object-determining",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 行14「— / pīti 喜」上座部列「雑（pakiṇṇaka）」（＝善悪いずれにも生じうる occasional/variable）。備考欄「上座部固有の独立心所」（凡例: 黄色背景＝一つの体系に固有の法、他の二系に対応物なし）。説一切有部列「★独立の心所でない（→受）」・唯識列「★独立の心所でない」であり、両系では受（vedanā）に包摂されリスト内の独立項目でない; csv/心所法・遍行別境.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
 
@@ -1561,7 +1644,11 @@
       "chineseName": "信",
       "alternateName": [{"@value": "faith / confidence", "@language": "en"}, {"@value": "信", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通（凡例: 浄心所=上座部における美心所 sobhana cetasika）, 本 sheet 当該群（上座部 浄心所共通）17 行中 1: saddhā 信（csv 心所法・善 行2）; csv/心所法・善.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 大善地法（凡例: 有部における善心所 kuśala-mahābhūmika）, 本 sheet 当該群（説一切有部 大善地法）10 項目中 1: śraddhā 信（csv 心所法・善 行2）; csv/心所法・善.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 善, 本 sheet 当該群（唯識 善）11 項目中 1: śraddhā 信（csv 心所法・善 行2）; csv/心所法・善.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/hri",
@@ -1572,7 +1659,11 @@
       "chineseName": "慚",
       "alternateName": [{"@value": "moral shame (self-regard)", "@language": "en"}, {"@value": "慚（自省的羞恥）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通（凡例: 浄心所=上座部における美心所 sobhana cetasika）, 本 sheet 当該群（上座部 浄心所共通）17 行中 2: hiri 慚（csv 心所法・善 行3）; csv/心所法・善.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 大善地法（凡例: 有部における善心所 kuśala-mahābhūmika）, 本 sheet 当該群（説一切有部 大善地法）10 項目中 2: hrī 慚（csv 心所法・善 行3）; csv/心所法・善.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 善, 本 sheet 当該群（唯識 善）11 項目中 2: hrī 慚（csv 心所法・善 行3）; csv/心所法・善.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/apatrapya",
@@ -1583,7 +1674,11 @@
       "chineseName": "愧",
       "alternateName": [{"@value": "moral dread (other-regard)", "@language": "en"}, {"@value": "愧（他者顧慮的羞恥）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通（凡例: 浄心所=上座部における美心所 sobhana cetasika）, 本 sheet 当該群（上座部 浄心所共通）17 行中 3: ottappa 愧（csv 心所法・善 行4）; csv/心所法・善.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 大善地法（凡例: 有部における善心所 kuśala-mahābhūmika）, 本 sheet 当該群（説一切有部 大善地法）10 項目中 3: apatrāpya 愧（csv 心所法・善 行4）; csv/心所法・善.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 善, 本 sheet 当該群（唯識 善）11 項目中 3: apatrāpya 愧（csv 心所法・善 行4）; csv/心所法・善.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/alobha",
@@ -1594,7 +1689,11 @@
       "chineseName": "無貪",
       "alternateName": [{"@value": "non-greed", "@language": "en"}, {"@value": "無貪", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通（凡例: 浄心所=上座部における美心所 sobhana cetasika）, 本 sheet 当該群（上座部 浄心所共通）17 行中 4: alobha 無貪（csv 心所法・善 行5）; csv/心所法・善.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 大善地法（凡例: 有部における善心所 kuśala-mahābhūmika）, 本 sheet 当該群（説一切有部 大善地法）10 項目中 4: alobha 無貪（csv 心所法・善 行5）; csv/心所法・善.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 善, 本 sheet 当該群（唯識 善）11 項目中 4: alobha 無貪（csv 心所法・善 行5）; csv/心所法・善.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/advesha",
@@ -1605,7 +1704,11 @@
       "chineseName": "無瞋",
       "alternateName": [{"@value": "non-hatred", "@language": "en"}, {"@value": "無瞋", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通（凡例: 浄心所=上座部における美心所 sobhana cetasika）, 本 sheet 当該群（上座部 浄心所共通）17 行中 5: adosa 無瞋（csv 心所法・善 行6）; csv/心所法・善.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 大善地法（凡例: 有部における善心所 kuśala-mahābhūmika）, 本 sheet 当該群（説一切有部 大善地法）10 項目中 5: adveṣa 無瞋（csv 心所法・善 行6）; csv/心所法・善.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 善, 本 sheet 当該群（唯識 善）11 項目中 5: adveṣa 無瞋（csv 心所法・善 行6）; csv/心所法・善.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/amoha",
@@ -1615,7 +1718,7 @@
       "chineseName": "無癡",
       "alternateName": [{"@value": "non-delusion (Yogācāra adds as independent; Theravāda equates with paññā)", "@language": "en"}, {"@value": "無癡（唯識で独立；上座部は慧と同一視）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/yogacara"
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 善, 本 sheet 当該群（唯識 善）11 項目中 6: amoha 無癡（csv 心所法・善 行7）。備考「唯識で追加; 上座部は慧と同一視」、説一切有部列は「★独立の心所でない」; csv/心所法・善.csv 唯識列"}
     },
     {
       "@id": "ans:dharma/virya",
@@ -1626,7 +1729,11 @@
       "chineseName": "精進",
       "alternateName": [{"@value": "energy / diligence (north wholesome only; Theravāda variable)", "@language": "en"}, {"@value": "精進（北方：善のみ；上座部：善悪可変）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 雑（pakiṇṇaka、凡例: 善悪いずれにも生じうる occasional/variable）, csv 心所法・善 行8: viriya 精進。浄心所ではなく雑（pakiṇṇaka）群に属するため本 sheet の他の上座部項目とは別群。本 sheet では当該群の唯一行であり群内順位は本 sheet から確定しない。備考「有部+唯識: 善のみ; 上座部: 善悪可変」; csv/心所法・善.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 大善地法（凡例: 有部における善心所 kuśala-mahābhūmika）, 本 sheet 当該群（説一切有部 大善地法）10 項目中 6: vīrya 精進（csv 心所法・善 行8）; csv/心所法・善.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 善, 本 sheet 当該群（唯識 善）11 項目中 7: vīrya 精進（csv 心所法・善 行8）; csv/心所法・善.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/prashrabdhi",
@@ -1637,7 +1744,11 @@
       "chineseName": "軽安",
       "alternateName": [{"@value": "tranquility (Theravāda splits into bodily + mental)", "@language": "en"}, {"@value": "軽安（上座部は身軽安・心軽安に分割）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通（×2: 身＋心）, 本 sheet 当該群（上座部 浄心所共通）17 行中 6: passaddhi 軽安（csv 心所法・善 行9）。独立した単一項目ではなく、列値「（×2: 身＋心）」と備考「上座部は2法に分割」の通り身軽安・心軽安の 2 法として立つ — この 1 辺は上座部リスト上の 2 項目に対応する; csv/心所法・善.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 大善地法（凡例: 有部における善心所 kuśala-mahābhūmika）, 本 sheet 当該群（説一切有部 大善地法）10 項目中 7: praśrabdhi 軽安（csv 心所法・善 行9）; csv/心所法・善.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 善, 本 sheet 当該群（唯識 善）11 項目中 8: praśrabdhi 軽安（csv 心所法・善 行9）; csv/心所法・善.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/apramada",
@@ -1648,7 +1759,10 @@
       "chineseName": "不放逸",
       "alternateName": [{"@value": "diligence / heedfulness (north independent; Theravāda compound concept)", "@language": "en"}, {"@value": "不放逸（北方独立、上座部は複合概念）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 大善地法（凡例: 有部における善心所 kuśala-mahābhūmika）, 本 sheet 当該群（説一切有部 大善地法）10 項目中 8: apramāda 不放逸（csv 心所法・善 行10）。上座部列は「★独立の心所でない」、備考「上座部: 複合概念」で、上座部への辺は存在しない; csv/心所法・善.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 善, 本 sheet 当該群（唯識 善）11 項目中 9: apramāda 不放逸（csv 心所法・善 行10）; csv/心所法・善.csv 唯識列"}
+      ],
       "exemplifies": "ans:concept/appamada-heedfulness"
     },
     {
@@ -1660,7 +1774,11 @@
       "chineseName": "捨",
       "alternateName": [{"@value": "equanimity (wholesome factor)", "@language": "en"}, {"@value": "捨（善心所としての平等）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通（凡例: 浄心所=上座部における美心所 sobhana cetasika）, 本 sheet 当該群（上座部 浄心所共通）17 行中 7: tatramajjhattatā 捨（csv 心所法・善 行11）; csv/心所法・善.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 大善地法（凡例: 有部における善心所 kuśala-mahābhūmika）, 本 sheet 当該群（説一切有部 大善地法）10 項目中 9: upekṣā 捨（csv 心所法・善 行11）; csv/心所法・善.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 善, 本 sheet 当該群（唯識 善）11 項目中 10: upekṣā 捨（csv 心所法・善 行11）; csv/心所法・善.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/ahimsa",
@@ -1670,7 +1788,10 @@
       "chineseName": "不害",
       "alternateName": [{"@value": "non-harming (north independent; Theravāda compounds adosa+karuṇā)", "@language": "en"}, {"@value": "不害（北方独立、上座部は無瞋＋悲で処理）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 大善地法（凡例: 有部における善心所 kuśala-mahābhūmika）, 本 sheet 当該群（説一切有部 大善地法）10 項目中 10: ahiṃsā 不害（csv 心所法・善 行12）。上座部列は「★独立の心所でない」、備考「上座部: 無瞋＋悲で処理」で、上座部への辺は存在しない; csv/心所法・善.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 善, 本 sheet 当該群（唯識 善）11 項目中 11: ahiṃsā 不害（csv 心所法・善 行12）; csv/心所法・善.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/kaya-lahuta",
@@ -1679,7 +1800,7 @@
       "paliName": "kāya-lahutā",
       "alternateName": [{"@value": "bodily lightness (Theravāda unique pairs body+citta)", "@language": "en"}, {"@value": "身軽快性（上座部固有）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通, 本 sheet 当該群（上座部 浄心所共通）17 行中 8: kāya-lahutā 身軽快性（csv 心所法・善 行13）。有部・唯識列はいずれも「★対応物なし」、備考「上座部固有」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1689,7 +1810,7 @@
       "paliName": "citta-lahutā",
       "alternateName": [{"@value": "mental lightness", "@language": "en"}, {"@value": "心軽快性", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通, 本 sheet 当該群（上座部 浄心所共通）17 行中 9: citta-lahutā 心軽快性（csv 心所法・善 行14）。有部・唯識列はいずれも「★対応物なし」、備考「上座部固有」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1699,7 +1820,7 @@
       "paliName": "kāya-mudutā",
       "alternateName": [{"@value": "bodily malleability", "@language": "en"}, {"@value": "身柔軟性", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通, 本 sheet 当該群（上座部 浄心所共通）17 行中 10: kāya-mudutā 身柔軟性（csv 心所法・善 行15）。有部・唯識列はいずれも「★対応物なし」、備考「上座部固有」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1709,7 +1830,7 @@
       "paliName": "citta-mudutā",
       "alternateName": [{"@value": "mental malleability", "@language": "en"}, {"@value": "心柔軟性", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通, 本 sheet 当該群（上座部 浄心所共通）17 行中 11: citta-mudutā 心柔軟性（csv 心所法・善 行16）。有部・唯識列はいずれも「★対応物なし」、備考「上座部固有」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1719,7 +1840,7 @@
       "paliName": "kāya-kammaññatā",
       "alternateName": [{"@value": "bodily wieldiness", "@language": "en"}, {"@value": "身適業性", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通, 本 sheet 当該群（上座部 浄心所共通）17 行中 12: kāya-kammaññatā 身適業性（csv 心所法・善 行17）。有部・唯識列はいずれも「★対応物なし」、備考「上座部固有」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1729,7 +1850,7 @@
       "paliName": "citta-kammaññatā",
       "alternateName": [{"@value": "mental wieldiness", "@language": "en"}, {"@value": "心適業性", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通, 本 sheet 当該群（上座部 浄心所共通）17 行中 13: citta-kammaññatā 心適業性（csv 心所法・善 行18）。有部・唯識列はいずれも「★対応物なし」、備考「上座部固有」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1739,7 +1860,7 @@
       "paliName": "kāya-pāguññatā",
       "alternateName": [{"@value": "bodily proficiency", "@language": "en"}, {"@value": "身練達性", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通, 本 sheet 当該群（上座部 浄心所共通）17 行中 14: kāya-pāguññatā 身練達性（csv 心所法・善 行19）。有部・唯識列はいずれも「★対応物なし」、備考「上座部固有」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1749,7 +1870,7 @@
       "paliName": "citta-pāguññatā",
       "alternateName": [{"@value": "mental proficiency", "@language": "en"}, {"@value": "心練達性", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通, 本 sheet 当該群（上座部 浄心所共通）17 行中 15: citta-pāguññatā 心練達性（csv 心所法・善 行20）。有部・唯識列はいずれも「★対応物なし」、備考「上座部固有」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1759,7 +1880,7 @@
       "paliName": "kāyujjukatā",
       "alternateName": [{"@value": "bodily rectitude", "@language": "en"}, {"@value": "身正直性", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通, 本 sheet 当該群（上座部 浄心所共通）17 行中 16: kāyujjukatā 身正直性（csv 心所法・善 行21）。有部・唯識列はいずれも「★対応物なし」、備考「上座部固有」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1769,7 +1890,7 @@
       "paliName": "cittujjukatā",
       "alternateName": [{"@value": "mental rectitude", "@language": "en"}, {"@value": "心正直性", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所共通, 本 sheet 当該群（上座部 浄心所共通）17 行中 17: cittujjukatā 心正直性（csv 心所法・善 行22）。有部・唯識列はいずれも「★対応物なし」、備考「上座部固有」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1779,7 +1900,7 @@
       "paliName": "sammā-vācā",
       "alternateName": [{"@value": "right speech (Theravāda treats as cetasika; north does not)", "@language": "en"}, {"@value": "正語（上座部は心所として扱う；北方は心所でない）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所 / 離, 当該部分群 3 項目中 1: sammā-vācā 正語（csv 心所法・善 行23）。有部・唯識列はいずれも「★心所でない」、備考「上座部固有の心所」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1789,7 +1910,7 @@
       "paliName": "sammā-kammanta",
       "alternateName": [{"@value": "right action", "@language": "en"}, {"@value": "正業", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所 / 離, 当該部分群 3 項目中 2: sammā-kammanta 正業（csv 心所法・善 行24）。有部・唯識列はいずれも「★心所でない」、備考「上座部固有の心所」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1799,7 +1920,7 @@
       "paliName": "sammā-ājīva",
       "alternateName": [{"@value": "right livelihood", "@language": "en"}, {"@value": "正命", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所 / 離, 当該部分群 3 項目中 3: sammā-ājīva 正命（csv 心所法・善 行25）。有部・唯識列はいずれも「★心所でない」、備考「上座部固有の心所」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1811,7 +1932,7 @@
       "chineseName": "悲",
       "alternateName": [{"@value": "compassion (Theravāda independent cetasika; north a complex)", "@language": "en"}, {"@value": "悲（上座部は独立心所、北方は複合）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所 / 無量, 当該部分群 2 項目中 1: karuṇā 悲（csv 心所法・善 行26）。有部・唯識列はいずれも「★独立の心所でない」、備考「上座部固有の心所」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
     {
@@ -1823,7 +1944,7 @@
       "chineseName": "随喜",
       "alternateName": [{"@value": "sympathetic joy", "@language": "en"}, {"@value": "随喜", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-wholesome",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部 浄心所 / 無量, 当該部分群 2 項目中 2: muditā 随喜（csv 心所法・善 行27）。有部・唯識列はいずれも「★独立の心所でない」、備考「上座部固有の心所」; csv/心所法・善.csv 上座部列"},
       "uniqueTo": "ans:tradition/theravada"
     },
 
@@ -1836,7 +1957,11 @@
       "chineseName": "貪",
       "alternateName": [{"@value": "greed / craving", "@language": "en"}, {"@value": "貪", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-affliction",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部欄「不善 / 貪グループ」（凡例に語釈なし; csv 内 3 件, item 1／csv 行順）: csv 26 行中 1 行目 rāga / lobha 貪; 備考「三系で範疇が異なる」; csv/心所法・煩悩.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「不定」（凡例に語釈なし; csv/心所法・不定.csv も有部欄に同じ「不定」を用いる; csv 内 4 件, item 1／csv 行順）: csv 26 行中 1 行目 rāga / lobha 貪; 備考「三系で範疇が異なる」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「根本煩悩」（凡例に語釈なし; graph の ans:category/caitta-affliction に対応; csv 内 6 件, item 1／csv 行順）: csv 26 行中 1 行目 rāga / lobha 貪; 備考「三系で範疇が異なる」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/pratigha",
@@ -1847,7 +1972,11 @@
       "chineseName": "瞋",
       "alternateName": [{"@value": "hatred / aversion", "@language": "en"}, {"@value": "瞋", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-affliction",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部欄「不善 / 瞋グループ」（凡例に語釈なし; csv 内 3 件, item 1／csv 行順）: csv 26 行中 2 行目 pratigha / dosa 瞋; 備考「三系で範疇が異なる」; csv/心所法・煩悩.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「不定」（凡例に語釈なし; csv/心所法・不定.csv も有部欄に同じ「不定」を用いる; csv 内 4 件, item 2／csv 行順）: csv 26 行中 2 行目 pratigha / dosa 瞋; 備考「三系で範疇が異なる」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「根本煩悩」（凡例に語釈なし; graph の ans:category/caitta-affliction に対応; csv 内 6 件, item 2／csv 行順）: csv 26 行中 2 行目 pratigha / dosa 瞋; 備考「三系で範疇が異なる」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/moha",
@@ -1858,7 +1987,11 @@
       "chineseName": "癡",
       "alternateName": [{"@value": "delusion / ignorance (= avidyā)", "@language": "en"}, {"@value": "癡（＝無明）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-affliction",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部欄「遍一切不善心」（凡例に語釈なし; csv 内 4 件, item 1／csv 行順）: csv 26 行中 3 行目 moha 癡（= avidyā 無明）; 備考「有部: 全染汚; 唯識: 根本; 上座部: 全不善」; csv/心所法・煩悩.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「大煩悩地法」（凡例: 有部における染汚遍行 kleśa-mahābhūmika; csv 内 6 件, item 1／csv 行順）: csv 26 行中 3 行目 moha 癡（= avidyā 無明）; 備考「有部: 全染汚; 唯識: 根本; 上座部: 全不善」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「根本煩悩」（凡例に語釈なし; graph の ans:category/caitta-affliction に対応; csv 内 6 件, item 3／csv 行順）: csv 26 行中 3 行目 moha 癡（= avidyā 無明）; 備考「有部: 全染汚; 唯識: 根本; 上座部: 全不善」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/mana",
@@ -1869,7 +2002,11 @@
       "chineseName": "慢",
       "alternateName": [{"@value": "conceit / pride", "@language": "en"}, {"@value": "慢", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-affliction",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部欄「不善 / 貪グループ」（凡例に語釈なし; csv 内 3 件, item 2／csv 行順）: csv 26 行中 4 行目 māna 慢; 備考「有部: 不定; 唯識: 根本; 上座部: 不善」; csv/心所法・煩悩.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「不定」（凡例に語釈なし; csv/心所法・不定.csv も有部欄に同じ「不定」を用いる; csv 内 4 件, item 3／csv 行順）: csv 26 行中 4 行目 māna 慢; 備考「有部: 不定; 唯識: 根本; 上座部: 不善」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「根本煩悩」（凡例に語釈なし; graph の ans:category/caitta-affliction に対応; csv 内 6 件, item 4／csv 行順）: csv 26 行中 4 行目 māna 慢; 備考「有部: 不定; 唯識: 根本; 上座部: 不善」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/vicikitsa",
@@ -1880,7 +2017,11 @@
       "chineseName": "疑",
       "alternateName": [{"@value": "skeptical doubt", "@language": "en"}, {"@value": "疑", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-affliction",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部欄「不善」（凡例に語釈なし; csv 内 1 件, item 1／csv 行順）: csv 26 行中 5 行目 vicikitsā / vicikicchā 疑; 備考「有部: 不定; 唯識: 根本; 上座部: 不善」; csv/心所法・煩悩.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「不定」（凡例に語釈なし; csv/心所法・不定.csv も有部欄に同じ「不定」を用いる; csv 内 4 件, item 4／csv 行順）: csv 26 行中 5 行目 vicikitsā / vicikicchā 疑; 備考「有部: 不定; 唯識: 根本; 上座部: 不善」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「根本煩悩」（凡例に語釈なし; graph の ans:category/caitta-affliction に対応; csv 内 6 件, item 5／csv 行順）: csv 26 行中 5 行目 vicikitsā / vicikicchā 疑; 備考「有部: 不定; 唯識: 根本; 上座部: 不善」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/drshti",
@@ -1891,7 +2032,10 @@
       "chineseName": "見",
       "alternateName": [{"@value": "wrong view (Yogācāra+Theravāda independent; Sarvāstivāda subsumes under paññā)", "@language": "en"}, {"@value": "見・悪見（唯識＋上座部独立、有部は慧に包摂）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-affliction",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部欄「不善 / 貪グループ」（凡例に語釈なし; csv 内 3 件, item 3／csv 行順）: csv 26 行中 6 行目 dṛṣṭi / diṭṭhi 見（悪見）; 備考「有部: 慧に包摂; 唯識+上座部: 独立」; csv/心所法・煩悩.csv 上座部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「根本煩悩」（凡例に語釈なし; graph の ans:category/caitta-affliction に対応; csv 内 6 件, item 6／csv 行順）: csv 26 行中 6 行目 dṛṣṭi / diṭṭhi 見（悪見）; 備考「有部: 慧に包摂; 唯識+上座部: 独立」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/ahrikya",
@@ -1902,7 +2046,11 @@
       "chineseName": "無慚",
       "alternateName": [{"@value": "shamelessness", "@language": "en"}, {"@value": "無慚", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部欄「遍一切不善心」（凡例に語釈なし; csv 内 4 件, item 2／csv 行順）: csv 26 行中 7 行目 āhrīkya / ahirika 無慚; 備考「有部+上座部: 全不善; 唯識: 随煩悩」; csv/心所法・煩悩.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「大不善地法」（凡例: 有部における不善遍行 akuśala-mahābhūmika; csv 内 2 件, item 1／csv 行順）: csv 26 行中 7 行目 āhrīkya / ahirika 無慚; 備考「有部+上座部: 全不善; 唯識: 随煩悩」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 1／csv 行順）: csv 26 行中 7 行目 āhrīkya / ahirika 無慚; 備考「有部+上座部: 全不善; 唯識: 随煩悩」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/anapatrapya",
@@ -1913,7 +2061,11 @@
       "chineseName": "無愧",
       "alternateName": [{"@value": "fearlessness of wrongdoing", "@language": "en"}, {"@value": "無愧", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部欄「遍一切不善心」（凡例に語釈なし; csv 内 4 件, item 3／csv 行順）: csv 26 行中 8 行目 anapatrāpya / anottappa 無愧; 備考「有部+上座部: 全不善; 唯識: 随煩悩」; csv/心所法・煩悩.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「大不善地法」（凡例: 有部における不善遍行 akuśala-mahābhūmika; csv 内 2 件, item 2／csv 行順）: csv 26 行中 8 行目 anapatrāpya / anottappa 無愧; 備考「有部+上座部: 全不善; 唯識: 随煩悩」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 2／csv 行順）: csv 26 行中 8 行目 anapatrāpya / anottappa 無愧; 備考「有部+上座部: 全不善; 唯識: 随煩悩」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/auddhatya",
@@ -1924,7 +2076,11 @@
       "chineseName": "掉挙",
       "alternateName": [{"@value": "restlessness / agitation", "@language": "en"}, {"@value": "掉挙", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部欄「遍一切不善心」（凡例に語釈なし; csv 内 4 件, item 4／csv 行順）: csv 26 行中 9 行目 auddhatya / uddhacca 掉挙; 備考「有部: 全染汚; 唯識: 随煩悩; 上座部: 全不善」; csv/心所法・煩悩.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「大煩悩地法」（凡例: 有部における染汚遍行 kleśa-mahābhūmika; csv 内 6 件, item 2／csv 行順）: csv 26 行中 9 行目 auddhatya / uddhacca 掉挙; 備考「有部: 全染汚; 唯識: 随煩悩; 上座部: 全不善」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 3／csv 行順）: csv 26 行中 9 行目 auddhatya / uddhacca 掉挙; 備考「有部: 全染汚; 唯識: 随煩悩; 上座部: 全不善」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/styana",
@@ -1935,7 +2091,11 @@
       "chineseName": "惛沈",
       "alternateName": [{"@value": "sloth / sluggishness", "@language": "en"}, {"@value": "惛沈", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部欄「不善 / 惛沈-睡眠対」（凡例に語釈なし; csv 内 1 件, item 1／csv 行順）: csv 26 行中 10 行目 styāna / thīna 惛沈; 備考「✓三系共通（範疇異なる）」; csv/心所法・煩悩.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「大煩悩地法」（凡例: 有部における染汚遍行 kleśa-mahābhūmika; csv 内 6 件, item 3／csv 行順）: csv 26 行中 10 行目 styāna / thīna 惛沈; 備考「✓三系共通（範疇異なる）」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 4／csv 行順）: csv 26 行中 10 行目 styāna / thīna 惛沈; 備考「✓三系共通（範疇異なる）」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/ashraddhya",
@@ -1945,7 +2105,10 @@
       "chineseName": "不信",
       "alternateName": [{"@value": "lack of faith (Theravāda treats as absence of saddhā)", "@language": "en"}, {"@value": "不信（上座部は信の欠如として処理）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「大煩悩地法」（凡例: 有部における染汚遍行 kleśa-mahābhūmika; csv 内 6 件, item 4／csv 行順）: csv 26 行中 11 行目 āśraddhya 不信; 備考「上座部: 信の欠如として処理」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 5／csv 行順）: csv 26 行中 11 行目 āśraddhya 不信; 備考「上座部: 信の欠如として処理」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/kausidya",
@@ -1955,7 +2118,10 @@
       "chineseName": "懈怠",
       "alternateName": [{"@value": "laziness", "@language": "en"}, {"@value": "懈怠", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「大煩悩地法」（凡例: 有部における染汚遍行 kleśa-mahābhūmika; csv 内 6 件, item 5／csv 行順）: csv 26 行中 12 行目 kausīdya 懈怠; 備考「上座部: 精進の欠如として処理」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 6／csv 行順）: csv 26 行中 12 行目 kausīdya 懈怠; 備考「上座部: 精進の欠如として処理」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/pramada",
@@ -1965,7 +2131,10 @@
       "chineseName": "放逸",
       "alternateName": [{"@value": "heedlessness (Theravāda: absence of appamāda)", "@language": "en"}, {"@value": "放逸（上座部：不放逸の欠如）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「大煩悩地法」（凡例: 有部における染汚遍行 kleśa-mahābhūmika; csv 内 6 件, item 6／csv 行順）: csv 26 行中 13 行目 pramāda 放逸; 備考「上座部: 不放逸の欠如」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 7／csv 行順）: csv 26 行中 13 行目 pramāda 放逸; 備考「上座部: 不放逸の欠如」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/krodha",
@@ -1975,7 +2144,10 @@
       "chineseName": "忿",
       "alternateName": [{"@value": "anger / wrath", "@language": "en"}, {"@value": "忿", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「小煩悩地法」（凡例: 有部における限定的煩悩 parītta-kleśa-bhūmika; csv 内 10 件, item 1／csv 行順）: csv 26 行中 14 行目 krodha 忿; 備考「上座部: 瞋の一側面」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 8／csv 行順）: csv 26 行中 14 行目 krodha 忿; 備考「上座部: 瞋の一側面」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/upanaha",
@@ -1985,7 +2157,10 @@
       "chineseName": "恨",
       "alternateName": [{"@value": "resentment", "@language": "en"}, {"@value": "恨", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「小煩悩地法」（凡例: 有部における限定的煩悩 parītta-kleśa-bhūmika; csv 内 10 件, item 2／csv 行順）: csv 26 行中 15 行目 upanāha 恨; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 9／csv 行順）: csv 26 行中 15 行目 upanāha 恨; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/mraksha",
@@ -1995,7 +2170,10 @@
       "chineseName": "覆",
       "alternateName": [{"@value": "concealment", "@language": "en"}, {"@value": "覆", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「小煩悩地法」（凡例: 有部における限定的煩悩 parītta-kleśa-bhūmika; csv 内 10 件, item 3／csv 行順）: csv 26 行中 16 行目 mrakṣa 覆; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 10／csv 行順）: csv 26 行中 16 行目 mrakṣa 覆; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/pradasha",
@@ -2005,7 +2183,10 @@
       "chineseName": "悩",
       "alternateName": [{"@value": "spite / vexation", "@language": "en"}, {"@value": "悩", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「小煩悩地法」（凡例: 有部における限定的煩悩 parītta-kleśa-bhūmika; csv 内 10 件, item 4／csv 行順）: csv 26 行中 17 行目 pradāśa 悩; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 11／csv 行順）: csv 26 行中 17 行目 pradāśa 悩; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/irshya",
@@ -2016,7 +2197,11 @@
       "chineseName": "嫉",
       "alternateName": [{"@value": "jealousy / envy", "@language": "en"}, {"@value": "嫉", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部欄「不善 / 瞋グループ」（凡例に語釈なし; csv 内 3 件, item 2／csv 行順）: csv 26 行中 18 行目 īrṣyā / issā 嫉; 備考「✓三系共通」; csv/心所法・煩悩.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「小煩悩地法」（凡例: 有部における限定的煩悩 parītta-kleśa-bhūmika; csv 内 10 件, item 5／csv 行順）: csv 26 行中 18 行目 īrṣyā / issā 嫉; 備考「✓三系共通」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 12／csv 行順）: csv 26 行中 18 行目 īrṣyā / issā 嫉; 備考「✓三系共通」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/matsarya",
@@ -2027,7 +2212,11 @@
       "chineseName": "慳",
       "alternateName": [{"@value": "stinginess / avarice", "@language": "en"}, {"@value": "慳", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 上座部欄「不善 / 瞋グループ」（凡例に語釈なし; csv 内 3 件, item 3／csv 行順）: csv 26 行中 19 行目 mātsarya / macchariya 慳; 備考「✓三系共通」; csv/心所法・煩悩.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「小煩悩地法」（凡例: 有部における限定的煩悩 parītta-kleśa-bhūmika; csv 内 10 件, item 6／csv 行順）: csv 26 行中 19 行目 mātsarya / macchariya 慳; 備考「✓三系共通」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 13／csv 行順）: csv 26 行中 19 行目 mātsarya / macchariya 慳; 備考「✓三系共通」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/maya",
@@ -2037,7 +2226,10 @@
       "chineseName": "誑",
       "alternateName": [{"@value": "deceit", "@language": "en"}, {"@value": "誑", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「小煩悩地法」（凡例: 有部における限定的煩悩 parītta-kleśa-bhūmika; csv 内 10 件, item 7／csv 行順）: csv 26 行中 20 行目 māyā 誑; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 14／csv 行順）: csv 26 行中 20 行目 māyā 誑; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/shathya",
@@ -2047,7 +2239,10 @@
       "chineseName": "諂",
       "alternateName": [{"@value": "hypocrisy / dishonesty", "@language": "en"}, {"@value": "諂", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「小煩悩地法」（凡例: 有部における限定的煩悩 parītta-kleśa-bhūmika; csv 内 10 件, item 8／csv 行順）: csv 26 行中 21 行目 śāṭhya 諂; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 15／csv 行順）: csv 26 行中 21 行目 śāṭhya 諂; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/vihimsa",
@@ -2057,7 +2252,10 @@
       "chineseName": "害",
       "alternateName": [{"@value": "cruelty / harming", "@language": "en"}, {"@value": "害", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「小煩悩地法」（凡例: 有部における限定的煩悩 parītta-kleśa-bhūmika; csv 内 10 件, item 9／csv 行順）: csv 26 行中 22 行目 vihiṃsā 害; 備考「上座部: 悲の反対」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 16／csv 行順）: csv 26 行中 22 行目 vihiṃsā 害; 備考「上座部: 悲の反対」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/mada",
@@ -2067,7 +2265,10 @@
       "chineseName": "憍",
       "alternateName": [{"@value": "intoxication / arrogance", "@language": "en"}, {"@value": "憍", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部欄「小煩悩地法」（凡例: 有部における限定的煩悩 parītta-kleśa-bhūmika; csv 内 10 件, item 10／csv 行順）: csv 26 行中 23 行目 mada 憍; 備考「上座部: 慢の一側面」; csv/心所法・煩悩.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 17／csv 行順）: csv 26 行中 23 行目 mada 憍; 備考「上座部: 慢の一側面」; csv/心所法・煩悩.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/mushitasmrtita",
@@ -2077,7 +2278,7 @@
       "chineseName": "失念",
       "alternateName": [{"@value": "forgetfulness (Yogācāra unique)", "@language": "en"}, {"@value": "失念（唯識固有）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 18／csv 行順）: csv 26 行中 24 行目 muṣitasmṛtitā 失念; 備考「唯識固有」; csv/心所法・煩悩.csv 唯識列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2088,7 +2289,7 @@
       "chineseName": "散乱",
       "alternateName": [{"@value": "distraction (Yogācāra unique)", "@language": "en"}, {"@value": "散乱（唯識固有）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 19／csv 行順）: csv 26 行中 25 行目 vikṣepa 散乱; 備考「唯識固有」; csv/心所法・煩悩.csv 唯識列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2099,7 +2300,7 @@
       "chineseName": "不正知",
       "alternateName": [{"@value": "lack of clear comprehension (Yogācāra unique)", "@language": "en"}, {"@value": "不正知（唯識固有）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-secondary-affliction",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識欄「随煩悩」（凡例に語釈なし; graph の ans:category/caitta-secondary-affliction に対応; csv 内 20 件, item 20／csv 行順）: csv 26 行中 26 行目 asaṃprajanya 不正知; 備考「唯識固有」; csv/心所法・煩悩.csv 唯識列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
 
@@ -2112,7 +2313,11 @@
       "chineseName": "悪作",
       "alternateName": [{"@value": "regret / worry (north: variable; Theravāda: always unwholesome)", "@language": "en"}, {"@value": "悪作（北方：不定；上座部：常に不善）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-variable",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 心所（cetasika）— 不善心所「瞋グループ」の独立項目: kukkucca 悪作。csv/心所法・不定.csv データ行 1（ファイル 2 行目）、上座部列 = 「不善 / 瞋グループ」。「瞋」の Pāli 対応 dosa は csv/心所法・煩悩.csv の「pratigha / dosa 瞋」行（上座部列 = 「不善 / 瞋グループ」）に拠る。同行 備考セル全文は「有部+唯識: 善悪可能; 上座部: 常に不善」— 上座部では常に不善であり、有部・唯識の「不定」とは範疇が一致しない（csv 全 sheet を通じ上座部列に「不定」の値は 1 件も無い）。82 法リスト内の序数は csv に序数列が無いため未特定（総数 82 は csv・凡例に無く、graph.jsonld の既 backfill 表記を踏襲）。; csv/心所法・不定.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 心所法 — 不定（aniyata）グループの独立項目: kaukṛtya 悪作。csv/心所法・不定.csv データ行 1（ファイル 2 行目）、説一切有部列 = 「不定」。同行 備考セル全文は「有部+唯識: 善悪可能; 上座部: 常に不善」。75 法リスト内の序数は csv に序数列が無いため未特定（総数 75 は csv・凡例に無く、graph.jsonld の既 backfill 表記を踏襲）。凡例.csv に「不定」の定義は無く、aniyata の対応は graph.jsonld の ans:category/caitta-variable alternateName に拠る。有部の「不定」は本 sheet の 4 行に閉じず、csv/心所法・煩悩.csv の 貪・瞋・慢・疑 も説一切有部列が「不定」（同一群の他項目）。; csv/心所法・不定.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 心所法 — 不定（aniyata）グループの独立項目: kaukṛtya 悪作。csv/心所法・不定.csv データ行 1（ファイル 2 行目）、唯識列 = 「不定」。同行 備考セル全文は「有部+唯識: 善悪可能; 上座部: 常に不善」。100 法リスト内の序数は csv に序数列が無いため未特定（総数 100 は csv・凡例に無く、graph.jsonld の既 backfill 表記を踏襲）。唯識列の「不定」は csv 全体で本 sheet の 4 行のみ。; csv/心所法・不定.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/middha",
@@ -2123,7 +2328,11 @@
       "chineseName": "睡眠",
       "alternateName": [{"@value": "torpor / sleep (north: variable; Theravāda: always unwholesome)", "@language": "en"}, {"@value": "睡眠（北方：不定；上座部：常に不善）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-variable",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 心所（cetasika）— 不善心所の独立項目: middha 睡眠。csv/心所法・不定.csv データ行 2（ファイル 3 行目）、上座部列 = 「不善 / 惛沈-睡眠対」。csv は惛沈（styāna / thīna）との対として記すが、両者は別項目である — 惛沈は csv/心所法・煩悩.csv の「styāna / thīna 惛沈」行に独立の行として立ち（同行の上座部列も「不善 / 惛沈-睡眠対」）、graph.jsonld でも別ノード。よって middha は独立項目として数える。同行 備考セル全文は「有部+唯識: 善悪可能; 上座部: 常に不善」— 上座部では常に不善であり、有部・唯識の「不定」とは範疇が一致しない（csv 全 sheet を通じ上座部列に「不定」の値は無い）。82 法リスト内の序数は csv に序数列が無いため未特定（総数 82 は csv・凡例に無く、graph.jsonld の既 backfill 表記を踏襲）。; csv/心所法・不定.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 心所法 — 不定（aniyata）グループの独立項目: middha 睡眠。csv/心所法・不定.csv データ行 2（ファイル 3 行目）、説一切有部列 = 「不定」。同行 備考セル全文は「有部+唯識: 善悪可能; 上座部: 常に不善」。75 法リスト内の序数は csv に序数列が無いため未特定（総数 75 は csv・凡例に無く、graph.jsonld の既 backfill 表記を踏襲）。凡例.csv に「不定」の定義は無く、aniyata の対応は graph.jsonld の ans:category/caitta-variable alternateName に拠る。有部の「不定」は本 sheet の 4 行に閉じず、csv/心所法・煩悩.csv の 貪・瞋・慢・疑 も説一切有部列が「不定」。; csv/心所法・不定.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 心所法 — 不定（aniyata）グループの独立項目: middha 睡眠。csv/心所法・不定.csv データ行 2（ファイル 3 行目）、唯識列 = 「不定」。同行 備考セル全文は「有部+唯識: 善悪可能; 上座部: 常に不善」。100 法リスト内の序数は csv に序数列が無いため未特定（総数 100 は csv・凡例に無く、graph.jsonld の既 backfill 表記を踏襲）。凡例.csv に「不定」の定義は無く、aniyata の対応は graph.jsonld の ans:category/caitta-variable alternateName に拠る。唯識列の「不定」は csv 全体で本 sheet の 4 行のみ。; csv/心所法・不定.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/vitarka",
@@ -2134,7 +2343,11 @@
       "chineseName": "尋",
       "alternateName": [{"@value": "applied thought / initial mental application", "@language": "en"}, {"@value": "尋（粗大な思考の起ち上がり）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-variable",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 心所（cetasika）— 雑心所（pakiṇṇaka）の独立項目: vitakka 尋。csv/心所法・不定.csv データ行 3（ファイル 4 行目）、上座部列 = 「雑（pakiṇṇaka）」。凡例.csv は「雑 = 善悪いずれにも生じうる（occasional/variable）」と定義する。上座部列に「不定」の値は csv 全 sheet を通じて無く、対応範疇は雑心所（同じ値は csv/心所法・善.csv の 精進、csv/心所法・遍行別境.csv の 欲・喜 にも現れる）。同行 備考セル全文は「✓三系共通: 善悪可変」。82 法リスト内の序数は csv に序数列が無いため未特定（総数 82 は csv・凡例に無く、graph.jsonld の既 backfill 表記を踏襲）。; csv/心所法・不定.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 心所法 — 不定（aniyata）グループの独立項目: vitarka 尋。csv/心所法・不定.csv データ行 3（ファイル 4 行目）、説一切有部列 = 「不定」。同行 備考セル全文は「✓三系共通: 善悪可変」（凡例.csv:「✓三系共通 = 三つの体系すべてで対応する法が存在する」）。75 法リスト内の序数は csv に序数列が無いため未特定（総数 75 は csv・凡例に無く、graph.jsonld の既 backfill 表記を踏襲）。凡例.csv に「不定」の定義は無く、aniyata の対応は graph.jsonld の ans:category/caitta-variable alternateName に拠る。有部の「不定」は本 sheet の 4 行に閉じず、csv/心所法・煩悩.csv の 貪・瞋・慢・疑 も説一切有部列が「不定」。; csv/心所法・不定.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 心所法 — 不定（aniyata）グループの独立項目: vitarka 尋。csv/心所法・不定.csv データ行 3（ファイル 4 行目）、唯識列 = 「不定」。同行 備考セル全文は「✓三系共通: 善悪可変」（凡例.csv:「✓三系共通 = 三つの体系すべてで対応する法が存在する」）。100 法リスト内の序数は csv に序数列が無いため未特定（総数 100 は csv・凡例に無く、graph.jsonld の既 backfill 表記を踏襲）。凡例.csv に「不定」の定義は無く、aniyata の対応は graph.jsonld の ans:category/caitta-variable alternateName に拠る。唯識列の「不定」は csv 全体で本 sheet の 4 行のみ。; csv/心所法・不定.csv 唯識列"}
+      ]
     },
     {
       "@id": "ans:dharma/vicara",
@@ -2145,7 +2358,11 @@
       "chineseName": "伺",
       "alternateName": [{"@value": "sustained thought / discursive examination", "@language": "en"}, {"@value": "伺（持続的思考）", "@language": "ja"}],
       "classifiedIn": "ans:category/caitta-variable",
-      "tradition": ["ans:tradition/theravada", "ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 心所（cetasika）— 雑心所（pakiṇṇaka）の独立項目: vicāra 伺（csv は Pāli 形を別記しない — セルは「vicāra 伺」）。csv/心所法・不定.csv データ行 4（ファイル 5 行目）、上座部列 = 「雑（pakiṇṇaka）」。凡例.csv は「雑 = 善悪いずれにも生じうる（occasional/variable）」と定義する。上座部列に「不定」の値は csv 全 sheet を通じて無く、対応範疇は雑心所。同行 備考セル全文は「✓三系共通: 善悪可変」。82 法リスト内の序数は csv に序数列が無いため未特定（総数 82 は csv・凡例に無く、graph.jsonld の既 backfill 表記を踏襲）。; csv/心所法・不定.csv 上座部列"},
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 心所法 — 不定（aniyata）グループの独立項目: vicāra 伺。csv/心所法・不定.csv データ行 4（ファイル 5 行目）、説一切有部列 = 「不定」。同行 備考セル全文は「✓三系共通: 善悪可変」（凡例.csv:「✓三系共通 = 三つの体系すべてで対応する法が存在する」）。75 法リスト内の序数は csv に序数列が無いため未特定（総数 75 は csv・凡例に無く、graph.jsonld の既 backfill 表記を踏襲）。凡例.csv に「不定」の定義は無く、aniyata の対応は graph.jsonld の ans:category/caitta-variable alternateName に拠る。有部の「不定」は本 sheet の 4 行に閉じず、csv/心所法・煩悩.csv の 貪・瞋・慢・疑 も説一切有部列が「不定」。; csv/心所法・不定.csv 説一切有部列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 心所法 — 不定（aniyata）グループの独立項目: vicāra 伺。csv/心所法・不定.csv データ行 4（ファイル 5 行目）、唯識列 = 「不定」。同行 備考セル全文は「✓三系共通: 善悪可変」（凡例.csv:「✓三系共通 = 三つの体系すべてで対応する法が存在する」）。100 法リスト内の序数は csv に序数列が無いため未特定（総数 100 は csv・凡例に無く、graph.jsonld の既 backfill 表記を踏襲）。凡例.csv に「不定」の定義は無く、aniyata の対応は graph.jsonld の ans:category/caitta-variable alternateName に拠る。唯識列の「不定」は csv 全体で本 sheet の 4 行のみ。; csv/心所法・不定.csv 唯識列"}
+      ]
     },
 
     {
@@ -2156,7 +2373,10 @@
       "chineseName": "得",
       "alternateName": [{"@value": "possession / acquisition (Theravāda denies the whole category)", "@language": "en"}, {"@value": "得（上座部はこの範疇自体を否定）", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 1: prāpti 得; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #1（# 列は説一切有部 14 法に整合する通し番号）: prāpti 得。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ]
     },
     {
       "@id": "ans:dharma/aprapti",
@@ -2166,7 +2386,7 @@
       "chineseName": "非得",
       "alternateName": [{"@value": "non-possession (Sarvāstivāda; Yogācāra removed)", "@language": "en"}, {"@value": "非得（有部のみ、唯識で削除）", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": "ans:tradition/sarvastivada",
+      "tradition": {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 2: aprāpti 非得（唯識列は「★唯識で削除」）; csv/心不相応行法.csv 説一切有部（14法）列"},
       "uniqueTo": "ans:tradition/sarvastivada"
     },
     {
@@ -2177,7 +2397,10 @@
       "chineseName": "同分・衆同分",
       "alternateName": [{"@value": "class-similarity / homogeneity of birth", "@language": "en"}, {"@value": "同分（衆同分）", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 3: nikāya-sabhāga 同分; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #3（# 列は説一切有部 14 法に整合する通し番号）: nikāya-sabhāga 衆同分。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ]
     },
     {
       "@id": "ans:dharma/asamjnika",
@@ -2187,7 +2410,10 @@
       "chineseName": "無想果",
       "alternateName": [{"@value": "non-perception state (rebirth in unconscious heaven)", "@language": "en"}, {"@value": "無想果", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 4: āsaṃjñika 無想果; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #4（# 列は説一切有部 14 法に整合する通し番号）: āsaṃjñika 無想果。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ]
     },
     {
       "@id": "ans:dharma/asamjni-samapatti",
@@ -2197,7 +2423,10 @@
       "chineseName": "無想定",
       "alternateName": [{"@value": "attainment of non-perception", "@language": "en"}, {"@value": "無想定", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 5: asaṃjñi-samāpatti 無想定; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #5（# 列は説一切有部 14 法に整合する通し番号）: asaṃjñi-samāpatti 無想定。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ]
     },
     {
       "@id": "ans:dharma/nirodha-samapatti",
@@ -2207,7 +2436,10 @@
       "chineseName": "滅尽定",
       "alternateName": [{"@value": "attainment of cessation (of perception and feeling)", "@language": "en"}, {"@value": "滅尽定", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 6: nirodha-samāpatti 滅尽定; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #6（# 列は説一切有部 14 法に整合する通し番号）: nirodha-samāpatti 滅盡定。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ]
     },
     {
       "@id": "ans:dharma/jivitendriya-vp",
@@ -2217,7 +2449,10 @@
       "chineseName": "命根",
       "alternateName": [{"@value": "life-faculty (north places in non-associated formations; Theravāda splits into caitta+rūpa)", "@language": "en"}, {"@value": "命根（北方：不相応行；上座部：心所＋色法に分割）", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 7: jīvitendriya 命根; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #7（# 列は説一切有部 14 法に整合する通し番号）: jīvitendriya 命根。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ],
       "comparesWith": ["ans:dharma/jivitindriya-rupa", "ans:dharma/jivitindriya-caitta"]
     },
     {
@@ -2228,7 +2463,10 @@
       "chineseName": "生",
       "alternateName": [{"@value": "arising / birth (north non-associated; Theravāda places in rūpa as upacaya)", "@language": "en"}, {"@value": "生（北方：不相応行；上座部：色法・積集）", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 8: jāti 生; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #8（# 列は説一切有部 14 法に整合する通し番号）: jāti 生。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ],
       "comparesWith": "ans:dharma/upacaya"
     },
     {
@@ -2239,7 +2477,10 @@
       "chineseName": "住",
       "alternateName": [{"@value": "abiding / duration", "@language": "en"}, {"@value": "住", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 9: sthiti 住; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #9（# 列は説一切有部 14 法に整合する通し番号）: sthiti 住。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ],
       "comparesWith": "ans:dharma/santati"
     },
     {
@@ -2250,7 +2491,10 @@
       "chineseName": "異・老",
       "alternateName": [{"@value": "decay / aging", "@language": "en"}, {"@value": "異（有部）／老（唯識）", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 10: jarā 異; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #10（# 列は説一切有部 14 法に整合する通し番号）: jarā 老。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ],
       "comparesWith": "ans:dharma/jarata"
     },
     {
@@ -2261,7 +2505,10 @@
       "chineseName": "滅・無常",
       "alternateName": [{"@value": "impermanence / cessation", "@language": "en"}, {"@value": "滅（有部）／無常（唯識）", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 11: anityatā 滅; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #11（# 列は説一切有部 14 法に整合する通し番号）: anityatā 無常。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ],
       "comparesWith": "ans:dharma/aniccata"
     },
     {
@@ -2272,7 +2519,10 @@
       "chineseName": "名身",
       "alternateName": [{"@value": "collection of names", "@language": "en"}, {"@value": "名身", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 12: nāma-kāya 名身; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #12（# 列は説一切有部 14 法に整合する通し番号）: nāma-kāya 名身。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ]
     },
     {
       "@id": "ans:dharma/pada-kaya",
@@ -2282,7 +2532,10 @@
       "chineseName": "句身",
       "alternateName": [{"@value": "collection of phrases", "@language": "en"}, {"@value": "句身", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 13: pada-kāya 句身; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #13（# 列は説一切有部 14 法に整合する通し番号）: pada-kāya 句身。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ]
     },
     {
       "@id": "ans:dharma/vyanjana-kaya",
@@ -2292,7 +2545,10 @@
       "chineseName": "文身",
       "alternateName": [{"@value": "collection of phonemes / letters", "@language": "en"}, {"@value": "文身", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 説一切有部 14法, item 14: vyañjana-kāya 文身; csv/心不相応行法.csv 説一切有部（14法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, csv 行 #14（# 列は説一切有部 14 法に整合する通し番号）: vyañjana-kāya 文身。唯識リスト内の序数は csv に記載なし; csv/心不相応行法.csv 唯識（24法）列"}
+      ]
     },
     {
       "@id": "ans:dharma/visabhaga",
@@ -2302,7 +2558,7 @@
       "chineseName": "異生法",
       "alternateName": [{"@value": "ordinary-being state (Yogācāra addition)", "@language": "en"}, {"@value": "異生法（唯識追加）", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, 唯識のみの追加項目（# 列は「—」、csv 16 行目）: ★visabhāga 異生法。備考「唯識で追加」; csv/心不相応行法.csv 唯識（24法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2313,7 +2569,7 @@
       "chineseName": "流轉",
       "alternateName": [{"@value": "flowing / continuum (Yogācāra addition)", "@language": "en"}, {"@value": "流轉（唯識追加）", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, 唯識のみの追加項目（# 列は「—」、csv 17 行目）: ★pravṛtti 流轉。備考「唯識で追加」; csv/心不相応行法.csv 唯識（24法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2324,7 +2580,7 @@
       "chineseName": "定異",
       "alternateName": [{"@value": "distinct-fixity", "@language": "en"}, {"@value": "定異", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, 唯識のみの追加項目（# 列は「—」、csv 18 行目）: ★pratiniyama 定異。備考「唯識で追加」; csv/心不相応行法.csv 唯識（24法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2335,7 +2591,7 @@
       "chineseName": "相應",
       "alternateName": [{"@value": "association (Yogācāra addition)", "@language": "en"}, {"@value": "相應（唯識追加）", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, 唯識のみの追加項目（# 列は「—」、csv 19 行目）: ★yoga 相應。備考「唯識で追加」; csv/心不相応行法.csv 唯識（24法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2346,7 +2602,7 @@
       "chineseName": "勢速",
       "alternateName": [{"@value": "swiftness / impetus", "@language": "en"}, {"@value": "勢速", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, 唯識のみの追加項目（# 列は「—」、csv 20 行目）: ★jāva 勢速。備考「唯識で追加」; csv/心不相応行法.csv 唯識（24法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2357,7 +2613,7 @@
       "chineseName": "次第",
       "alternateName": [{"@value": "succession / order", "@language": "en"}, {"@value": "次第", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, 唯識のみの追加項目（# 列は「—」、csv 21 行目）: ★anukrama 次第。備考「唯識で追加」; csv/心不相応行法.csv 唯識（24法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2368,7 +2624,7 @@
       "chineseName": "方",
       "alternateName": [{"@value": "place / direction", "@language": "en"}, {"@value": "方（場所）", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, 唯識のみの追加項目（# 列は「—」、csv 22 行目）: ★deśa 方。備考「唯識で追加」; csv/心不相応行法.csv 唯識（24法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2379,7 +2635,7 @@
       "chineseName": "時",
       "alternateName": [{"@value": "time", "@language": "en"}, {"@value": "時", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, 唯識のみの追加項目（# 列は「—」、csv 23 行目）: ★kāla 時。備考「唯識で追加」; csv/心不相応行法.csv 唯識（24法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2390,7 +2646,7 @@
       "chineseName": "數",
       "alternateName": [{"@value": "number", "@language": "en"}, {"@value": "數", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, 唯識のみの追加項目（# 列は「—」、csv 24 行目）: ★saṃkhyā 數。備考「唯識で追加」; csv/心不相応行法.csv 唯識（24法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2401,7 +2657,7 @@
       "chineseName": "和合性",
       "alternateName": [{"@value": "harmony / aggregation", "@language": "en"}, {"@value": "和合性", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, 唯識のみの追加項目（# 列は「—」、csv 25 行目）: ★sāmagrī 和合性。備考「唯識で追加」; csv/心不相応行法.csv 唯識（24法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2412,7 +2668,7 @@
       "chineseName": "不和合性",
       "alternateName": [{"@value": "disharmony / difference", "@language": "en"}, {"@value": "不和合性", "@language": "ja"}],
       "classifiedIn": "ans:category/cittaviprayukta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 唯識 24法, 唯識のみの追加項目（# 列は「—」、csv 26 行目）: ★anyathātva 不和合性。備考「唯識で追加」; csv/心不相応行法.csv 唯識（24法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
 
@@ -2424,7 +2680,10 @@
       "chineseName": "虚空",
       "alternateName": [{"@value": "space as unconditioned (Theravāda denies; treats delimited space as conditioned rūpa)", "@language": "en"}, {"@value": "虚空（無為）—上座部はこれを否定し、限定虚空を有為色法とする", "@language": "ja"}],
       "classifiedIn": "ans:category/asamskrta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"],
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 無為法（説一切有部 3法）, item 1: ākāśa 虚空 — csv 2行目・説一切有部列の独立項目; csv/無為法.csv 説一切有部（3法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 無為法（唯識 6法）, item 1: ākāśa 虛空 — csv 2行目・唯識列の独立項目; csv/無為法.csv 唯識（6法）列"}
+      ],
       "comparesWith": "ans:dharma/akasa-dhatu"
     },
     {
@@ -2435,7 +2694,10 @@
       "chineseName": "択滅",
       "alternateName": [{"@value": "analytical cessation (≈ nirvāṇa in Theravāda)", "@language": "en"}, {"@value": "択滅（分析的滅；上座部では涅槃に包摂）", "@language": "ja"}],
       "classifiedIn": "ans:category/asamskrta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 無為法（説一切有部 3法）, item 2: pratisaṃkhyā-nirodha 択滅 — csv 3行目・説一切有部列の独立項目; csv/無為法.csv 説一切有部（3法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 無為法（唯識 6法）, item 2: pratisaṃkhyā-nirodha 擇滅 — csv 3行目・唯識列の独立項目; csv/無為法.csv 唯識（6法）列"}
+      ]
     },
     {
       "@id": "ans:dharma/apratisamkhya-nirodha",
@@ -2445,7 +2707,10 @@
       "chineseName": "非択滅",
       "alternateName": [{"@value": "non-analytical cessation", "@language": "en"}, {"@value": "非択滅（非分析的滅）", "@language": "ja"}],
       "classifiedIn": "ans:category/asamskrta",
-      "tradition": ["ans:tradition/sarvastivada", "ans:tradition/yogacara"]
+      "tradition": [
+        {"@id": "ans:tradition/sarvastivada", "source": "ans:ref/vasubandhu-kosa — 無為法（説一切有部 3法）, item 3: apratisaṃkhyā-nirodha 非択滅 — csv 4行目・説一切有部列の独立項目; csv/無為法.csv 説一切有部（3法）列"},
+        {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 無為法（唯識 6法）, item 3: apratisaṃkhyā-nirodha 非擇滅 — csv 4行目・唯識列の独立項目; csv/無為法.csv 唯識（6法）列"}
+      ]
     },
     {
       "@id": "ans:dharma/aninjya",
@@ -2455,7 +2720,7 @@
       "chineseName": "不動滅無為",
       "alternateName": [{"@value": "immovability (Yogācāra unique unconditioned)", "@language": "en"}, {"@value": "不動滅無為（唯識固有）", "@language": "ja"}],
       "classifiedIn": "ans:category/asamskrta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 無為法（唯識 6法）, item 4: ★āniñjya 不動滅無為 — csv 5行目・唯識列の独立項目。同行の説一切有部列は「—」、上座部列は「★対応物なし」、備考「唯識固有」; csv/無為法.csv 唯識（6法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2466,7 +2731,7 @@
       "chineseName": "想受滅無為",
       "alternateName": [{"@value": "cessation of perception-and-feeling (Yogācāra unique)", "@language": "en"}, {"@value": "想受滅無為（唯識固有）", "@language": "ja"}],
       "classifiedIn": "ans:category/asamskrta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 無為法（唯識 6法）, item 5: ★saṃjñā-vedayita-nirodha 想受滅無為 — csv 6行目・唯識列の独立項目。同行の説一切有部列は「—」、上座部列は「★対応物なし」、備考「唯識固有」; csv/無為法.csv 唯識（6法）列"},
       "uniqueTo": "ans:tradition/yogacara"
     },
     {
@@ -2477,7 +2742,7 @@
       "chineseName": "真如",
       "alternateName": [{"@value": "thusness / ultimate nature (Mahāyāna unique)", "@language": "en"}, {"@value": "真如（大乗固有：究極の実在性）", "@language": "ja"}],
       "classifiedIn": "ans:category/asamskrta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "ans:ref/vasubandhu-satadharma — 無為法（唯識 6法）, item 6: ★tathatā 真如 — csv 7行目・唯識列の独立項目。同行の説一切有部列は「—」、上座部列は「★対応物なし」、備考「大乗固有: 究極的実在の本性」; csv/無為法.csv 唯識（6法）列"},
       "uniqueTo": "ans:tradition/yogacara",
       "exemplifies": "ans:concept/tathata-thusness"
     },
@@ -2490,7 +2755,7 @@
       "chineseName": "涅槃",
       "alternateName": [{"@value": "nirvāṇa — Theravāda's sole unconditioned dharma; in north subsumed by analytical cessation", "@language": "en"}, {"@value": "涅槃（上座部唯一の無為法；北方では択滅に包摂）", "@language": "ja"}],
       "classifiedIn": "ans:category/asamskrta",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "ans:ref/anuruddha-sangaha — 無為法（上座部 1法）, item 1: nibbāna 涅槃（唯一の無為）— csv 8行目・上座部列の唯一の独立項目。同行の説一切有部列・唯識列はいずれも「—」、備考「上座部における唯一の無為法」; csv/無為法.csv 上座部（1法）列"},
       "comparesWith": "ans:dharma/pratisamkhya-nirodha",
       "exemplifies": "ans:concept/nirvana"
     },
@@ -3124,7 +3389,9 @@
     {"@id": "ans:ref/nave-2025", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Nave 2025", "alternateName": [{"@value": "Nave, K. A Drive to Survive: The Free Energy Principle and the Meaning of Life. MIT Press, 2025.", "@language": "en"}], "description": "Refines enactivism's process closure into constraint closure to distinguish living, intentional, cognitive systems from merely organized ones; theoretical basis of Ward 2026. Critics (Colombo, BJPS Review of Books) question whether constraint closure grounds intentionality and normativity.", "mentions": ["ans:framework/enactivism", "ans:framework/fep"]},
     {"@id": "ans:ref/ward-2026", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Ward 2026", "identifier": "doi:10.1093/nc/niaf068", "url": "https://doi.org/10.1093/nc/niaf068", "alternateName": [{"@value": "Ward, K. 'Modeling non-dual awareness via constraint closure: a reinterpretation of groundlessness.' Neuroscience of Consciousness 2026(1): niaf068, 2026.", "@language": "en"}], "description": "Models non-dual awareness as minimal constraint closure: conceptual and evaluative couplings (C2/C3) attenuate while coherence is sustained by precarious-constraint (C1) regeneration alone. Partially fills the nonduality side of the modeling gap flagged by Tal et al.; the cessation side remains open. Grounds groundlessness in Nagarjuna's Madhyamaka (direct MMK 24 citation), not Abhidharma dharma realism; a lineage in historical tension with this repo's dharma-theoretic framework, not a straightforward endorsement of it.", "buildsOn": "ans:ref/nave-2025", "mentions": "ans:framework/enactivism"},
     {"@id": "ans:ref/mackenzie-2022", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "MacKenzie 2022", "alternateName": [{"@value": "MacKenzie, M. Buddhist Philosophy and the Embodied Mind: A Constructive Engagement. Rowman & Littlefield, 2022.", "@language": "en"}], "identifier": "ISBN 9781538160121", "description": "Full-scale constructive engagement of 4E cognitive science with Buddhist philosophy, developing the autopoietic side."},
-    {"@id": "ans:ref/anuruddha-sangaha", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Anuruddha, Abhidhammatthasaṅgaha", "alternateName": [{"@value": "Anuruddha. Abhidhammatthasaṅgaha (A Comprehensive Manual of Abhidhamma), ca. 11th–12th c. CE.", "@language": "en"}], "description": "The Theravāda compendium that gives canonical schematic form to the 17-moment citta-vīthi (ch. IV) and fixes the 52 cetasika list this repo's comparison table follows. A late scholastic manual, centuries after Buddhaghosa and far later than the Sutta and Vinaya material — its authority is systematizing, not canonical. Cited in six essays across Themes 3 and 5 in both languages; previously absent from this graph's reference layer."},
+    {"@id": "ans:ref/anuruddha-sangaha", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Anuruddha, Abhidhammatthasaṅgaha", "alternateName": [{"@value": "Anuruddha. Abhidhammatthasaṅgaha (A Comprehensive Manual of Abhidhamma), ca. 11th–12th c. CE.", "@language": "en"}], "description": "The Theravāda compendium that gives canonical schematic form to the 17-moment citta-vīthi (ch. IV) and fixes the 52 cetasika list this repo's comparison table follows. A late scholastic manual, centuries after Buddhaghosa and far later than the Sutta and Vinaya material — its authority is systematizing, not canonical. Its 52 cetasika, together with 1 citta, 28 rūpa and nibbāna, make up the 82-dhamma total the comparison table's 上座部 column is counted against; it is the text this graph's Theravāda `tradition` edges cite for list-membership. Cited in six essays across Themes 3 and 5 in both languages; previously absent from this graph's reference layer."},
+    {"@id": "ans:ref/vasubandhu-kosa", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Vasubandhu, Abhidharmakośa", "alternateName": [{"@value": "Vasubandhu. Abhidharmakośa(-bhāṣya) 倶舎論 (Treasury of Abhidharma), ca. 4th–5th c. CE.", "@language": "en"}], "description": "The Sarvāstivāda-Vaibhāṣika compendium that fixes the 75-dharma list this repo's comparison table follows in its 説一切有部 column, and the text this graph's Sarvāstivāda `tradition` edges cite for list-membership. Vasubandhu sets out the Vaibhāṣika system in the verses and then criticises it from a Sautrāntika position in his own bhāṣya, so \"Sarvāstivāda\" here names the schema the text tabulates, not the author's settled view. Added 2026-08-24 as the referent for edge-level provenance (ADR-0002); the 75-dharma total is the text's own, not derived from the comparison table."},
+    {"@id": "ans:ref/vasubandhu-satadharma", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Vasubandhu, Mahāyāna-śatadharmā-prakāśamukha-śāstra", "alternateName": [{"@value": "Vasubandhu. Mahāyāna-śatadharmā-prakāśamukha-śāstra 大乗百法明門論 (Treatise on the Hundred Dharmas), ca. 4th–5th c. CE; Chinese translation by Xuanzang, 648 CE.", "@language": "en"}], "description": "The Yogācāra summary that fixes the 100-dharma list this repo's comparison table follows in its 唯識 column, and the text this graph's Yogācāra `tradition` edges cite for list-membership. A short enumerative treatise rather than an argued one — it names and sorts the dharmas without defending the classification, which is why it settles membership but not doctrine. Added 2026-08-24 as the referent for edge-level provenance (ADR-0002); the 100-dharma total is the text's own, not derived from the comparison table."},
     {"@id": "ans:ref/bose-2026a", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Bose 2026a", "identifier": "arXiv:2606.18222", "url": "https://arxiv.org/abs/2606.18222", "alternateName": [{"@value": "Bose, J. 'Darshana Graph: A Parallel Commentary Corpus for Comparative Indian Philosophy, with Stylometric and Exploratory Graph Analyses.' arXiv:2606.18222, 2026.", "@language": "en"}], "description": "Text-grounded knowledge graph of Indian philosophy — 45,155 edges (v3) over a 125,040-record aligned corpus, CC-BY-4.0 on Hugging Face. Every edge carries source / evidence_quote / confidence, a schema precedent for attributing this repo's own dharma claims. Coverage is complementary rather than overlapping: the Theravāda slice is 765 edges, described by its author as an early stage of re-extraction, and the source texts are suttas and Mahāyāna sūtras — no Visuddhimagga, Abhidharmakośa, or Abhidhammatthasaṅgaha."},
     {"@id": "ans:ref/bose-2026b", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Bose 2026b", "identifier": "arXiv:2606.29070", "url": "https://arxiv.org/abs/2606.29070", "alternateName": [{"@value": "Bose, J. 'Attribution Bias in Philosophical Knowledge Graphs: Corpus Frequency versus Temporal Sourcing.' arXiv:2606.29070, 2026.", "@language": "en"}], "description": "Argues that attributing a concept to whichever school mentions it most conflates three distinct quantities — textual survival, historical priority, philosophical significance: 7 of the top 25 concepts by betweenness centrality predate their attributed school by 288–2,288 years, and between 300–800 CE the network grows 18→1,028 nodes with 97.4% carrying Advaita proxy dates. Also reports cross-tradition structural homologies (nibbāna–saṃsāra 0.954, cetanā–ajīva 0.923) as measured similarity, explicitly not doctrinal equivalence. The frequency bias itself does not transfer to this repo, whose attributions come from the three traditions' own dharma lists rather than mention counts; what does transfer is the absence of a per-attribution source field. Its temporal layer is an LLM-assisted secondary construction — used here to raise questions against primary sources, not to settle them.", "buildsOn": "ans:ref/bose-2026a", "mentions": ["ans:dharma/cetana", "ans:concept/nirvana"]},
     {"@id": "ans:ref/bose-2026c", "@type": ["ans:Reference", "schema:ScholarlyArticle"], "name": "Bose 2026c", "identifier": "arXiv:2606.25372", "url": "https://arxiv.org/abs/2606.25372", "alternateName": [{"@value": "Bose, J. 'Three Buddhist Vocabularies: Computational Stylometry of the English Pali Canon across Sutta, Vinaya, and Abhidhamma.' arXiv:2606.25372, 2026.", "@language": "en"}], "description": "Stylometry over 134,831 segments of the English Pāli Canon. Reports that the three English translations of the Abhidhammatthasaṅgaha deviate most from the Zipf ideal slope and carry substantively higher lexical diversity, while Sutta and Vinaya are near-identical, and quantifies variation between competing English translations of the same source text (Horner 1938 vs Brahmali). Offers a reproducible measure of the translation-variance phenomenon Themes 5 and 6 treat qualitatively. Read from the abstract only; full text not verified as of 2026-08-24.", "buildsOn": "ans:ref/bose-2026a", "mentions": "ans:ref/anuruddha-sangaha"},
