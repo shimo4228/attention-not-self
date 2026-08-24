@@ -27,8 +27,9 @@ attention-not-self/
 ## Conventions
 
 - 公開リポジトリ（GitHub public）。X でリンク共有する前提
-- PDF・xlsx のソースは Obsidian vault `Attention, Not Self/`（iCloud）
-- vault 側で更新したら手動で `cp` し、コミットする
+- xlsx の正本は repo 内 `三大アビダルマ法対照表.xlsx`（2026-08-24 更新 — 初期は Obsidian vault
+  `Attention, Not Self/` が正本で手動 cp していたが、運用が repo 直接編集に変わった。
+  vault 側の旧コピーはもう同期しない）
 - 日本語・英語の両版を揃えることを優先
 
 ## Status
