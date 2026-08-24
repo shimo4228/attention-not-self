@@ -278,7 +278,16 @@
         {"@value": "アビダルマと計算論的現象学（日本語）", "@language": "ja"}
       ],
       "inLanguage": "ja",
-      "isPartOf": "ans:theme/1-introduction"
+      "isPartOf": "ans:theme/1-introduction",
+      "citation": [
+        "ans:ref/ganeri-2017",
+        "ans:ref/ramstead-2022",
+        "ans:ref/varela-1996",
+        "ans:ref/clark-2016",
+        "ans:ref/hohwy-2013",
+        "ans:ref/friston-2010",
+        "ans:ref/tal-2025"
+      ]
     },
     {
       "@id": "https://github.com/shimo4228/attention-not-self/blob/main/Three%20Abhidharma%20Systems%20Dharma%20Comparison.md",
@@ -312,7 +321,8 @@
         {"@value": "三大アビダルマ法対照表（日本語）", "@language": "ja"}
       ],
       "inLanguage": "ja",
-      "isPartOf": "ans:theme/2-dharma-comparison"
+      "isPartOf": "ans:theme/2-dharma-comparison",
+      "citation": ["ans:ref/karunadasa-2010", "ans:ref/dhammajoti-2009", "ans:ref/cox-1995", "ans:ref/ronkin-2005"]
     },
     {
       "@id": "https://github.com/shimo4228/attention-not-self/blob/main/Three%20Abhidharma%20Models%20of%20Cognition.md",
@@ -357,7 +367,18 @@
         {"@value": "三大アビダルマ伝統における認識過程の比較研究（日本語）", "@language": "ja"}
       ],
       "inLanguage": "ja",
-      "isPartOf": "ans:theme/3-cognitive-process"
+      "isPartOf": "ans:theme/3-cognitive-process",
+      "citation": [
+        "ans:ref/karunadasa-2010",
+        "ans:ref/dhammajoti-2009",
+        "ans:ref/lusthaus-2002",
+        "ans:ref/waldron-2003",
+        "ans:ref/sharf-2016",
+        "ans:ref/arnold-2012",
+        "ans:ref/thompson-2014",
+        "ans:ref/vanrullen-koch-2003",
+        "ans:ref/anuruddha-sangaha"
+      ]
     },
     {
       "@id": "https://github.com/shimo4228/attention-not-self/blob/main/Abhidharma%20Cognitive%20Process%20Models%20Meets%20Computational%20Phenomenology.md",
@@ -421,7 +442,25 @@
         {"@value": "三大アビダルマ認識過程モデルと計算論的現象学（日本語）", "@language": "ja"}
       ],
       "inLanguage": "ja",
-      "isPartOf": "ans:theme/4-mapping-to-cp"
+      "isPartOf": "ans:theme/4-mapping-to-cp",
+      "citation": [
+        "ans:ref/baars-1988",
+        "ans:ref/dehaene-naccache-2001",
+        "ans:ref/clark-2016",
+        "ans:ref/hohwy-2013",
+        "ans:ref/friston-2010",
+        "ans:ref/friston-2018",
+        "ans:ref/metzinger-2003",
+        "ans:ref/sandved-smith-2021",
+        "ans:ref/sandved-smith-2024",
+        "ans:ref/deane-2021",
+        "ans:ref/laukkonen-slagter-2021",
+        "ans:ref/posner-petersen-1990",
+        "ans:ref/hoffman-2015",
+        "ans:ref/macy-1991",
+        "ans:ref/becattini-2026",
+        "ans:ref/anuruddha-sangaha"
+      ]
     },
     {
       "@id": "https://github.com/shimo4228/attention-not-self/blob/main/Awareness%20-%20A%20Genealogy%20and%20Typology.md",
@@ -453,7 +492,8 @@
         {"@value": "気づきとAwareness — 系譜と類型論（日本語）", "@language": "ja"}
       ],
       "inLanguage": "ja",
-      "isPartOf": "ans:theme/5-awareness-genealogy"
+      "isPartOf": "ans:theme/5-awareness-genealogy",
+      "citation": ["ans:ref/ganeri-2017", "ans:ref/karunadasa-2010", "ans:ref/laukkonen-2025", "ans:ref/anuruddha-sangaha"]
     },
     {
       "@id": "https://github.com/shimo4228/attention-not-self/blob/main/The%20%E5%BF%B5%20Collision%20-%20How%20One%20Chinese%20Character%20Holds%20Four%20Buddhisms%20Apart.md",
@@ -507,7 +547,25 @@
         {"@value": "念の衝突──一つの漢字がいかにして四つの仏教を隔てるか（日本語）", "@language": "ja"}
       ],
       "inLanguage": "ja",
-      "isPartOf": "ans:theme/6-nen-collision"
+      "isPartOf": "ans:theme/6-nen-collision",
+      "citation": [
+        "ans:ref/yampolsky-1967",
+        "ans:ref/sharf-2014",
+        "ans:ref/sharf-2015",
+        "ans:ref/gethin-2011",
+        "ans:ref/dreyfus-2011",
+        "ans:ref/analayo-2003",
+        "ans:ref/kim-2007",
+        "ans:ref/waddell-abe-1973",
+        "ans:ref/kabat-zinn-1994",
+        "ans:ref/nyanaponika-1962",
+        "ans:ref/braun-2013",
+        "ans:ref/faure-1991",
+        "ans:ref/mcrae-2003",
+        "ans:ref/suzuki-dt-1959",
+        "ans:ref/levman-2017",
+        "ans:ref/ganeri-2017"
+      ]
     },
     {
       "@id": "https://github.com/shimo4228/attention-not-self/blob/main/When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md",
@@ -556,7 +614,22 @@
         {"@value": "意識が完全に止まる瞑想状態（滅尽定）のあとに心はどう戻るのか", "@language": "ja"}
       ],
       "inLanguage": "ja",
-      "isPartOf": "ans:theme/7-cessation-continuity"
+      "isPartOf": "ans:theme/7-cessation-continuity",
+      "citation": [
+        "ans:ref/laukkonen-2023",
+        "ans:ref/laukkonen-slagter-2021",
+        "ans:ref/thompson-2020",
+        "ans:ref/mcmahan-2008",
+        "ans:ref/tweed-2002",
+        "ans:ref/crick-koch-1990",
+        "ans:ref/chalmers-2000",
+        "ans:ref/koch-2016",
+        "ans:ref/waldron-2003",
+        "ans:ref/buswell-lopez-2014",
+        "ans:ref/jhana-acamj-2026",
+        "ans:ref/nondual-int-2025",
+        "ans:ref/jia-liu-2026"
+      ]
     },
     {
       "@id": "https://github.com/shimo4228/attention-not-self/blob/main/You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md",
@@ -600,7 +673,22 @@
         {"@value": "正しく言い当てたのに、知っていたとは言えない", "@language": "ja"}
       ],
       "inLanguage": "ja",
-      "isPartOf": "ans:theme/8-epistemic-luck-gettier-dharmakirti"
+      "isPartOf": "ans:theme/8-epistemic-luck-gettier-dharmakirti",
+      "citation": [
+        "ans:ref/uejima-2020",
+        "ans:ref/gettier-1963",
+        "ans:ref/goldman-1976",
+        "ans:ref/iep-gettier-problems",
+        "ans:ref/iep-reliabilism",
+        "ans:ref/friston-2015-epistemic-value",
+        "ans:ref/parr-friston-2019",
+        "ans:ref/gladziejewski-2021",
+        "ans:ref/ghijsen-2018",
+        "ans:ref/sep-dharmakirti",
+        "ans:ref/dunne-dharmakirti-foundations",
+        "ans:ref/wikipedia-gettier-problem",
+        "ans:ref/mandal-2022"
+      ]
     },
 
     {
