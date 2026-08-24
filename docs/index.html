@@ -39,6 +39,7 @@
     "comparesWith": {"@id": "ans:comparesWith", "@type": "@id"},
     "mapsTo": {"@id": "ans:mapsTo", "@type": "@id"},
     "evidenceQuality": "ans:evidenceQuality",
+    "source": "ans:source",
     "exemplifies": {"@id": "ans:exemplifies", "@type": "@id"},
     "buildsOn": {"@id": "ans:buildsOn", "@type": "@id"},
     "mentions": {"@id": "ans:mentions", "@type": "@id"},
@@ -68,7 +69,7 @@
         {"@value": "Attention, Not Self — 知識グラフ", "@language": "ja"},
         "ANS"
       ],
-      "description": "Structured knowledge graph mapping Buddhist Abhidharma dharma taxonomies (Theravāda, Sarvāstivāda, Yogācāra) and cognitive process models onto computational phenomenology frameworks. Encodes ~130 dharmas, ~30 concepts, 5 essay themes, 10 essays, 6 frameworks, and prior research references as schema.org triples with custom ans: vocabulary. Concept DOI: 10.5281/zenodo.20262112 (resolves to latest version).",
+      "description": "Structured knowledge graph mapping Buddhist Abhidharma dharma taxonomies (Theravāda, Sarvāstivāda, Yogācāra) and cognitive process models onto computational phenomenology frameworks. Encodes ~130 dharmas, ~30 concepts, 5 essay themes, 10 essays, 6 frameworks, and prior research references as schema.org triples with custom ans: vocabulary. A `tradition` edge asserts list-membership — that the dharma is carried as an item of that tradition's own dharma list, as tabulated in 三大アビダルマ法対照表 — and is not a claim of origination: it says nothing about which tradition or text the term first arose in. Where present, the edge-level `source` field records the primary text and table column the attribution rests on, and notes any case where the membership is functional rather than a separate list item. Concept DOI: 10.5281/zenodo.20262112 (resolves to latest version).",
       "isBasedOn": "https://github.com/shimo4228/attention-not-self",
       "url": "https://shimo4228.github.io/attention-not-self/",
       "publisher": "Tatsuya Shimomoto",
@@ -1257,7 +1258,7 @@
         {"@value": "心（有部：1法として六識身に顕現）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": "ans:tradition/sarvastivada"
+      "tradition": {"@id": "ans:tradition/sarvastivada", "source": "倶舎論 (Abhidharmakośa, Vasubandhu), 75-dharma list — 心法 1: citta counted as a single dharma manifesting as the six vijñāna-kāya; 三大アビダルマ法対照表 csv/心法（citta）.csv, 説一切有部 column"}
     },
     {
       "@id": "ans:dharma/cakshur-vijnana",
@@ -1270,7 +1271,7 @@
         {"@value": "眼識", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": "ans:tradition/yogacara"
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 1: 眼識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"}
     },
     {
       "@id": "ans:dharma/shrotra-vijnana",
@@ -1283,7 +1284,7 @@
         {"@value": "耳識", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": "ans:tradition/yogacara"
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 2: 耳識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"}
     },
     {
       "@id": "ans:dharma/ghrana-vijnana",
@@ -1296,7 +1297,7 @@
         {"@value": "鼻識", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": "ans:tradition/yogacara"
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 3: 鼻識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"}
     },
     {
       "@id": "ans:dharma/jihva-vijnana",
@@ -1309,7 +1310,7 @@
         {"@value": "舌識", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": "ans:tradition/yogacara"
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 4: 舌識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"}
     },
     {
       "@id": "ans:dharma/kaya-vijnana",
@@ -1322,7 +1323,7 @@
         {"@value": "身識", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": "ans:tradition/yogacara"
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 5: 身識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"}
     },
     {
       "@id": "ans:dharma/mano-vijnana",
@@ -1335,7 +1336,7 @@
         {"@value": "意識（第六識）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": "ans:tradition/yogacara"
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 6: 意識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"}
     },
     {
       "@id": "ans:dharma/manas",
@@ -1348,7 +1349,7 @@
         {"@value": "末那識（第七識：恒常的自我執着）—唯識固有", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 7: 末那識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"},
       "uniqueTo": "ans:tradition/yogacara",
       "exemplifies": "ans:concept/manas-ego-clinging"
     },
@@ -1363,7 +1364,7 @@
         {"@value": "阿賴耶識（第八識：種子蔵）—唯識固有；機能類似：上座部の有分（bhavaṅga）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": "ans:tradition/yogacara",
+      "tradition": {"@id": "ans:tradition/yogacara", "source": "大乗百法明門論 (Mahāyāna-śatadharmā-prakāśamukha-śāstra, Vasubandhu), 100-dharma list — 心法 8, item 8: 阿賴耶識; 三大アビダルマ法対照表 csv/心法（citta）.csv, 唯識 column"},
       "uniqueTo": "ans:tradition/yogacara",
       "comparesWith": "ans:dharma/bhavanga",
       "exemplifies": "ans:concept/alaya-vijnana-store"
@@ -1378,7 +1379,7 @@
         {"@value": "有分（上座部：認識過程の合間に流れる潜在的生命相続）", "@language": "ja"}
       ],
       "classifiedIn": "ans:category/citta",
-      "tradition": "ans:tradition/theravada",
+      "tradition": {"@id": "ans:tradition/theravada", "source": "摂阿毘達磨義論 (Abhidhammatthasaṅgaha, Anuruddha), 82-dhamma list — citta counted as 1 dhamma with 89/121 types; bhavaṅga is a citta-kicca (function of resultant citta), not a separate item in the 82; 三大アビダルマ法対照表 csv/心法（citta）.csv, 上座部 column (entered there as the functional counterpart of ālaya-vijñāna)"},
       "uniqueTo": "ans:tradition/theravada",
       "exemplifies": "ans:concept/bhavanga-continuum"
     },
