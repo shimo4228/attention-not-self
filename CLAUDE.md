@@ -41,6 +41,7 @@ attention-not-self/
 - 2026-08-04: テーマ9「AI時代の身体性について」エッセイ（日英）追加。AI メディエイト執筆の初適用（開示 + 機械可読レイヤー C1-C8）。graph 306→316 ノード（enactivism / autopoiesis framework 新設）。公開先は JP=note・EN=Substack
 - 2026-08-12: Ward 2026（constraint closure による非二元的気づきの計算モデル、*Neuroscience of Consciousness*）+ Nave 2025 を references に追加。graph 316→318 ノード。Tal et al. の modeling gap は nonduality 側が部分的に解消、cessation 側は空白のまま。Ward は Madhyamaka 依拠であり Abhidharma 実在論との緊張に留意（daily-research 2026-08-12 ans レポート由来）
 - 2026-08-24: Darshana Graph（Joy Bose、CC-BY-4.0）を外部照合先として配線。graph 318→323 ノード（Bose 2026a/b/c + 摂阿毘達磨義論の Reference 4 件 + 外部 Dataset 1 件）、references 76→80。日英 6 本が依拠しながら graph に不在だった『摂阿毘達磨義論』を追加（citation 辺は英語版 3 本のみ — 日本語版は引用層自体が未整備、`.notes/TASKS.md` T-003）。dharma 帰属を temporal_source_layer で機械照合し、**誤りは検出されず**（`uniqueTo` 交差 2 件は一致）。詳細は `.notes/daily-research/ledger.md`
+- 2026-08-24: 日本語版エッセイ 8 本に英語版と同一の `citation` 配列を移植（T-003 完了）。引用層は日英対称になり、上記「日本語版は引用層自体が未整備」は解消
 
 ## 外部照合先
 
