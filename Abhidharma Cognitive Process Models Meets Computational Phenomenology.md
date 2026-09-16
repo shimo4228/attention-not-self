@@ -318,6 +318,32 @@ The strongest cross-system convergence is on attention as precision-weighting:
 
 The Tal, Wright, Prest, Sandved-Smith & Sacchet (2025) review confirms that **precision-weighting is the common computational mechanism across all active-inference models of meditation phenomenology**. The Abhidharma's universal placement of *manasikāra* anticipates this. Evidence quality: **Strong**.
 
+
+#### 4.4.1 Varieties of attention × Theravāda cetasika × neuroscience taxonomy × Yogācāra (comparison table)
+
+The varieties of attention Ganeri (2017) extracts from Buddhaghosa, set beside the Theravāda cetasikas, the neuroscientific attention taxonomy, and the Yogācāra counterparts. In the "Ganeri's term" column, focusing / placing / orienting are Ganeri's own; the two rows marked † are this table's extensions (no such category was confirmed in Ganeri — fact-check 2026-09-16, note 1).
+
+| Ganeri's term | Theravāda | Neuroscience taxonomy | Mechanism | Yogācāra counterpart |
+|---|---|---|---|---|
+| focal attention (focusing) | *manasikāra* 作意 | selective attention | Focusing: ignore the irrelevant, pick up the relevant | *manaskāra* 作意 (sarvatraga) — same |
+| placed attention (placing) | *ekaggatā* 一境性 ⁽²⁾ | sustained attention | Vigilance: stay on one object, prevent dispersal | *samādhi* 定 (viniyata) |
+| executive control † | *cetanā* 思 | executive attention | Control: inhibit / switch automatic responses, monitor outcomes | *cetanā* 思 (sarvatraga) — same |
+| mindful attention | *sati* 念 ⁽³⁾ | task-switching + monitoring (metacognition) | Notice that attention has strayed and bring it back | *smṛti* 念 (viniyata); *samprajanya* is subsumed under *prajñā* (viniyata) ⁽⁴⁾ |
+| attentional capture (Ganeri: orienting) | *āvajjana* 転向 ⁽⁵⁾ | attentional capture | Reflexive orienting to an unexpected stimulus | *shuai'er xin* 率爾心 of the five-minds scheme ⁽⁶⁾ |
+| divided attention † | (no dedicated cetasika) | divided attention | Simultaneous processing of multiple sources | co-operation of the eight vijñānas 八識倶転 (analogy, ⁽⁷⁾) |
+
+Notes (fact-check 2026-09-16; the text of *Attention, Not Self* itself was not consulted — reconstructed from reviews, the publisher's description, and this repo's TABLES.md):
+
+1. Ganeri's own fourfold scheme is attentional placing (*ekaggatā*) / focusing (*manasikāra*) / orienting (*āvajjana*) / late gate-keeping and ordering (*anuloma*); he treats *cetanā* as "intention" and *sati* as "mindfulness", both counted among the forms of attention (NDPR review; OUP description). The executive-control and divided-attention rows are this table's extensions. *Anuloma* is not in this table.
+2. In Theravāda *ekaggatā* is one of the seven universal cetasikas (*sabbacittasādhāraṇa*); its Yogācāra counterpart *samādhi* is a particular (viniyata), so the universality is asymmetric.
+3. In Theravāda *sati* is a beautiful (sobhana) cetasika, present only in wholesome cittas.
+4. The Yogācāra list of 51 caitasikas has no separate item for *samprajanya* (only its negation, *asaṃprajanya*, as a secondary affliction); the function is subsumed under *prajñā* (viniyata).
+5. *Āvajjana* is not a cetasika but a function (*kicca*) in the cognitive process; the other four items in the column are cetasikas.
+6. 率爾心 ↔ *āvajjana* is this table's structural analogy, not an established correspondence in the literature.
+7. 八識倶転 asserts the ontological simultaneity of the eight vijñānas; it does not entail the allocation of limited attentional resources that defines divided attention. Analogy only.
+8. The neuroscience column is not a single taxonomy: executive attention follows Posner & Petersen's three networks, sustained and divided attention follow the Sohlberg & Mateer clinical hierarchy, attentional capture follows the stimulus-driven capture literature in vision science, and task-switching + monitoring follows the metacognition / mind-wandering literature.
+9. "Selective" is ambiguous. Ganeri's "selective role of placing" is the selection of which object the mind is placed on; the neuroscientific "selective attention" (processing relevant stimuli while ignoring distractors) is a different notion. Applying the neuroscience vocabulary to the cetasika definitions (Visuddhimagga XIV: *manasikāra* directs the associated states to the object; *ekaggatā* is non-wandering *avisāra* / non-distraction *avikkhepa*) yields directing / selecting = *manasikāra* and stability on the object = *ekaggatā*, which is this table's allocation. The repo's essay "Abhidharma Meets Computational Phenomenology" has been aligned to the same reading (2026-09-16). Since *ekaggatā* is a momentary cetasika, temporal "sustaining" belongs more to its developed form as *samādhi*.
+
 ### 4.5 The kṣaṇa/citta-khaṇa convergence
 
 The discrete-moment doctrine (kṣaṇa-vāda) is shared across all three Abhidharmas, though with different details (Sautrāntika's "cinematic" model is closest to discrete frames). VanRullen & Koch (2003) propose that perception operates in discrete frames tied to alpha-band oscillations (~10 Hz, ~100 ms). White (2018) explicitly acknowledges the Buddhist antecedent: "The idea that conscious percepts fall into discrete temporal frames... appeared over 2000 years ago in Buddhist thinking." However, Buddhist estimates of kṣaṇa duration (millisecond or sub-millisecond) are far faster than modern estimates of perceptual frames (30–400 ms), suggesting sub-perceptual granularity that may not correspond to any measurable neural process. Evidence quality: **Moderate**.

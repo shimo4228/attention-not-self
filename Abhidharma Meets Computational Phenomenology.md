@@ -52,7 +52,7 @@ The following table represents the central deliverable of this analysis. Each ma
 
 |||||||
 |---|---|---|---|---|---|
-||ekaggatā (one-<br>pointedness)|Attentional placing / selective<br>attention|Moderate|Ganeri 2017||
+||ekaggatā (one-<br>pointedness)|Attentional placing (Ganeri's<br>"selective role of placing") /<br>non-distraction|Moderate|Ganeri 2017||
 ||paññā/prajñā<br>(wisdom)|Bayesian model reduction;<br>recognition of model-<br>dependence of experience|Moderate|Laukkonen &<br>Slagter 2021<br>(insight via<br>Bayesian model<br>reduction)||
 ||5 universal cetasikas<br>(phassa, vedanā,<br>saññā, cetanā,<br>manasikāra)|Minimal conditions for<br>conscious experience (cf. IIT<br>axioms, GWT)|Speculative|No published<br>mapping;<br>striking<br>structural<br>parallel||
 ||ālaya-vijñāna<br>(storehouse)|Hierarchical generative model /<br>prior beliefs / learned<br>parameters|Moderate|Waldron 2003;<br>Thompson<br>2014;<br>Srinivasan<br>2020||
