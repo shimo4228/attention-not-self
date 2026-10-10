@@ -9,7 +9,7 @@
 ## Recommended reading order
 
 1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (325 nodes, schema.org JSON-LD)
-2. [`llms-full.txt`](llms-full.txt) — full FAQ + glossary + ~45 prior research references
+2. [`llms-full.txt`](llms-full.txt) — full FAQ + glossary + prior research reference table
 3. Individual essays under "Essays" sections below
 
 ## Core documentation
@@ -91,4 +91,5 @@ Questions the logical structure of the claim that AI lacks embodiment (*The Blin
 ## Related
 
 - [Ganeri, *Attention, Not Self* (Oxford 2017)](https://global.oup.com/academic/product/attention-not-self-9780198798507): project namesake; attention-first reading of Buddhaghosa's Abhidhamma.
+- [shimo4228 (author's hub)](https://github.com/shimo4228/shimo4228): the author's hub; this repository is one of the five long-term practice lines gathered there with their concept DOIs.
 - [Darshana Graph (Joy Bose, CC BY 4.0)](https://huggingface.co/datasets/joyboseroy/darshana-graph): external text-grounded knowledge graph of Indian philosophy, consulted when checking attribution, dating, or sense-divergence of a term. Not modified and not redistributed here. Papers: arXiv:2606.18222, arXiv:2606.29070, arXiv:2606.25372.
