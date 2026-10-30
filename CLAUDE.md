@@ -13,7 +13,8 @@
 
 ```
 attention-not-self/
-├── *.md                       # 8 テーマ × 日英の論考 16 本 + README + TABLES
+├── *.md                       # 9 テーマ × 日英の論考 18 本 + README + TABLES
+├── reading-notes/             # Ganeri『Attention, Not Self』の章別読書ノート（日英）
 ├── csv/                       # 三大アビダルマ法対照表の per-sheet 出力
 ├── 三大アビダルマ法対照表.xlsx  # 元データ
 ├── graph.jsonld               # JSON-LD 知識グラフ（LLM / クローラ向け）
