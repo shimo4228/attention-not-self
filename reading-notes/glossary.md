@@ -36,7 +36,6 @@ against the book. Buddhist terms themselves are canonical in [`graph.jsonld`](..
 
 | 語 | 論点 | 行 |
 |---|---|---|
-| autonoetic / svasaṃvedana | 「自己認識」が 2 つの意味で使われている。比較研究の論考では svasaṃvedana（自証）、第12章ノートでは autonoetic。Ganeri の次の節は Dignāga の svasaṃvedana なので、両方が並ぶ | 表 1・表 2 |
 | ālaya-vijñāna の字体 | 阿頼耶識（新字。論考の多く・第12章ノート）と阿賴耶識（旧字。graph.jsonld・一部の論考）が混在している。検索で取りこぼす | 表 1 |
 | anuloma | 訳語を決めていない | 表 1 |
 | field perspective | 第12章ノートは「観察者視点」だけを訳していて、field の訳がない | 表 2 |
@@ -52,7 +51,7 @@ against the book. Buddhist terms themselves are canonical in [`graph.jsonld`](..
 | anuloma | gate-keeping / ordering（後期の注意） | — | **未決** | §4.4.1 の表には載せていない | `書評` |
 | cetanā | intention | `ans:dharma/cetana` | 思 | Ganeri は注意の一形態に数える | `書評` |
 | sati（梵 smṛti） | mindfulness | `ans:dharma/smrti` | 念 | サティ・マインドフルネス・気づきとの多義は意図したもの（念の衝突の論考の主題）。統一しない | `書評` |
-| svasaṃvedana | reflexivity | — | **未決**　案1: 自己認識（自証）／案2: 自証 | 「自己認識」は第12章ノートで autonoetic の訳に使われている（表 2）。Ganeri の英語 reflexivity は「再帰性」 | `ch12` |
+| svasaṃvedana | reflexivity | — | 自己認識（自証） | 日本の仏教認識論と、比較研究の論考の用法に揃えた。「自己認識」は autonoetic には当てない（表 2）。Ganeri の英語 reflexivity は「再帰性」 | `ch12` |
 | kliṣṭa-manas | — | `ans:dharma/manas` | 染汚意・末那識 | | — |
 | ālaya-vijñāna | — | `ans:dharma/alaya-vijnana` | 阿頼耶識 | 阿賴耶識（旧字）。字体の方針は未決 | — |
 | vāsanā | — | `ans:concept/vasana` | 薫習 | | — |
@@ -67,9 +66,9 @@ against the book. Buddhist terms themselves are canonical in [`graph.jsonld`](..
 
 | Ganeri の語 | 採用する日本語 | 別訳・注意 | 確認 |
 |---|---|---|---|
-| autonoetic consciousness / autonoesis | **未決**　案1: オートノエティック意識／案2: 自己認識的意識（第12章ノートの現状） | 「自己認識」は svasaṃvedana の訳と衝突する（表 1）。「自己知的意識」は self-knowledge（自己知識）・trait self-knowledge（特性的自己知識）と字面が重なる | `ch12` |
-| autonoetic retrieval | **未決**（autonoetic の訳に従う） | 第12章ノートの現状は「自己認識的検索」 | `ch12` |
-| autonoetic attention | **未決**（autonoetic の訳に従う） | 第12章ノートの現状は「自己認識的注意」 | `ch12` |
+| autonoetic consciousness / autonoesis | オートノエティック意識／オートノエシス | 「自己認識的意識」は使わない — 「自己認識」は svasaṃvedana の訳（表 1）。「自己知的意識」は self-knowledge（自己知識）・trait self-knowledge（特性的自己知識）と字面が重なる | `ch12` |
+| autonoetic retrieval | オートノエティックな検索 | | `ch12` |
+| autonoetic attention | オートノエティックな注意 | | `ch12` |
 | episodic memory | エピソード記憶 | | `ch12` |
 | mental time travel | 心的時間旅行 | 過去の想起と未来志向の思考の両方を含む | `ch12` |
 | reliving | 再び生きること | 第12章ノートは「再体験」も使っている | `ch12` |
