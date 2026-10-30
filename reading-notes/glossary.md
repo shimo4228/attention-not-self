@@ -29,6 +29,9 @@ against the book. Buddhist terms themselves are canonical in [`graph.jsonld`](..
   - `本文 chN` — 本文で確かめた。分かれば Kindle の位置No.を添える
   - `—` — Ganeri の英語を記録していない
 
+第13章以降の行は、Claude が決めた訳語をそのまま載せている（著者の事前確認なし、2026-10-30 の方針）。
+著者が変えた行は、その旨を `別訳・注意` 欄に書く。
+
 本文で確かめたら `確認` 欄を `本文 chN` に書き換える。`書評` の行は、エッセイでは開示つきで使えるが、
 論文で使う前に本文で確かめる。
 
@@ -48,7 +51,7 @@ against the book. Buddhist terms themselves are canonical in [`graph.jsonld`](..
 | ekaggatā | placing / attentional placing / placed attention | `ans:dharma/samadhi` | 一境性 | 唯識・有部の相当は 定 samādhi（別境）。上座部では遍一切心なので普遍性が非対称。Ganeri の "selective role of placing" は心をどの対象に置くかの選択で、神経科学の選択的注意とは別（§4.4.1 脚注 9） | `書評` |
 | manasikāra（梵 manaskāra） | focusing / focal attention | `ans:dharma/manaskara` | 作意 | 「注意」は attention 全般の訳に取っておき、manasikāra には当てない | `書評` |
 | āvajjana | orienting | —（心所ではなく心路過程の機能 kicca なので、法のノードはない） | 転向 | 引転（認識過程モデルの論考・日本語版だけが使う）。§4.4.1 の表は attentional capture と対応させている | `書評` |
-| anuloma | gate-keeping / ordering（後期の注意） | — | **未決** | §4.4.1 の表には載せていない | `書評` |
+| anuloma | gate-keeping / ordering（後期の注意） | — | **未決** | §4.4.1 の表には載せていない。第13章本文では Ganeri が mano-dvārika-citta（意門の心）にも "late attentional gate-keeping" を当てている（下の mano-dvāra の行）。gate-keeping が anuloma 固有の訳語かは要確認 | `書評` |
 | cetanā | intention | `ans:dharma/cetana` | 思 | Ganeri は注意の一形態に数える | `書評` |
 | sati（梵 smṛti） | mindfulness | `ans:dharma/smrti` | 念 | サティ・マインドフルネス・気づきとの多義は意図したもの（念の衝突の論考の主題）。統一しない | `書評` |
 | svasaṃvedana | reflexivity | — | 自己認識（自証） | 日本の仏教認識論と、比較研究の論考の用法に揃えた。「自己認識」は autonoetic には当てない（表 2）。Ganeri の英語 reflexivity は「再帰性」 | `ch12` |
@@ -61,6 +64,15 @@ against the book. Buddhist terms themselves are canonical in [`graph.jsonld`](..
 | asaṃjñi-samāpatti | — | `ans:dharma/asamjni-samapatti` | 無想定 | | — |
 | samanantara-pratyaya | — | `ans:concept/samanantara-pratyaya` | 等無間縁 | | — |
 | ātmamoha / ātmadṛṣṭi / ātmamāna / ātmasneha | — | — | 我癡・我見・我慢・我愛 | 末那識と相応する四煩悩 | — |
+| viññatti（kāya- / vacī-） | intimation（bodily / verbal） | `ans:dharma/kaya-vinnatti` / `ans:dharma/vaci-vinnatti` | 表（身表・語表） | 動詞 intimate は「知らしめる」。北方は身表を色処、語表を声処に包摂する | `本文 ch13` |
+| mano-dvārika-citta | late attentional gate-keeping（字義 mind-door cognizance） | — | 意門の心（訳文では「後期の注意の門番〔意門の認識〕」と併記） | anuloma の gate-keeping と英語が重なる（上の anuloma の行） | `本文 ch13` |
+| karuṇā | compassion | `ans:dharma/karuna` | 悲 | 苦と不善を除きたいという願い。苦を「共にする」ことではない | `本文 ch13` |
+| mettā（梵 maitrī） | kindness | — | 慈 | 楽と善をもたらしたいという願い | `本文 ch13` |
+| cittakiriyā | conscious action | — | 意識的行為 | 上座部の「唯作心」（kiriya-citta）とは別の用法なので混同しない | `本文 ch13` |
+| khaṇa / santati / addhā（現在） | momentary / continuous / extended present | — | 刹那の現在／相続の現在／時期の現在 | graph の `ans:dharma/santati`（相続）は色法の相で、ここの「相続の現在」とは別 | `本文 ch13` |
+| javana | — | `ans:concept/javana` | 速行 | 時期の現在の長さの単位として出る | `本文 ch13` |
+| adhippāya-ppakāsana | displaying intention | — | 意図を示すこと | 表の働き（rasa） | `本文 ch13` |
+| padaṭṭhāna | proximate cause | — | 近因 | 上座部注釈の定訳 | `本文 ch13` |
 
 ## 表 2　Ganeri・記憶研究の語
 
@@ -89,3 +101,22 @@ against the book. Buddhist terms themselves are canonical in [`graph.jsonld`](..
 | thin / thick | 薄い／厚い | 説明モデルの厚さ（置く機構の多さ）を言う | `ch12` |
 | reflexivity | 再帰性 | Dignāga の svasaṃvedana（表 1） | `ch12` |
 | attentive true belief (ATB) | **未決** | 第12章ノートは英語のまま使っている | `ch12` |
+| empathy (Einfühlung) | 共感 | 「感情移入」は使わない — Ganeri / Zahavi は気持ちを移す含みを退けている。気づかいを含まない点で sympathy と区別する | `本文 ch13` |
+| sympathy | 同情 | 気づかい・関心を加えたもの。Buddhaghosa の悲・慈がこれに当たる | `本文 ch13` |
+| second-personal | 二人称的 | | `本文 ch13` |
+| proprietary kind of attention | 固有の種類の注意 | proprietary phenomenology＝固有の現象性に揃えた | `本文 ch13` |
+| experiential access | 経験的接近 | | `本文 ch13` |
+| direct acquaintance | 直接見知ること | Russell の acquaintance＝見知りの慣例 | `本文 ch13` |
+| theory-theory | 理論説 | 「理論理論」も通用するが使わない | `本文 ch13` |
+| simulation | シミュレーション（説） | | `本文 ch13` |
+| specious present | 見かけの現在 | James の語 | `本文 ch13` |
+| strict presentism | 厳格な現在主義 | | `本文 ch13` |
+| causal ground / reason | 因果的根拠／理由 | 知覚は理由ではなく因果的根拠として働く、という Ganeri の要点 | `本文 ch13` |
+| attention-enabling / inference-enabling condition | 注意を可能にする条件／推論を可能にする条件 | | `本文 ch13` |
+| causal medium | 因果的媒体 | | `本文 ch13` |
+| solicitation | 誘い | アフォーダンスと同型 | `本文 ch13` |
+| expressive phenomena | 表出現象 | Scheler | `本文 ch13` |
+| attentionalist | 注意説（的） | | `本文 ch13` |
+| dual / double aspect theory | 二重側面説 | | `本文 ch13` |
+| joint attention | 共同注意 | | `本文 ch13` |
+| social cognition | 社会的認知 | | `本文 ch13` |
