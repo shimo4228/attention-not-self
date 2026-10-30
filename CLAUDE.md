@@ -14,7 +14,7 @@
 ```
 attention-not-self/
 ├── *.md                       # 9 テーマ × 日英の論考 18 本 + README + TABLES
-├── reading-notes/             # Ganeri『Attention, Not Self』の章別読書ノート（日英）
+├── reading-notes/             # Ganeri『Attention, Not Self』の章別読書ノート（日英）と訳語集 glossary.md
 ├── csv/                       # 三大アビダルマ法対照表の per-sheet 出力
 ├── 三大アビダルマ法対照表.xlsx  # 元データ
 ├── graph.jsonld               # JSON-LD 知識グラフ（LLM / クローラ向け）
@@ -71,6 +71,29 @@ Darshana Graph（Joy Bose、CC-BY-4.0）に照会する。graph.jsonld の
 - **値を写さない。** 本 repo は CC0 1.0、Darshana Graph は CC-BY-4.0。`evidence_quote` や
   `source` を graph.jsonld へ複製すると CC0 の主張に CC-BY が混入する。読むだけで、取り込まない
 - 照合結果の落とし先は `.notes/daily-research/ledger.md`。essay / graph への昇格は人間承認の別ステップ
+
+## Ganeri の精読
+
+Ganeri『Attention, Not Self』の訳・議論・章ノートでは、訳語を次の 2 つから引く。
+
+- 仏教術語（パーリ・梵・漢訳・英・日）: `graph.jsonld` の `ans:Dharma` / `ans:Concept` ノード
+  （`paliName` / `sanskritName` / `chineseName` と `alternateName` の en / ja）
+- Ganeri 独自の英訳語（placing / focusing など）と、Ganeri の分析哲学・記憶研究の語（autonoetic など）:
+  `reading-notes/glossary.md` の「採用する日本語」
+
+訳の途中で次の語に出会ったら、訳文に印を付け、候補と根拠を挙げて著者に確かめる。
+どちらにも無い語、別訳と衝突する語、glossary で **未決** の語。著者が決めたら glossary.md に行を足すか
+書き換え、`確認` 欄も埋める。Ganeri の英語を本文で確かめたら、`確認` を `本文 chN` にする。
+
+置き場所:
+
+- `reading-notes/`（公開）: 著者の言葉で書いた章ノート（日英）と glossary.md。本文からの引用は
+  短い句に留め、章を添える
+- `.notes/reading/`（gitignore 済み）: 章の訳、セッションログ、未整理の議論。Ganeri の本文と
+  その訳はここに置く（Ganeri の本文は著作物で、本 repo は CC0 で公開しているため）
+
+glossary の語を論考で使ったら、graph への昇格（`ans:Concept` ノードか既存ノードの別名）を提案する。
+昇格は人間承認の別ステップ。
 
 ## Graph 更新フロー
 
