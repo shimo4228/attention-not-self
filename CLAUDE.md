@@ -92,7 +92,13 @@ glossary で **未決** の語は、著者の判断待ちとして残す。`確�
 - `reading-notes/`（公開）: 著者の言葉で書いた章ノート（日英）と glossary.md。本文からの引用は
   短い句に留め、章を添える
 - `.notes/reading/`（gitignore 済み）: 章の訳、セッションログ、未整理の議論。Ganeri の本文と
-  その訳はここに置く（Ganeri の本文は著作物で、本 repo は CC0 で公開しているため）
+  その訳はここに置く（Ganeri の本文は著作物で、本 repo は CC0 で公開しているため）。
+  中身は非公開リポジトリ `shimo4228/attention-not-self-notes` で管理する（2026-10-30〜）
+  - 手元: `.notes/reading/` をこの非公開リポジトリの clone にする
+  - クラウドセッション（コンテナは使い捨て）: 訳を書く前に非公開リポジトリを attach して
+    `/home/user/attention-not-self-notes` に clone し、`.notes/reading` をそこへのシンボリック
+    リンクにする。訳を書いたら、その場で非公開リポジトリに commit して push する
+  - 非公開リポジトリは個人の勉強用。公開しない、共同作業者を追加しない
 
 glossary の語を論考で使ったら、graph への昇格（`ans:Concept` ノードか既存ノードの別名）を提案する。
 昇格は人間承認の別ステップ。
