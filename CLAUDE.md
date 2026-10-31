@@ -32,6 +32,7 @@ attention-not-self/
   `Attention, Not Self/` が正本で手動 cp していたが、運用が repo 直接編集に変わった。
   vault 側の旧コピーはもう同期しない）
 - 日本語・英語の両版を揃えることを優先
+- 変更は main に直接 commit して push する。PR は作らず、PR の見張りもしない（CI がないため。2026-10-31 著者の指示）
 
 ## Status
 
