@@ -73,6 +73,13 @@ against the book. Buddhist terms themselves are canonical in [`graph.jsonld`](..
 | javana | — | `ans:concept/javana` | 速行 | 時期の現在の長さの単位として出る | `本文 ch13` |
 | adhippāya-ppakāsana | displaying intention | — | 意図を示すこと | 表の働き（rasa） | `本文 ch13` |
 | padaṭṭhāna | proximate cause | — | 近因 | 上座部注釈の定訳 | `本文 ch13` |
+| sākṣāt-ālambana | direct objective basis | — | 親所縁 | 『成唯識論』の他心の段。間接の側は疎所縁 | `本文 ch13` |
+| pratibimba / bimba（漢 質） | reflection / object reflected | — | 影像／本質 | 玄奘の鏡モデル | `本文 ch13` |
+| prakāśa | illumination | — | 照明 | 照明モデル（知覚をスポットライトとみる） | `本文 ch13` |
+| ūha（ūhyate） | non-inferentially reasoned / hit upon | — | ūha（動詞は「推論によらずに推し量られる」） | Ganeri の提案 "hit upon" は「思い当たる」。ミーマーンサーの祭式転用の推理に由来 | `本文 ch13` |
+| sākṣātkaraṇa | direct acquaintance | — | 直接の見知り | 英語 direct acquaintance の訳（表 2）と揃えた | `本文 ch13` |
+| pratyabhijñā | recognition | — | 再認 | シヴァ派再認派の名の由来 | `本文 ch13` |
+| ānejjappatte ceto | absorbed attention | — | 不動に達した心 | Ganeri の英語は「没入した注意」 | `本文 ch13` |
 
 ## 表 2　Ganeri・記憶研究の語
 
@@ -120,3 +127,11 @@ against the book. Buddhist terms themselves are canonical in [`graph.jsonld`](..
 | dual / double aspect theory | 二重側面説 | | `本文 ch13` |
 | joint attention | 共同注意 | | `本文 ch13` |
 | social cognition | 社会的認知 | | `本文 ch13` |
+| grasping / illumination / mirror model | 把握モデル／照明モデル／鏡モデル | 玄奘の知覚モデルの三分 | `本文 ch13` |
+| representational theory of perception | 知覚の表象説 | | `本文 ch13` |
+| for-me-ness | 私にとって性 | mineness＝我がもの性とは区別する | `本文 ch13` |
+| adjunct / delimitor | 付属物／限定 | アビナヴァグプタが身体を言う語 | `本文 ch13` |
+| appresentation | 付帯現前 | Husserl の Appräsentation。「間接呈示」も通用するが使わない | `本文 ch13` |
+| lived through | 生き抜かれる | 自分の経験について言う（付帯現前との対比） | `本文 ch13` |
+| blueprint + adaptation | 設計図＋適応 | ūha の祭式転用の型 | `本文 ch13` |
+| reductio ad absurdum | 帰謬法 | | `本文 ch13` |
