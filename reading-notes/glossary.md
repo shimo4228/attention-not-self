@@ -80,6 +80,15 @@ against the book. Buddhist terms themselves are canonical in [`graph.jsonld`](..
 | sākṣātkaraṇa | direct acquaintance | — | 直接の見知り | 英語 direct acquaintance の訳（表 2）と揃えた | `本文 ch13` |
 | pratyabhijñā | recognition | — | 再認 | シヴァ派再認派の名の由来 | `本文 ch13` |
 | ānejjappatte ceto | absorbed attention | — | 不動に達した心 | Ganeri の英語は「没入した注意」 | `本文 ch13` |
+| anussava | testimony | — | 伝聞（英語 testimony は「証言」） | 「見られたもの」「聞かれたもの」「両者の結合」の「聞かれたもの」の源 | `本文（章未確認）` |
+| paccakkhato | personally | — | 自ら直接に | 現量（pratyakṣa）と同根 | `本文（章未確認）` |
+| ārammaṇa-abhimukkha | facing the object | — | 対象に面する | | `本文（章未確認）` |
+| sambandha | relation | — | 関係 | Ganeri は後の vyāpti（遍充）の初期の語とみる | `本文（章未確認）` |
+| vyāpti | inference-warranting relation | — | 遍充 | インド論理学の定訳 | `本文（章未確認）` |
+| upacāra | metaphor and metonymy | — | 隠喩と換喩（転義） | | `本文（章未確認）` |
+| mukhamatta | mere headings | — | 見出しにすぎない | 端緒のみ、とも | `本文（章未確認）` |
+| saddhā / ruci / ākāra-paritakka / diṭṭhi-nijjhāna-khanti | faith / preferences / estimating / choice after pondering over views | — | 信／好み／推量／見解を熟慮したうえでの受容 | M ii. 170 の、真実にも虚偽にもなりうるものの列挙 | `本文（章未確認）` |
+| kusala-citta | profitable consciousness | — | 善心 | profitable は Ñāṇamoli 系の訳語 | `本文（章未確認）` |
 
 ## 表 2　Ganeri・記憶研究の語
 
@@ -135,3 +144,9 @@ against the book. Buddhist terms themselves are canonical in [`graph.jsonld`](..
 | lived through | 生き抜かれる | 自分の経験について言う（付帯現前との対比） | `本文 ch13` |
 | blueprint + adaptation | 設計図＋適応 | ūha の祭式転用の型 | `本文 ch13` |
 | reductio ad absurdum | 帰謬法 | | `本文 ch13` |
+| perceptual / reflective / testimonial attention | 知覚的注意／反省的注意／証言的注意 | Chun の区別（知覚的・反省的）を Ganeri が証言で拡張した三分 | `本文（章未確認）` |
+| testimony | 証言 | 原語 anussava は「伝聞」（表 1） | `本文（章未確認）` |
+| the seen / the heard / the combination of both | 見られたもの／聞かれたもの／両者の結合 | | `本文（章未確認）` |
+| come into focus in the mind-door | 意門において焦点を結ぶ | focusing＝作意の系列。「意門の路に来る」（avenue）とも訳す | `本文（章未確認）` |
+| imaginative construction | 想像的構成 | Karunadasa の語 | `本文（章未確認）` |
+| epistemic standing / gain in justification | 認識的地位／正当化の利得 | | `本文（章未確認）` |
