@@ -42,7 +42,7 @@ Language: 日本語 | [English](README.en.md)
 - **[知識グラフのビューア](https://shimo4228.github.io/attention-not-self/)** — ブラウザでインタラクティブに探索（2D/3D 切替、検索、ノードクリックで詳細）
 - [`graph.jsonld`](graph.jsonld) — schema.org と、本プロジェクト用に定義した `ans:` 語彙による JSON-LD。LLM / 検索クローラ向け
 - [`viewer/`](viewer/) — viewer のソース（React + Vite + react-force-graph）
-- [`docs/`](docs/) — GitHub Pages 配信用にビルドされた成果物。設計判断の記録（`docs/adr/`）と作業計画（`docs/plans/`）も置いています
+- [`docs/`](docs/) — GitHub Pages 配信用にビルドされた成果物。判断の経緯（`docs/decision-history/`）と作業計画（`docs/plans/`）も置いています
 
 含まれる主なエンティティ（2026-08-24 時点、計 325 ノード）: 9 テーマ / 18 エッセイ / 5 伝統（三大アビダルマ体系と禅・浄土） / 約 140 dharma / 約 42 概念 / 11 計算フレームワーク / 82 引用文献。ほかに dharma の分類区分や、著者のほかの研究ラインなどのノードがあります。
 

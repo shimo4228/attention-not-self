@@ -46,7 +46,7 @@ A structured knowledge graph of essays, dharmas, concepts, computational framewo
 - **[Live viewer](https://shimo4228.github.io/attention-not-self/)** — interactive exploration in browser (2D / 3D toggle, search, click-for-detail)
 - [`graph.jsonld`](graph.jsonld) — JSON-LD using schema.org and the `ans:` vocabulary defined for this project. For LLM / search-engine crawlers.
 - [`viewer/`](viewer/) — viewer source (React + Vite + react-force-graph)
-- [`docs/`](docs/) — built artifacts served by GitHub Pages. Design decision records (`docs/adr/`) and working plans (`docs/plans/`) also live there
+- [`docs/`](docs/) — built artifacts served by GitHub Pages. The decision history (`docs/decision-history/`) and working plans (`docs/plans/`) also live there
 
 Main entities included (as of 2026-08-24, 325 nodes in total): 9 themes / 18 essays / 5 traditions (the three Abhidharma systems plus Chan/Zen and Pure Land) / ~140 dharmas / ~42 concepts / 11 computational frameworks / 82 references. The remaining nodes include the dharma categories and the author's other research lines.
 

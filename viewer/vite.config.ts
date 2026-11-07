@@ -50,11 +50,11 @@ function copyGraphJsonld() {
 }
 
 // outDir is `../docs`, which also holds committed source that the build does NOT
-// regenerate (notably `docs/adr/`). Vite's built-in `emptyOutDir: true` wipes the
+// regenerate (notably `docs/decision-history/`). Vite's built-in `emptyOutDir: true` wipes the
 // whole directory on every build, deleting those files. Instead we keep
 // `emptyOutDir: false` and clean only the build-generated entries ourselves,
 // preserving the keep-list below.
-const PRESERVE_IN_DOCS = ['adr', '.nojekyll', 'CNAME'];
+const PRESERVE_IN_DOCS = ['decision-history', '.nojekyll', 'CNAME'];
 
 function cleanOutDirExcept(keep: string[]) {
   return {

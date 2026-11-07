@@ -197,7 +197,7 @@ A のコミットメッセージは `6e279b6` の形式に合わせ、Source 行
 ## 触らないもの
 
 - **エッセイ本文 16 本** — 帰属衝突が出ても本文改稿は人間承認の別ステップ
-- **`docs/adr/`** — C の ADR は B の結果を見てから書く
+- **`docs/decision-history/`** — C の ADR は B の結果を見てから書く
 - **既存 dharma ノードの `tradition` / `uniqueTo`** — C の範囲
 - **Darshana の raw file を repo に置くこと** — scratchpad 限定。理由は 2 つあり、容量
   （corpus は 86MB）だけでなく **license 衛生**が本命: 本 repo は CC0 1.0 を掲げており、
