@@ -5,6 +5,12 @@ Format loosely follows [Keep a Changelog](https://keepachangelog.com/); versioni
 
 ## Unreleased
 
+### Added
+
+- **Theme 10: *Are the Four Noble Truths a Tautology?*** (English canonical + Japanese mirror *四諦はトートロジーか*, 2026-11-13) with the Lean 4 source `lean/FourTruths.lean` (no Mathlib; checked with Lean 4.35.0). A formal-verification note: over a space of models, the inferential skeleton of the Four Truths (granting the origin, cessation and the efficacy of a cause-removing practice follow) is proved from the definitions with no axioms, while the content (there is suffering; its cause is craving and not a rival factor; a practice that removes craving exists) is shown contingent by explicit countermodels. The prompting remark attributed to Moriyama 2021 (*Bukkyō tetsugaku josetsu*) rests on the author's reading memory and is unverified. AI-mediated writing.
+- **`graph.jsonld` expansion** — Theme 10 node (`ans:theme/10-four-truths-tautology-lean`) + 2 essay nodes (en / ja) + 5 reference nodes (Moriyama 2021 book; Moriyama 2021a; Moriyama 2021–2026 *Kutairon* series; Ariake 2026; Chapman 2026). Total node count 325 → 333; references 82 → 87.
+- **`README` (JA / EN), `llms.txt`, `llms-full.txt`** — Theme 10 row / section and the 5 new citations added; counts updated.
+
 ### Changed
 
 - Theme 9 published externally (2026-08-04): Japanese on note (https://note.com/sakamaki4228/n/n90c26af4fd5f), English on Substack (https://shimo4228.substack.com/p/on-embodiment-in-the-age-of-ai). Essay footers (JA / EN) and `llms.txt` updated with the live URLs.

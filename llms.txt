@@ -8,13 +8,13 @@
 
 ## Recommended reading order
 
-1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (325 nodes, schema.org JSON-LD)
+1. [`graph.jsonld`](graph.jsonld) — structured knowledge graph (333 nodes, schema.org JSON-LD)
 2. [`llms-full.txt`](llms-full.txt) — full FAQ + glossary + prior research reference table
 3. Individual essays under "Essays" sections below
 
 ## Core documentation
 
-- [`graph.jsonld`](graph.jsonld): JSON-LD knowledge graph (325 nodes: 9 themes, 18 essays, 5 traditions, ~140 dharmas, ~42 concepts, 11 frameworks, 82 references). Interactive viewer at https://shimo4228.github.io/attention-not-self/
+- [`graph.jsonld`](graph.jsonld): JSON-LD knowledge graph (333 nodes: 10 themes, 20 essays, 5 traditions, ~140 dharmas, ~42 concepts, 11 frameworks, 87 references). Interactive viewer at https://shimo4228.github.io/attention-not-self/
 - [Full AI Reference](llms-full.txt): self-contained FAQ, glossary, and prior research references for AI agents
 - [README (English)](README.en.md): human-facing project overview
 - [README (Japanese, canonical)](README.md): 日本語版プロジェクト正本
@@ -81,6 +81,14 @@ Questions the logical structure of the claim that AI lacks embodiment (*The Blin
 
 - [On Embodiment in the Age of AI](On%20Embodiment%20in%20the%20Age%20of%20AI.md): English canonical version.
 - [AI時代の身体性について（日本語）](AI%E6%99%82%E4%BB%A3%E3%81%AE%E8%BA%AB%E4%BD%93%E6%80%A7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md): Japanese mirror.
+
+## Essays — Theme 10: Are the Four Noble Truths a tautology? A Lean check
+
+A formal-verification note, not a conventional essay. Formalizes the Four Noble Truths in Lean 4 (no Mathlib; checked with Lean 4.35.0) over a space of models and sorts which statements hold in every model and which are contingent. Skeleton (theorems, no axioms): granting *samudaya* (a factor is a necessary condition of *dukkha*), *nirodha* and the efficacy of a cause-removing practice follow by definition. Content (contingent, witnessed by explicit countermodels): "there is *dukkha*", "the cause is craving and not a rival factor", "a practice that removes craving exists". Appendix: a base-less circular definition (truths → path → right view → truths) is an uninhabited type. Relates the content to Dharmakīrti's dispute, in *Pramāṇavārttika* II 146cd–178, over where desire arises from (a mind-continuum or the body), as presented in Moriyama's annotated translations of Prajñākaragupta (2021–2026). The prompting remark is attributed to Moriyama 2021 (*Bukkyō tetsugaku josetsu*) from the author's reading memory; the passage is unverified, and the note does not claim to examine Moriyama's argument. The result depends on the modelling choice of "cause" as a necessary condition. AI-mediated writing.
+
+- [Are the Four Noble Truths a Tautology?](Are%20the%20Four%20Noble%20Truths%20a%20Tautology%20-%20Sorting%20Skeleton%20from%20Content%20with%20Lean.md): English canonical version.
+- [四諦はトートロジーか（日本語）](%E5%9B%9B%E8%AB%A6%E3%81%AF%E3%83%88%E3%83%BC%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E3%81%8B%20-%20Lean%E3%81%A7%E9%AA%A8%E7%B5%84%E3%81%BF%E3%81%A8%E4%B8%AD%E8%BA%AB%E3%82%92%E4%BB%95%E5%88%86%E3%81%91%E3%82%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md): Japanese mirror.
+- [`lean/FourTruths.lean`](lean/FourTruths.lean): the Lean 4 source (run `lean lean/FourTruths.lean`).
 
 ## Comparison tables (data)
 

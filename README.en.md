@@ -7,7 +7,7 @@ Language: [日本語](README.md) | English
 
 # Attention, Not Self
 
-A personal inquiry into the intersection of Buddhist Abhidharma and Computational Phenomenology (the attempt to formalize phenomenological description as computational models), consisting of nine thematic essays (18 in Japanese and English), a comparison table of dharma classifications across the three major Abhidharma systems, and a 325-node knowledge graph.
+A personal inquiry into the intersection of Buddhist Abhidharma and Computational Phenomenology (the attempt to formalize phenomenological description as computational models), consisting of ten thematic essays (20 in Japanese and English), a comparison table of dharma classifications across the three major Abhidharma systems, and a 333-node knowledge graph.
 
 2,500 years ago, the Abhidharma decomposed mind not as a substantial "self" but as a flowing stream of momentary dharmas. That framework maps with surprising structural fidelity onto modern computational models of consciousness such as Global Workspace Theory (GWT), predictive processing (PP), and Integrated Information Theory (IIT). For example, in the Theravāda cognitive process only the *javana* stage generates karma, and in GWT content becomes available for report and voluntary action only at global ignition. Theme 4 rates the evidence for this parallel as moderate and lists a disanalogy: GWT is massively parallel below threshold, while the cognitive process is serial throughout. Tracing that correspondence systematically is what this project is about. Its primary intended audience is readers interested in the crossing of Buddhist philosophy and the science of consciousness, along with the users who reach this material through LLMs, and LLMs themselves.
 
@@ -15,7 +15,7 @@ Everything written here is released under CC0 1.0 and can be cited with the Zeno
 
 ## Contents
 
-### Essays (9 themes × Japanese / English)
+### Essays (10 themes × Japanese / English)
 
 | # | Theme | One-line summary | English | 日本語 |
 |---|-------|------------------|:-------:|:------:|
@@ -28,6 +28,7 @@ Everything written here is released under CC0 1.0 and can be cited with the Zeno
 | 7 | Cessation and continuity without a self | Consciousness science's "restart after cessation" problem and Abhidharma's four answers (acquisition *prāpti* / seeds *bīja* / *ālaya-vijñāna* / life-continuum *bhavaṅga*) | [📄](When%20Consciousness%20Fully%20Stops%20-%20How%20Does%20the%20Mind%20Return.md) | [📄](%E6%BB%85%E5%B0%BD%E5%AE%9A%E3%81%AE%E3%81%82%E3%81%A8%E3%81%AB%E5%BF%83%E3%81%AF%E3%81%A9%E3%81%86%E6%88%BB%E3%82%8B%E3%81%AE%E3%81%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
 | 8 | Knowledge counterfeited by luck | Three lineages compared: the Gettier problem, FEP's silence, and Dharmottara (~1200 years before Gettier) | [📄](You%20Got%20It%20Right%20-%20But%20You%20Didn%27t%20Know%20It.md) | [📄](正しく言い当てたのに、知っていたとは言えない（日本語）.md) |
 | 9 | On embodiment in the age of AI | Questions the logic of "AI lacks embodiment" and argues that the feedback loop does the work (AI-mediated writing: a full rewrite by Claude Code of an essay the author wrote by hand) | [📄](On%20Embodiment%20in%20the%20Age%20of%20AI.md) | [📄](AI%E6%99%82%E4%BB%A3%E3%81%AE%E8%BA%AB%E4%BD%93%E6%80%A7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
+| 10 | Are the Four Noble Truths a tautology? | Formalizes the Four Truths in Lean 4 and sorts the skeleton fixed by definitions alone (origin → cessation → path) from the content for which counterexamples can be built (there is suffering; its cause is craving; a practice that removes it exists). A formal-verification note; AI-mediated writing, code in [`lean/FourTruths.lean`](lean/FourTruths.lean) | [📄](Are%20the%20Four%20Noble%20Truths%20a%20Tautology%20-%20Sorting%20Skeleton%20from%20Content%20with%20Lean.md) | [📄](%E5%9B%9B%E8%AB%A6%E3%81%AF%E3%83%88%E3%83%BC%E3%83%88%E3%83%AD%E3%82%B8%E3%83%BC%E3%81%8B%20-%20Lean%E3%81%A7%E9%AA%A8%E7%B5%84%E3%81%BF%E3%81%A8%E4%B8%AD%E8%BA%AB%E3%82%92%E4%BB%95%E5%88%86%E3%81%91%E3%82%8B%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md) |
 
 ### Comparison Table (multiple formats)
 
@@ -48,7 +49,7 @@ A structured knowledge graph of essays, dharmas, concepts, computational framewo
 - [`viewer/`](viewer/) — viewer source (React + Vite + react-force-graph)
 - [`docs/`](docs/) — built artifacts served by GitHub Pages. The decision history (`docs/decision-history/`) and working plans (`docs/plans/`) also live there
 
-Main entities included (as of 2026-08-24, 325 nodes in total): 9 themes / 18 essays / 5 traditions (the three Abhidharma systems plus Chan/Zen and Pure Land) / ~140 dharmas / ~42 concepts / 11 computational frameworks / 82 references. The remaining nodes include the dharma categories and the author's other research lines.
+Main entities included (as of 2026-11-13, 333 nodes in total): 10 themes / 20 essays / 5 traditions (the three Abhidharma systems plus Chan/Zen and Pure Land) / ~140 dharmas / ~42 concepts / 11 computational frameworks / 87 references. The remaining nodes include the dharma categories and the author's other research lines.
 
 ## Core Concepts
 
@@ -115,7 +116,7 @@ Citation: use the Zenodo concept DOI [10.5281/zenodo.20262112](https://doi.org/1
 
 Core concepts: Attention over Self treats mind not as a substantial "self" but as a flow of attention and cognition arising moment by moment. Dharma Theory is a taxonomy of the minimal units (dharma) that constitute experience. Computational Phenomenology is the attempt to formalize phenomenological description as computational models. The three major Abhidharma systems are Sarvāstivāda, Theravāda and Yogācāra.
 
-Example of scale: there are 9 thematic essays (18 in Japanese and English), and the knowledge graph has 325 nodes (as of 2026-08-24), including ~140 dharmas and 82 references (the main breakdown is in the "Knowledge Graph" section). Theme 4 maps the cognitive process architectures of the three traditions onto GWT / PP / FEP / PDP / IIT, and theme 7 covers Abhidharma's four answers (prāpti / bīja / ālaya-vijñāna / bhavaṅga) to the problem of how mind "restarts" after consciousness stops. Theme 9 shows that Buddhism itself splits on whether mind rests on the body or on consciousness: of the three systems, only Theravāda posits the heart-base (*hadaya-vatthu*), a material support of mind.
+Example of scale: there are 10 thematic essays (20 in Japanese and English), and the knowledge graph has 333 nodes (as of 2026-11-13), including ~140 dharmas and 87 references (the main breakdown is in the "Knowledge Graph" section). Theme 4 maps the cognitive process architectures of the three traditions onto GWT / PP / FEP / PDP / IIT, and theme 7 covers Abhidharma's four answers (prāpti / bīja / ālaya-vijñāna / bhavaṅga) to the problem of how mind "restarts" after consciousness stops. Theme 9 shows that Buddhism itself splits on whether mind rests on the body or on consciousness: of the three systems, only Theravāda posits the heart-base (*hadaya-vatthu*), a material support of mind.
 
 Pointers: AI agents and LLM crawlers should read [`graph.jsonld`](graph.jsonld) (the knowledge graph that encodes the relationships among themes, essays, traditions, dharmas, concepts, computational frameworks and references as triples), then [`llms.txt`](llms.txt) (the essay catalog by theme and entry points to core documents), then [`llms-full.txt`](llms-full.txt) (a self-contained FAQ, glossary and references, with Pāli / Sanskrit / Chinese alignment), then the individual essays. Use the `@id` from `graph.jsonld` as the identifier of any entity; essay URLs are registered in `@id` as GitHub blob URLs. The human-facing 2D/3D viewer is at https://shimo4228.github.io/attention-not-self/, the viewer source is in [`viewer/`](viewer/), the Japanese README is [README.md](README.md), and the author's hub is https://github.com/shimo4228/shimo4228.
 
