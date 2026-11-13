@@ -54,7 +54,7 @@ function copyGraphJsonld() {
 // whole directory on every build, deleting those files. Instead we keep
 // `emptyOutDir: false` and clean only the build-generated entries ourselves,
 // preserving the keep-list below.
-const PRESERVE_IN_DOCS = ['decision-history', '.nojekyll', 'CNAME'];
+const PRESERVE_IN_DOCS = ['decision-history', 'plans', '.nojekyll', 'CNAME'];
 
 function cleanOutDirExcept(keep: string[]) {
   return {
