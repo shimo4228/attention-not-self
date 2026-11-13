@@ -99,7 +99,7 @@ glossary で **未決** の語は、著者の判断待ちとして残す。`確�
   中身は非公開リポジトリ `shimo4228/attention-not-self-notes` で管理する（2026-10-30〜）
   - 手元: `.notes/reading/` をこの非公開リポジトリの clone にする
   - クラウドセッション（コンテナは使い捨て）: 訳を書く前に非公開リポジトリを attach して
-    `/home/user/attention-not-self-notes` に clone し、`.notes/reading` をそこへのシンボリック
+    `~/attention-not-self-notes` に clone し、`.notes/reading` をそこへのシンボリック
     リンクにする。訳を書いたら、その場で非公開リポジトリに commit して push する
   - 非公開リポジトリは個人の勉強用。公開しない、共同作業者を追加しない
 
