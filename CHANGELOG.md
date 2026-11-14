@@ -3,7 +3,7 @@
 All notable changes to this project are documented in this file.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
-## Unreleased
+## v0.6.0 — Themes 10 and 11 added: the Four Noble Truths in Lean; sectarian dispute as an essentially contested concept (2026-11-14)
 
 ### Added
 

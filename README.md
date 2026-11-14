@@ -76,7 +76,7 @@ Language: 日本語 | [English](README.en.md)
   title        = {Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology},
   year         = {2026},
   publisher    = {Zenodo},
-  version      = {0.5.0},
+  version      = {0.6.0},
   doi          = {10.5281/zenodo.21790516},
   url          = {https://doi.org/10.5281/zenodo.21790516},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}

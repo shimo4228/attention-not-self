@@ -8,8 +8,8 @@ authors:
     orcid: "https://orcid.org/0009-0002-6168-4162"
     affiliation: "Independent"
     alias: shimo4228
-date-released: "2026-08-04"
-version: "0.5.0"
+date-released: "2026-11-14"
+version: "0.6.0"
 doi: "10.5281/zenodo.21790516"
 url: "https://doi.org/10.5281/zenodo.21790516"
 repository-code: "https://github.com/shimo4228/attention-not-self"
@@ -33,18 +33,22 @@ abstract: >-
   cross-tradition dharma comparison table (~130 dharmas across nine sheets), and
   a JSON-LD knowledge graph (353 nodes, schema.org + custom vocabulary) with
   bilingual labels and Sanskrit / Pāli / Chinese philological alignment. An
-  interactive 2D/3D viewer is provided. v0.5.0 adds Theme 9 (On embodiment in
-  the age of AI) — questioning the logical structure of the claim that AI lacks
-  embodiment (The Blind Spot, 2024): from the process-structural view of mind
-  shared by Abhidharma, Yogācāra and emptiness thought, input-data provenance
-  (organic vs. digital sensors) draws no essential line; what does the
-  theoretical work is the feedback loop (autopoiesis; Friston 2018
-  self-evidencing, structurally similar to Yogācāra's manas). Shows Buddhism
-  itself splits on embodiment (only Theravāda posits the material heart-base
-  hadaya-vatthu) and that defenders now stretch the concept (Froese 2026,
-  distributed vs. organismic embodiment). First essay written as disclosed
-  AI-mediated writing, carrying a machine-readable claims layer for LLM
-  readers. Developed in collaboration with the Claude
+  interactive 2D/3D viewer is provided. v0.6.0 adds two themes. Theme 10 (Are
+  the Four Noble Truths a tautology?) formalizes the Four Truths in Lean 4 over
+  a space of models and sorts the inferential skeleton that holds in every
+  model (granting the origin, cessation and the efficacy of a cause-removing
+  practice follow by definition) from the content that is contingent and
+  witnessed by countermodels (that there is dukkha, that the cause is craving,
+  that a practice removing it exists). Theme 11 (Is sectarian dispute a failure
+  of Buddhism?) applies W. B. Gallie's "essentially contested concepts" (1956)
+  to Buddhist schism and to skillful means (upāya) in the Lotus Sūtra, sorting
+  where the framework fits, where it clashes, and where readings split; it
+  reads condition 7 (competition sustains the exemplar's achievement) as the
+  one that fits worst, because texts handed down as the Buddha's word say
+  disputation bears no fruit beyond praise and blame, and leaves open whether
+  higher-order recognition loosens dispute or only refines grasping. Both are
+  disclosed AI-mediated writing and state how far each source was checked.
+  Developed in collaboration with the Claude
   language model (Anthropic) for synthesis, cross-tradition mapping, and graph
   encoding; the author retains responsibility for all claims.
 keywords:
@@ -80,5 +84,13 @@ keywords:
   - enactivism
   - autopoiesis
   - AI-mediated writing
+  - Four Noble Truths
+  - Lean 4
+  - formal verification
+  - essentially contested concepts
+  - upāya
+  - skillful means
+  - Lotus Sūtra
+  - schism
   - meditation
   - Buddhism
