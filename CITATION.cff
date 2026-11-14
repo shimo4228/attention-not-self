@@ -10,8 +10,8 @@ authors:
     alias: shimo4228
 date-released: "2026-11-14"
 version: "0.6.0"
-doi: "10.5281/zenodo.21790516"
-url: "https://doi.org/10.5281/zenodo.21790516"
+doi: "10.5281/zenodo.24220076"
+url: "https://doi.org/10.5281/zenodo.24220076"
 repository-code: "https://github.com/shimo4228/attention-not-self"
 license: CC0-1.0
 identifiers:
@@ -24,6 +24,9 @@ identifiers:
   - type: swh
     value: "swh:1:snp:e509d59ed42659041b90dd43271aef21894425eb"
     description: "Software Heritage snapshot of v0.5.0"
+  - type: swh
+    value: "swh:1:snp:ace1df1cac7d2c0606f8c9cfb6d01bcd90a16567"
+    description: "Software Heritage snapshot of v0.6.0"
 abstract: >-
   A personal essay collection and structured knowledge graph mapping the three
   major Buddhist Abhidharma traditions (Theravāda, Sarvāstivāda, Yogācāra) onto

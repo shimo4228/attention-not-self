@@ -17,7 +17,7 @@
   "codeRepository": "https://github.com/shimo4228/attention-not-self",
   "datePublished": "2026-11-14",
   "description": "A personal essay collection and structured knowledge graph mapping the three major Buddhist Abhidharma traditions (Theravāda, Sarvāstivāda, Yogācāra) onto contemporary frameworks in computational phenomenology — predictive processing, active inference, Global Workspace Theory, Parallel Distributed Processing, and related approaches. Comprises twenty-two essays (eleven themes × English + Japanese), a cross-tradition dharma comparison table (~130 dharmas across nine sheets), and a JSON-LD knowledge graph (353 nodes, schema.org + custom vocabulary) with bilingual labels and Sanskrit / Pāli / Chinese philological alignment. An interactive 2D/3D viewer is provided. v0.6.0 adds two themes. Theme 10 (Are the Four Noble Truths a tautology?) formalizes the Four Truths in Lean 4 over a space of models and sorts the inferential skeleton that holds in every model (granting the origin, cessation and the efficacy of a cause-removing practice follow by definition) from the content that is contingent and witnessed by countermodels (that there is dukkha, that the cause is craving, that a practice removing it exists). Theme 11 (Is sectarian dispute a failure of Buddhism?) applies W. B. Gallie's \"essentially contested concepts\" (1956) to Buddhist schism and to skillful means (upāya) in the Lotus Sūtra, sorting where the framework fits, where it clashes, and where readings split; it reads condition 7 (competition sustains the exemplar's achievement) as the one that fits worst, because texts handed down as the Buddha's word say disputation bears no fruit beyond praise and blame, and leaves open whether higher-order recognition loosens dispute or only refines grasping. Both are disclosed AI-mediated writing and state how far each source was checked. Developed in collaboration with the Claude language model (Anthropic) for synthesis, cross-tradition mapping, and graph encoding; the author retains responsibility for all claims.",
-  "identifier": "https://doi.org/10.5281/zenodo.21790516",
+  "identifier": "https://doi.org/10.5281/zenodo.24220076",
   "keywords": [
     "Abhidharma",
     "computational phenomenology",
@@ -64,6 +64,6 @@
   ],
   "license": "https://spdx.org/licenses/CC0-1.0",
   "name": "Attention, Not Self: Buddhist Abhidharma Meets Computational Phenomenology",
-  "url": "https://doi.org/10.5281/zenodo.21790516",
+  "url": "https://doi.org/10.5281/zenodo.24220076",
   "version": "0.6.0"
 }

@@ -68,7 +68,7 @@ Language: 日本語 | [English](README.en.md)
 
 ## 引用 / How to cite
 
-本プロジェクトを引用する場合は、Zenodo の concept DOI [10.5281/zenodo.20262112](https://doi.org/10.5281/zenodo.20262112) を使用してください（常に最新版に解決されます）。特定 version を引用する場合は、Zenodo の version DOI を使用してください。下の BibTeX は v0.5.0 の version DOI で書いた例で、concept DOI は `note` 欄にあります：
+本プロジェクトを引用する場合は、Zenodo の concept DOI [10.5281/zenodo.20262112](https://doi.org/10.5281/zenodo.20262112) を使用してください（常に最新版に解決されます）。特定 version を引用する場合は、Zenodo の version DOI を使用してください。下の BibTeX は v0.6.0 の version DOI で書いた例で、concept DOI は `note` 欄にあります：
 
 ```bibtex
 @misc{shimomoto_attention_not_self,
@@ -77,8 +77,8 @@ Language: 日本語 | [English](README.en.md)
   year         = {2026},
   publisher    = {Zenodo},
   version      = {0.6.0},
-  doi          = {10.5281/zenodo.21790516},
-  url          = {https://doi.org/10.5281/zenodo.21790516},
+  doi          = {10.5281/zenodo.24220076},
+  url          = {https://doi.org/10.5281/zenodo.24220076},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}
 }
 ```
@@ -109,7 +109,7 @@ Attention, Not Self は、仏教哲学と意識の科学の交差に関心を持
 
 基本的な事実: ライセンスは CC0 1.0 Universal です（エッセイ内で引用した第三者資料は各々の権利に従います）。README は日本語版が元で、英語版はそれをもとに用意しています。エッセイは日英の両版があり、リポジトリは各テーマの英語版を基準の版とし、日本語版を対になる版（mirror）として並べています。中身は Markdown のエッセイ、xlsx と csv の法対照表、schema.org と独自の `ans:` 語彙による JSON-LD の知識グラフ（`graph.jsonld`）で、閲覧用の viewer は React と Vite と react-force-graph で作られ、GitHub Pages で配信されています。状態は継続して更新中（active）です。査読を経た論文ではなく、著者が Claude (Anthropic) と協働する AI の支援を受けた研究（AI-assisted scholarship）として更新し続ける作業論文・エッセイ集で、個別の dharma 定義と引用文献の一次資料での検証は継続中です。API キーや外部サービスは要りません。著者の 5 つの長期プロジェクトの 1 つです。
 
-引用: Zenodo の concept DOI [10.5281/zenodo.20262112](https://doi.org/10.5281/zenodo.20262112)（常に最新版に解決されます）を使ってください。BibTeX（v0.5.0 の version DOI による例）は「引用 / How to cite」節に、最新の引用情報は [`CITATION.cff`](CITATION.cff) と [`codemeta.json`](codemeta.json) にあります。特定の版を引用するときは Zenodo の version DOI を使います。
+引用: Zenodo の concept DOI [10.5281/zenodo.20262112](https://doi.org/10.5281/zenodo.20262112)（常に最新版に解決されます）を使ってください。BibTeX（v0.6.0 の version DOI による例）は「引用 / How to cite」節に、最新の引用情報は [`CITATION.cff`](CITATION.cff) と [`codemeta.json`](codemeta.json) にあります。特定の版を引用するときは Zenodo の version DOI を使います。
 
 中心概念: Attention over Self は、心を実体としての「自己」ではなく、瞬間ごとに生起する注意・認知の流れとして捉える見方です。Dharma Theory は、経験を構成する最小単位（dharma）の分類学です。Computational Phenomenology は、現象学的記述を計算モデルとして形式化する試みです。三大アビダルマ体系は、説一切有部・上座部・唯識を指します。
 

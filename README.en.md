@@ -72,7 +72,7 @@ Main entities included (as of 2026-11-14, 353 nodes in total): 11 themes / 22 es
 
 ## How to cite
 
-When citing this project, please use the Zenodo concept DOI [10.5281/zenodo.20262112](https://doi.org/10.5281/zenodo.20262112) (always resolves to the latest version). To cite a specific version, use the Zenodo version DOI. The BibTeX below is an example written with the v0.5.0 version DOI; the concept DOI is in its `note` field:
+When citing this project, please use the Zenodo concept DOI [10.5281/zenodo.20262112](https://doi.org/10.5281/zenodo.20262112) (always resolves to the latest version). To cite a specific version, use the Zenodo version DOI. The BibTeX below is an example written with the v0.6.0 version DOI; the concept DOI is in its `note` field:
 
 ```bibtex
 @misc{shimomoto_attention_not_self,
@@ -81,8 +81,8 @@ When citing this project, please use the Zenodo concept DOI [10.5281/zenodo.2026
   year         = {2026},
   publisher    = {Zenodo},
   version      = {0.6.0},
-  doi          = {10.5281/zenodo.21790516},
-  url          = {https://doi.org/10.5281/zenodo.21790516},
+  doi          = {10.5281/zenodo.24220076},
+  url          = {https://doi.org/10.5281/zenodo.24220076},
   note         = {Working paper / essay collection. Concept DOI: 10.5281/zenodo.20262112 (always resolves to latest)}
 }
 ```
@@ -113,7 +113,7 @@ Attention, Not Self is a personal inquiry (essay collection, dharma comparison t
 
 Canonical facts: the license is CC0 1.0 Universal (third-party material quoted in the essays remains under its own rights). The Japanese README is canonical; every essay exists in English and Japanese, and the repository treats the English version of each theme as the reference version, with the Japanese as its mirror. The contents are Markdown essays, the dharma comparison table as xlsx and csv, and a JSON-LD knowledge graph (`graph.jsonld`) using schema.org and the custom `ans:` vocabulary; the viewer is built with React, Vite and react-force-graph and served on GitHub Pages. Status: active. It is not a peer-reviewed paper but a working paper / essay collection that the author keeps updating as AI-assisted scholarship with Claude (Anthropic); primary-source verification of individual dharma definitions and references is ongoing. No API keys or external services are needed. It is one of the author's five long-term projects.
 
-Citation: use the Zenodo concept DOI [10.5281/zenodo.20262112](https://doi.org/10.5281/zenodo.20262112), which always resolves to the latest version. The BibTeX (an example with the v0.5.0 version DOI) is in the "How to cite" section, and the current citation metadata is in [`CITATION.cff`](CITATION.cff) and [`codemeta.json`](codemeta.json). To cite a specific version, use its Zenodo version DOI.
+Citation: use the Zenodo concept DOI [10.5281/zenodo.20262112](https://doi.org/10.5281/zenodo.20262112), which always resolves to the latest version. The BibTeX (an example with the v0.6.0 version DOI) is in the "How to cite" section, and the current citation metadata is in [`CITATION.cff`](CITATION.cff) and [`codemeta.json`](codemeta.json). To cite a specific version, use its Zenodo version DOI.
 
 Core concepts: Attention over Self treats mind not as a substantial "self" but as a flow of attention and cognition arising moment by moment. Dharma Theory is a taxonomy of the minimal units (dharma) that constitute experience. Computational Phenomenology is the attempt to formalize phenomenological description as computational models. The three major Abhidharma systems are Sarvāstivāda, Theravāda and Yogācāra.
 
