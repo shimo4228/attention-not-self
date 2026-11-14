@@ -5,7 +5,7 @@
 ## Tech Stack
 
 - 資料中心（Markdown, PDF, xlsx）
-- 知識グラフ: `graph.jsonld`（schema.org + 独自 `ans:` 語彙、333 ノード）
+- 知識グラフ: `graph.jsonld`（schema.org + 独自 `ans:` 語彙、353 ノード）
 - Viewer: React + Vite + react-force-graph (2D/3D)、Node.js 20+
 - GitHub Pages で `docs/` を配信、live URL: https://shimo4228.github.io/attention-not-self/
 
@@ -13,7 +13,7 @@
 
 ```
 attention-not-self/
-├── *.md                       # 10 テーマ × 日英の論考 20 本 + README + TABLES
+├── *.md                       # 11 テーマ × 日英の論考 22 本 + README + TABLES
 ├── lean/                      # テーマ10 の Lean 4 ソース（`lean lean/FourTruths.lean` で検証、Mathlib 不要）
 ├── reading-notes/             # Ganeri『Attention, Not Self』の章別読書ノート（日英）と訳語集 glossary.md
 ├── csv/                       # 三大アビダルマ法対照表の per-sheet 出力
@@ -47,6 +47,7 @@ attention-not-self/
 - 2026-08-24: Darshana Graph（Joy Bose、CC-BY-4.0）を外部照合先として配線。graph 318→323 ノード（Bose 2026a/b/c + 摂阿毘達磨義論の Reference 4 件 + 外部 Dataset 1 件）、references 76→80。日英 6 本が依拠しながら graph に不在だった『摂阿毘達磨義論』を追加（citation 辺は英語版 3 本のみ — 日本語版は引用層自体が未整備、`.notes/TASKS.md` T-003）。dharma 帰属を temporal_source_layer で機械照合し、**誤りは検出されず**（`uniqueTo` 交差 2 件は一致）。詳細は `.notes/daily-research/ledger.md`
 - 2026-08-24: 日本語版エッセイ 8 本に英語版と同一の `citation` 配列を移植（T-003 完了）。引用層は日英対称になり、上記「日本語版は引用層自体が未整備」は解消
 - 2026-11-13: テーマ10「四諦はトートロジーか」（日英）+ `lean/FourTruths.lean` 追加。四諦を Lean 4 で形式化し、定義だけで決まる骨組みと反例が作れる中身を仕分けた形式検証ノート（AI メディエイト執筆）。きっかけの護山『仏教哲学序説』の該当箇所は未確認（著者の読書記憶）で、確認したら本文に書き足す。graph 325→333 ノード（theme 1 + essay 2 + reference 5）、references 82→87
+- 2026-11-14: テーマ11「宗派の争いは、仏教の失敗なのか」（日英）追加。ギャリーの「本質的に論争的な概念」を宗派の分裂と方便に当てた検討（AI メディエイト執筆）。資料の検証の格を本文末に明記。graph 333→353 ノード（theme 1 + essay 2 + reference 17）、references 87→104
 
 ## 外部照合先
 

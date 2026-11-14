@@ -29,9 +29,9 @@ abstract: >-
   major Buddhist Abhidharma traditions (Theravāda, Sarvāstivāda, Yogācāra) onto
   contemporary frameworks in computational phenomenology — predictive processing,
   active inference, Global Workspace Theory, Parallel Distributed Processing, and
-  related approaches. Comprises twenty essays (ten themes × English + Japanese), a
+  related approaches. Comprises twenty-two essays (eleven themes × English + Japanese), a
   cross-tradition dharma comparison table (~130 dharmas across nine sheets), and
-  a JSON-LD knowledge graph (333 nodes, schema.org + custom vocabulary) with
+  a JSON-LD knowledge graph (353 nodes, schema.org + custom vocabulary) with
   bilingual labels and Sanskrit / Pāli / Chinese philological alignment. An
   interactive 2D/3D viewer is provided. v0.5.0 adds Theme 9 (On embodiment in
   the age of AI) — questioning the logical structure of the claim that AI lacks
