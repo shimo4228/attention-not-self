@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs>
+<marker id="ai" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#242321"/></marker>
+<marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C65F38"/></marker>
+</defs>
+<rect width="1200" height="1200" fill="#FAFAF7"/>
+<text x="60" y="95" font-family="Noto Sans CJK JP" font-weight="500" font-size="36" fill="#C65F38">Is Sectarian Dispute a Failure of Buddhism?</text>
+<text x="60" y="178" font-family="Noto Serif CJK JP" font-weight="bold" font-size="60" fill="#242321">How to treat a use you reject</text>
+<text data-step="1" x="60" y="335" font-family="Noto Sans CJK JP" font-weight="bold" font-size="46" fill="#242321">Lower order</text>
+<text data-step="1" x="60" y="388" font-family="Noto Sans CJK JP" font-weight="500" font-size="36" fill="#242321">aggressive and</text>
+<text data-step="1" x="60" y="432" font-family="Noto Sans CJK JP" font-weight="500" font-size="36" fill="#242321">defensive use</text>
+<rect data-step="2" x="470" y="280" width="220" height="130" rx="16" fill="#FAFAF7" stroke="#242321" stroke-width="5"/>
+<text data-step="2" x="580" y="361" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="500" font-size="40" fill="#242321">Own use</text>
+<rect data-step="2" x="920" y="280" width="220" height="130" rx="16" fill="#FAFAF7" stroke="#242321" stroke-width="5"/>
+<text data-step="2" x="1030" y="361" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="500" font-size="40" fill="#242321">Rival use</text>
+<line data-step="3" x1="704" y1="345" x2="906" y2="345" stroke="#242321" stroke-width="5" marker-end="url(#ai)" marker-start="url(#ai)"/>
+<text data-step="4" x="60" y="583" font-family="Noto Sans CJK JP" font-weight="bold" font-size="46" fill="#242321">Second-order</text>
+<text data-step="4" x="60" y="635" font-family="Noto Sans CJK JP" font-weight="bold" font-size="46" fill="#242321">recognition</text>
+<text data-step="4" x="60" y="688" font-family="Noto Sans CJK JP" font-weight="500" font-size="36" fill="#242321">rival kept as a critic</text>
+<rect data-step="4" x="470" y="540" width="220" height="130" rx="16" fill="#FAFAF7" stroke="#242321" stroke-width="5"/>
+<text data-step="4" x="580" y="621" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="500" font-size="40" fill="#242321">Own use</text>
+<rect data-step="4" x="920" y="540" width="220" height="130" rx="16" fill="#FAFAF7" stroke="#242321" stroke-width="5"/>
+<text data-step="4" x="1030" y="621" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="500" font-size="40" fill="#242321">Rival use</text>
+<line data-step="5" x1="906" y1="605" x2="704" y2="605" stroke="#C65F38" stroke-width="7" marker-end="url(#aa)"/>
+<text data-step="5" x="805" y="578" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="bold" font-size="40" fill="#C65F38">criticism</text>
+<text data-step="6" x="60" y="935" font-family="Noto Sans CJK JP" font-weight="bold" font-size="46" fill="#242321">Panjiao</text>
+<text data-step="6" x="60" y="992" font-family="Noto Sans CJK JP" font-weight="500" font-size="36" fill="#242321">rival housed below</text>
+<rect data-step="6" x="470" y="780" width="670" height="130" rx="16" fill="#FAFAF7" stroke="#242321" stroke-width="5"/>
+<text data-step="6" x="805" y="861" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="500" font-size="46" fill="#242321">Own use: upper stage</text>
+<rect data-step="7" x="470" y="1010" width="670" height="130" rx="16" fill="#FAFAF7" stroke="#242321" stroke-width="5"/>
+<text data-step="7" x="805" y="1091" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="500" font-size="46" fill="#242321">Rival use: lower stage</text>
+<line data-step="8" x1="560" y1="1002" x2="560" y2="952" stroke="#242321" stroke-width="5"/>
+<line data-step="8" x1="515" y1="945" x2="605" y2="945" stroke="#C65F38" stroke-width="7"/>
+<text data-step="8" x="640" y="977" font-family="Noto Sans CJK JP" font-weight="bold" font-size="38" fill="#C65F38">criticism cannot reach up</text>
+</svg>

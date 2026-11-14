@@ -32,6 +32,8 @@ Gallie's paper "Essentially Contested Concepts" was read to the Aristotelian Soc
 
 He begins with an imaginary championship (pp. 170–171). In it, winning is decided not by points but by the excellence of a style of play. Each team excels in a different style, and there is no official referee. Each team has supporters who say their team is the champion. The supporters of the other teams say the same. The team with the most supporters at a given moment may be treated as the de facto champion, but that is not agreement about which style is better. The supporters are not talking nonsense. Each goes on arguing, giving reasons.
 
+![Gallie's imaginary championship. With no referee, each team's supporters go on saying, with reasons, that theirs is the champion.](figures/contested-concepts-fig1-championship-en.gif)
+
 From this example Gallie extracts his definition: "concepts the proper use of which inevitably involves endless disputes about their proper uses on the part of their users" (p. 169). Even when the differences in meaning have been brought out, each party goes on defending its case (p. 168).
 
 Gallie lists seven conditions.
@@ -174,6 +176,8 @@ For Christianity, Gallie judged condition 5 the most questionable. His doubt was
 
 In Buddhism, this essay reads, the questionable spot shifts. The condition that fits worst is condition 7. The reason lies with the exemplar. Competition was supposed to sustain and develop the exemplar's achievement. Yet some of the scriptures handed down as the words of the Buddha, the exemplar, treat seizing on views and competing as the opposite of achievement. What Gallie asked in the Christian case was "Is dispute unavoidable?" What comes to the fore in the Buddhist case is the question "Is dispute desirable?", and that question comes from inside the exemplar (my reading).
 
+![The seven conditions applied to Buddhism. The most questionable condition shifts from condition 5, in Gallie's Christian case, to condition 7.](figures/contested-concepts-fig2-seven-conditions-en.gif)
+
 Another reading is also possible: that condition 6 fits worst. If, as in the Lifespan chapter of the Lotus Sutra, the very figure of the Buddha as exemplar is reread, it becomes hard to say there is a single exemplar whose authority everyone acknowledges. On this reading, the dispute between Buddhist schools comes closer to a tug-of-war over the exemplar than to a dispute over the same exemplar (my reading).
 
 Which reading you take depends on how much weight you give the scriptural passages that turn away from dispute. The Aṭṭhakavagga is a chapter of the Pāli canon, and there is a corresponding sutra in Chinese translation (the *Yizu jing*, 義足經), but it is not a scripture the East Asian schools have relied on. On the other hand, words pointing the same way are found outside it as well. Majjhima Nikāya 74 is one, and the *Fahua xuanyi* of Tiantai, the Chinese school that took the Lotus Sutra as its basis, which comes up later, has a line saying that the Buddha's great compassion accords with others and does not contend with the world. How much weight to give such passages as the voice of the exemplar is itself a weighting. The answer to the question of which condition fits worst depends on the weighting of parts that condition 3 speaks of (my reading).
@@ -209,6 +213,8 @@ Federman sees skillful means as an interpretive device that the Mahāyāna built
 In China and Japan, the distinction between skillful means and truth became the framework of panjiao. Tiantai's Five Periods and Eight Teachings divides the Buddha's lifetime of preaching into five periods and puts the Lotus Sutra at the end, as its completion. Kūkai's *Jūjūshinron* (*Treatise on the Ten Stages of Mind*) arranges states of mind in ten stages, assigns the Hossō school to the sixth and the Sanron school to the seventh, and places his own Shingon position at the tenth (source).
 
 Both of these classifications give the other sutras and schools a place, while putting their own basis on top. This form looks like a third thing, different from both lower-order recognition and second-order recognition. It knows the other side (condition 5), and it grants the other side a measure of rightness. Then it houses the other side in the lower stages of its own system. Teachings housed in the lower stages have no power to criticize the upper stages, because criticism is caught in advance in the form "that is the view of an earlier stage". Second-order recognition keeps rejected uses as critics. Panjiao builds criticism into one step of the order of study (my reading).
+
+![Three ways of treating a use you reject. Panjiao gives the rival a place, but the rival's criticism cannot reach the upper stage.](figures/contested-concepts-fig3-rejected-use-en.gif)
 
 The Indologist Paul Hacker gave the name "inclusivism" to the attitude of identifying the other side's central idea with one's own and then placing it lower (checked at the level of the bibliography and a summary) (source). The way panjiao works overlaps closely with this (my reading).
 

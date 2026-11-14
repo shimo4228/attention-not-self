@@ -15,6 +15,7 @@
 attention-not-self/
 ├── *.md                       # 11 テーマ × 日英の論考 22 本 + README + TABLES
 ├── lean/                      # テーマ10 の Lean 4 ソース（`lean lean/FourTruths.lean` で検証、Mathlib 不要）
+├── figures/                   # 論考に入れる動く図。SVG（`data-step` で現れる順を持つ）が正本、GIF はそこから作る
 ├── reading-notes/             # Ganeri『Attention, Not Self』の章別読書ノート（日英）と訳語集 glossary.md
 ├── csv/                       # 三大アビダルマ法対照表の per-sheet 出力
 ├── 三大アビダルマ法対照表.xlsx  # 元データ
@@ -49,6 +50,7 @@ attention-not-self/
 - 2026-11-13: テーマ10「四諦はトートロジーか」（日英）+ `lean/FourTruths.lean` 追加。四諦を Lean 4 で形式化し、定義だけで決まる骨組みと反例が作れる中身を仕分けた形式検証ノート（AI メディエイト執筆）。きっかけの護山『仏教哲学序説』の該当箇所は未確認（著者の読書記憶）で、確認したら本文に書き足す。graph 325→333 ノード（theme 1 + essay 2 + reference 5）、references 82→87
 - 2026-11-14: テーマ11「宗派の争いは、仏教の失敗なのか」（日英）追加。ギャリーの「本質的に論争的な概念」を宗派の分裂と方便に当てた検討（AI メディエイト執筆）。資料の検証の格を本文末に明記。graph 333→353 ノード（theme 1 + essay 2 + reference 17）、references 87→104
 - 2026-11-14: v0.6.0 release（Zenodo）。テーマ10・11 を収録
+- 2026-11-15: テーマ11 の日英に動く図 3 枚を追加（審判のいない選手権 / 七つの条件の当てはめ / 退けた相手の扱い方）。`figures/` を新設。v0.6.0 には入っていない
 
 ## 外部照合先
 

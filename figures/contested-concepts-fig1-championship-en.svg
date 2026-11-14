@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<defs>
+<marker id="ai" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#242321"/></marker>
+<marker id="aa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#C65F38"/></marker>
+</defs>
+<rect width="1200" height="1200" fill="#FAFAF7"/>
+<text x="60" y="95" font-family="Noto Sans CJK JP" font-weight="500" font-size="36" fill="#C65F38">Is Sectarian Dispute a Failure of Buddhism?</text>
+<text x="60" y="178" font-family="Noto Serif CJK JP" font-weight="bold" font-size="60" fill="#242321">A championship with no referee</text>
+<text data-step="1" x="600" y="252" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="500" font-size="40" fill="#242321">Won on excellence of style, not points</text>
+<rect data-step="2" x="370" y="290" width="460" height="190" rx="16" fill="#FAFAF7" stroke="#242321" stroke-width="5"/>
+<text data-step="2" x="600" y="368" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="500" font-size="46" fill="#242321">Team A</text>
+<rect data-step="3" x="60" y="850" width="460" height="190" rx="16" fill="#FAFAF7" stroke="#242321" stroke-width="5"/>
+<text data-step="3" x="290" y="928" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="500" font-size="46" fill="#242321">Team B</text>
+<rect data-step="4" x="680" y="850" width="460" height="190" rx="16" fill="#FAFAF7" stroke="#242321" stroke-width="5"/>
+<text data-step="4" x="910" y="928" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="500" font-size="46" fill="#242321">Team C</text>
+<circle data-step="5" cx="600" cy="665" r="112" fill="none" stroke="#C65F38" stroke-width="7" stroke-dasharray="20 14"/>
+<text data-step="5" x="600" y="655" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="bold" font-size="46" fill="#C65F38">No</text>
+<text data-step="5" x="600" y="712" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="bold" font-size="42" fill="#C65F38">referee</text>
+<text data-step="6" x="600" y="440" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="bold" font-size="36" fill="#C65F38">“Our team is champion”</text>
+<text data-step="6" x="290" y="1000" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="bold" font-size="36" fill="#C65F38">“Our team is champion”</text>
+<text data-step="6" x="910" y="1000" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="bold" font-size="36" fill="#C65F38">“Our team is champion”</text>
+<line data-step="7" x1="468" y1="494" x2="312" y2="836" stroke="#242321" stroke-width="5" marker-end="url(#ai)" marker-start="url(#ai)"/>
+<line data-step="7" x1="732" y1="494" x2="888" y2="836" stroke="#242321" stroke-width="5" marker-end="url(#ai)" marker-start="url(#ai)"/>
+<line data-step="7" x1="534" y1="945" x2="666" y2="945" stroke="#242321" stroke-width="5" marker-end="url(#ai)" marker-start="url(#ai)"/>
+<text data-step="8" x="600" y="1132" text-anchor="middle" font-family="Noto Sans CJK JP" font-weight="bold" font-size="40" fill="#242321">Reasoned argument never ends</text>
+</svg>
