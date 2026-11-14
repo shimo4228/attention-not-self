@@ -170,7 +170,7 @@ Let me separate the words here. So far I have written "seizing on views". On the
 
 ## Which condition fits worst?
 
-Looking across all seven, conditions 2, 3, 4, and 6 fit at least as well as Gallie granted for Christianity. Conditions 1 and 5 change with the position you read from. The deepest clash came at condition 7 (my reading).
+Looking across all seven, conditions 2, 4, and 6 fit at least as well as Gallie granted for Christianity. Conditions 1, 3, and 5 change with the position you read from. The deepest clash came at condition 7 (my reading).
 
 For Christianity, Gallie judged condition 5 the most questionable. His doubt was that the dispute has continued throughout history, but it is unclear whether it necessarily follows from the nature of the concept.
 
