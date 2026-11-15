@@ -96,6 +96,8 @@ Applies W. B. Gallie's "essentially contested concepts" (1956; seven conditions,
 
 - [Is Sectarian Dispute a Failure of Buddhism?](Is%20Sectarian%20Dispute%20a%20Failure%20of%20Buddhism%20-%20Reading%20Schism%20and%20Skillful%20Means%20with%20Gallie.md): English canonical version.
 - [宗派の争いは、仏教の失敗なのか（日本語）](%E5%AE%97%E6%B4%BE%E3%81%AE%E4%BA%89%E3%81%84%E3%81%AF%E4%BB%8F%E6%95%99%E3%81%AE%E5%A4%B1%E6%95%97%E3%81%AA%E3%81%AE%E3%81%8B%20-%20%E3%82%AE%E3%83%A3%E3%83%AA%E3%83%BC%E3%81%AE%E6%9C%AC%E8%B3%AA%E7%9A%84%E3%81%AB%E8%AB%96%E4%BA%89%E7%9A%84%E3%81%AA%E6%A6%82%E5%BF%B5%E3%81%A7%E8%AA%AD%E3%82%80%E5%88%86%E8%A3%82%E3%81%A8%E6%96%B9%E4%BE%BF%EF%BC%88%E6%97%A5%E6%9C%AC%E8%AA%9E%EF%BC%89.md): Japanese mirror.
+- Published 2026-11-15: [note (Japanese)](https://note.com/sakamaki4228/n/ne1d4a117954e), [Substack (English)](https://shimo4228.substack.com/p/is-sectarian-dispute-a-failure-of).
+- [figures/](figures/): three animated figures used in both versions (the championship with no referee; the seven conditions applied to Buddhism; three ways of treating a use one rejects). SVG sources and GIFs, Japanese and English.
 
 ## Comparison tables (data)
 

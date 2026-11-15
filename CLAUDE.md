@@ -51,6 +51,7 @@ attention-not-self/
 - 2026-11-14: テーマ11「宗派の争いは、仏教の失敗なのか」（日英）追加。ギャリーの「本質的に論争的な概念」を宗派の分裂と方便に当てた検討（AI メディエイト執筆）。資料の検証の格を本文末に明記。graph 333→353 ノード（theme 1 + essay 2 + reference 17）、references 87→104
 - 2026-11-14: v0.6.0 release（Zenodo）。テーマ10・11 を収録
 - 2026-11-15: テーマ11 の日英に動く図 3 枚を追加（審判のいない選手権 / 七つの条件の当てはめ / 退けた相手の扱い方）。`figures/` を新設。v0.6.0 には入っていない
+- 2026-11-15: テーマ11 を公開。JA は note（https://note.com/sakamaki4228/n/ne1d4a117954e）、EN は Substack（https://shimo4228.substack.com/p/is-sectarian-dispute-a-failure-of）。公開前に、まとめの段落と図2 で条件3 を「読む位置で変わる」の側に直した
 
 ## 外部照合先
 
